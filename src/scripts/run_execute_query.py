@@ -4,17 +4,18 @@ import sys
 sys.path.append(os.getcwd())
 from src.query.query_sparql import execute_sparql
 import json
+import pandas as pd
  
 
 def main():
-    with open('data/queries/cordis/cordis-train.json') as json_file:
-        queries = json.load(json_file)
-
-    for i, query in enumerate(queries):
+    # with open('data/queries/cordis/cordis-train.json') as json_file:
+    #     queries = json.load(json_file)
+    query_df = pd.read_csv('data/queries/cordis/cordis.csv')
+    for i, row in query_df.iterrows():
 
         # query = queries[99]
-        res = execute_sparql(query=query['sparql_query'], db_id='cordis')
-        print(query['sparql_query'])
+        res = execute_sparql(query=row['predicted_sparql'], db_id='cordis_temporary')
+        print(row['predicted_sparql'])
         print(res)
         print(50*'_')
 
