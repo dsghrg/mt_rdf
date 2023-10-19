@@ -1,6 +1,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from functools import lru_cache
 
+import time
 
 
 # @lru_cache(maxsize=1000)
@@ -9,11 +10,15 @@ def execute_sparql(query, db_id):
     sparql = SPARQLWrapper("http://160.85.252.68:7200/repositories/"+db_id.lower())
     sparql.setTimeout(60)
     sparql.setReturnFormat(JSON)
-    sparql.setQuery('PREFIX :  <http://unics.cloud/ontology/>' + query )
+    sparql.setQuery('PREFIX :  <http://unics.cloud/ontology/>' + query)
     # the previous query as a literal string
     try:
-        results = sparql.query().convert()
-        clean_results=[]
+        start_time = time.time()
+        results = sparql.query()
+        execution_time = time.time() - start_time
+
+        results = results.convert()
+        clean_results = []
         for row in results['results']['bindings']:
             interim_results=[]
             for i in range(len(results['head']['vars'])):
@@ -25,7 +30,7 @@ def execute_sparql(query, db_id):
                     interim_results.append(value)
             if len(interim_results) != 0:
                 clean_results.append(tuple(interim_results))
-        return clean_results
+        return clean_results, execution_time
     except Exception as e:
         print(e)
-    return None
+    return None, 0

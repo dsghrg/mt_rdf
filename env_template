@@ -1,0 +1,5 @@
+# rename to copy and rename to .env
+DB_HOST=
+DB_PORT=
+DB_USER=
+DB_PASSWORD=
