@@ -10,7 +10,7 @@ def execute_sparql(query, db_id):
     sparql = SPARQLWrapper("http://160.85.252.68:7200/repositories/"+db_id.lower())
     sparql.setTimeout(60)
     sparql.setReturnFormat(JSON)
-    sparql.setQuery('PREFIX :  <http://unics.cloud/ontology/>' + query)
+    sparql.setQuery('PREFIX :  <http://unics.cloud/ontology/>\nPREFIX onto: <http://www.ontotext.com/>' + query)
     # the previous query as a literal string
     try:
         start_time = time.time()
