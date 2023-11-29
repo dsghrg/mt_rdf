@@ -6,6 +6,8 @@ services:
         volumes:
             - ../blazegraph.jar/:/blazegraph/blazegraph.jar
             - ../blazegraph.properties:/blazegraph/blazegraph.properties
+            - ../blazegraph_service.sh:/blazegraph/blazegraph_service.sh
+            - ../load_data.sh:/blazegraph/load_data.sh
             - ../../../data:/data
         ports:
             - "9999:9999"
