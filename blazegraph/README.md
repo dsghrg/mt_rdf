@@ -1,5 +1,8 @@
-# Blazegraph Docker Container
+# load and start blazgraph
+## first start the docker container
+see [here](https://github.com/dsghrg/mt_rdf/blob/main/blazegraph/docker/README.md)
 
+## inside the container run the following commands
 
 ### first load data
 
