@@ -5,6 +5,7 @@ services:
         image: blazegraph_img
         volumes:
             - ./blazegraph.jar/:/blazegraph/blazegraph.jar
+            - ./blazegraph.properties:/blazegraph/blazegraph.properties
             - ./../../data:/data
         ports:
             - "9999:9999"
