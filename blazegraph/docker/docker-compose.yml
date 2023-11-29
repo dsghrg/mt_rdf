@@ -4,9 +4,9 @@ services:
     blazegraph:
         image: blazegraph_img
         volumes:
-            - ./blazegraph.jar/:/blazegraph/blazegraph.jar
-            - ./blazegraph.properties:/blazegraph/blazegraph.properties
-            - ./../../data:/data
+            - ../blazegraph.jar/:/blazegraph/blazegraph.jar
+            - ../blazegraph.properties:/blazegraph/blazegraph.properties
+            - ../../../data:/data
         ports:
             - "9999:9999"
         container_name: blazegraph
