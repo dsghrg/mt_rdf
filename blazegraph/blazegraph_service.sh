@@ -1,3 +1,4 @@
+#!/bin/sh
 function stop_blazegraph {
   if [[ -z "$(lsof -t -i:9999)" ]]
   then
