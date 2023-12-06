@@ -7,13 +7,13 @@ see [here](https://github.com/dsghrg/mt_rdf/blob/main/blazegraph/docker/README.m
 ### first load data
 
 ```bash
-./load_data.sh
+./load_data.sh <dataset_name>
 ```
 
 ### start blazegraph server
 
 ```bash
-./blazegraph_service.sh start
+./blazegraph_service.sh start <dataset_name>
 ```
 
 ### stop blazegraph server

@@ -13,7 +13,15 @@ function start_blazegraph {
   if [[ -z "$(lsof -t -i:9999)" ]]
   then
     echo "starting blazegraph..."
-    nohup java -server -Xmx4g -Dbigdata.propertyFile=blazegraph.properties -jar blazegraph.jar &
+    if [[ "$2" == "wdbench" ]]
+    then
+    nohup java -server -Xmx4g -Dbigdata.propertyFile=blazegraph_wdbench.properties -jar blazegraph.jar &
+    fi
+
+    if [[ "$2" == "cordis" ]]
+    then
+      nohup java -server -Xmx4g -Dbigdata.propertyFile=blazegraph.properties -jar blazegraph.jar &
+    fi
   else
     echo "blazegraph is already running..."
   fi
