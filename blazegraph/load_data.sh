@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function load_wdbench {
-  java -cp blazegraph.jar com.bigdata.rdf.store.DataLoader -defaultGraph http://example.com/wdbench blazegraph_wdbench.properties ../data/wdbench/truthy_direct_properties.nt
+  java -cp blazegraph.jar com.bigdata.rdf.store.DataLoader -defaultGraph http://example.com/wdbench blazegraph_wdbench.properties ../data/wdbench/first_100000.nt
 }
 
 
