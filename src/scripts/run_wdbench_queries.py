@@ -69,11 +69,11 @@ def run_all_in_df(query_df, query_type):
 
 
 class QueryType(str, Enum):
-    c2rpqs = 'c2rpqs'
-    multiple_bgps = 'multiple_bgps'
-    opts = 'opts'
-    paths = 'paths'
     single_bgps = 'single_bgps'
+    multiple_bgps = 'multiple_bgps'
+    paths = 'paths'
+    c2rpqs = 'c2rpqs'
+    opts = 'opts'
 
 
 def main():
