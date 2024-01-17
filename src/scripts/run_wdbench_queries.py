@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import sys
 from enum import Enum
+from tqdm import tqdm
 
 sys.path.append(os.getcwd())
 
@@ -59,7 +60,7 @@ def res_to_logs(result: dict, query_type):
 
 def run_all_in_df(query_df, query_type):
     res_dict = {'query_id': [], 'exec_time': []}
-    for index, row in query_df.iterrows():
+    for index, row in tqdm(query_df.iterrows(), total=query_df.shape[0]):
         query = parse_to_sparql(row['query_parts'])
         _, time_s = execute_sparql(query=query)
         res_dict['query_id'].append(row['id'])
