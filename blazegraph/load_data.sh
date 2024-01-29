@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function load_wdbench {
-  java -cp blazegraph.jar com.bigdata.rdf.store.DataLoader -defaultGraph http://example.com/wdbench blazegraph_wdbench.properties ../data/wdbench/first_100000.nt
+  java -Xmx32g -cp blazegraph.jar com.bigdata.rdf.store.DataLoader -defaultGraph http://example.com/wdbench blazegraph_wdbench.properties /mnt/graph/repos/mt_rdf/data/wdbench/splitted_nt
 }
 
 

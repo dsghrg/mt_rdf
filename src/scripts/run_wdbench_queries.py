@@ -28,13 +28,13 @@ def execute_sparql(query):
     # sparql.setQuery('PREFIX :  <http://unics.cloud/ontology/>\nPREFIX onto: <http://www.ontotext.com/>' + query)
     sparql.setQuery(query)
     # the previous query as a literal string
-    try:
-        start_time = time.time()
-        results = sparql.query()
-        execution_time = time.time() - start_time
+    # try:
+    start_time = time.time()
+    results = sparql.query()
+    execution_time = time.time() - start_time
 
-        results = results.convert()
-        return results, execution_time
+    results = results.convert()
+    return results, execution_time
     #     clean_results = []
     #     for row in results['results']['bindings']:
     #         interim_results=[]
@@ -48,9 +48,9 @@ def execute_sparql(query):
     #         if len(interim_results) != 0:
     #             clean_results.append(tuple(interim_results))
     #     return clean_results, execution_time
-    except Exception as e:
-        print(e)
-    return None, 0
+    # except Exception as e:
+    #     print(e)
+    # return None, 0
 
 
 def res_to_logs(result: dict, query_type):
@@ -79,13 +79,27 @@ class QueryType(str, Enum):
 
 def main():
     for qtype in QueryType:
-        df = pd.read_csv(
-            f'data/queries/wdbench/{qtype.value}.txt', header=None)
-        df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
-        print(50*'-')
-        print(qtype.value)
-        print(50*'-')
-        run_all_in_df(query_df=df, query_type=qtype.value)
+        if qtype.value == 'opts':
+            df = pd.read_csv(
+                f'data/queries/wdbench/{qtype.value}.txt', header=None)
+            df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
+            print(50*'-')
+            print(qtype.value)
+            print(50*'-')
+            # run_all_in_df(query_df=df, query_type=qtype.value)
+            query = parse_to_sparql(df[df['id'] == 486]['query_parts'].item())
+            # print('asdfasdfasdf' + df[df['id'] == 486]['query_parts'])
+            res, exec_time = execute_sparql(query)
+            print(res)
+            print(exec_time)
+
+            # df = pd.read_csv(
+            #     f'data/queries/wdbench/{qtype.value}.txt', header=None)
+            # df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
+            # print(50*'-')
+            # print(qtype.value)
+            # print(50*'-')
+            # run_all_in_df(query_df=df, query_type=qtype.value)
 
     # c2rpqs_df = pd.read_csv('data/queries/wdbench/c2rpqs.txt')
     # multiple_bgps_df = pd.read_csv('data/queries/wdbench/multiple_bgps.txt')
