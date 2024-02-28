@@ -1,9 +1,10 @@
-import time
-from SPARQLWrapper import SPARQLWrapper, JSON
-import pandas as pd
 import os
 import sys
+import time
 from enum import Enum
+
+import pandas as pd
+from SPARQLWrapper import JSON, SPARQLWrapper
 from tqdm import tqdm
 
 sys.path.append(os.getcwd())
@@ -11,7 +12,7 @@ sys.path.append(os.getcwd())
 
 res_path = 'results/wdbench/'
 
-LIMIT = False
+LIMIT = 300_000
 
 
 def parse_to_sparql(query):
@@ -55,7 +56,7 @@ def execute_sparql(query):
 
 def res_to_logs(result: dict, query_type):
     res_df = pd.DataFrame(result)
-    res_df.to_csv(res_path + f'results_{query_type}.csv')
+    res_df.to_csv(res_path + f'timeout_api/results_{query_type}.csv')
 
 
 def run_all_in_df(query_df, query_type):
@@ -79,27 +80,33 @@ class QueryType(str, Enum):
 
 def main():
     for qtype in QueryType:
-        if qtype.value == 'opts':
-            df = pd.read_csv(
-                f'data/queries/wdbench/{qtype.value}.txt', header=None)
-            df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
-            print(50*'-')
-            print(qtype.value)
-            print(50*'-')
-            # run_all_in_df(query_df=df, query_type=qtype.value)
-            query = parse_to_sparql(df[df['id'] == 486]['query_parts'].item())
-            # print('asdfasdfasdf' + df[df['id'] == 486]['query_parts'])
-            res, exec_time = execute_sparql(query)
-            print(res)
-            print(exec_time)
+        # if qtype.value == 'opts':
+        #     df = pd.read_csv(
+        #         f'data/queries/wdbench/{qtype.value}.txt', header=None)
+        #     df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
+        #     print(50*'-')
+        #     print(qtype.value)
+        #     print(50*'-')
+        #     # run_all_in_df(query_df=df, query_type=qtype.value)
+        #     query = parse_to_sparql(df[df['id'] == 486]['query_parts'].item())
+        #     # print('asdfasdfasdf' + df[df['id'] == 486]['query_parts'])
+        #     res, exec_time = execute_sparql(query)
+        #     print(res)
+        #     print(exec_time)
+        
+        # get all the slow timeouted queries from old run
+        df_res = pd.read_csv(res_path + f'results_{qtype.value}.csv')
+        df_res = df_res[df_res['exec_time'] == 0]
 
-            # df = pd.read_csv(
-            #     f'data/queries/wdbench/{qtype.value}.txt', header=None)
-            # df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
-            # print(50*'-')
-            # print(qtype.value)
-            # print(50*'-')
-            # run_all_in_df(query_df=df, query_type=qtype.value)
+
+        df = pd.read_csv(f'data/queries/wdbench/{qtype.value}.txt', header=None)
+        df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
+
+        df = df[df['id'].isin(df_res['query_id'])]
+        print(50*'-')
+        print(qtype.value)
+        print(50*'-')
+        run_all_in_df(query_df=df, query_type=qtype.value)
 
     # c2rpqs_df = pd.read_csv('data/queries/wdbench/c2rpqs.txt')
     # multiple_bgps_df = pd.read_csv('data/queries/wdbench/multiple_bgps.txt')
