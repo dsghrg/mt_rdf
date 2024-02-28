@@ -29,13 +29,13 @@ def execute_sparql(query):
     # sparql.setQuery('PREFIX :  <http://unics.cloud/ontology/>\nPREFIX onto: <http://www.ontotext.com/>' + query)
     sparql.setQuery(query)
     # the previous query as a literal string
-    # try:
-    start_time = time.time()
-    results = sparql.query()
-    execution_time = time.time() - start_time
+    try:
+        start_time = time.time()
+        results = sparql.query()
+        execution_time = time.time() - start_time
 
-    results = results.convert()
-    return results, execution_time
+        results = results.convert()
+        return results, execution_time
     #     clean_results = []
     #     for row in results['results']['bindings']:
     #         interim_results=[]
@@ -49,9 +49,9 @@ def execute_sparql(query):
     #         if len(interim_results) != 0:
     #             clean_results.append(tuple(interim_results))
     #     return clean_results, execution_time
-    # except Exception as e:
-    #     print(e)
-    # return None, 0
+    except Exception as e:
+        print(e)
+    return None, 0
 
 
 def res_to_logs(result: dict, query_type):
