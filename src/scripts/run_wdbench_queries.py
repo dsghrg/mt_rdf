@@ -1,11 +1,12 @@
 import os
 import sys
 import time
-from enum import Enum
 
 import pandas as pd
 from SPARQLWrapper import JSON, SPARQLWrapper
 from tqdm import tqdm
+
+from src.query.query_type import QueryType
 
 sys.path.append(os.getcwd())
 
@@ -70,12 +71,7 @@ def run_all_in_df(query_df, query_type):
             res_to_logs(result=res_dict, query_type=query_type)
 
 
-class QueryType(str, Enum):
-    single_bgps = 'single_bgps'
-    multiple_bgps = 'multiple_bgps'
-    paths = 'paths'
-    c2rpqs = 'c2rpqs'
-    opts = 'opts'
+
 
 
 def main():
