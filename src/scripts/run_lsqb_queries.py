@@ -9,6 +9,7 @@ from src.query.query_sparql import execute_sparql
 def main():
 
     for filename in os.listdir("data/queries/lsqb/"):
+        print(f"running query: {filename}")
         with open(f"data/queries/lsqb/{filename}") as f:
             query = f.read()
             res, time = execute_sparql(query=query)
