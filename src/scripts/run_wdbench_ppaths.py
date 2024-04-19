@@ -6,10 +6,8 @@ import pandas as pd
 from SPARQLWrapper import JSON, SPARQLWrapper
 from tqdm import tqdm
 
-from src.query.query_sparql import SparqlQuery
-
 sys.path.append(os.getcwd())
-
+from src.query.query_sparql import SparqlQuery
 
 res_path = 'results/wdbench/'
 
