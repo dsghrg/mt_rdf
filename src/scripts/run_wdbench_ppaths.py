@@ -16,7 +16,7 @@ LIMIT = 300_000
 
 
 def main():
-    sparql_query = SparqlQuery(endpoint='localhost:9999/sparql')
+    sparql_query = SparqlQuery()
     dir_path = 'data/queries/wdbench/ppaths/original/'
 
     res_dict = {'query_id': [], 'exec_time': [], 'results': []}
