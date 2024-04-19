@@ -1,0 +1,7 @@
+SELECT * WHERE {
+	?x1 <occupation> ?x2 .
+	?x1 <occupation> ?x2 .
+	?x1 <instance of> <human> .
+	?x2 <instance of>* ?c799 .
+	?c799 <subclass of>* <murderer> .
+}

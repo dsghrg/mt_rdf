@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <instance of> ?c783 .
+	?c783 <subclass of>* <lake> .
+}

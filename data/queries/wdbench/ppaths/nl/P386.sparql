@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <main subject> <Wikidata> .
+	?x1 <instance of> ?c909 .
+	?c909 <subclass of>* <article> .
+}

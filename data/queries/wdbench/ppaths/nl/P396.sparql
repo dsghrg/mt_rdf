@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <country of citizenship> <United States of America> .
+	?x1 <instance of> ?c627 .
+	?c627 <country of citizenship9>* <human> .
+}

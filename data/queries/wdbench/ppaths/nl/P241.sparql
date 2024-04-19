@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <sex or gender> <female> .
+	?x1 <occupation> ?c713 .
+	?c713 <subclass of>* <artist> .
+}

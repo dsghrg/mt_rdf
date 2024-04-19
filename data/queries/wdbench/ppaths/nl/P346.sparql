@@ -1,0 +1,6 @@
+SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <country> ?x3 .
+	?x1 <instance of> ?c923 .
+	?c923 <subclass of>* <city> .
+}

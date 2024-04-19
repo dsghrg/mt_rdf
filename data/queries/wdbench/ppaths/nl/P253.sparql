@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <part of> <Himalayas> .
+	?x1 <instance of> ?c425 .
+	?c425 <subclass of>* <mountain> .
+}

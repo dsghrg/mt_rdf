@@ -1,0 +1,7 @@
+SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x4 <contains the administrative territorial entity> ?x2 .
+	?x4 <located in the administrative territorial entity>* <Valencia Province> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}

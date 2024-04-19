@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <country> ?x2 .
+	?x2 <ISO 3166-2 code> ?x3 .
+	?x1 <instance of>* <university> .
+}

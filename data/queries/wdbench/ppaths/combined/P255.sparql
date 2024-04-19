@@ -1,0 +1,24 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P2046> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c18 .
+	?c18 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <area> ?x3 .
+	?x1 <instance of> ?c18 .
+	?c18 <subclass of>* <city> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c18 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c18 .
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P2046> ?x3 .
+}
+# opt_virt

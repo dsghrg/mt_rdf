@@ -1,0 +1,18 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q702842> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q90> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <instance of> <municipal arrondissement> .
+	?x1 <located in the administrative territorial entity>* <Paris> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q702842> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q90> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt

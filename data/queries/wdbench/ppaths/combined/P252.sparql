@@ -1,0 +1,30 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P3512> <http://www.wikidata.org/entity/Q372949> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c549 .
+	?c549 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q16521> .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q194240> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <means of locomotion> <bipedalism> .
+	?x1 <instance of> ?c549 .
+	?c549 <subclass of> <taxon> .
+	?x1 <parent taxon>+ <songbirds> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P3512> <http://www.wikidata.org/entity/Q372949> .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q194240> .
+	hint:Prior hint:gearing "forward" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c549 .
+	?c549 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q16521> .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P3512> <http://www.wikidata.org/entity/Q372949> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c549 .
+	?c549 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q16521> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> <http://www.wikidata.org/entity/Q194240> OPTION(TRANSITIVE, t_distinct, t_min(1), t_direction 1) .
+}

@@ -1,0 +1,20 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q5451> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c425 .
+	?c425 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q8502> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <part of> <Himalayas> .
+	?x1 <instance of> ?c425 .
+	?c425 <subclass of>* <mountain> .
+}
+# opt_blaze
+
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q5451> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c425 .
+	?c425 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q8502> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+}

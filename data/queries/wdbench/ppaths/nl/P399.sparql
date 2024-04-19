@@ -1,0 +1,8 @@
+SELECT * WHERE {
+	?x1 <creator> ?x2 .
+	?x1 <location> ?x3 .
+	?x2 <member of> <Royal Academy of Arts> .
+	?x1 <instance of> ?c776 .
+	?c776 <subclass of>* <painting> .
+	?x3 <located in the administrative territorial entity>* <United Kingdom> .
+}

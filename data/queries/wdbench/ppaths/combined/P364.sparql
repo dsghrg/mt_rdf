@@ -1,0 +1,15 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q836> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c153 .
+	?c153 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16917> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <country> <Myanmar> .
+	?x1 <instance of> ?c153 .
+	?c153 <subclass of>* <hospital> .
+}
+# opt_blaze
+
+# opt_virt

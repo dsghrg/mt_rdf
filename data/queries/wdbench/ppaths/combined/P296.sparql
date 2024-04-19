@@ -1,0 +1,21 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P21> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c403 .
+	?c403 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q6671777> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <sex or gender> ?x2 .
+	?x1 <instance of> ?c403 .
+	?c403 <subclass of>* <structure> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c403 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q6671777> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c403 .
+	?x1 <http://www.wikidata.org/prop/direct/P21> ?x2 .
+}
+# opt_virt

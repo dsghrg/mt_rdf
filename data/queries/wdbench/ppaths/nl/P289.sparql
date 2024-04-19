@@ -1,0 +1,6 @@
+SELECT * WHERE {
+	?x1 <creator> ?x2 .
+	?x1 <instance of> <painting> .
+	?x1 <located in the administrative territorial entity> ?c658 .
+	?c658 <country>* <Sweden> .
+}

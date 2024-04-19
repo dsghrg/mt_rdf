@@ -1,0 +1,21 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q980> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <heritage designation> <architectural heritage monument> .
+	?x1 <country> <Germany> .
+	?x1 <located in the administrative territorial entity>+ <Bavaria> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q980> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .
+}
+# opt_virt

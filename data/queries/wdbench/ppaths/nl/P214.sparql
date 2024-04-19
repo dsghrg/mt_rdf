@@ -1,0 +1,4 @@
+SELECT * WHERE {
+	?x1 <geoshape> ?x2 .
+	?x1 <located in the administrative territorial entity>* <Wales> .
+}

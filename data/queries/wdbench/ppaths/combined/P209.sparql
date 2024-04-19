@@ -1,0 +1,18 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q484170> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <instance of>* <commune of France> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q484170> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+}
+# opt_virt

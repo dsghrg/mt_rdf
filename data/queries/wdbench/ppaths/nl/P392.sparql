@@ -1,0 +1,6 @@
+SELECT * WHERE {
+	?x1 <country> <Japan> .
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c917 .
+	?c917 <subclass of>* <geographic region> .
+}

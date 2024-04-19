@@ -1,0 +1,21 @@
+# original
+SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q3138626> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c732 .
+	?c732 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}
+# nl
+SELECT * WHERE {
+	<Nakaoka Shintarō> <occupation> ?x1 .
+	?x1 <subclass of>* ?c732 .
+	?c732 <field of this occupation> ?x2 .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	<http://www.wikidata.org/entity/Q3138626> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c732 .
+	hint:Prior hint:gearing "forward" .
+	?c732 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}
+# opt_virt

@@ -1,0 +1,21 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q31> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c610 .
+	?c610 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q1248784> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <country> <Belgium> .
+	?x1 <instance of> ?c610 .
+	?c610 <subclass of>* <airport> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c610 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q1248784> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c610 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q31> .
+}
+# opt_virt

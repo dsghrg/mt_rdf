@@ -1,0 +1,8 @@
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c83 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q158683> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c83 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .
+}

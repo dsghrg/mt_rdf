@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <heritage designation> <architectural heritage monument> .
+	?x1 <country> <Germany> .
+	?x1 <located in the administrative territorial entity>+ <Bavaria> .
+}

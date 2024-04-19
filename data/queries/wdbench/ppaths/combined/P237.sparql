@@ -1,0 +1,21 @@
+# original
+SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q3132941> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c601 .
+	?c601 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}
+# nl
+SELECT * WHERE {
+	<Henry Martin> <occupation> ?x1 .
+	?x1 <subclass of>* ?c601 .
+	?c601 <field of this occupation> ?x2 .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	<http://www.wikidata.org/entity/Q3132941> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c601 .
+	hint:Prior hint:gearing "forward" .
+	?c601 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}
+# opt_virt

@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <owned by> ?x2 .
+	?x1 <instance of> ?c966 .
+	?c966 <subclass of>* <organization> .
+}

@@ -1,0 +1,31 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c922 .
+	?c922 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q33506> .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q60> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?c922 .
+	?c922 <subclass of>* <museum> .
+	?x2 <located in the administrative territorial entity>* <New York City> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c922 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q33506> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c922 .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q60> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x2 <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q60> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 2) .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c922 .
+	?c922 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q33506> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+}

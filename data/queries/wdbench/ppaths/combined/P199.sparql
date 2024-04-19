@@ -1,0 +1,13 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q481075> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}
+# nl
+SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<No label defined> <located in the administrative territorial entity>* ?x1 .
+}
+# opt_blaze
+
+# opt_virt

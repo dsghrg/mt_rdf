@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <place of birth> ?x2 .
+	?x1 <instance of> ?c165 .
+	?c165 <subclass of>* <geographic region> .
+}

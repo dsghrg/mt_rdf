@@ -1,0 +1,30 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+	?x1 <http://www.wikidata.org/prop/direct/P50> ?c301 .
+	?c301 <http://www.wikidata.org/prop/direct/P31> ?c1 .
+	?c1 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q386724> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <instance of> <human> .
+	?x1 <author> ?c301 .
+	?c301 <instance of> ?c1 .
+	?c1 <subclass of>+ <work> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c1 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q386724> .
+	hint:Prior hint:gearing "reverse" .
+	?c301 <http://www.wikidata.org/prop/direct/P31> ?c1 .
+	?x1 <http://www.wikidata.org/prop/direct/P50> ?c301 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?c1 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q386724> OPTION(TRANSITIVE, t_distinct, t_min(1), t_direction 2) .
+	?c301 <http://www.wikidata.org/prop/direct/P31> ?c1 .
+	?x1 <http://www.wikidata.org/prop/direct/P50> ?c301 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+}

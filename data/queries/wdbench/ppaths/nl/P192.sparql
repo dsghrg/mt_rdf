@@ -1,0 +1,4 @@
+SELECT * WHERE {
+	?x1 <instance of> <national sports team> .
+	?x1 <sport>* <road bicycle racing> .
+}

@@ -1,0 +1,21 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c799 .
+	?c799 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c799 .
+	?c799 <subclass of>* <city> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c799 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c799 .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+}
+# opt_virt

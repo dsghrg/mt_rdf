@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <main subject> <The Holocaust> .
+	?x1 <instance of> ?c983 .
+	?c983 <subclass of>* <article> .
+}

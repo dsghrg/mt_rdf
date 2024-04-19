@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <Gene Ontology ID> ?x2 .
+	?x1 <instance of> ?c907 .
+	?c907 <subclass of>* <biological process> .
+}

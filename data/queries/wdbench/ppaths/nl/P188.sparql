@@ -1,0 +1,4 @@
+SELECT * WHERE {
+	?x1 <instance of> <automobile model> .
+	?x1 <instance of>* <automobile model> .
+}

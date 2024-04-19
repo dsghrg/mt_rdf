@@ -1,0 +1,26 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .
+	?c804 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q532> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <country> <Estonia> .
+	?x1 <located in the administrative territorial entity> ?c804 .
+	?c804 <instance of>* <village> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .
+	?c804 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q532> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .
+	?c804 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q532> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+}

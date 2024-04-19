@@ -1,0 +1,11 @@
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x2 <http://www.wikidata.org/prop/direct/P4614> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P403> ?x2 .
+	?x4 <http://www.wikidata.org/prop/direct/P4614> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P4614> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c171 .
+	?c171 <http://www.wikidata.org/prop/direct/P279> ?v208 OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+	FILTER (IRI(?v208) = <http://www.wikidata.org/entity/Q355304>) .
+	?x2 <http://www.wikidata.org/prop/direct/P31> ?c701 .
+	?c701 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q355304> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+}

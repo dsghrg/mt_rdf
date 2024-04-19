@@ -1,0 +1,31 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P170> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P276> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q270920> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c776 .
+	?c776 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3305213> .
+	?x3 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q145> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <creator> ?x2 .
+	?x1 <location> ?x3 .
+	?x2 <member of> <Royal Academy of Arts> .
+	?x1 <instance of> ?c776 .
+	?c776 <subclass of>* <painting> .
+	?x3 <located in the administrative territorial entity>* <United Kingdom> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x3 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q145> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P276> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P170> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q270920> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c776 .
+	?c776 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3305213> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt

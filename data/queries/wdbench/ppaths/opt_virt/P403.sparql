@@ -1,0 +1,6 @@
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?c942 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q10864048> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 2) .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c942 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> .
+}

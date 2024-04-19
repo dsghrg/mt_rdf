@@ -1,0 +1,22 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13100073> .
+	?x1 <http://www.wikidata.org/prop/direct/P17>+ <http://www.wikidata.org/entity/Q148> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <instance of> <village> .
+	?x1 <country>+ <People's Republic of China> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13100073> .
+	?x1 <http://www.wikidata.org/prop/direct/P17>+ <http://www.wikidata.org/entity/Q148> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13100073> .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q148> OPTION(TRANSITIVE, t_distinct, t_min(1), t_direction 1) .
+}

@@ -1,0 +1,15 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1448> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> .
+	?x1 <http://www.wikidata.org/prop/direct/P17>+ <http://www.wikidata.org/entity/Q183> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <official name> ?x2 .
+	?x1 <instance of> <city> .
+	?x1 <country>+ <Germany> .
+}
+# opt_blaze
+
+# opt_virt

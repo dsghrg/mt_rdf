@@ -1,0 +1,7 @@
+SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <country> ?x3 .
+	?x1 <area> ?x4 .
+	?x1 <instance of> ?c874 .
+	?c874 <subclass of>* <administrative territorial entity of Austria> .
+}

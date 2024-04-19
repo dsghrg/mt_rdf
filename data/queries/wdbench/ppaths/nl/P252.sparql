@@ -1,0 +1,6 @@
+SELECT * WHERE {
+	?x1 <means of locomotion> <bipedalism> .
+	?x1 <instance of> ?c549 .
+	?c549 <subclass of> <taxon> .
+	?x1 <parent taxon>+ <songbirds> .
+}

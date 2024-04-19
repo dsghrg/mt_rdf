@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <instance of> ?c85 .
+	?c85 <subclass of>* <city> .
+}

@@ -1,0 +1,20 @@
+# original
+SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q7446404> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c487 .
+	?c487 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}
+# nl
+SELECT * WHERE {
+	<Segundo Mercado> <occupation> ?x1 .
+	?x1 <subclass of>* ?c487 .
+	?c487 <field of this occupation> ?x2 .
+}
+# opt_blaze
+
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	<http://www.wikidata.org/entity/Q7446404> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279> ?c487 OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+	?c487 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}

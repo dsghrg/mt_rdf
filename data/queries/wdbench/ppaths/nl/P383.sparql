@@ -1,0 +1,4 @@
+SELECT * WHERE {
+	?x1 <instance of> <fossil> .
+	?x1 <located in the administrative territorial entity>* <United States of America> .
+}

@@ -1,0 +1,18 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q28555911> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x2 <subclass of>+ <ordinary matter> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x2 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q28555911> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+}
+# opt_virt

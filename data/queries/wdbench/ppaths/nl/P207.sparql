@@ -1,0 +1,7 @@
+SELECT * WHERE {
+	?x1 <depicts> ?x2 .
+	?x1 <image> ?x3 .
+	?x1 <instance of> ?c356 .
+	?c356 <subclass of>* <painting> .
+	?x2 <subclass of>* <musical instrument> .
+}

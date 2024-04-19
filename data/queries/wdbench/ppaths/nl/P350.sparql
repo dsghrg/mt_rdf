@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	<Marloes Coenen> <occupation> ?x1 .
+	?x1 <subclass of>* ?c971 .
+	?c971 <field of this occupation> ?x2 .
+}

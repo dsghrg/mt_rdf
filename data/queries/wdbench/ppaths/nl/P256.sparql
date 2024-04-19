@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <industry> ?x2 .
+	?x1 <instance of> ?c418 .
+	?c418 <subclass of>* <organization> .
+}

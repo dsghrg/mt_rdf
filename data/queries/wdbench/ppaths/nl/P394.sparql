@@ -1,0 +1,6 @@
+SELECT * WHERE {
+	?x1 <template has topic> ?x2 .
+	?x1 <instance of> <Wikimedia infobox template> .
+	<Midden-Drenthe> <instance of> ?c46 .
+	?c46 <subclass of>* ?x2 .
+}

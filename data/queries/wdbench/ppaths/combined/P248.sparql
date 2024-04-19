@@ -1,0 +1,26 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q142> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c335 .
+	?c335 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q811979> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <country> <France> .
+	?x1 <instance of> ?c335 .
+	?c335 <subclass of>* <architectural structure> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c335 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q811979> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c335 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q142> .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?c335 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q811979> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 2) .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c335 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q142> .
+}

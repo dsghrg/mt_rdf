@@ -1,0 +1,6 @@
+SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?c185 .
+	?c185 <subclass of>* <church building> .
+	?x1 <located in the administrative territorial entity>* <Mayenne> .
+}

@@ -1,0 +1,21 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q5582> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c303 .
+	?c303 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q386724> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <creator> <Vincent van Gogh> .
+	?x1 <instance of> ?c303 .
+	?c303 <subclass of>* <work> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q5582> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c303 .
+	?c303 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q386724> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt

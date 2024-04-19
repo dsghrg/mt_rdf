@@ -1,0 +1,22 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P279> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q207628> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <subclass of> ?x2 .
+	?x1 <subclass of>* <composed musical work> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q207628> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P279> ?x2 .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q207628> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 2) .
+	?x1 <http://www.wikidata.org/prop/direct/P279> ?x2 .
+}

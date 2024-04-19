@@ -1,0 +1,4 @@
+SELECT * WHERE {
+	?x1 <subclass of> ?x2 .
+	?x1 <subclass of>* <occupation> .
+}

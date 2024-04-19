@@ -1,0 +1,4 @@
+SELECT * WHERE {
+	?x1 <main subject> ?x2 .
+	?x1 <part of>* <Noctes Atticae> .
+}

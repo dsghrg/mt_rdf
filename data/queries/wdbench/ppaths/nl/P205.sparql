@@ -1,0 +1,6 @@
+SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <taxon name> ?x4 .
+	<Pteropodidae> <parent taxon>* ?x1 .
+}

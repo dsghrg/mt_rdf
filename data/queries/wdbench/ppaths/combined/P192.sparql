@@ -1,0 +1,22 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1194951> .
+	?x1 <http://www.wikidata.org/prop/direct/P641>* <http://www.wikidata.org/entity/Q3609> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <instance of> <national sports team> .
+	?x1 <sport>* <road bicycle racing> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1194951> .
+	?x1 <http://www.wikidata.org/prop/direct/P641>* <http://www.wikidata.org/entity/Q3609> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1194951> .
+	?x1 <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q3609> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+}

@@ -1,0 +1,7 @@
+SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <coordinate location> ?x3 .
+	?x1 <located in the administrative territorial entity>* <London> .
+	?x1 <instance of> ?c956 .
+	?c956 <subclass of>* <university> .
+}

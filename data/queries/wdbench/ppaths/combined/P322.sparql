@@ -1,0 +1,34 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q82955> .
+	?x1 <http://www.wikidata.org/prop/direct/P19> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1711695> .
+	?x1 <http://www.wikidata.org/prop/direct/P39> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q21> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <occupation> <politician> .
+	?x1 <place of birth> ?x2 .
+	?x3 <subclass of> <Member of the Scottish Parliament> .
+	?x1 <position held> ?x3 .
+	?x2 <located in the administrative territorial entity>* <England> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?x3 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1711695> .
+	?x1 <http://www.wikidata.org/prop/direct/P39> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P19> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q82955> .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q21> .
+	hint:Prior hint:gearing "forward" .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?x3 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1711695> .
+	?x1 <http://www.wikidata.org/prop/direct/P39> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P19> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q82955> .
+	?x2 <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q21> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+}

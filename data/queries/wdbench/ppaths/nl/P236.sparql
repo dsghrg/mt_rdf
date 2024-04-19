@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <country> <Belgium> .
+	?x1 <instance of> ?c610 .
+	?c610 <subclass of>* <airport> .
+}

@@ -1,0 +1,7 @@
+SELECT * WHERE {
+	?x1 <author> ?x2 .
+	?x1 <instance of> ?c443 .
+	?c443 <subclass of>* <academic journal article> .
+	?x2 <instance of> ?c860 .
+	?c860 <subclass of>* <animal> .
+}

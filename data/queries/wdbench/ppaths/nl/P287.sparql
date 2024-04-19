@@ -1,0 +1,4 @@
+SELECT * WHERE {
+	?x1 <instance of> <village> .
+	?x1 <country>+ <People's Republic of China> .
+}

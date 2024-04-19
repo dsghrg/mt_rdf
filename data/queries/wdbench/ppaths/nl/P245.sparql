@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	?x1 <official name> ?x2 .
+	?x1 <instance of> <city> .
+	?x1 <country>+ <Germany> .
+}

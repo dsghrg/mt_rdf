@@ -1,0 +1,22 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q328046> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}
+# nl
+SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Hornoldendorf> <located in the administrative territorial entity>* ?x1 .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	<http://www.wikidata.org/entity/Q328046> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+	hint:Prior hint:gearing "forward" .
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	<http://www.wikidata.org/entity/Q328046> <http://www.wikidata.org/prop/direct/P131> ?x1 OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 1) .
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+}

@@ -1,0 +1,26 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c783 .
+	?c783 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23397> .
+}
+# nl
+SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <instance of> ?c783 .
+	?c783 <subclass of>* <lake> .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	?c783 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23397> .
+	hint:Prior hint:gearing "reverse" .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c783 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+}
+# opt_virt
+DEFINE sql:select-option "order" SELECT DISTINCT * WHERE {
+	?c783 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q23397> OPTION(TRANSITIVE, t_distinct, t_min(0), t_direction 2) .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c783 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+}

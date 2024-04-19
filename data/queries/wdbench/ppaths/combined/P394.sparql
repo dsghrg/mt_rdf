@@ -1,0 +1,24 @@
+# original
+SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1423> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q19887878> .
+	<http://www.wikidata.org/entity/Q835125> <http://www.wikidata.org/prop/direct/P31> ?c46 .
+	?c46 <http://www.wikidata.org/prop/direct/P279>* ?x2 .
+}
+# nl
+SELECT * WHERE {
+	?x1 <template has topic> ?x2 .
+	?x1 <instance of> <Wikimedia infobox template> .
+	<Midden-Drenthe> <instance of> ?c46 .
+	?c46 <subclass of>* ?x2 .
+}
+# opt_blaze
+SELECT DISTINCT * WHERE {
+	hint:Query hint:optimizer "None" .
+	<http://www.wikidata.org/entity/Q835125> <http://www.wikidata.org/prop/direct/P31> ?c46 .
+	?c46 <http://www.wikidata.org/prop/direct/P279>* ?x2 .
+	hint:Prior hint:gearing "forward" .
+	?x1 <http://www.wikidata.org/prop/direct/P1423> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q19887878> .
+}
+# opt_virt

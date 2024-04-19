@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	<André Grosjean> <occupation> ?x1 .
+	?x1 <subclass of>* ?c325 .
+	?c325 <field of this occupation> ?x2 .
+}

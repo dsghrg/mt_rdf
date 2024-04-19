@@ -1,0 +1,5 @@
+SELECT * WHERE {
+	<United States House of Representatives> <has part(s)> ?x1 .
+	?x2 <instance of> ?c935 .
+	?c935 <subclass of>* ?x1 .
+}

@@ -1,0 +1,7 @@
+SELECT * WHERE {
+	?x1 <instance of> <country> .
+	?x1 <located in the administrative territorial entity>* ?c972 .
+	?c972 <country> ?c855 .
+	?c855 <continent> ?c365 .
+	?c365 <part of> <Asia> .
+}
