@@ -17,7 +17,7 @@ LIMIT = 300_000
 
 def main():
     sparql_query = SparqlQuery()
-    dir_path = 'data/queries/wdbench/ppaths/original/'
+    dir_path = 'data/queries/wdbench/ppaths/opt_blaze/'
 
     res_dict = {'query_id': [], 'exec_time': [], 'results': []}
     index = 0
@@ -32,7 +32,7 @@ def main():
 
             if index % 10 == 0:
                 res_df = pd.DataFrame(res_dict)
-                res_df.to_csv(res_path + f'ppaths/results_ppaths.csv')
+                res_df.to_csv(res_path + f'ppaths/results_ppaths_optimized.csv')
         index += 1
 if __name__ == "__main__":
     main()
