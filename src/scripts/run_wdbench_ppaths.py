@@ -16,7 +16,7 @@ LIMIT = 300_000
 
 
 def main():
-    sparql_query = Blazegraph()
+    sparql_query = Virtuoso()
     dir_path = 'data/queries/wdbench/ppaths/original/'
 
     res_dict = {'query_id': [], 'exec_time': [], 'results': []}
