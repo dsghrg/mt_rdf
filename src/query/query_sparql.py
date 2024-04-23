@@ -92,7 +92,7 @@ class Blazegraph(SparqlQuery):
 
 class Virtuoso(SparqlQuery):
     def __init__(self, endpoint="http://160.85.252.245:8890/sparql"):
-        super().__init(endpoint=endpoint)
+        super().__init__(endpoint=endpoint)
             
     def turn_off_optimization(self, query: str):
         query = f'DEFINE sql:select-option "order" {query}'
