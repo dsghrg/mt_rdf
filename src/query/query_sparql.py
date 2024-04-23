@@ -1,4 +1,5 @@
 import time
+from abc import ABC, abstractmethod
 from functools import lru_cache
 
 from SPARQLWrapper import JSON, SPARQLWrapper
@@ -34,13 +35,19 @@ from SPARQLWrapper import JSON, SPARQLWrapper
 #         print(e)
 #     return None, 0
 
-class SparqlQuery:
+class SparqlQuery(ABC):
     def __init__(self, endpoint="http://172.17.0.1:9999/sparql"):
         self.endpoint = endpoint
 
+    @abstractmethod
+    def turn_off_optimization(self, query: str):
+        pass
 
-    def execute_sparql(self, query, timeout=600, no_results=True):
+    def execute_sparql(self, query, timeout=600, no_results=True, force_order=False):
         """This function executes the sparql query and returns the results"""
+        if force_order:
+            query = self.turn_off_optimization(query)
+
         sparql = SPARQLWrapper(self.endpoint)
         sparql.setTimeout(timeout)
         sparql.setReturnFormat(JSON)
@@ -71,3 +78,23 @@ class SparqlQuery:
         except Exception as e:
             print(e)
             return str(e), 0
+        
+class Blazegraph(SparqlQuery):
+    def __init__(self, endpoint="http://172.17.0.1:9999/sparql"):
+        super().__init__()
+
+    def turn_off_optimization(self, query: str):
+        select, where = query.split('WHERE {')
+        opt_off = 'hint:Query hint:optimizer "None".'
+        query = f'{select} WHERE {{\n\t{opt_off} {where}'
+
+        return query
+
+class Virtuoso(SparqlQuery):
+    def __init__(self, endpoint="http://160.85.252.245:8890/sparql"):
+        super().__init()
+            
+    def turn_off_optimization(self, query: str):
+        query = f'DEFINE sql:select-option "order" {query}'
+
+        return query
