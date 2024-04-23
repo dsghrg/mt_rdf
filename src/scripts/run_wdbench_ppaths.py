@@ -17,7 +17,7 @@ LIMIT = 300_000
 
 def main():
     sparql_query = Blazegraph()
-    dir_path = 'data/queries/wdbench/ppaths/opt_blaze/'
+    dir_path = 'data/queries/wdbench/ppaths/original/'
 
     res_dict = {'query_id': [], 'exec_time': [], 'results': []}
     index = 0
