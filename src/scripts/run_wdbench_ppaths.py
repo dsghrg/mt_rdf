@@ -51,7 +51,7 @@ def main(args):
 
     res_dict = {'query_id': [], 'exec_n': [], 'exec_time': [], 'results': []}
     index = 0
-    result_path = f'results/wdbench/ppaths/{'blaze' if args.blazegraph else 'virt'}/'
+    result_path = f'results/wdbench/ppaths/{"blaze" if args.blazegraph else "virt"}/'
     for filename in tqdm(os.listdir(dir_path)): 
         with open(os.path.join(dir_path, filename), 'r') as file:
             query = file.read()
@@ -65,7 +65,7 @@ def main(args):
 
             if index % 10 == 0:
                 res_df = pd.DataFrame(res_dict)
-                res_df.to_csv(result_path + f'results_ppaths_{args.query_mode}{'_forced' if args.forced else ''}.csv')
+                res_df.to_csv(result_path + f'results_ppaths_{args.query_mode}{"_forced" if args.forced else ""}.csv')
         index += 1
 if __name__ == "__main__":
     args = read_arguments_matching()
