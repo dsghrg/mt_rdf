@@ -76,7 +76,7 @@ class SparqlQuery(ABC):
         #             clean_results.append(tuple(interim_results))
         #     return clean_results, execution_time
         except Exception as e:
-            print(e)
+            # print(e)
             return str(e), 0
         
 class Blazegraph(SparqlQuery):
