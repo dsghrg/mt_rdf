@@ -51,13 +51,16 @@ def main(args):
 
     res_dict = {'query_id': [], 'exec_n': [], 'exec_time': [], 'results': []}
     index = 0
+    chosen_qs = ['P187', 'P387', 'P382', 'P385', 'P297', 'P279', 'P268', 'P203', 'P265', 'P290']
     result_path = f'results/wdbench/ppaths/{"blaze" if args.blazegraph else "virt"}/'
     for filename in tqdm(os.listdir(dir_path)): 
         with open(os.path.join(dir_path, filename), 'r') as file:
+            query_id = filename.split('.')[0]
+            if query_id not in chosen_qs:
+                continue
             query = file.read()
             for i in range(4):
                 res, exec_time = sparql_query.execute_sparql(query, force_order=args.forced, timeout=900)
-                filename = filename.split('.')[0]
                 res_dict['query_id'].append(filename)
                 res_dict['exec_n'].append(i)
                 res_dict['exec_time'].append(exec_time)
