@@ -30,6 +30,10 @@ def read_arguments_matching():
 
     return args
 
+def save_results(res_dict, result_path):
+    res_df = pd.DataFrame(res_dict)
+    res_df.to_csv(result_path + f'results_ppaths_10_{args.query_mode}{"_forced" if args.forced else ""}.csv')
+
 def main(args):
     if args.blazegraph:
         sparql_query = Blazegraph()
@@ -67,9 +71,10 @@ def main(args):
                 res_dict['results'].append(res)
 
             if index % 10 == 0:
-                res_df = pd.DataFrame(res_dict)
-                res_df.to_csv(result_path + f'results_ppaths_{args.query_mode}{"_forced" if args.forced else ""}.csv')
+                save_results(res_dict, result_path)
         index += 1
+    save_results(res_dict, result_path)
+
 if __name__ == "__main__":
     args = read_arguments_matching()
     main(args)
