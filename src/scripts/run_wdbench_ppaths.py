@@ -65,7 +65,7 @@ def main(args):
             query = file.read()
             for i in range(4):
                 res, exec_time = sparql_query.execute_sparql(query, force_order=args.forced, timeout=900)
-                res_dict['query_id'].append(filename)
+                res_dict['query_id'].append(query_id)
                 res_dict['exec_n'].append(i)
                 res_dict['exec_time'].append(exec_time)
                 res_dict['results'].append(res)
