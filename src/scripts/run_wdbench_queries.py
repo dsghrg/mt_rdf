@@ -67,7 +67,7 @@ def main(args):
                 res_dict['exec_time'].append(exec_time)
 
             if index % 10 == 0:
-                res_to_logs(result=res_dict)
+                res_to_logs(result=res_dict, forced=args.forced)
 
             index += 1
         res_to_logs(res_dict)
