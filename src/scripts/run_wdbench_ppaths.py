@@ -32,7 +32,7 @@ def read_arguments_matching():
 
 def save_results(res_dict, result_path):
     res_df = pd.DataFrame(res_dict)
-    res_df.to_csv(result_path + f'results_ppaths_10_{args.query_mode}{"_forced" if args.forced else ""}.csv')
+    res_df.to_csv(result_path + f'results_ppaths_{args.query_mode}{"_forced" if args.forced else ""}.csv')
 
 def main(args):
     if args.blazegraph:
@@ -60,8 +60,8 @@ def main(args):
     for filename in tqdm(os.listdir(dir_path)): 
         with open(os.path.join(dir_path, filename), 'r') as file:
             query_id = filename.split('.')[0]
-            if query_id not in chosen_qs:
-                continue
+           # if query_id not in chosen_qs:
+           #     continue
             query = file.read()
             for i in range(4):
                 res, exec_time = sparql_query.execute_sparql(query, force_order=args.forced, timeout=900)
