@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?c549 <subclass of> <taxon> .
 	?x1 <parent taxon>+ <songbirds> .
 }
+
+NL-QUESTION:
+What species within the taxonomic group of songbirds exhibit bipedalism as a means of locomotion?

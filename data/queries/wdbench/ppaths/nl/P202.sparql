@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c254 .
 	?c254 <subclass of>* <university> .
 }
+
+NL-QUESTION:
+Which administrative territorial entities have universities located within them?

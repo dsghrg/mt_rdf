@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c610 .
 	?c610 <subclass of>* <airport> .
 }
+
+NL-QUESTION:
+What are all the airports located in Belgium?

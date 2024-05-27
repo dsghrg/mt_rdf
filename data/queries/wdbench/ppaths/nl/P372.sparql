@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <subclass of>* ?c237 .
 	?c237 <field of this occupation> ?x2 .
 }
+
+NL-QUESTION:
+What is the field of occupation of individuals who are in the same subclass as Nikki Havenaar in Wikidata?

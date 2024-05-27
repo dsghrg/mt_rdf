@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x2 <located in the administrative territorial entity>* <Kern County> .
 	?x3 <subclass of>* <administrative territorial entity> .
 }
+
+NL-QUESTION:
+What are the administrative territorial entities located within Kern County and their corresponding instances of administrative territorial entities?

@@ -2,3 +2,8 @@ SELECT * WHERE {
 	?x1 <ISO 3166-2 code> ?x2 .
 	<No label defined> <located in the administrative territorial entity>* ?x1 .
 }
+
+Bücherei im Rathaus Neu Wulmstorf
+
+NL-QUESTION:
+Which administrative territorial entities have ISO 3166-2 codes?

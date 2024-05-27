@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c303 .
 	?c303 <subclass of>* <work> .
 }
+
+NL-QUESTION:
+"Which works were created by Vincent van Gogh?"

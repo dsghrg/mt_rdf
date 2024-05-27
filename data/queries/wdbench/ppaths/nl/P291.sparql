@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <ISO 3166-2 code> ?x2 .
 	<Holzhausen> <located in the administrative territorial entity>* ?x1 .
 }
+
+NL-QUESTION:
+Which administrative territorial entities is Holzhausen located in based on their ISO 3166-2 code?

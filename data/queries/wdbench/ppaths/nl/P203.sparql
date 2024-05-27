@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c956 .
 	?c956 <subclass of>* <university> .
 }
+
+NL-QUESTION:
+What universities in London have a coordinate location?

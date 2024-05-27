@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c983 .
 	?c983 <subclass of>* <article> .
 }
+
+NL-QUESTION:
+What are all the articles about The Holocaust on Wikidata?

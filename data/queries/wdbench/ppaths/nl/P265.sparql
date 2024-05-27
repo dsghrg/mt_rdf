@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?c226 <subclass of>* <building> .
 	?x1 <located in the administrative territorial entity>* <Berlin> .
 }
+
+NL-QUESTION:
+What buildings in Berlin have a coordinate location?

@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c235 .
 	?c235 <subclass of>+ <geographic region> .
 }
+
+NL-QUESTION:
+Which people were born in a geographic region?

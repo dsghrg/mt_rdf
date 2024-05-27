@@ -6,3 +6,6 @@ SELECT * WHERE {
 	?c54 <subclass of>* <municipality in Germany> .
 	?x1 <located in the administrative territorial entity>+ <Baden-Württemberg> .
 }
+
+NL-QUESTION:
+Which municipalities in Baden-Württemberg, Germany have a coordinate location and are located within an administrative territorial entity in Germany?

@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <subclass of>* ?c727 .
 	?c727 <field of this occupation> ?x2 .
 }
+
+NL-QUESTION:
+What are the fields of occupation for Trinko Keen?

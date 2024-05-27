@@ -8,3 +8,6 @@ SELECT * WHERE {
 	?x2 <instance of> ?c701 .
 	?c701 <subclass of>* <watercourse> .
 }
+
+NL-QUESTION:
+Which watercourses have the same drainage basin as their mouth and the same drainage basin as the watercourse they drain into?

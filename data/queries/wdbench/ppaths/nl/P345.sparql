@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c520 .
 	?c520 <subclass of>* <scholarly article> .
 }
+
+NL-QUESTION:
+What are the sponsors of scholarly articles on Wikidata?

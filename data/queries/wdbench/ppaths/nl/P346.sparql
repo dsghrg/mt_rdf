@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c923 .
 	?c923 <subclass of>* <city> .
 }
+
+NL-QUESTION:
+What are the located administrative territorial entities, countries, and instances of the subclass cities?

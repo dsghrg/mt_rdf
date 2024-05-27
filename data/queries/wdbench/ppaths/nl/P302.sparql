@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x1 <image0> ?c22 .
 	?c22 <subclass of>* <alcoholic beverage> .
 }
+
+NL-QUESTION:
+What are the images of paintings that are instances of alcoholic beverages?

@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <parent taxon> ?x2 .
 	?x2 <parent taxon>* <Hornbill> .
 }
+
+NL-QUESTION:
+What are the species that belong to the taxonomic hierarchy which includes the Hornbill family?

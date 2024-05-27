@@ -17,7 +17,7 @@ setup_logging()
 
 LIMIT = 300_000
 
-def read_arguments_matching():
+def read_arguments():
     parser = argparse.ArgumentParser(description='Test model with following arguments')
     parser.add_argument('--blazegraph', action='store_true', default=True)
     parser.add_argument('--virtuoso', dest='blazegraph', action='store_false')
@@ -76,5 +76,5 @@ def main(args):
     save_results(res_dict, result_path)
 
 if __name__ == "__main__":
-    args = read_arguments_matching()
+    args = read_arguments()
     main(args)

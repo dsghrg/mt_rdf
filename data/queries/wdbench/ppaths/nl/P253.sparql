@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c425 .
 	?c425 <subclass of>* <mountain> .
 }
+
+NL-QUESTION:
+Which mountains are a part of the Himalayas and what are their corresponding instances?

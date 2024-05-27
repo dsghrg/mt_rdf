@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <instance of> <metro station> .
 	?x1 <located in the administrative territorial entity>+ <Quebec> .
 }
+
+NL-QUESTION:
+What are all the metro stations located in the administrative territorial entity of Quebec?

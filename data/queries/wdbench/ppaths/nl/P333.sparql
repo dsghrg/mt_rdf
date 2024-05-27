@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c605 .
 	?c605 <subclass of>* <building> .
 }
+
+NL-QUESTION:
+What are the coordinates of buildings located in Berlin?

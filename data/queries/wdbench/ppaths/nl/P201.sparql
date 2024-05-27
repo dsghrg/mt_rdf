@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c560 .
 	?c560 <subclass of>* <film> .
 }
+
+NL-QUESTION:
+Which films does Daniel Vernet appear in as a cast member?

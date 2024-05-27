@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x2 <located in the administrative territorial entity>* <San Bernardino County> .
 	?x3 <subclass of>* <administrative territorial entity> .
 }
+
+NL-QUESTION:
+Which administrative territorial entities are located within San Bernardino County and are instances of a subclass of administrative territorial entities?

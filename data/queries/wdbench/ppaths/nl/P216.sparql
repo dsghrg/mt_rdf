@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c806 .
 	?c806 <subclass of>* <city> .
 }
+
+NL-QUESTION:
+What are the populations, countries, coordinate locations, and instances of cities?

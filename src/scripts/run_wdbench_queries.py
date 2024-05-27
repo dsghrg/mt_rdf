@@ -1,3 +1,5 @@
+import argparse
+import logging
 import os
 import sys
 import time
@@ -7,12 +9,26 @@ from SPARQLWrapper import JSON, SPARQLWrapper
 from tqdm import tqdm
 
 sys.path.append(os.getcwd())
+from src.query.query_sparql import *
 from src.query.query_type import QueryType
+from src.query.wdbench import WDBench
 
 res_path = 'results/wdbench/'
 
 LIMIT = 300_000
 
+
+def read_arguments():
+    parser = argparse.ArgumentParser(description='Test model with following arguments')
+    parser.add_argument('--blazegraph', action='store_true', default=True)
+    parser.add_argument('--virtuoso', dest='blazegraph', action='store_false')
+    parser.add_argument('--forced', action='store_true', default=False)
+    args = parser.parse_args()
+
+    for argument in vars(args):
+        logging.info("argument: {} =\t{}".format(str(argument).ljust(20), getattr(args, argument)))
+
+    return args
 
 def parse_to_sparql(query):
     if not LIMIT:
@@ -20,94 +36,43 @@ def parse_to_sparql(query):
     return f'SELECT * WHERE {{ {query} }} LIMIT {LIMIT}'
 
 
-def execute_sparql(query):
-    """This function executes the sparql query and returns the results"""
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-    sparql.setTimeout(300)
-    sparql.setReturnFormat(JSON)
-    # sparql.setQuery('PREFIX :  <http://unics.cloud/ontology/>\nPREFIX onto: <http://www.ontotext.com/>' + query)
-    sparql.setQuery(query)
-    # the previous query as a literal string
-    try:
-        start_time = time.time()
-        results = sparql.query()
-        execution_time = time.time() - start_time
-
-        results = results.convert()
-        return results, execution_time
-    #     clean_results = []
-    #     for row in results['results']['bindings']:
-    #         interim_results=[]
-    #         for i in range(len(results['head']['vars'])):
-    #             if 'datatype' in row.get(results['head']['vars'][i]).keys():
-    #                 value = int(row.get(results['head']['vars'][i])['value'])
-    #                 interim_results.append(value)
-    #             else:
-    #                 value = row.get(results['head']['vars'][i])['value']
-    #                 interim_results.append(value)
-    #         if len(interim_results) != 0:
-    #             clean_results.append(tuple(interim_results))
-    #     return clean_results, execution_time
-    except Exception as e:
-        print(e)
-    return None, 0
-
-
-def res_to_logs(result: dict, query_type):
+def res_to_logs(result: dict, forced):
     res_df = pd.DataFrame(result)
-    res_df.to_csv(res_path + f'timeout_api/results_{query_type}.csv')
-
-
-def run_all_in_df(query_df, query_type):
-    res_dict = {'query_id': [], 'exec_time': []}
-    for index, row in tqdm(query_df.iterrows(), total=query_df.shape[0]):
-        query = parse_to_sparql(row['query_parts'])
-        _, time_s = execute_sparql(query=query)
-        res_dict['query_id'].append(row['id'])
-        res_dict['exec_time'].append(time_s)
-        if index % 10 == 0:
-            res_to_logs(result=res_dict, query_type=query_type)
+    res_df.to_csv(res_path + f'results_wdbench_all{'_forced' if forced else ''}.csv', index=False)
 
 
 
-
-
-def main():
-    for qtype in QueryType:
-        # if qtype.value == 'opts':
-        #     df = pd.read_csv(
-        #         f'data/queries/wdbench/{qtype.value}.txt', header=None)
-        #     df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
-        #     print(50*'-')
-        #     print(qtype.value)
-        #     print(50*'-')
-        #     # run_all_in_df(query_df=df, query_type=qtype.value)
-        #     query = parse_to_sparql(df[df['id'] == 486]['query_parts'].item())
-        #     # print('asdfasdfasdf' + df[df['id'] == 486]['query_parts'])
-        #     res, exec_time = execute_sparql(query)
-        #     print(res)
-        #     print(exec_time)
+def main(args):
+    if args.blazegraph:
+        sparql_query = Blazegraph()
+    else:
+        sparql_query = Virtuoso()
         
-        # get all the slow timeouted queries from old run
-        df_res = pd.read_csv(res_path + f'results_{qtype.value}.csv')
-        df_res = df_res[df_res['exec_time'] == 0]
+    wdbench = WDBench()
+    wdbench.queries['exec_n'] = 0
+    wdbench.queries['exec_time'] = 900
+    
+    res_dict = {'query_id': [], 'q_type': [], 'exec_n': [], 'exec_time': [], 'results': []}
+    for qtype in QueryType:
+        index = 0
 
+        query_df = wdbench.queries[wdbench.queries['q_type'] == qtype.value]
+        for j, row in tqdm(query_df.iterrows(), total=query_df.shape[0]):
+            for i in range(4):
+                query = parse_to_sparql(row['query_parts'])
+                _, exec_time = sparql_query.execute_sparql(query=query, force_order=args.forced, timeout=900)
+                res_dict['query_id'].append(row['q_id'])
+                res_dict['q_type'].append(qtype.value)
+                res_dict['exec_n'].append(i)
+                res_dict['exec_time'].append(exec_time)
 
-        df = pd.read_csv(f'data/queries/wdbench/{qtype.value}.txt', header=None)
-        df.rename(columns={0: 'id', 1: 'query_parts'}, inplace=True)
+            if index % 10 == 0:
+                res_to_logs(result=res_dict, query_type=qtype.value)
 
-        df = df[df['id'].isin(df_res['query_id'])]
-        print(50*'-')
-        print(qtype.value)
-        print(50*'-')
-        run_all_in_df(query_df=df, query_type=qtype.value)
-
-    # c2rpqs_df = pd.read_csv('data/queries/wdbench/c2rpqs.txt')
-    # multiple_bgps_df = pd.read_csv('data/queries/wdbench/multiple_bgps.txt')
-    # opts_df = pd.read_csv('data/queries/wdbench/opts.txt')
-    # paths_df = pd.read_csv('data/queries/wdbench/paths.txt')
-    # single_bgps_df = pd.read_csv('data/queries/wdbench/single_bgps.txt')
+            index += 1
+        res_to_logs(res_dict)
 
 
 if __name__ == "__main__":
-    main()
+    args = read_arguments()
+    main(args)

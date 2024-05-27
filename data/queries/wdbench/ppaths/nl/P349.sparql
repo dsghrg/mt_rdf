@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <ISO 3166-2 code> ?x2 .
 	<Amtsgericht Emmendingen> <located in the administrative territorial entity>* ?x1 .
 }
+
+NL-QUESTION:
+In which administrative territorial entity is the Amtsgericht Emmendingen located, and what is its corresponding ISO 3166-2 code?

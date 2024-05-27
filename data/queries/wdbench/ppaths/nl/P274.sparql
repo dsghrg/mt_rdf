@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <ISO 3166-2 code> ?x2 .
 	<Bahlingen am Kaiserstuhl> <located in the administrative territorial entity>* ?x1 .
 }
+
+NL-QUESTION:
+What is the ISO 3166-2 code of the administrative territorial entity where Bahlingen am Kaiserstuhl is located?

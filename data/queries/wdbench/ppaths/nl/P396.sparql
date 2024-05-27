@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c627 .
 	?c627 <country of citizenship9>* <human> .
 }
+
+NL-QUESTION:
+What are the instances of humans who are citizens of the United States of America?

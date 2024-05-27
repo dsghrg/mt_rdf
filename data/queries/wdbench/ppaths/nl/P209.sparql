@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <population> ?x2 .
 	?x1 <instance of>* <commune of France> .
 }
+
+NL-QUESTION:
+What is the population of all the communes of France?

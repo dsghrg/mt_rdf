@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <parent taxon> ?x2 .
 	?x2 <parent taxon>* <Heron> .
 }
+
+NL-QUESTION:
+Which species are under the taxonomic rank of species and are part of the taxonomic group "Heron" or any of its subgroups?

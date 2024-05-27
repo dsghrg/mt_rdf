@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c966 .
 	?c966 <subclass of>* <organization> .
 }
+
+NL-QUESTION:
+What are all the organizations that are owned by another entity in Wikidata?

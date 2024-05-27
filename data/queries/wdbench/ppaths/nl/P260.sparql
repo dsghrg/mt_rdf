@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x2 <instance of> ?c935 .
 	?c935 <subclass of>* ?x1 .
 }
+
+NL-QUESTION:
+What are the specific parts associated with the United States House of Representatives, and what are their general categories?

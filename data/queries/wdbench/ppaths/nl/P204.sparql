@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x4 <located in the administrative territorial entity>* <Valencia Province> .
 	?x3 <subclass of>* <administrative territorial entity> .
 }
+
+NL-QUESTION:
+What administrative territorial entities are contained within Valencia Province and have a geographic location within an administrative territorial entity which is a subclass of administrative territorial entities?

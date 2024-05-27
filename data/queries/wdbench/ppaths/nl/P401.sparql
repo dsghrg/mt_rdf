@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <subclass of> ?x2 .
 	?x1 <subclass of>* <musical instrument> .
 }
+
+NL-QUESTION:
+What are the different types of musical instruments and their subclasses in Wikidata?
