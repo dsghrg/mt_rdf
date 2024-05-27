@@ -38,7 +38,7 @@ def parse_to_sparql(query):
 
 def res_to_logs(result: dict, forced):
     res_df = pd.DataFrame(result)
-    res_df.to_csv(res_path + f'results_wdbench_all{'_forced' if forced else ''}.csv', index=False)
+    res_df.to_csv(res_path + f'results_wdbench_all{"_forced" if forced else ''}.csv', index=False)
 
 
 
