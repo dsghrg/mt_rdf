@@ -52,7 +52,7 @@ def main(args):
     wdbench.queries['exec_n'] = 0
     wdbench.queries['exec_time'] = 900
     
-    res_dict = {'query_id': [], 'q_type': [], 'exec_n': [], 'exec_time': [], 'results': []}
+    res_dict = {'query_id': [], 'q_type': [], 'exec_n': [], 'exec_time': []}
     for qtype in QueryType:
         index = 0
 
