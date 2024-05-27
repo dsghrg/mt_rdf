@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <country> ?x2 .
 	?x1 <instance of>* <island> .
 }
+
+NL-QUESTION:
+What islands are located in the administrative territorial entity of Aceh and what countries are they a part of?

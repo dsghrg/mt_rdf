@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c140 .
 	?c140 <subclass of>* <sculpture> .
 }
+
+NL-QUESTION:
+What types of sculptures located in France are related to Joan of Arc?

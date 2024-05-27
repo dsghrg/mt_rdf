@@ -43,7 +43,7 @@ class SparqlQuery(ABC):
     def turn_off_optimization(self, query: str):
         pass
 
-    def execute_sparql(self, query, timeout=600, no_results=True, force_order=False):
+    def execute_sparql(self, query, timeout=900, no_results=True, force_order=False):
         """This function executes the sparql query and returns the results"""
         if force_order:
             query = self.turn_off_optimization(query)
@@ -77,7 +77,7 @@ class SparqlQuery(ABC):
         #     return clean_results, execution_time
         except Exception as e:
             # print(e)
-            return str(e), 0
+            return str(e), timeout
         
 class Blazegraph(SparqlQuery):
     def __init__(self, endpoint="http://172.17.0.1:9999/sparql"):

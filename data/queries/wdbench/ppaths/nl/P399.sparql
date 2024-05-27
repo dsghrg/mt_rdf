@@ -6,3 +6,6 @@ SELECT * WHERE {
 	?c776 <subclass of>* <painting> .
 	?x3 <located in the administrative territorial entity>* <United Kingdom> .
 }
+
+NL-QUESTION:
+Which paintings created by a member of the Royal Academy of Arts are located in the United Kingdom?

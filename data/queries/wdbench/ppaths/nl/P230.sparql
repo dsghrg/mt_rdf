@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x2 <instance of> ?c521 .
 	?c521 <subclass of>* <work> .
 }
+
+NL-QUESTION:
+What are the works authored by humans?

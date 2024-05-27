@@ -4,3 +4,6 @@ SELECT * WHERE {
 	<Midden-Drenthe> <instance of> ?c46 .
 	?c46 <subclass of>* ?x2 .
 }
+
+NL-QUESTION:
+What Wikimedia infobox templates are related to the topic of Midden-Drenthe?

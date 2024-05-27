@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x2 <located in the administrative territorial entity>* <El Dorado County> .
 	?x3 <subclass of>* <administrative territorial entity> .
 }
+
+NL-QUESTION:
+What are all the items that are instances of administrative territorial entities and are located within El Dorado County?

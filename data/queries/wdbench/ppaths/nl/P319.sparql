@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <parent taxon> ?x2 .
 	?x2 <parent taxon>* <Alcidae> .
 }
+
+NL-QUESTION:
+What are the species that are part of the taxonomic rank "species" and belong to the family "Alcidae"?

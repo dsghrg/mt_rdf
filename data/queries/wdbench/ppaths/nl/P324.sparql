@@ -7,3 +7,6 @@ SELECT * WHERE {
 	?x4 <part of> ?x2 .
 	?x1 <parent taxon>+ <mammal> .
 }
+
+NL-QUESTION:
+Which mammals have a taxonomic relationship where they are ranked higher than another taxon that is also a mammal?

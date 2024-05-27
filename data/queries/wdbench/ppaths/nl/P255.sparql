@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c18 .
 	?c18 <subclass of>* <city> .
 }
+
+NL-QUESTION:
+What are the populations and areas of all cities?

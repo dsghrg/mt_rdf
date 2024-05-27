@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c192 .
 	?c192 <subclass of>* <church building> .
 }
+
+NL-QUESTION:
+Which church buildings are located in Mayenne?

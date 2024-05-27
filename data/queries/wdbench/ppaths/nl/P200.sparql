@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c567 .
 	?c567 <subclass of>* <grave> .
 }
+
+NL-QUESTION:
+What are the instances of graves located in Vienna's administrative territorial entity?

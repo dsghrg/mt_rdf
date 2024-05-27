@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x2 <instance of> ?c860 .
 	?c860 <subclass of>* <animal> .
 }
+
+NL-QUESTION:
+Which academic journal articles discuss animals as their subject matter?

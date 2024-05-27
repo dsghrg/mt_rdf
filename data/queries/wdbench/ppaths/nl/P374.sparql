@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x2 <instance of>* ?c799 .
 	?c799 <subclass of>* <murderer> .
 }
+
+NL-QUESTION:
+Which humans have occupations that are classified as murderers in Wikidata?

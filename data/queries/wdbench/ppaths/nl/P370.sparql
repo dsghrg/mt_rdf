@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <parent taxon> ?x2 .
 	?x2 <parent taxon>* <Hirundinidae> .
 }
+
+NL-QUESTION:
+Which species belong to the taxonomic group that is a child of the Hirundinidae family?

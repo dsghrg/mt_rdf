@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?c704 <subclass of>* <university> .
 	?x1 <located in the administrative territorial entity>* <London> .
 }
+
+NL-QUESTION:
+What universities are located in London and what are their coordinates?

@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <ISO 3166-2 code> ?x2 .
 	<Hörstmar> <located in the administrative territorial entity>* ?x1 .
 }
+
+NL-QUESTION:
+Which ISO 3166-2 code is associated with the administrative territorial entity where Hörstmar is located?

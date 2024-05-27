@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <location of formation> ?c171 .
 	?c171 <located in the administrative territorial entity>* <Wales> .
 }
+
+NL-QUESTION:
+What musical groups classified as post-hardcore were formed in Wales?

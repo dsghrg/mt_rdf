@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c418 .
 	?c418 <subclass of>* <organization> .
 }
+
+NL-QUESTION:
+Which industries are associated with organizations on Wikidata?

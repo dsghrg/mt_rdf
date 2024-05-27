@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x3 <subclass of>* <church building> .
 	?x2 <located in the administrative territorial entity>* <Parma> .
 }
+
+NL-QUESTION:
+Which church buildings are located in Parma?

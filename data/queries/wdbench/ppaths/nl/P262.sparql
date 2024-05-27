@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c186 .
 	?c186 <subclass of>* <human> .
 }
+
+NL-QUESTION:
+What are the male writers on Wikidata who are instances of humans?

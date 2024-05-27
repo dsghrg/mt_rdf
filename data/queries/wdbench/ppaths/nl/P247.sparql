@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?c414 <subclass of>* <library> .
 	?x1 <located in the administrative territorial entity>* <Wales> .
 }
+
+NL-QUESTION:
+What are the operators and administrative territorial entities of libraries located in Wales in Wikidata?

@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?c15 <subclass of>* <island> .
 	?x1 <located in the administrative territorial entity>+ <Paris> .
 }
+
+NL-QUESTION:
+Which islands are located within the administrative territorial entity of Paris and what are their coordinates?

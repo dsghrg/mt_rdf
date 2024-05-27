@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c347 .
 	?c347 <country of citizenship9>* <human> .
 }
+
+NL-QUESTION:
+What are the instances of humans who are citizens of the People's Republic of China in Wikidata?

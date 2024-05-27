@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?x2 .
 	?x1 <instance of>* <key> .
 }
+
+NL-QUESTION:
+What are all the instances of a specific entity that is also classified as a "key" in Wikidata?

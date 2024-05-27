@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x1 <instance of> <taxon> .
 	?x4 <part of>+ ?x2 .
 }
+
+NL-QUESTION:
+Which taxonomic ranks are related to each other where one is a parent taxon of the other, the first is an instance of a taxon, and the second is a part of the first?

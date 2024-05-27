@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?c855 <continent> ?c365 .
 	?c365 <part of> <Asia> .
 }
+
+NL-QUESTION:
+What countries are located in Asia?

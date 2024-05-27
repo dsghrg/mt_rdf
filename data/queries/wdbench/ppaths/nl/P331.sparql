@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x1 <located in the administrative territorial entity> ?c650 .
 	?c650 <located in the administrative territorial entity>* <Wales> .
 }
+
+NL-QUESTION:
+What libraries are located in Wales?

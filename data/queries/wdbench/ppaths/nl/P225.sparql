@@ -2,3 +2,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?x2 .
 	?x2 <subclass of>+ <building material> .
 }
+
+NL-QUESTION:
+Which entities are instances of a subclass of 'building material'?

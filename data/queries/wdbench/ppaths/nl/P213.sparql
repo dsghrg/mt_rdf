@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <parent taxon> ?x2 .
 	?x2 <parent taxon>* <Lepidoptera> .
 }
+
+NL-QUESTION:
+What are the families of species that have a lineage traceable to the Lepidoptera order?

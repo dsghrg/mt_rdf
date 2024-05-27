@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x2 <located in the administrative territorial entity>* <Albemarle County> .
 	?x3 <subclass of>* <administrative territorial entity> .
 }
+
+NL-QUESTION:
+Which entities are located in Albemarle County and are instances or subclasses of an administrative territorial entity?

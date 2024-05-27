@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x4 <located in the administrative territorial entity>* <Lower Saxony> .
 	?x3 <subclass of>* <village> .
 }
+
+NL-QUESTION:
+"Which villages are located in administrative territorial entities contained within Lower Saxony?"

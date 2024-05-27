@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c942 .
 	?c942 <subclass of>* <first-level administrative division> .
 }
+
+NL-QUESTION:
+What countries are first-level administrative divisions?

@@ -4,3 +4,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c917 .
 	?c917 <subclass of>* <geographic region> .
 }
+
+NL-QUESTION:
+Which geographic regions in Japan have a coordinate location?

@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?x1 <instance of> ?c874 .
 	?c874 <subclass of>* <administrative territorial entity of Austria> .
 }
+
+NL-QUESTION:
+What are the populations, countries, areas, and instances of administrative territorial entities in Austria on Wikidata?

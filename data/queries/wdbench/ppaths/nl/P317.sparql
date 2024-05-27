@@ -3,3 +3,6 @@ SELECT * WHERE {
 	?x1 <parent taxon> ?x2 .
 	?x2 <parent taxon>* <Petroicidae> .
 }
+
+NL-QUESTION:
+What are the species that belong to the taxonomic family Petroicidae?

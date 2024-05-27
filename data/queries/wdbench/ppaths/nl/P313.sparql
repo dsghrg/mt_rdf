@@ -8,3 +8,6 @@ SELECT * WHERE {
 	?x1 <parent taxon>+ <Theria> .
 	?x2 <part of>+ ?x4 .
 }
+
+NL-QUESTION:
+What are the taxonomic ranks of taxa that are part of Theria and their respective parent taxa?

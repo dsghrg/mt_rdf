@@ -5,3 +5,6 @@ SELECT * WHERE {
 	?c356 <subclass of>* <painting> .
 	?x2 <subclass of>* <musical instrument> .
 }
+
+NL-QUESTION:
+What are the images of paintings that depict musical instruments in Wikidata?
