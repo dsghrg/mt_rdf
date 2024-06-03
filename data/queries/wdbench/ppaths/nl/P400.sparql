@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c803 .
-	?c803 <NACSIS-CAT author ID>* <mountain> .
-}
-
-NL-QUESTION:
-What are the locations and types of mountains with NACSIS-CAT author IDs in Wikidata?

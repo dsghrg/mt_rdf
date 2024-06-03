@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <area> ?x3 .
-	?x1 <instance of> ?c18 .
-	?c18 <subclass of>* <city> .
-}
-
-NL-QUESTION:
-What are the populations and areas of all cities?

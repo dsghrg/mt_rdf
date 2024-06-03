@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <main subject> ?x2 .
-	?x1 <part of>* <Noctes Atticae> .
-}
-
-NL-QUESTION:
-What are the main subjects of items that are part of or related to "Noctes Atticae" on Wikidata?

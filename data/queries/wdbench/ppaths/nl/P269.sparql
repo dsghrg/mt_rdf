@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <discoverer or inventor> ?x2 .
-	?x1 <instance of> ?c904 .
-	?c904 <subclass of>* <artificial physical object> .
-}
-
-NL-QUESTION:
-What are the discoverers or inventors of artificial physical objects?

@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	<Henry Martin> <occupation> ?x1 .
-	?x1 <subclass of>* ?c601 .
-	?c601 <field of this occupation> ?x2 .
-}
-
-NL-QUESTION:
-What are the fields associated with the occupation of Henry Martin and its subclasses?

@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <country> ?x3 .
-	?x1 <instance of> ?c856 .
-	?c856 <subclass of>* <city> .
-}
-
-NL-QUESTION:
-Which cities have a population and in which country are they located?

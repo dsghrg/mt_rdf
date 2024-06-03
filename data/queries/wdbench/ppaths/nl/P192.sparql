@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <instance of> <national sports team> .
-	?x1 <sport>* <road bicycle racing> .
-}
-
-NL-QUESTION:
-What are all the national sports teams that participate in road bicycle racing?

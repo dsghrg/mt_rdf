@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <means of locomotion> <bipedalism> .
-	?x1 <instance of> ?c549 .
-	?c549 <subclass of> <taxon> .
-	?x1 <parent taxon>+ <songbirds> .
-}
-
-NL-QUESTION:
-What species within the taxonomic group of songbirds exhibit bipedalism as a means of locomotion?

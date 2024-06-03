@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <instance of> <village> .
-	?x1 <country>+ <People's Republic of China> .
-}
-
-NL-QUESTION:
-What are all the villages located in the People's Republic of China?

@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c799 .
-	?c799 <subclass of>* <city> .
-}
-
-NL-QUESTION:
-Which cities have a coordinate location in Wikidata?

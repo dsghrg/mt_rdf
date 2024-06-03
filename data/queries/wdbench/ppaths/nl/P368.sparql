@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <has fruit type> ?x2 .
-	?x1 <parent taxon>+ <plant> .
-}
-
-NL-QUESTION:
-What types of fruits do plants have?

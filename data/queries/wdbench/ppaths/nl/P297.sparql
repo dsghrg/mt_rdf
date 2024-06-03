@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <heritage designation> <architectural heritage monument> .
-	?x1 <located in the administrative territorial entity> ?c59 .
-	?c59 <located in the administrative territorial entity>* <Bavaria> .
-}
-
-NL-QUESTION:
-What are all the architectural heritage monuments located in Bavaria?

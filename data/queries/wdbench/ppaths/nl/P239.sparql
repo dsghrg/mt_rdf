@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <Gene Ontology ID> ?x2 .
-	?x1 <instance of> ?c907 .
-	?c907 <subclass of>* <biological process> .
-}
-
-NL-QUESTION:
-What are all the genes that are instances of biological processes according to the Gene Ontology ID?

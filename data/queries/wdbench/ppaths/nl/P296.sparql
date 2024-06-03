@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <sex or gender> ?x2 .
-	?x1 <instance of> ?c403 .
-	?c403 <subclass of>* <structure> .
-}
-
-NL-QUESTION:
-What are the genders and instances of structures for the given entities in wikidata?

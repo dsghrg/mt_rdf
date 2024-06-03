@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <heritage designation> <architectural heritage monument> .
-	?x1 <country> <Germany> .
-	?x1 <located in the administrative territorial entity>+ <Bavaria> .
-}
-
-NL-QUESTION:
-Which architectural heritage monuments in Germany are located in the administrative territorial entity of Bavaria?

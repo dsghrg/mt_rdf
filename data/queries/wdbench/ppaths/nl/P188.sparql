@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <instance of> <automobile model> .
-	?x1 <instance of>* <automobile model> .
-}
-
-NL-QUESTION:
-What are all the instances of automobile models in Wikidata?

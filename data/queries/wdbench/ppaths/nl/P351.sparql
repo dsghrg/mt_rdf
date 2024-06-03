@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?c922 .
-	?c922 <subclass of>* <museum> .
-	?x2 <located in the administrative territorial entity>* <New York City> .
-}
-
-NL-QUESTION:
-What museums are located in New York City?

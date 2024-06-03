@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <country> ?x2 .
-	?x2 <instance of> <country> .
-	?x1 <instance of> ?c942 .
-	?c942 <subclass of>* <first-level administrative division> .
-}
-
-NL-QUESTION:
-What countries are first-level administrative divisions?

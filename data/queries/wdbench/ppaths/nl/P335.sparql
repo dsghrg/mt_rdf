@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <subclass of> ?x2 .
-	?x1 <subclass of>* <occupation> .
-}
-
-NL-QUESTION:
-What occupations are subclasses of other occupations in Wikidata?

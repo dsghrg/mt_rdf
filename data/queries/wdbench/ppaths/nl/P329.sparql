@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <author> <Daniel Vernet> .
-	?x1 <instance of> ?c318 .
-	?c318 <subclass of>* <book> .
-}
-
-NL-QUESTION:
-Which books were authored by Daniel Vernet?
