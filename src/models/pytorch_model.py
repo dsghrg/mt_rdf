@@ -102,7 +102,7 @@ class PyTorchModel:
                 #     loss = loss_fn(output, labels.view(-1))
 
                 loss_fn = nn.BCELoss(weight=self.dataset.label_weights)
-                loss = loss_fn(output, labels.float().view(-1, 1))
+                loss = loss_fn(output, labels.float().view(-1))
 
                 loss.backward()
                 torch.nn.utils.clip_grad_norm_(self.network.parameters(), self.args.max_grad_norm)
