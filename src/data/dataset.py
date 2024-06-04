@@ -1,5 +1,6 @@
 import pandas as pd
 import torch
+import torch.bin
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, Dataset
 
@@ -16,6 +17,7 @@ class ModelDataset():
         self.use_val = use_val
 
         self.original_df = self._load_dataset(self.dataset_name)
+        self.label_weights = self._calculate_label_weights()
 
     def get_data_loaders(self, batch_size, tokenizer):
         train_df, test_df, val_df = self._get_train_test_val()
@@ -35,6 +37,13 @@ class ModelDataset():
 
         return train_dl, test_dl, val_dl
 
+
+    def _calculate_label_weights(self):
+        total_samples = len(self.original_df['label'])
+        class_counts = torch.bincount(self.original_df['label'])
+        label_weights = total_samples / (2*class_counts)
+        label_weights = label_weights.float()
+        return label_weights
 
     def _load_dataset(self, dataset_name):
         return pd.read_csv(f'{dataset_raw_file_path(dataset_name)}.csv')

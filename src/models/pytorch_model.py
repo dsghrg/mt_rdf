@@ -96,7 +96,8 @@ class PyTorchModel:
                 # lehl@2022-10-24: Using (Log)SoftmaxLayer in addition with the appropriate loss function
                 # (see https://pytorch.org/docs/stable/generated/torch.nn.NLLLoss.html)
                 if self.args.use_softmax_layer:
-                    loss_fn = nn.NLLLoss()
+                    # loss_fn = nn.NLLLoss(weight=None, reduction='mean')
+                    loss_fn = nn.CrossEntropyLoss(weight=self.dataset.label_weights)
                     loss = loss_fn(output, labels.view(-1))
 
                 loss.backward()
