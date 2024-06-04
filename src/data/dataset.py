@@ -8,13 +8,14 @@ from src.helper.path_helper import *
 
 
 class ModelDataset():
-    def __init__(self, dataset_name, seed, max_seq_length, do_lower_case, train_frac, use_val):
+    def __init__(self, dataset_name, seed, max_seq_length, do_lower_case, train_frac, use_val, device):
         self.dataset_name = dataset_name
         self.seed = seed
         self.max_seq_length = max_seq_length
         self.do_lower_case = do_lower_case
         self.train_frac = train_frac
         self.use_val = use_val
+        self.device = device
 
         self.original_df = self._load_dataset(self.dataset_name)
         self.label_weights = self._calculate_label_weights()
@@ -40,7 +41,7 @@ class ModelDataset():
 
     def _calculate_label_weights(self):
         total_samples = len(self.original_df['label'])
-        class_counts = torch.bincount(torch.tensor(self.original_df['label']))
+        class_counts = torch.bincount(torch.tensor(self.original_df['label']).to(self.device))
         label_weights = total_samples / (2*class_counts)
         label_weights = label_weights.float()
         return label_weights

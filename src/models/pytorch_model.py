@@ -27,12 +27,14 @@ import wandb
 class PyTorchModel:
     def __init__(self, args):
         self.args = args
+        self.device, _ = initialize_gpu_seed(self.model_seed)
         self.dataset = ModelDataset(dataset_name=self.args.dataset_name,
                                     seed=self.args.seed,
                                     max_seq_length=self.args.max_seq_length,
                                     do_lower_case=True,
                                     train_frac=0.8,
-                                    use_val=self.args.use_validation_set)
+                                    use_val=self.args.use_validation_set,
+                                    device=self.device)
 
         self.seed = self.args.seed
         self.model_seed = self.args.model_seed
@@ -43,7 +45,6 @@ class PyTorchModel:
         # Resize the embedding matrix w.r.t the default pretrained model given the new custom tokens
         # self.network.resize_token_embeddings(len(self.dataset.tokenizer))
         # logging.info("Resized the embedding matrix given newly added custom tokens")
-        self.device, _ = initialize_gpu_seed(self.model_seed)
         self.network.to(self.device)
 
         # wandb logs for changes in gradients, weights, biases, activations, etc.
