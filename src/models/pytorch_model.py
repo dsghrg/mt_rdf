@@ -27,6 +27,7 @@ import wandb
 class PyTorchModel:
     def __init__(self, args):
         self.args = args
+        self.model_seed = self.args.model_seed
         self.device, _ = initialize_gpu_seed(self.model_seed)
         self.dataset = ModelDataset(dataset_name=self.args.dataset_name,
                                     seed=self.args.seed,
@@ -36,7 +37,6 @@ class PyTorchModel:
                                     use_val=self.args.use_validation_set,
                                     device=self.device)
 
-        self.seed = self.args.seed
         self.model_seed = self.args.model_seed
         self.use_val = self.args.use_validation_set
 
