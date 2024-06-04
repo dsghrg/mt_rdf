@@ -97,6 +97,7 @@ class PytorchDataset(Dataset):
 
         query = row['query']
         label = row['label']
+        q_id = row['query_id']
 
         inputs = self.tokenizer.encode_plus(
             query,
@@ -112,5 +113,6 @@ class PytorchDataset(Dataset):
             'input_ids': torch.tensor(inputs['input_ids'], dtype=torch.long),
             'mask': torch.tensor(inputs['attention_mask'], dtype=torch.long),
             'labels': torch.tensor(label, dtype=torch.long),
-            'query': query
+            'query': query,
+            'query_id': q_id
         }

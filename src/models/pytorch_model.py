@@ -89,6 +89,7 @@ class PyTorchModel:
                 mask = data['mask'].to(self.device)
                 labels = data['labels'].to(self.device)
                 queries = data['query']
+                query_id = data['query_id']
 
                 loss, output = self.network(input_ids=ids, attention_mask=mask, labels=labels).to_tuple()
 
@@ -161,6 +162,7 @@ class PyTorchModel:
             mask = data['mask'].to(self.device)
             labels = data['labels'].to(self.device)
             queries = data['query']
+            query_id = data['query_id']
 
             loss, output = self.network(input_ids=ids, attention_mask=mask, labels=labels).to_tuple()
             # import code; code.interact(local=dict(globals(), **locals()))
@@ -174,7 +176,7 @@ class PyTorchModel:
             else:
                 prediction_proba = torch.nn.functional.softmax(output, dim=1)[:, 1]
 
-            self.log_predictions(labels, queries, predictions, prediction_proba, step=step)
+            self.log_predictions(labels, query_id, predictions, prediction_proba, step=step)
 
             sample_count += len(predictions)
             sample_correct += (predictions == labels.squeeze()).detach().cpu().numpy().sum()
@@ -207,6 +209,7 @@ class PyTorchModel:
             mask = data['mask'].to(self.device)
             labels = data['labels'].to(self.device)
             queries = data['query']
+            query_ids = data['query_id']
 
             loss, output = self.network(input_ids=ids, attention_mask=mask, labels=labels).to_tuple()
             total_loss += loss.item()
@@ -219,7 +222,7 @@ class PyTorchModel:
             else:
                 prediction_proba = torch.nn.functional.softmax(output, dim=1)[:, 1]
 
-            self.log_predictions(labels, queries, predictions, prediction_proba, step=step, is_test=False)
+            self.log_predictions(labels, query_ids, predictions, prediction_proba, step=step, is_test=False)
 
             sample_count += len(predictions)
             sample_correct += (predictions == labels.squeeze()).detach().cpu().numpy().sum()
@@ -260,7 +263,7 @@ class PyTorchModel:
             writer.writerow(self.prediction_buffer.keys())
             writer.writerows(zip(*self.prediction_buffer.values()))
 
-    def log_predictions(self, labels, queries, predictions, prediction_proba, step=0, is_test=True):
+    def log_predictions(self, labels, query_ids, predictions, prediction_proba, step=0, is_test=True):
         def tensor_to_list(tensor_data):
             return tensor_data.detach().cpu().numpy().reshape(-1).tolist()
 
@@ -272,7 +275,7 @@ class PyTorchModel:
         
         # import code; code.interact(local=dict(globals(), **locals()))
         # Save the IDs, labels and predictions in the buffer
-        self.prediction_buffer['queries'][start_idx:end_idx] = queries
+        self.prediction_buffer['queries'][start_idx:end_idx] = query_ids
         self.prediction_buffer['labels'][start_idx:end_idx] = tensor_to_list(labels)
         self.prediction_buffer['predictions'][start_idx:end_idx] = tensor_to_list(predictions)
         self.prediction_buffer['prediction_proba'][start_idx:end_idx] = tensor_to_list(prediction_proba)
