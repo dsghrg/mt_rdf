@@ -102,6 +102,7 @@ class PyTorchModel:
                 #     loss = loss_fn(output, labels.view(-1))
 
                 loss_fn = nn.BCELoss(weight=self.dataset.label_weights)
+                import code; code.interact(local=dict(globals(), **locals()))
                 loss = loss_fn(output, labels.float().view(-1))
 
                 loss.backward()
