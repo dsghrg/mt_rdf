@@ -40,7 +40,7 @@ class ModelDataset():
 
     def _calculate_label_weights(self):
         total_samples = len(self.original_df['label'])
-        class_counts = torch.bincount(self.original_df['label'])
+        class_counts = torch.bincount(torch.tensor(self.original_df['label']))
         label_weights = total_samples / (2*class_counts)
         label_weights = label_weights.float()
         return label_weights
