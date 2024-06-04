@@ -39,7 +39,7 @@ def read_arguments_train():
     parser.add_argument('--warmup_steps', default=0, type=int)
     parser.add_argument('--weight_decay', default=0.0, type=float)
     parser.add_argument('--max_grad_norm', default=1.0, type=float)
-    parser.add_argument('--use_softmax_layer', action='store_true', default=True)
+    parser.add_argument('--use_softmax_layer', action='store_true', default=False)
 
     parser.add_argument('--save_model', action='store_true')
     parser.add_argument('--save_config', action='store_true')
