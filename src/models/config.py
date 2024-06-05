@@ -14,7 +14,10 @@ DEFAULT_TRAIN_FRAC = 0.8
 
 
 class Config():
-    DATASET = {}
+    DATASET = {
+        'ppaths_join': 'ppaths_join.csv',
+        'ppaths_join_nl': 'ppaths_join_nl.csv',
+    }
 
 def read_arguments_train():
     parser = argparse.ArgumentParser(description='Run training with following arguments')

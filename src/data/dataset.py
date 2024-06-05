@@ -1,10 +1,16 @@
+import logging
+
 import pandas as pd
 import torch
 import torch.bin
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, Dataset
 
+from src.helper.logging_helper import *
 from src.helper.path_helper import *
+from src.models.config import *
+
+setup_logging()
 
 
 class ModelDataset():
@@ -17,7 +23,7 @@ class ModelDataset():
         self.use_val = use_val
         self.device = device
 
-        self.original_df = self._load_dataset(self.dataset_name)
+        self.original_df = self._load_dataset()
         self.label_weights = self._calculate_label_weights()
 
     def get_data_loaders(self, batch_size, tokenizer):
@@ -46,8 +52,9 @@ class ModelDataset():
         label_weights = label_weights.float()
         return label_weights
 
-    def _load_dataset(self, dataset_name):
-        return pd.read_csv(f'{dataset_raw_file_path(dataset_name)}.csv')
+    def _load_dataset(self):
+        logging.info(f'Loading dataset {self.dataset_name}')
+        return pd.read_csv({dataset_raw_file_path(Config.DATASET[self.dataset_name])})
     
 
     def _get_train_test_val(self):
