@@ -83,7 +83,7 @@ class ModelDataset():
                 val_df = pd.DataFrame()
                 if self.use_val:
                     test_df, val_df = train_test_split(test_df, train_size=0.5, random_state=self.seed, stratify=test_df['label'])
-            return train_df, test_df, val_df
+            return pd.concat([train_df] *2, ignore_index=True), test_df, val_df
 
 
     # def _get_random_split(self, df: pd.DataFrame, train_frac: float):
