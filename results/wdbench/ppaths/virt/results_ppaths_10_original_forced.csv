@@ -1,0 +1,137 @@
+,query_id,exec_n,exec_time,results
+0,P385,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .\n\t?c804 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q532> .\n}'"
+1,P385,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .\n\t?c804 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q532> .\n}'"
+2,P385,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .\n\t?c804 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q532> .\n}'"
+3,P385,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .\n\t?c804 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q532> .\n}'"
+4,P268,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q11691318> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c948 .\n\t?c948 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1196> .\n}'"
+5,P268,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q11691318> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c948 .\n\t?c948 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1196> .\n}'"
+6,P268,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q11691318> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c948 .\n\t?c948 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1196> .\n}'"
+7,P268,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q11691318> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c948 .\n\t?c948 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1196> .\n}'"
+8,P265,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c226 .\n\t?c226 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q41176> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q64> .\n}'"
+9,P265,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c226 .\n\t?c226 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q41176> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q64> .\n}'"
+10,P265,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c226 .\n\t?c226 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q41176> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q64> .\n}'"
+11,P265,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c226 .\n\t?c226 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q41176> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q64> .\n}'"
+12,P290,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c15 .\n\t?c15 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23442> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q90> .\n}'"
+13,P290,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c15 .\n\t?c15 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23442> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q90> .\n}'"
+14,P290,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c15 .\n\t?c15 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23442> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q90> .\n}'"
+15,P290,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c15 .\n\t?c15 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23442> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q90> .\n}'"
+16,P203,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q84> .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c956 .\n\t?c956 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3918> .\n}'"
+17,P203,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q84> .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c956 .\n\t?c956 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3918> .\n}'"
+18,P203,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q84> .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c956 .\n\t?c956 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3918> .\n}'"
+19,P203,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q84> .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c956 .\n\t?c956 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3918> .\n}'"
+20,P187,0,0.0,timed out
+21,P187,1,0.0,timed out
+22,P187,2,0.0,timed out
+23,P187,3,0.0,timed out
+24,P297,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c59 .\n\t?c59 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q980> .\n}'"
+25,P297,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c59 .\n\t?c59 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q980> .\n}'"
+26,P297,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c59 .\n\t?c59 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q980> .\n}'"
+27,P297,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c59 .\n\t?c59 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q980> .\n}'"
+28,P387,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c449 .\n\t?c449 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q486972> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q985> .\n}'"
+29,P387,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c449 .\n\t?c449 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q486972> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q985> .\n}'"
+30,P387,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c449 .\n\t?c449 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q486972> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q985> .\n}'"
+31,P387,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c449 .\n\t?c449 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q486972> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q985> .\n}'"
+32,P382,0,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .\n\t?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q263742> .\n\t?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .\n}'"
+33,P382,1,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .\n\t?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q263742> .\n\t?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .\n}'"
+34,P382,2,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .\n\t?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q263742> .\n\t?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .\n}'"
+35,P382,3,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .\n\t?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q263742> .\n\t?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .\n}'"
+36,P279,0,485.1520354747772,
+37,P279,1,499.2860610485077,
+38,P279,2,474.96541118621826,
+39,P279,3,479.0805742740631,

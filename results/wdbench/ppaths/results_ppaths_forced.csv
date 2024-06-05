@@ -1,0 +1,335 @@
+,query_id,exec_time,results
+0,P365,53.75930857658386,
+1,P376,40.46050786972046,
+2,P230,51.82335424423218,
+3,P239,60.742002725601196,
+4,P226,15.750751256942749,
+5,P295,41.15985989570618,
+6,P364,0.6558136940002441,
+7,P184,40.86381006240845,
+8,P357,61.69872999191284,
+9,P304,41.448349952697754,
+10,P355,2.551582098007202,
+11,P385,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+12,P206,42.11775302886963,
+13,P335,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P279> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q12737077> .\n}'"
+14,P367,42.53596234321594,
+15,P378,42.64666771888733,
+16,P245,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+17,P225,60.12602400779724,
+18,P345,7.950100421905518,
+19,P268,60.352402687072754,
+20,P298,60.1120719909668,
+21,P400,79.73035502433777,
+22,P358,4.145037889480591,
+23,P348,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+24,P352,44.86892533302307,
+25,P277,60.120116233825684,
+26,P222,60.21652007102966,
+27,P402,45.17118501663208,
+28,P369,60.125394105911255,
+29,P399,60.492815256118774,
+30,P280,40.23459076881409,
+31,P242,60.1297926902771,
+32,P249,39.72941327095032,
+33,P253,0.15420985221862793,
+34,P349,39.413472175598145,
+35,P269,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P61> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c904 .\n\t?c904 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q8205328> .\n}'"
+36,P313,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+37,P321,44.99032425880432,
+38,P343,60.22685480117798,
+39,P212,60.12157130241394,
+40,P396,33.20329236984253,
+41,P375,0.0,"QueryBadFormed: A bad request has been sent to the endpoint: probably the SPARQL query is badly formed. 
+
+Response:
+b'Virtuoso S1TAT Error RC...: Returning incomplete results, query interrupted by result timeout.  Activity:  10.01M rnd  3.991M seq  5.212M same seg   4.187M same pg  193.8K same par      0 disk      0 spec disk      0B /      0 \n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c83 .\n\t?c83 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q158683> .\n}'"
+42,P271,43.990293741226196,
+43,P188,60.45016860961914,
+44,P334,41.00296711921692,
+45,P392,62.63632535934448,
+46,P248,60.479633808135986,
+47,P270,40.76549959182739,
+48,P338,0.1021122932434082,
+49,P267,3.1385915279388428,
+50,P265,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+51,P312,47.319398641586304,
+52,P354,0.029341459274291992,
+53,P204,60.509995460510254,
+54,P381,46.22411298751831,
+55,P287,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13100073> .\n\t?x1 <http://www.wikidata.org/prop/direct/P17>+ <http://www.wikidata.org/entity/Q148> .\n}'"
+56,P290,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+57,P196,44.94912648200989,
+58,P236,3.66597056388855,
+59,P397,60.117313861846924,
+60,P281,44.16848611831665,
+61,P266,42.3140971660614,
+62,P256,61.56526041030884,
+63,P259,40.795156955718994,
+64,P300,41.251307010650635,
+65,P309,0.008693933486938477,
+66,P252,0.2974128723144531,
+67,P257,0.038628578186035156,
+68,P278,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q39614> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q22> .\n}'"
+69,P329,0.04820990562438965,
+70,P350,0.2310192584991455,
+71,P379,60.679760694503784,
+72,P250,40.311195850372314,
+73,P325,43.61181712150574,
+74,P310,30.395489931106567,
+75,P197,9.018677234649658,
+76,P183,40.160104751586914,
+77,P307,60.149892807006836,
+78,P327,39.29552173614502,
+79,P284,0.03681683540344238,
+80,P219,38.8568217754364,
+81,P229,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+82,P180,0.6538777351379395,
+83,P370,60.40916848182678,
+84,P260,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+85,P182,60.126811504364014,
+86,P341,36.590092182159424,
+87,P384,36.375231981277466,
+88,P203,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+89,P303,35.96371126174927,
+90,P371,28.13066840171814,
+91,P201,0.009168624877929688,
+92,P210,49.19126343727112,
+93,P186,60.12842082977295,
+94,P209,61.34661602973938,
+95,P187,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+96,P336,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1449> .\n\t?x1 <http://www.wikidata.org/prop/direct/P31>+ <http://www.wikidata.org/entity/Q486972> .\n}'"
+97,P241,63.65130567550659,
+98,P318,1.1318271160125732,
+99,P258,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+100,P351,60.120253801345825,
+101,P202,60.422877073287964,
+102,P227,60.15732431411743,
+103,P366,37.258817195892334,
+104,P228,0.2267913818359375,
+105,P330,60.37022376060486,
+106,P308,60.16402816772461,
+107,P199,37.43628406524658,
+108,P207,60.31653571128845,
+109,P373,43.503615379333496,
+110,P238,41.231159925460815,
+111,P317,60.11984348297119,
+112,P297,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+113,P395,37.81023168563843,
+114,P190,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+115,P320,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error RC...: Returning incomplete results, query interrupted by result timeout.  Activity:      0 rnd      0 seq      0 same seg       0 same pg      0 same par      0 disk      0 spec disk      0B /      0 messa\n\nSPARQL query:\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .\n\t?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q130942> .\n\t?x1 <http://www.wikidata.org/prop/direct/P171> ?c877 .\n\t?c877 <http://www.wikidata.org/prop/direct/P105> ?x4 .\n\t?x4 <http://www.wikidata.org/prop/direct/P361>+ ?x2 .\n}'"
+116,P401,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+117,P218,60.10542631149292,
+118,P372,0.01995992660522461,
+119,P289,60.120705366134644,
+120,P386,1.2300982475280762,
+121,P326,62.7818706035614,
+122,P233,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P19> <http://www.wikidata.org/entity/Q36> .\n\t?x1 <http://www.wikidata.org/prop/direct/P106>* <http://www.wikidata.org/entity/Q82955> .\n}'"
+123,P237,0.0067174434661865234,
+124,P346,61.00597929954529,
+125,P394,26.412038803100586,
+126,P344,37.39784121513367,
+127,P291,36.94187259674072,
+128,P254,60.11048364639282,
+129,P332,60.96005821228027,
+130,P383,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q40614> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q30> .\n}'"
+131,P224,1.6932265758514404,
+132,P362,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+133,P353,44.202006816864014,
+134,P215,60.129443407058716,
+135,P200,0.8678956031799316,
+136,P363,60.3312406539917,
+137,P213,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q35409> .\n\t?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .\n\t?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q28319> .\n}'"
+138,P220,37.37375068664551,
+139,P262,10.818809509277344,
+140,P234,47.290918827056885,
+141,P398,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .\n\t?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q980> .\n}'"
+142,P246,4.208578109741211,
+143,P189,37.23793578147888,
+144,P356,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q928830> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q176> .\n}'"
+145,P205,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+146,P316,60.29999494552612,
+147,P387,60.886444330215454,
+148,P347,37.038734912872314,
+149,P261,37.1015625,
+150,P240,60.62715125083923,
+151,P403,60.13306665420532,
+152,P340,36.70528173446655,
+153,P198,32.763566732406616,
+154,P328,36.482505798339844,
+155,P359,36.77396821975708,
+156,P380,36.74396109580994,
+157,P181,0.00814509391784668,
+158,P208,37.03721880912781,
+159,P337,60.11137819290161,
+160,P243,36.636008977890015,
+161,P306,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131> ?c755 .\n\t?c755 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1208> .\n}'"
+162,P276,60.379528284072876,
+163,P216,28.554104804992676,
+164,P272,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1823> .\n\t?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q23442> .\n}'"
+165,P389,40.19477319717407,
+166,P244,60.38967967033386,
+167,P314,39.303356647491455,
+168,P382,60.183080434799194,
+169,P388,0.039322853088378906,
+170,P324,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+171,P360,60.10815620422363,
+172,P374,60.12590718269348,
+173,P192,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1194951> .\n\t?x1 <http://www.wikidata.org/prop/direct/P641>* <http://www.wikidata.org/entity/Q3609> .\n}'"
+174,P217,34.955601930618286,
+175,P342,0.006528139114379883,
+176,P319,60.16399049758911,
+177,P333,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+178,P193,35.026843547821045,
+179,P274,35.180283546447754,
+180,P305,60.852322816848755,
+181,P251,0.04025745391845703,
+182,P393,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+183,P299,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7226> .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q142> .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c140 .\n\t?c140 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q860861> .\n}'"
+184,P191,60.37691283226013,
+185,P214,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P3896> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q25> .\n}'"
+186,P296,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P21> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P31> ?c403 .\n\t?c403 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q6671777> .\n}'"
+187,P292,35.90197992324829,
+188,P302,60.12251925468445,
+189,P275,10.692285537719727,
+190,P223,60.115615129470825,
+191,P286,36.457245111465454,
+192,P288,36.348236083984375,
+193,P235,36.56814193725586,
+194,P331,60.132787227630615,
+195,P264,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+196,P285,0.22498273849487305,
+197,P301,60.299779653549194,
+198,P273,60.1881308555603,
+199,P232,36.753124952316284,
+200,P211,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+201,P323,35.928919076919556,
+202,P368,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso 42000 Error TN...: Exceeded 10000000000 bytes in transitive temp memory.  use t_distinct, t_max or more T_MAX_memory options to limit the search or increase the pool\n\nSPARQL query:\n#output-format:application/sparql-results+json\nDEFINE sql:select-option ""order"" SELECT * WHERE {\n\t?x1 <http://www.wikidata.org/prop/direct/P4000> ?x2 .\n\t?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q756> .\n}'"
+203,P322,60.138694286346436,
+204,P195,0.0,"EndPointInternalError: The endpoint returned the HTTP status code 500. 
+
+Response:
+b'Virtuoso S1TAT Error Query did not complete due to ANYTIME timeout.\r\n'"
+205,P247,60.16809916496277,
+206,P294,37.816608905792236,
+207,P390,36.354907274246216,
+208,P339,60.1084349155426,
+209,P315,60.19456648826599,
+210,P255,18.563597679138184,
