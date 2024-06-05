@@ -4,7 +4,7 @@ from pathlib import Path
 
 from src.query.query_type import QueryType
 
-DATA_QUERY_WDBENCH_PATH = os.path.join('data', 'raw', 'wdbench', 'full_wdbench')
+DATA_QUERY_WDBENCH_PATH = os.path.join('data', 'raw', 'wdbench')
 MODEL_PATH = os.path.join('models')
 DATASET_RAW_PATH = os.path.join('data', 'raw')
 DATASET_PROCESSED_PATH = os.path.join('data', 'processed')
