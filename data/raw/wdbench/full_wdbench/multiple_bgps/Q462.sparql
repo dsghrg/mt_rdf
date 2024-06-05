@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x2 <educated at> <University of Edinburgh> .  }
+
+NL-QUESTION:
+Which females were educated at the University of Edinburgh?

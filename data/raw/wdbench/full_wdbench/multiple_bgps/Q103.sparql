@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <philosopher> . ?x2 <place of birth> <France> .  }
+
+NL-QUESTION:
+What philosophers were born in France?

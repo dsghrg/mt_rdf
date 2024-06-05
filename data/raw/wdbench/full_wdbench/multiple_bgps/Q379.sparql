@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <height> ?x3 .  }
+
+NL-QUESTION:
+What are the images and heights of the entities in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x3 <sex or gender> <female> . ?x3 <country of citizenship> <Iceland> . ?x1 <date of birth> ?x4 . OPTIONAL { ?x3 <image> ?x5 . }  }
+
+NL-QUESTION:
+What females born in Iceland have a place of birth and date of birth available in Wikidata?

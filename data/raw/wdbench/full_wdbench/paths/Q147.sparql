@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<depicts>/(<instance of>)?)/(<subclass of>)*) <fruit> }
+
+NL-QUESTION:
+Which items depict a fruit or a subclass of a fruit in Wikidata?

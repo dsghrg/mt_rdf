@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <image> ?x2 . } OPTIONAL { ?x1 <position held> ?x3 . } OPTIONAL { ?x1 <sex or gender> ?x4 . }  }
+
+NL-QUESTION:
+What are the images, positions held, and genders of humans in Wikidata?

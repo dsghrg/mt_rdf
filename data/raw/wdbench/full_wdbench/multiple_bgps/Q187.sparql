@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Internet Broadway Database venue ID> ?x2 . ?x3 <country> <Latvia> . ?x3 <instance of> <church building> .  }
+
+NL-QUESTION:
+What are the Internet Broadway Database venue IDs of church buildings located in Latvia?

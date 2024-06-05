@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of sports team> <FC Metz> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <place of birth> ?x2 . } OPTIONAL { ?x1 <height> ?x4 . } OPTIONAL { ?x1 <mass> ?x5 . } OPTIONAL { ?x1 <sport number> ?x6 . }  }
+
+NL-QUESTION:
+What are the coordinates, place of birth, height, mass, and sport number of members of the sports team FC Metz?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Charlemagne> (<child>/(<child>)*) <Winston Churchill> }
+
+NL-QUESTION:
+What is the relationship between Charlemagne and Winston Churchill in terms of their descendant relationship?

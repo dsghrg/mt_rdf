@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Early Modern Letters Online person ID> ?x2 . ?x3 <member of> <Royal Society> . OPTIONAL { ?x1 <image> ?x4 . }  }
+
+NL-QUESTION:
+What is the Early Modern Letters Online person ID and image of individuals who are members of the Royal Society?

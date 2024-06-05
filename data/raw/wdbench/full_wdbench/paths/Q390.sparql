@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <leukemia> }
+
+NL-QUESTION:
+What are all the subclasses of leukemia?

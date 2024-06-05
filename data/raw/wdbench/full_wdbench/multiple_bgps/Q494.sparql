@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> ?x2 . ?x1 <Entrez Gene ID> ?x3 .  }
+
+NL-QUESTION:
+What Entrez Gene IDs are associated with subclasses in Wikidata?

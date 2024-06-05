@@ -1,0 +1,4 @@
+SELECT * WHERE { <Pleinfeld> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <geographic location> .  }
+
+NL-QUESTION:
+What is the geographic location of Pleinfeld?

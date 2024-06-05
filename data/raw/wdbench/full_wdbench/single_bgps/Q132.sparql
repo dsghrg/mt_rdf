@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <anime> .  }
+
+NL-QUESTION:
+What are all the instances of anime in Wikidata?

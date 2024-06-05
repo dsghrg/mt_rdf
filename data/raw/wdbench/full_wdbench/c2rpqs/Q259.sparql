@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x1 <start time> ?x2 . ?x1 <coordinate location> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <occurrence> .  }
+
+NL-QUESTION:
+What occurrences took place in Germany and at what start time and location did they occur?

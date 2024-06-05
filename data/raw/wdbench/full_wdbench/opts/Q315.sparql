@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Dutch municipal coat of arms> . OPTIONAL { ?x1 <applies to jurisdiction> ?x2 . ?x3 <instance of> ?x4 . }  }
+
+NL-QUESTION:
+What are examples of Dutch municipal coat of arms and what jurisdictions do they apply to?

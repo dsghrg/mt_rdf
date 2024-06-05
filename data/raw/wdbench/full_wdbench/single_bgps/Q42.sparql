@@ -1,0 +1,4 @@
+SELECT * WHERE { <Noam Chomsky> ?x1 <United States of America> .  }
+
+NL-QUESTION:
+What is the relationship between Noam Chomsky and the United States of America in Wikidata?

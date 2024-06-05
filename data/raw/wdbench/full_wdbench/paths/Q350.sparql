@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country>)* <United Kingdom> }
+
+NL-QUESTION:
+What countries have a direct or indirect relationship with the United Kingdom?

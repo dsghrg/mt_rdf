@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)+ <mammal> }
+
+NL-QUESTION:
+What are the higher-level taxa of mammals in Wikidata?

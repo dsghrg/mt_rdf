@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <airport> . <Boston> <coordinate location> ?x2 .  }
+
+NL-QUESTION:
+What are the coordinate locations of airports in Boston?

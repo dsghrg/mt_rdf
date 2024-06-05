@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <dentist> . ?x1 <occupation> <writer> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the occupations of a person who is both a dentist and a writer and is classified as a human?

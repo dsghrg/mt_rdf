@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United Kingdom> . ?x2 <instance of> <church building> .  }
+
+NL-QUESTION:
+Which church buildings are located in the United Kingdom?

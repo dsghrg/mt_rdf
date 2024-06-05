@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x2 <ISO 3166-1 alpha-2 code> ?x3 . ?x1 <instance of> <city> .  }
+
+NL-QUESTION:
+Which cities are located in countries with ISO 3166-1 alpha-2 codes?

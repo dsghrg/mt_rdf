@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> ?x2 . ?x3 <position held> <Federal Chancellor of Germany> .  }
+
+NL-QUESTION:
+What positions are held by individuals who are currently serving as the Federal Chancellor of Germany?

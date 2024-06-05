@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <present in work> <Harry Potter> . ?x2 <sex or gender> <female> .  }
+
+NL-QUESTION:
+Which females are present in the work "Harry Potter"?

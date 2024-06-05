@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x2 (<subclass of>)* <bridge> . ?x3 (<contains the administrative territorial entity>)* ?x1 . ?x3 ((<country>|<located in the administrative territorial entity>))* <Lithuania> .  }
+
+NL-QUESTION:
+What instances are contained within administrative territorial entities that are subcategories of bridges and located in Lithuania?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x2 . ?x1 <Instagram username> ?x3 . }  }
+
+NL-QUESTION:
+What are the occupations and Instagram usernames of humans in Wikidata?

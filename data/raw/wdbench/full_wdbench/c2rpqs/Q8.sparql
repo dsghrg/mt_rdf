@@ -1,0 +1,4 @@
+SELECT * WHERE { <Kerala> <coordinate location> ?x1 . <India> <coordinate location> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <school> .  }
+
+NL-QUESTION:
+What schools are located in Kerala, India?

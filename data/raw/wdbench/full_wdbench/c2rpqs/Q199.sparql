@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <heritage designation> ?x3 . ?x1 <instance of> ?x4 . ?x4 ((<subclass of>|<located in the administrative territorial entity>))* <cultural property> . ?x2 ((<subclass of>|<located in the administrative territorial entity>))* <Toulouse> . ?x3 ((<subclass of>|<located in the administrative territorial entity>))* <Historical Monument> .  }
+
+NL-QUESTION:
+What cultural properties in Toulouse have been designated as Historical Monuments?

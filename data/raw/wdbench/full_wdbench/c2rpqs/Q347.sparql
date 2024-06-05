@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <France> . ?x1 (<instance of>/(<country of citizenship9>)*) <human> .  }
+
+NL-QUESTION:
+What are the names of individuals who are citizens of France and are classified as humans on Wikidata?

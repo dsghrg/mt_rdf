@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x2 <award received> ?x3 . ?x1 <sex or gender> ?x4 . ?x1 <instance of> <human> . ?x3 <instance of> <award> . ?x1 <date of birth> ?x5 .  }
+
+NL-QUESTION:
+What are the awards received by male actors who are humans and have a date of birth?

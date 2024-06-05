@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <Early Modern Letters Online person ID> ?x2 . } OPTIONAL { ?x1 <Six Degrees of Francis Bacon ID> ?x3 . }  }
+
+NL-QUESTION:
+Which humans have an Early Modern Letters Online person ID and a Six Degrees of Francis Bacon ID in Wikidata?

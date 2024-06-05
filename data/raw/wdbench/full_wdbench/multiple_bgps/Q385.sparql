@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are some images of humans in Wikidata?

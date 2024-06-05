@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <work location> ?x2 .  }
+
+NL-QUESTION:
+What locations do humans work at?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Italy> . ?x2 <instance of> <airport> . OPTIONAL { ?x2 <country> ?x3 . }  }
+
+NL-QUESTION:
+What airports are located in Italy and what countries are they located in (if applicable)?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <occupation> <politician> . ?x3 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+What are the occupations of politicians from the United States of America?

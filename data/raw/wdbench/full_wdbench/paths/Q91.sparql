@@ -1,0 +1,4 @@
+SELECT * WHERE { <Anykščiai Regional Park> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative territorial entity is Anykščiai Regional Park located in?

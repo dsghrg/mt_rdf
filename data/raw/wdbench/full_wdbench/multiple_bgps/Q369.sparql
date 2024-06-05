@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <made from material> ?x2 . ?x3 <main subject> <bread> .  }
+
+NL-QUESTION:
+What materials are used to make bread?

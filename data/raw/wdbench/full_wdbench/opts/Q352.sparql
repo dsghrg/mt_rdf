@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . OPTIONAL { ?x1 <twinned administrative body> ?x2 . } OPTIONAL { ?x1 <population> ?x3 . } OPTIONAL { ?x2 <population> ?x4 . }  }
+
+NL-QUESTION:
+What are the twinned administrative bodies and populations of cities in Wikidata?

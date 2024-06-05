@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <home venue> ?x2 . ?x1 <instance of> <association football club> . ?x3 <coordinate location> ?x3 . ?x2 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the home venues and coordinate locations of association football clubs?

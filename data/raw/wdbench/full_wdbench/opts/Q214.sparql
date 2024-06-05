@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of death> ?x2 . ?x3 <Catalogus Professorum Academiae Rheno-Traiectinae ID> ?x4 . OPTIONAL { ?x3 <image> ?x5 . } OPTIONAL { ?x3 <date of birth> ?x6 . } OPTIONAL { ?x3 <place of birth> ?x1 . }  }
+
+NL-QUESTION:
+What is the place of death, Catalogus Professorum Academiae Rheno-Traiectinae ID, image, date of birth, and place of birth for the specified entities?

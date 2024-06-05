@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <cricketer> . ?x2 <award received> ?x3 . ?x1 <award received> <Arjuna Award> .  }
+
+NL-QUESTION:
+What are the awards received by cricketers who have won the Arjuna Award?

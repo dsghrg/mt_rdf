@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <anime> . ?x2 (<place of birth>/<coordinate location>) ?x3 .  }
+
+NL-QUESTION:
+What are the instances of anime and their corresponding place of birth or coordinate location?

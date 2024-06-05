@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <geographic location> }
+
+NL-QUESTION:
+What are the items that are instances of or subtypes of 'geographic location'?

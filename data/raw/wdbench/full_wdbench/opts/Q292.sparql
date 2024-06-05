@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <United States executive order> . OPTIONAL { ?x1 <part of> ?x2 . } OPTIONAL { ?x1 <signatory> ?x3 . } OPTIONAL { ?x1 <applies to jurisdiction> ?x4 . } OPTIONAL { ?x1 <point in time> ?x5 . } OPTIONAL { ?x1 <inception> ?x6 . } OPTIONAL { ?x1 <main subject> ?x7 . } OPTIONAL { ?x1 <name> ?x8 . }  }
+
+NL-QUESTION:
+What are the details of United States executive orders, including the part it belongs to, signatory, jurisdiction it applies to, point in time, inception, main subject, and name?

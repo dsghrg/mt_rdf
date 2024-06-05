@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ISO 3166-1 alpha-3 code> ?x2 . ?x1 <instance of> <country> . ?x1 <capital> ?x3 .  }
+
+NL-QUESTION:
+What are the ISO 3166-1 alpha-3 codes and capital cities of countries?

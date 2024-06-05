@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <London> . ?x2 <instance of> <university> .  }
+
+NL-QUESTION:
+Which universities are located in London?

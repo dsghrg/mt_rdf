@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <film director> . ?x1 <sex or gender> <female> . ?x2 <instance of> <film> . ?x2 <director> ?x3 .  }
+
+NL-QUESTION:
+Which female film directors have directed a film?

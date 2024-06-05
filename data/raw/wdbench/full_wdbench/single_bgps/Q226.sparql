@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <shares border with> ?x2 .  }
+
+NL-QUESTION:
+What are the entities that share a border with each other?

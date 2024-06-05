@@ -1,0 +1,4 @@
+SELECT * WHERE { <Gallarate> <coordinate location> ?x1 . <Varese> <coordinate location> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <record label> .  }
+
+NL-QUESTION:
+What are the coordinates of Gallarate and Varese, and what are some record labels?

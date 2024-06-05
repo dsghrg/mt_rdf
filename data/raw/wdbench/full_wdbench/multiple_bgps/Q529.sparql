@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <director> <Steven Spielberg> .  }
+
+NL-QUESTION:
+What films has Steven Spielberg directed?

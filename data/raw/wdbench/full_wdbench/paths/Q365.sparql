@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<place of death>)* <Mount Everest> }
+
+NL-QUESTION:
+What is the place of death for individuals who have a connection to Mount Everest?

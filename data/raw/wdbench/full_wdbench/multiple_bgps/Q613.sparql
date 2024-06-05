@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <author> ?x1 .  }
+
+NL-QUESTION:
+What authors are humans in wikidata?

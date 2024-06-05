@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painting> .  }
+
+NL-QUESTION:
+What are all the paintings available in Wikidata?

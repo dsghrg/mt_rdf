@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <painting> . ?x1 (<image0>/(<subclass of>)*) <alcoholic beverage> .  }
+
+NL-QUESTION:
+What are the images of paintings that are also classified as alcoholic beverages on Wikidata?

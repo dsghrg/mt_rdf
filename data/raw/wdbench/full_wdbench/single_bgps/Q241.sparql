@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <point in time> ?x2 .  }
+
+NL-QUESTION:
+What are all the points in time in Wikidata?

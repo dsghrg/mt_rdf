@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <eye color> ?x2 . ?x3 <country of citizenship> <Russia> .  }
+
+NL-QUESTION:
+What are the eye colors of individuals who are citizens of Russia?

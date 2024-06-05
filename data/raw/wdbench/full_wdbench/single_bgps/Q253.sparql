@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <A Spot of Bother> .  }
+
+NL-QUESTION:
+What are the editions or translations of the book "A Spot of Bother"?

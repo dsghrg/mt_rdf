@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <main subject> <The Holocaust> . ?x1 (<instance of>/(<subclass of>)*) <article> .  }
+
+NL-QUESTION:
+What articles are there about topics related to "The Holocaust" on Wikidata?

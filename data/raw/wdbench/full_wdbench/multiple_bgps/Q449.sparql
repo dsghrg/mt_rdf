@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author name string> ?x2 . ?x3 <cites work> ?x1 . ?x1 <instance of> <scholarly article> . ?x1 <author> ?x4 .  }
+
+NL-QUESTION:
+Who are the authors of scholarly articles that are cited by works by other authors in Wikidata?

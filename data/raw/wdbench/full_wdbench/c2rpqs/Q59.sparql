@@ -1,0 +1,4 @@
+SELECT * WHERE { <Leeds> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <thoroughfare> .  }
+
+NL-QUESTION:
+What thoroughfares are located in Leeds?

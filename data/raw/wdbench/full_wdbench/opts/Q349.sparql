@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . ?x2 <instance of> <country> . ?x1 <coordinate location> ?x3 . OPTIONAL { ?x2 <contains the administrative territorial entity> ?x4 . ?x4 <capital> ?x1 . }  }
+
+NL-QUESTION:
+What cities are located in countries and what are their coordinates?

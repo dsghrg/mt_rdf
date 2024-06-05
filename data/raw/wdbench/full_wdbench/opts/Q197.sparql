@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . OPTIONAL { ?x1 <MMSI> ?x3 . } OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What is the image and MMSI number of the entity?

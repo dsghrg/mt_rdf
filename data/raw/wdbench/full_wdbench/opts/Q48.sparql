@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . ?x1 <country of citizenship> <Chile> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <image> ?x4 . }  }
+
+NL-QUESTION:
+What are the names of association football players from Chile and their exact coordinates?

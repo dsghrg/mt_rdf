@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chess player> . ?x1 <Elo rating> ?x2 . ?x1 <date of birth> ?x3 .  }
+
+NL-QUESTION:
+What are the Elo ratings and dates of birth of chess players?

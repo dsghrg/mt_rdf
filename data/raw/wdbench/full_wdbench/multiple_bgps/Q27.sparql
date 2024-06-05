@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x2 <coordinate location> ?x3 . ?x1 <work location> ?x4 .  }
+
+NL-QUESTION:
+Which painters have a work location and a coordinate location on Wikidata?

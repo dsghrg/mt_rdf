@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <association football club> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <country> ?x4 . } OPTIONAL { ?x1 <league> ?x5 . }  }
+
+NL-QUESTION:
+What association football clubs have a coordinate location and what country and league are they associated with (if available)?

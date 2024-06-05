@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Japanese television series> . ?x1 <country of origin> <Japan> . OPTIONAL { ?x1 <image> ?x2 . } OPTIONAL { ?x1 <IMDb ID> ?x3 . } OPTIONAL { ?x1 <AllMovie title ID> ?x4 . } OPTIONAL { ?x1 <Freebase ID> ?x5 . } OPTIONAL { ?x1 <image74> ?x6 . } OPTIONAL { ?x1 <MovieMeter film ID> ?x7 . }  }
+
+NL-QUESTION:
+What are some Japanese television series that are originated from Japan, along with their corresponding information such as image, IMDb ID, AllMovie title ID, Freebase ID, image74, and MovieMeter film ID if available?

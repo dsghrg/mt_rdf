@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painting> . OPTIONAL { ?x1 <creator> ?x2 . }  }
+
+NL-QUESTION:
+What are the creators of paintings in Wikidata?

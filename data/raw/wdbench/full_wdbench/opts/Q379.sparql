@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <eye color> ?x4 . }  }
+
+NL-QUESTION:
+What are the occupations, date of birth, and eye color of humans?

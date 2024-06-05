@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <collection> <Musée Picasso> .  }
+
+NL-QUESTION:
+What images are part of the collection at the Musée Picasso?

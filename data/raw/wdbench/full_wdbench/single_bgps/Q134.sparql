@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <chemical element> .  }
+
+NL-QUESTION:
+What are all the chemical elements in Wikidata?

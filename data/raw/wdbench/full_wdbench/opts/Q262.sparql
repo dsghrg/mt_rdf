@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <offers view on> ?x2 . OPTIONAL { ?x1 <image> ?x3 . } OPTIONAL { ?x2 <image> ?x4 . }  }
+
+NL-QUESTION:
+What are the offers that provide a view on a specific topic and do they have corresponding images?

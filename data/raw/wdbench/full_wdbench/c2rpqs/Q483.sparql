@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x3 (<subclass of>)+ <animal> .  }
+
+NL-QUESTION:
+What are all the instances of animals in Wikidata?

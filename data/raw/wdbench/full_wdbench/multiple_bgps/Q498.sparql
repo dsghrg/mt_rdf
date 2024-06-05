@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> ?x2 . ?x3 <instance of> ?x1 . ?x4 <part of> ?x1 .  }
+
+NL-QUESTION:
+What items are subclass of another item, instance of a third item, and part of a fourth item in Wikidata?

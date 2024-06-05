@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <sociologist> . ?x1 <place of birth> ?x2 . ?x1 <date of birth> ?x3 . ?x1 <date of death> ?x4 . ?x5 <coordinate location> ?x6 .  }
+
+NL-QUESTION:
+What are the details of sociologists, including their occupation, place of birth, date of birth, date of death, and coordinate location?

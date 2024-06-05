@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <sport> <auto racing> .  }
+
+NL-QUESTION:
+Which items have an image and are related to the sport of auto racing?

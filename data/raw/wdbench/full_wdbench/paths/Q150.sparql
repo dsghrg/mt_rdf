@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<place of birth>|<place of death>)|<residence>) <Paris> }
+
+NL-QUESTION:
+What are the people born, died, or lived in Paris?

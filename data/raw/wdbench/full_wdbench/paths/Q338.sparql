@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <animal> }
+
+NL-QUESTION:
+What are all the animals and their parent taxa in Wikidata?

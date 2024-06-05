@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United Kingdom> . ?x2 <instance of> <railway station> . OPTIONAL { ?x2 <adjacent station> ?x3 . }  }
+
+NL-QUESTION:
+Which railway stations are located in the United Kingdom and what are their adjacent stations, if applicable?

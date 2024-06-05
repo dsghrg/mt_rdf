@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <parliament building> . <Girona> <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What is the image of the parliament building located at the coordinates of Girona?

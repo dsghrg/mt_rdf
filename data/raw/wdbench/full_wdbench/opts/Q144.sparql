@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Cameroon> . ?x2 <place of birth> ?x3 . OPTIONAL { ?x2 <date of birth> ?x4 . } OPTIONAL { ?x2 <date of death> ?x4 . } OPTIONAL { ?x2 <image> ?x5 . }  }
+
+NL-QUESTION:
+What are the places of birth of people who are associated with the country Cameroon, and what are their dates of birth and death, and if available, what are their images?

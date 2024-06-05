@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((<political ideology>)*/(<political alignment>)*)/(<part of>)*) <Marxism> }
+
+NL-QUESTION:
+What political ideologies and alignments are associated with Marxism?

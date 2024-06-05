@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country>)+ <Germany> }
+
+NL-QUESTION:
+What are the countries that are directly or indirectly connected to Germany?

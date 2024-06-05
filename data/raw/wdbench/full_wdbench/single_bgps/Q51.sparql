@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 .  }
+
+NL-QUESTION:
+What are the occupations of the entities in Wikidata?

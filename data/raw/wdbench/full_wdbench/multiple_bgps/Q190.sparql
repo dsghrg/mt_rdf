@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <physically interacts with> ?x2 . ?x3 <instance of> ?x4 . ?x1 <instance of> <aldehydes> .  }
+
+NL-QUESTION:
+Which aldehydes physically interact with other entities and what are the instances of those entities?

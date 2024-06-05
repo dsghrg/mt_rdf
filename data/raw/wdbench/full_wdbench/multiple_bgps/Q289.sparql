@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <award received> ?x2 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What awards have been received by humans?

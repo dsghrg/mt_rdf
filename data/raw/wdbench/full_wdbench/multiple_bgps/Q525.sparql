@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <original language of film or TV show> ?x2 .  }
+
+NL-QUESTION:
+What is the original language of the film or TV show instances in Wikidata?

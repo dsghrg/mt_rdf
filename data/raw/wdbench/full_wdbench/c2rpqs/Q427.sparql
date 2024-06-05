@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <KML file> ?x2 . ?x1 ((<instance of>)*/(<subclass of>)*) <human> .  }
+
+NL-QUESTION:
+What are the KML files associated with instances or subclasses of humans in Wikidata?

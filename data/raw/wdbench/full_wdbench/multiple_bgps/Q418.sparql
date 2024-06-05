@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <England> . ?x2 <date of birth> ?x3 .  }
+
+NL-QUESTION:
+What are the dates of birth of individuals born in England?

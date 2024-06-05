@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <athlete> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the occupations of humans who are athletes?

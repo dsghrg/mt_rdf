@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <human> . ?x1 <published in> ?x3 .  }
+
+NL-QUESTION:
+Which humans have published in something?

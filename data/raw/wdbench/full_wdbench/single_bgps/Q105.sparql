@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 .  }
+
+NL-QUESTION:
+What is the gender of the entity represented by the variable x1?

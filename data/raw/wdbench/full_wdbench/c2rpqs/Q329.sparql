@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <structure> .  }
+
+NL-QUESTION:
+What are the genders of structures?

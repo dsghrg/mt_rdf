@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <municipality of Spain> }
+
+NL-QUESTION:
+What are all the municipalities of Spain?

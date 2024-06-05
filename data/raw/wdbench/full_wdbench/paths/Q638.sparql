@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<position held>)* <president> }
+
+NL-QUESTION:
+What individuals have held the position of president?

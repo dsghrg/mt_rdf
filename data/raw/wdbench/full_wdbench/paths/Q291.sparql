@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)+ <North Rhine-Westphalia> }
+
+NL-QUESTION:
+What administrative territorial entities are located in North Rhine-Westphalia?

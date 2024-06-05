@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <spouse> ?x2 . ?x3 <instance of> <human> . ?x1 <position held> <President of the United States> .  }
+
+NL-QUESTION:
+Who are the spouses of Presidents of the United States who are humans?

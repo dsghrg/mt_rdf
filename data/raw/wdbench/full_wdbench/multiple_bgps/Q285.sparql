@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> ?x2 . ?x3 <publication date> ?x4 . <Unsane> <cast member> ?x2 .  }
+
+NL-QUESTION:
+What are the publication dates of the movie "Unsane" and who are the cast members?

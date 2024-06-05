@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<author>/<instance of>)/(<subclass of>)+) <work> }
+
+NL-QUESTION:
+Which authors have works that are instances of subclasses of a specific work?

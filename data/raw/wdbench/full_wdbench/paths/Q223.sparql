@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <singer> }
+
+NL-QUESTION:
+What are the occupations that are subclass of singer in Wikidata?

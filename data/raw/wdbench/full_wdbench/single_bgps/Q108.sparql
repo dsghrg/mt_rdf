@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <DBLP author ID> ?x2 .  }
+
+NL-QUESTION:
+What is the DBLP author ID of entity x1?

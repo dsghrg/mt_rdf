@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x3 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+What are the occupations of individuals who are citizens of the United States of America?

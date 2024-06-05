@@ -1,0 +1,4 @@
+SELECT * WHERE { <library> (<subclass of>)* ?x1 }
+
+NL-QUESTION:
+What are the subclasses of the entity labeled as "library" in Wikidata?

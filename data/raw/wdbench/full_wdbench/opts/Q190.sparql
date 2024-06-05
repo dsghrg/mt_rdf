@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Early Modern Letters Online person ID> ?x2 . OPTIONAL { ?x1 <image> ?x3 . } OPTIONAL { ?x1 <occupation> ?x4 . }  }
+
+NL-QUESTION:
+What is the Early Modern Letters Online person ID, image, and occupation of the entities in Wikidata?

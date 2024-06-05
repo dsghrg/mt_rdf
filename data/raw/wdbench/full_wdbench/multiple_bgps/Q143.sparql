@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <place of birth> ?x3 . ?x1 <sex or gender> ?x4 . ?x1 <country of citizenship> ?x5 . ?x1 <date of birth> ?x6 .  }
+
+NL-QUESTION:
+What are the occupations, place of birth, sex/gender, country of citizenship, and date of birth of the individuals in Wikidata?

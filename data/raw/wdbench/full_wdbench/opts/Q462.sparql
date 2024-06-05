@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x3 <instance of> <constituency of the National Assembly of Kenya> . OPTIONAL { ?x3 <located in the administrative territorial entity> ?x1 . } OPTIONAL { ?x3 <inception> ?x4 . } OPTIONAL { ?x3 <end time> ?x5 . }  }
+
+NL-QUESTION:
+What are the instances of constituencies of the National Assembly of Kenya, along with their administrative territorial entities, inception dates, and end times if available?

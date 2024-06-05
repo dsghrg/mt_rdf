@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <award received> <Spellemann Award in folk> .  }
+
+NL-QUESTION:
+What are the individuals who have received the Spellemann Award in the folk category?

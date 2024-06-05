@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <New York City Subway> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the locations of subway stations that are part of the New York City Subway system?

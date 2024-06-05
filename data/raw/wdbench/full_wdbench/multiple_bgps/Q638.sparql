@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x3 <instance of> ?x2 . ?x4 <instance of> ?x2 . <Albert Einstein> <place of birth> ?x1 .  }
+
+NL-QUESTION:
+What is the place of birth of individuals who have the same instance of as Albert Einstein?

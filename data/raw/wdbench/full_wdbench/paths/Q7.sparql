@@ -1,0 +1,4 @@
+SELECT * WHERE { <art of painting> ((<subclass of>/((<subclass of>)*|(<instance of>)*))|(<instance of>/((<subclass of>)*|(<instance of>)*))) ?x1 }
+
+NL-QUESTION:
+What are the subclasses and instances of the art of painting?

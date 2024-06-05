@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <India> . ?x2 <instance of> <district of India> . ?x1 <instance of> <village> .  }
+
+NL-QUESTION:
+What are the villages in the districts of India?

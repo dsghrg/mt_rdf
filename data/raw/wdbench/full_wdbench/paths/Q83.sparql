@@ -1,0 +1,4 @@
+SELECT * WHERE { <Shibuya Station> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+Which administrative territorial entities is Shibuya Station located in?

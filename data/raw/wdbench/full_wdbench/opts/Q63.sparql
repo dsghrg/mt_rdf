@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <manner of death> ?x2 . ?x3 <instance of> <human> . OPTIONAL { ?x1 <sex or gender> ?x4 . }  }
+
+NL-QUESTION:
+What is the manner of death for humans, including their gender, if known?

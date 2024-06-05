@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <locality> .  }
+
+NL-QUESTION:
+What are the localities in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> .  }
+
+NL-QUESTION:
+What are all the scholarly articles available in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <writer> . ?x1 <sex or gender> <male> . ?x1 (<instance of>/(<subclass of>)*) <human> .  }
+
+NL-QUESTION:
+What male writers are recorded in Wikidata?

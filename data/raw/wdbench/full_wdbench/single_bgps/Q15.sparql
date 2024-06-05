@@ -1,0 +1,4 @@
+SELECT * WHERE { <intelligence quotient> <height> ?x1 .  }
+
+NL-QUESTION:
+What is the height of the item with the intelligence quotient property in Wikidata?

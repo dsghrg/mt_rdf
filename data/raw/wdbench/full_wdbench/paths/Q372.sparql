@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <bridge> }
+
+NL-QUESTION:
+What are the subclasses of a bridge?

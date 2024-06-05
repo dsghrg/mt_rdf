@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Svenskt kvinnobiografiskt lexikon ID> ?x2 .  }
+
+NL-QUESTION:
+What is the ID for the Swedish Women's Biographical Dictionary in Wikidata?

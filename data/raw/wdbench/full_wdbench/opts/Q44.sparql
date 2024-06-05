@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . OPTIONAL { ?x1 <position held> ?x2 . } OPTIONAL { ?x1 <country of citizenship> ?x3 . }  }
+
+NL-QUESTION:
+What politicians have held a position and what is their country of citizenship?

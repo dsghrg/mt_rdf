@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <Ari Folman> . ?x1 <instance of> <film> .  }
+
+NL-QUESTION:
+What films are instances of Ari Folman?

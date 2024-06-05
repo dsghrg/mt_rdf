@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <cultural heritage> .  }
+
+NL-QUESTION:
+What are the cultural heritage sites located within the coordinates of Berlin?

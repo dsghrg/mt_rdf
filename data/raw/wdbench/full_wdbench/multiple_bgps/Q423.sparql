@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <place of death> ?x3 . ?x1 <sex or gender> <female> .  }
+
+NL-QUESTION:
+What are the places of birth and death of female individuals?

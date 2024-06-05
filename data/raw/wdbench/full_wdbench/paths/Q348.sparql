@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>/<parent taxon>) <Panthera> }
+
+NL-QUESTION:
+What are the parent taxons of the parent taxon of Panthera?

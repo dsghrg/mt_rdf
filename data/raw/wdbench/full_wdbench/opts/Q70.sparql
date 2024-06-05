@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Genoa> . ?x2 <instance of> <palace> . OPTIONAL { ?x1 <image> ?x3 . }  }
+
+NL-QUESTION:
+What palaces are located in Genoa?

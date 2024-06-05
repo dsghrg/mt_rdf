@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <computer scientist> }
+
+NL-QUESTION:
+What are all the items that are directly or indirectly connected to the occupation of computer scientist?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <member of sports team> <AZ Alkmaar> .  }
+
+NL-QUESTION:
+What is the image of the member of the sports team AZ Alkmaar?

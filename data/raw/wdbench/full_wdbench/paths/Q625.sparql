@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>|(<instance of>/(<subclass of>)*)) <city> }
+
+NL-QUESTION:
+What cities are instances of or subclasses of the class "city" in Wikidata?

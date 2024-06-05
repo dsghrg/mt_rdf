@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <house cat> .  }
+
+NL-QUESTION:
+What are the images of house cats in Wikidata?

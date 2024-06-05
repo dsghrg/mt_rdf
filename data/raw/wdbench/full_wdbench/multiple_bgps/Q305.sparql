@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of the series> <CSI: Crime Scene Investigation> . ?x1 <instance of> ?x2 .  }
+
+NL-QUESTION:
+What instances are part of the series "CSI: Crime Scene Investigation"?

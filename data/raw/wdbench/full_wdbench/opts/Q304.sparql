@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <kinship> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What are some instances of kinship in Wikidata and do they have any images associated with them?

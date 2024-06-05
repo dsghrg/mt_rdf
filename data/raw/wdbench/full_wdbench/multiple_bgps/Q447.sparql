@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <elevation above sea level> ?x2 . ?x1 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What is the elevation above sea level and coordinate location of the entity?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Careless in Red> .  }
+
+NL-QUESTION:
+What are the editions or translations of "Careless in Red"?

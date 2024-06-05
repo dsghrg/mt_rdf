@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <island> .  }
+
+NL-QUESTION:
+What are all the instances of islands in Wikidata?

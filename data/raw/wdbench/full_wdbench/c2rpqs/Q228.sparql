@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x3 <located in the administrative territorial entity> ?x2 . ?x1 <country> <South Korea> . ?x1 <instance of> <council> . ?x3 (<instance of>/(<subclass of>)*) <electoral unit> .  }
+
+NL-QUESTION:
+What electoral units are located in the administrative territorial entity of South Korea where there is a council located as well?

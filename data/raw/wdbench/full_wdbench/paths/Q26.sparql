@@ -1,0 +1,4 @@
+SELECT * WHERE { <Immeuble, 11 place du Parlement (Rennes)> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative territorial entity is the building located at 11 place du Parlement in Rennes in?

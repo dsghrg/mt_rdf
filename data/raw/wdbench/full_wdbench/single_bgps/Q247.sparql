@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <No label defined> .  }
+
+NL-QUESTION:
+What is the edition or translation of <No label defined>?

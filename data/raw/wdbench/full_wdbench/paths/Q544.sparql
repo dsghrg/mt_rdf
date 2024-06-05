@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <deanery> }
+
+NL-QUESTION:
+Which items are instances of or subclasses of the entity "deanery"?

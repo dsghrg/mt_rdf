@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <library> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What libraries have an image and coordinate location?

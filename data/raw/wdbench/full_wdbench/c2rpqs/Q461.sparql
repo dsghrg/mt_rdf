@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <metro station> . ?x1 (<located in the administrative territorial entity>/(<located in the administrative territorial entity>)*) <Quebec> .  }
+
+NL-QUESTION:
+What are the metro stations located in Quebec?

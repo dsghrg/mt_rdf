@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <writer> . ?x2 <languages spoken, written or signed> <Spanish> . ?x3 <country of citizenship> <Spain> .  }
+
+NL-QUESTION:
+What writers who speak Spanish and are citizens of Spain are listed in Wikidata?

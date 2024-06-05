@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <STW Thesaurus for Economics ID> ?x2 . ?x3 <STW Thesaurus for Economics ID> ?x4 .  }
+
+NL-QUESTION:
+What are the STW Thesaurus for Economics IDs of the entities?

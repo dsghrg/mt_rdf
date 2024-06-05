@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <pseudonym> ?x2 . }  }
+
+NL-QUESTION:
+What are the pseudonyms of humans on Wikidata?

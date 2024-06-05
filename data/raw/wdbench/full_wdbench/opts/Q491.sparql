@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of sports team> <Paris Saint-Germain F.C.> . OPTIONAL { ?x1 <place of birth> ?x2 . } OPTIONAL { ?x2 <coordinate location> ?x3 . }  }
+
+NL-QUESTION:
+What are the birthplaces of the members of Paris Saint-Germain F.C. and where are they located?

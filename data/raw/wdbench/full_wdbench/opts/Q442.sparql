@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <song> . OPTIONAL { ?x1 <performer> ?x2 . }  }
+
+NL-QUESTION:
+What are the instances of songs and their corresponding performers (if they have one) on Wikidata?

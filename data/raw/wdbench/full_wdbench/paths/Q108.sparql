@@ -1,0 +1,4 @@
+SELECT * WHERE { <Midden-Drenthe> (<instance of>/(<subclass of>)*) ?x1 }
+
+NL-QUESTION:
+What are the instances or subclasses of Midden-Drenthe in Wikidata?

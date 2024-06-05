@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> ?x2 . <Grote Kerk> <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What is the heritage designation of the Grote Kerk and what is its coordinate location?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ <ordinary matter> }
+
+NL-QUESTION:
+What are all the subclasses of ordinary matter in Wikidata?

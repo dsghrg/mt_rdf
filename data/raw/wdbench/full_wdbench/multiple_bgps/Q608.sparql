@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <position held> <Roman emperor> .  }
+
+NL-QUESTION:
+Which humans have held the position of Roman emperor?

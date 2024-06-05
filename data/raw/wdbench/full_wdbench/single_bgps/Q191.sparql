@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <terrorist attack> .  }
+
+NL-QUESTION:
+What are some examples of terrorist attacks?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x3 <part of> ?x2 .  }
+
+NL-QUESTION:
+What are the instances and their parts in Wikidata?

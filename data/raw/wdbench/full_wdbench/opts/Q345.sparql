@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . OPTIONAL { ?x1 <headquarters location> ?x2 . } OPTIONAL { ?x2 <postal code> ?x3 . }  }
+
+NL-QUESTION:
+What are the postal codes of the headquarters locations of businesses?

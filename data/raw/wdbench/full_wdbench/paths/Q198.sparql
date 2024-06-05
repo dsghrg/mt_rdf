@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<instance of>/<subclass of>))* <newspaper> }
+
+NL-QUESTION:
+What are the instances or subclasses of a newspaper?

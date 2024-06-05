@@ -1,0 +1,4 @@
+SELECT * WHERE { <Python> ?x1 ?x2 .  }
+
+NL-QUESTION:
+What information is available about Python on Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<field of work>|<field of this occupation>)|<sport>) ?x2 }
+
+NL-QUESTION:
+What are the field of work or field of occupation, or sport, of (entity)?

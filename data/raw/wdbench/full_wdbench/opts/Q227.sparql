@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <date of birth> ?x2 . ?x3 <coordinate location> ?x4 . ?x1 <educated at> <University of Edinburgh> . OPTIONAL { ?x1 <date of death> ?x5 . } OPTIONAL { ?x1 <geoshape> ?x6 . }  }
+
+NL-QUESTION:
+What is the date of birth and coordinates of women who were educated at the University of Edinburgh?

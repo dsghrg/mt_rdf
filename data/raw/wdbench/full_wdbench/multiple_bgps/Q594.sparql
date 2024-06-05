@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <position held> <President of the United States> . ?x2 <date of birth> ?x3 .  }
+
+NL-QUESTION:
+Who are the Presidents of the United States and when were they born?

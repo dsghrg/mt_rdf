@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <composer> . ?x2 <occupation> <singer-songwriter> . ?x1 <date of birth> ?x3 . OPTIONAL { ?x1 <place of birth> ?x4 . }  }
+
+NL-QUESTION:
+What singers and songwriters were born after a composer and when were they born?

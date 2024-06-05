@@ -1,0 +1,4 @@
+SELECT * WHERE { <Scheune> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative territorial entities is the barn located in?

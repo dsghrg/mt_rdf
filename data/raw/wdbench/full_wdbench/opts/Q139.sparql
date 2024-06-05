@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <DVN ID> ?x2 . OPTIONAL { ?x1 <place of birth> ?x3 . } OPTIONAL { ?x1 <date of birth> ?x4 . } OPTIONAL { ?x1 <image> ?x5 . } OPTIONAL { ?x3 <coordinate location> ?x6 . }  }
+
+NL-QUESTION:
+What is the ID, place of birth, date of birth, image, and coordinates of a person or entity in Wikidata?

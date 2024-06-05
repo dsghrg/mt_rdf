@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <main subject> <comfort woman> . OPTIONAL { ?x1 <publication date> ?x2 . }  }
+
+NL-QUESTION:
+What are the main subjects of articles that reference comfort women, and, if available, when were these articles published?

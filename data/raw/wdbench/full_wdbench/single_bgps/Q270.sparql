@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <architect> <Theophil Hansen> .  }
+
+NL-QUESTION:
+What buildings were designed by Theophil Hansen?

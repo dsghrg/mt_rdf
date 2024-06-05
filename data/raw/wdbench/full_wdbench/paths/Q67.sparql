@@ -1,0 +1,4 @@
+SELECT * WHERE { <Kevin Bacon> ((^<cast member>/<cast member>))+ ?x1 }
+
+NL-QUESTION:
+What are the cast members that Kevin Bacon has worked with in multiple movies/shows?

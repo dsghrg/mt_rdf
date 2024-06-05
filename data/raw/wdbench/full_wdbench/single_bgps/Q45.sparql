@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <baseball manager> .  }
+
+NL-QUESTION:
+What are the names of individuals who are baseball managers?

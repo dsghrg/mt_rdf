@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ <scientist> }
+
+NL-QUESTION:
+What are the subclasses of the type "scientist" in Wikidata?

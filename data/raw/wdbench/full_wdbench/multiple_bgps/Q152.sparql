@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x3 <occupation> <entrepreneur> . ?x3 <occupation> <computer scientist> . ?x4 <image> ?x5 . ?x6 <date of birth> ?x7 .  }
+
+NL-QUESTION:
+What are the occupations and images of entrepreneurs who are also computer scientists, as well as their date of birth?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . ?x1 <parent organization> ?x2 . ?x3 <official website> ?x4 . OPTIONAL { ?x1 <official website> ?x4 . }  }
+
+NL-QUESTION:
+What are the official websites of businesses that have a parent organization?

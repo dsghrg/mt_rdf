@@ -1,0 +1,4 @@
+SELECT * WHERE { <Göttingen> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <mine> .  }
+
+NL-QUESTION:
+What is the location coordinates of Göttingen, and what are some instances of or subclasses of mines in Wikidata?

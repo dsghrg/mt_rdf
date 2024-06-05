@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<subclass of>|<located in the administrative territorial entity>))* <architectural structure> }
+
+NL-QUESTION:
+What are some architectural structures and their subclasses or locations in administrative territorial entities?

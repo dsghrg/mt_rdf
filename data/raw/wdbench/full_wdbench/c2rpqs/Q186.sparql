@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <facet of> ?x2 . ?x2 <geography of topic> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <geographic location> .  }
+
+NL-QUESTION:
+What are the geographic locations of topics that are facets of the geography of the topics themselves?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <beard> <made from material> ?x1 .  }
+
+NL-QUESTION:
+What material is a beard made from?

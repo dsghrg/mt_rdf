@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x2 <occupation> <politician> .  }
+
+NL-QUESTION:
+What are the occupations of individuals who are classified as politicians in Wikidata?

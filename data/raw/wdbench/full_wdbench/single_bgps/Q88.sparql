@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United States of America> .  }
+
+NL-QUESTION:
+What are all the entities that have the country set as "United States of America" in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author> <Daniel Vernet> . ?x1 (<instance of>/(<subclass of>)*) <book> .  }
+
+NL-QUESTION:
+Which books were authored by Daniel Vernet?

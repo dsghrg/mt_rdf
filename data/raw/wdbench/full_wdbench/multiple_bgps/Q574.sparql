@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <sovereign state> . ?x2 <instance of> <capital city> . ?x3 <instance of> <department of France> . ?x1 <coordinate location> ?x4 . ?x3 <coordinate location> ?x5 . ?x2 <coordinate location> ?x6 .  }
+
+NL-QUESTION:
+What are the sovereign states with their capital cities and departments of France with their coordinates?

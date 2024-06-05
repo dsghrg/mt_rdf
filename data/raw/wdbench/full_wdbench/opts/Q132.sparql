@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> ?x2 . ?x3 <parent taxon> ?x4 . ?x2 <parent taxon> <Lagomorpha> . ?x2 <image> ?x5 . ?x1 <image> ?x6 . ?x3 <image> ?x7 . OPTIONAL { ?x4 <parent taxon> ?x1 . ?x4 <image> ?x8 . }  }
+
+NL-QUESTION:
+What are the images of organisms that belong to a taxonomic group with a parent taxon of Lagomorpha and their ancestors?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <silent film> . ?x2 <IMDb ID> ?x3 .  }
+
+NL-QUESTION:
+What are the IMDb IDs of silent films in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . ?x2 <place of birth> ?x2 . ?x2 <place of death> ?x3 . ?x1 <sex or gender> <male> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What male association football players were born in one location and died in another location?

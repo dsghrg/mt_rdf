@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> ?x2 . ?x1 <drainage basin> ?x3 . ?x2 <drainage basin> ?x4 . ?x4 <drainage basin> ?x3 .  }
+
+NL-QUESTION:
+Which entities are a part of a drainage basin that is connected to another drainage basin which is also connected to the first drainage basin?

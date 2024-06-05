@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>)* <author> }
+
+NL-QUESTION:
+What are the occupations of authors in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Segundo Mercado> <occupation> ?x1 . ?x1 ((<subclass of>)*/<field of this occupation>) ?x2 .  }
+
+NL-QUESTION:
+What field is Segundo Mercado's occupation a subclass of?

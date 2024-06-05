@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <depicts> ?x2 . ?x1 <image> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <painting> . ?x2 ((<instance of>)*/(<subclass of>)*) <alcoholic beverage> .  }
+
+NL-QUESTION:
+What paintings depict alcoholic beverages?

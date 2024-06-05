@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <instance of> <human> . ?x1 ((<place of birth>|<place of death>)|<residence>) <Vienna> . ?x2 ((<place of birth>|<place of death>)|<residence>) <Paris> .  }
+
+NL-QUESTION:
+Which humans were born, died, or reside in Vienna and Paris?

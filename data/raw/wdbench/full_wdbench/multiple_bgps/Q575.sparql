@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <university> . ?x2 <instance of> <university> .  }
+
+NL-QUESTION:
+What universities are in Wikidata?

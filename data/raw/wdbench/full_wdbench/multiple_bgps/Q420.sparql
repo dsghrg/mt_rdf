@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Paris> . ?x2 <subclass of> ?x3 .  }
+
+NL-QUESTION:
+What are the subclasses of entities who were born in Paris?

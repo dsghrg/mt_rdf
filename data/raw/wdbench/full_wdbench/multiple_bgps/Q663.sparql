@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <date of birth> ?x2 . ?x3 <characters> <Armand-Jean du Plessis, duc de Richelieu> .  }
+
+NL-QUESTION:
+What is the date of birth of Armand-Jean du Plessis, duc de Richelieu?

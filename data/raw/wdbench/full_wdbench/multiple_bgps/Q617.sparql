@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <coordinate location> ?x3 . ?x1 <educated at> <Harvard University> .  }
+
+NL-QUESTION:
+What are the coordinates of humans who were educated at Harvard University?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . ?x1 <DOI> ?x2 .  }
+
+NL-QUESTION:
+What are the DOI values of scholarly articles in Wikidata?

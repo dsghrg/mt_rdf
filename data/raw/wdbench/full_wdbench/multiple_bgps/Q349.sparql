@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <instance of> ?x3 .  }
+
+NL-QUESTION:
+What countries have a specific instance of something?

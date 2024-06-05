@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> ?x2 . ?x3 <subclass of> <heavy metal> . ?x4 <instance of> <musical group> . ?x1 <country of origin> <Finland> . ?x5 <coordinate location> ?x6 . ?x1 <location of formation> ?x5 .  }
+
+NL-QUESTION:
+What are the heavy metal musical groups that originated in Finland and where were they formed?

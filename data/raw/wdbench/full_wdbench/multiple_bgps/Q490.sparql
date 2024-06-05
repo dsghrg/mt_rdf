@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <monarch> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+What humans are subclass of monarchs?

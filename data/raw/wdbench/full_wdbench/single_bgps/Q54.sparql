@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <publisher> <Portugal> .  }
+
+NL-QUESTION:
+Which items have a publisher located in Portugal?

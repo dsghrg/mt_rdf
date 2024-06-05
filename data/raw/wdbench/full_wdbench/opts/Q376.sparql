@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x2 . }  }
+
+NL-QUESTION:
+What are the occupations of humans on Wikidata?

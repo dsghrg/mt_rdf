@@ -1,0 +1,4 @@
+SELECT * WHERE { <human> (<subclass of>/((<subclass of>)*|(<instance of>)*)) ?x1 }
+
+NL-QUESTION:
+What are the subclasses or instances of the entity "human" in Wikidata?

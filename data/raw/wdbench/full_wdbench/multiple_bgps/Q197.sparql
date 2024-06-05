@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Milan> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+Which entities are located in the administrative territorial entity of Milan and have a coordinate location?

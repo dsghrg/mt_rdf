@@ -1,0 +1,4 @@
+SELECT * WHERE { <Europe> (<instance of>/(<subclass of>)*) ?x1 }
+
+NL-QUESTION:
+What are the instances or subclasses of Europe?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <automobile model> . OPTIONAL { ?x1 <subclass of> ?x2 . } OPTIONAL { ?x2 <subclass of> ?x3 . }  }
+
+NL-QUESTION:
+What are the subclasses of automobile models and their corresponding instances?

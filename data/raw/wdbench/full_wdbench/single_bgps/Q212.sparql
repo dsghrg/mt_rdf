@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <grape variety> .  }
+
+NL-QUESTION:
+What are the types of grape varieties in Wikidata?

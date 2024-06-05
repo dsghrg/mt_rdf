@@ -1,0 +1,4 @@
+SELECT * WHERE { <Houston> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <human settlement> .  }
+
+NL-QUESTION:
+What are the coordinates of human settlements located in or near Houston?

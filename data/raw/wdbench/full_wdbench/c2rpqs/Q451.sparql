@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 (<occupation>/(<subclass of>)*) <athlete> .  }
+
+NL-QUESTION:
+What are the instances of humans who are athletes?

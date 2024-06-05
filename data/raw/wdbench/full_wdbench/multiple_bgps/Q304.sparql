@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <manufacturer> ?x2 . ?x3 <country> ?x4 . ?x1 <instance of> <automobile model> .  }
+
+NL-QUESTION:
+What country is the manufacturer of automobile models?

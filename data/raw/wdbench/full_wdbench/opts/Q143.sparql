@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Cameroon> . ?x2 <place of birth> ?x3 . ?x2 <instance of> <human> . OPTIONAL { ?x2 <date of birth> ?x4 . } OPTIONAL { ?x2 <date of death> ?x4 . } OPTIONAL { ?x2 <image> ?x5 . }  }
+
+NL-QUESTION:
+What are the places of birth of humans from Cameroon, along with their optional dates of birth, dates of death, and images if available?

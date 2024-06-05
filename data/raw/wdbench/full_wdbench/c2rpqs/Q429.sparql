@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <national sports team> . ?x1 (<sport>)* <road bicycle racing> .  }
+
+NL-QUESTION:
+What are the national sports teams that are associated with road bicycle racing?

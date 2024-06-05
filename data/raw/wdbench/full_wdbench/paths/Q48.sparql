@@ -1,0 +1,4 @@
+SELECT * WHERE { <Limberg> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+In which administrative territorial entity is Limberg located?

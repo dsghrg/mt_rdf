@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <color> <yellow> . ?x1 (((<occupation>|<position held>)|<instance of>)/(<subclass of>)*) <object> .  }
+
+NL-QUESTION:
+What objects are yellow in color and have an occupation, position held, or instance of a subclass of a specific object?

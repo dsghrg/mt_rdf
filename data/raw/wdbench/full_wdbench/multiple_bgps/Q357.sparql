@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x2 <continent> ?x3 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the countries whose inhabitants are humans and what continents are they located in?

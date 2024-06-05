@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Poland> . ?x2 <place of birth> ?x1 . ?x2 (<occupation>)* <politician> .  }
+
+NL-QUESTION:
+What politicians were born in Poland?

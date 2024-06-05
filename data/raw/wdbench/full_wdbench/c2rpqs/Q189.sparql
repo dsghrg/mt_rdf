@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Genoa> . ?x1 (<instance of>)+ <human settlement> .  }
+
+NL-QUESTION:
+What human settlements are located in the administrative territorial entity of Genoa?

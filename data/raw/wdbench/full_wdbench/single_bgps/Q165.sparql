@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Broadway theatre> .  }
+
+NL-QUESTION:
+What are all the instances that are classified as Broadway theatres?

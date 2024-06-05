@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <human> .  }
+
+NL-QUESTION:
+What are all of the humans in Wikidata?

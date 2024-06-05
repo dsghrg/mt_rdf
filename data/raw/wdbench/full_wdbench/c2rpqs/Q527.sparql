@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Gene Ontology ID> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <biological process> .  }
+
+NL-QUESTION:
+What are the gene ontology IDs of biological processes?

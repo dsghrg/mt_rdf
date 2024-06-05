@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <performer> <Queen> . ?x2 <image> ?x3 .  }
+
+NL-QUESTION:
+What performers have an image associated with them in Wikidata?

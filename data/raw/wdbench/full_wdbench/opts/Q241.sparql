@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <TED speaker ID> ?x2 . ?x1 <instance of> <human> . OPTIONAL { ?x1 <sex or gender> ?x3 . } OPTIONAL { ?x1 <country of citizenship> ?x4 . } OPTIONAL { ?x1 <date of birth> ?x5 . } OPTIONAL { ?x1 <educated at> ?x6 . } OPTIONAL { ?x6 <country> ?x7 . } OPTIONAL { ?x1 <occupation> ?x8 . }  }
+
+NL-QUESTION:
+What are the TED speaker IDs, sex or gender, country of citizenship, date of birth, educated at institutions, countries educated in, and occupations of all human individuals in Wikidata?

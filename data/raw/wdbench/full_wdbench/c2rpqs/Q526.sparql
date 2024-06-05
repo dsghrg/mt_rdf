@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sport> ?x2 . ?x1 ((<subclass of>)+|(<instance of>/(<subclass of>)*)) <agent> .  }
+
+NL-QUESTION:
+What sports are associated with agents?

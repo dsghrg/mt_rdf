@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of sports team> <AZ Alkmaar> .  }
+
+NL-QUESTION:
+What sports team is AZ Alkmaar a member of?

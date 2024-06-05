@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <instance of> <superhero> . ?x3 (<instance of>/(<subclass of>)*) ?x4 .  }
+
+NL-QUESTION:
+What are the occupations of superheroes?

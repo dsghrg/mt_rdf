@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <literary work> . ?x2 <language of work or name> ?x3 . ?x1 <language of work or name> ?x3 . ?x2 (<instance of>/(<subclass of>)*) <manuscript> .  }
+
+NL-QUESTION:
+What literary works are written in the same language as manuscripts?

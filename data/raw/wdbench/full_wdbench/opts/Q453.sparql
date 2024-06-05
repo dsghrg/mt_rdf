@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <mountain> . OPTIONAL { ?x1 <country> ?x2 . } OPTIONAL { ?x1 <continent> ?x3 . } OPTIONAL { ?x1 <part of> ?x4 . } OPTIONAL { ?x1 <named after> ?x5 . } OPTIONAL { ?x1 <located in the administrative territorial entity> ?x6 . } OPTIONAL { ?x1 <located in/on physical feature> ?x7 . } OPTIONAL { ?x1 <coordinate location> ?x8 . } OPTIONAL { ?x1 <made from material> ?x9 . } OPTIONAL { ?x1 <topographic prominence> ?x10 . }  }
+
+NL-QUESTION:
+What are the different attributes of mountains in Wikidata, such as country, continent, part of, named after, located in the administrative territorial entity, located in/on physical feature, coordinate location, made from material, and topographic prominence?

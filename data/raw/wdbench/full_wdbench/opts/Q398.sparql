@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <sex or gender> ?x2 . } OPTIONAL { ?x1 <birth name> ?x3 . } OPTIONAL { ?x1 <country of citizenship> ?x4 . }  }
+
+NL-QUESTION:
+What are the instances of humans along with their gender, birth name, and country of citizenship?

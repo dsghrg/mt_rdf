@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <book trade in Wales> . ?x1 (<instance of>/(<subclass of>)*) <organization> .  }
+
+NL-QUESTION:
+What organizations are part of the book trade in Wales?

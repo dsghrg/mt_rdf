@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> ?x2 . ?x1 <instance of> <Narrenzunft> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the coordinates of all the locations that are instances of Narrenzunft?

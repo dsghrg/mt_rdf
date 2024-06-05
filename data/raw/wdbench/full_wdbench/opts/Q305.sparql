@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <creative work> . ?x2 <instance of> <play> . ?x3 <instance of> <book> . ?x3 <author> ?x4 . OPTIONAL { ?x3 <VIAF ID> ?x5 . } OPTIONAL { ?x3 <publication date> ?x6 . }  }
+
+NL-QUESTION:
+What plays are identified as creative works and books, and who are their authors?

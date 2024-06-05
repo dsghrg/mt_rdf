@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> ?x2 . ?x3 <position held> <President of Haiti> . OPTIONAL { ?x3 <sex or gender> ?x4 . } OPTIONAL { ?x3 <date of birth> ?x5 . } OPTIONAL { ?x3 <image> ?x6 . } OPTIONAL { ?x3 <place of birth> ?x7 . } OPTIONAL { ?x3 <date of death> ?x8 . } OPTIONAL { ?x3 <place of death> ?x9 . } OPTIONAL { ?x3 <manner of death> ?x10 . } OPTIONAL { ?x3 <spouse> ?x11 . } OPTIONAL { ?x3 <occupation> ?x12 . } OPTIONAL { ?x3 <position held> ?x1 . } OPTIONAL { ?x1 <position held> ?x1 . } OPTIONAL { ?x3 <award received> ?x13 . } OPTIONAL { ?x3 <educated at> ?x14 . } OPTIONAL { ?x3 <member of political party> ?x15 . }  }
+
+NL-QUESTION:
+What are the details of the President of Haiti, including their gender, date of birth, image, place of birth, date of death, place of death, manner of death, spouse, occupation, position held, awards received, education, and political party affiliation?

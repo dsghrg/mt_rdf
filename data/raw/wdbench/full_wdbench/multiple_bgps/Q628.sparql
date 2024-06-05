@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 <instance of> <U.S. state> .  }
+
+NL-QUESTION:
+Which U.S. states have instances on Wikidata?

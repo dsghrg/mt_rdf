@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Amsterdam> . ?x1 <instance of> <mosque> . OPTIONAL { ?x2 <image> ?x3 . ?x2 <coordinate location> ?x4 . }  }
+
+NL-QUESTION:
+What mosques are located in Amsterdam?

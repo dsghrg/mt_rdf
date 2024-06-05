@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <coordinate location> ?x2 . ?x1 (<located in the administrative territorial entity>)+ <Vienna> . ?x1 (<instance of>/(<subclass of>)*) <grave> .  }
+
+NL-QUESTION:
+What graves are located in Vienna?

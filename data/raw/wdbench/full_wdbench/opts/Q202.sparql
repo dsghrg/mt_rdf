@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Helsinki> . ?x2 <instance of> <municipality of Finland> . OPTIONAL { ?x2 <population> ?x3 . }  }
+
+NL-QUESTION:
+What is the population of municipalities in Finland where people were born in Helsinki?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<contains the administrative territorial entity>)* ?x2 }
+
+NL-QUESTION:
+What administrative territorial entity is included in the relationship between x1 and x2?

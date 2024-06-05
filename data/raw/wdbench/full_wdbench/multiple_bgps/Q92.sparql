@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <composer> . ?x1 <occupation> <pianist> . ?x1 <father> <Johann Sebastian Bach> . ?x1 <mother> <Maria Barbara Bach> .  }
+
+NL-QUESTION:
+What composers and pianists are children of Johann Sebastian Bach and Maria Barbara Bach?

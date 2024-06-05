@@ -1,0 +1,4 @@
+SELECT * WHERE { <Rome> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <archaeological site> .  }
+
+NL-QUESTION:
+What are the archaeological sites located in the vicinity of Rome?

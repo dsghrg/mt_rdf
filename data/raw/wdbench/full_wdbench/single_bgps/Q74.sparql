@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> ?x2 .  }
+
+NL-QUESTION:
+What are the cast members of the given entity?

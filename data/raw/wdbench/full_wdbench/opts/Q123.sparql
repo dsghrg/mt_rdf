@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Georges Kars> . ?x1 <image> ?x2 . OPTIONAL { ?x1 <collection> ?x3 . } OPTIONAL { ?x1 <inception> ?x4 . } OPTIONAL { ?x1 <inventory number> ?x5 . }  }
+
+NL-QUESTION:
+What image, collection, inception date, and inventory number are associated with artworks created by Georges Kars?

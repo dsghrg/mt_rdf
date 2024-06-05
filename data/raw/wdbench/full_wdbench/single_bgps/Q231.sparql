@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author> <Yi Chong-jun> .  }
+
+NL-QUESTION:
+What are all the items that have Yi Chong-jun as their author in Wikidata?

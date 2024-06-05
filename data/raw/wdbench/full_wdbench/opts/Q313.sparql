@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <person> . ?x1 <part of> <Department of Informatics, Computer Science and Methods of Teaching Informatics of Ryazan State University named for S.A. Yesenin> . OPTIONAL { ?x2 <instance of> ?x1 . }  }
+
+NL-QUESTION:
+What are the instances of persons who are part of the Department of Informatics, Computer Science and Methods of Teaching Informatics of Ryazan State University named for S.A. Yesenin, and are there any related instances of these persons?

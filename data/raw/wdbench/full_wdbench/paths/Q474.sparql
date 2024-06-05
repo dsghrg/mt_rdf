@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <local government in Germany> }
+
+NL-QUESTION:
+What are the instances or subclasses of local government in Germany in Wikidata?

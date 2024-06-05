@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <Madrid> }
+
+NL-QUESTION:
+What administrative territorial entities is Madrid located in?

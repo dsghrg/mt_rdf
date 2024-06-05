@@ -1,0 +1,4 @@
+SELECT * WHERE { <house cat> ?x1 ?x2 .  }
+
+NL-QUESTION:
+What are the properties of the Wikidata item for "house cat"?

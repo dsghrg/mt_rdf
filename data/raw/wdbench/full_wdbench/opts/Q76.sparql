@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <city> . ?x1 <country> <Latvia> . ?x1 <local dialing code> ?x2 . <Russia> <country calling code> ?x3 . OPTIONAL { ?x1 <OpenStreetMap relation ID> ?x4 . }  }
+
+NL-QUESTION:
+What is the local dialing code for cities located in Latvia and the country calling code for Russia, and what is the OpenStreetMap relation ID for these cities?

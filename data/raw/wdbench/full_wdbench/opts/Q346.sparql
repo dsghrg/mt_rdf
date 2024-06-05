@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . OPTIONAL { ?x1 <chief executive officer> ?x2 . } OPTIONAL { ?x2 <given name> ?x3 . }  }
+
+NL-QUESTION:
+What are the names of the chief executive officers of businesses in Wikidata?

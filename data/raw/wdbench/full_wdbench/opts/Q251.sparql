@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <United States of America> . ?x1 <instance of> <human> . OPTIONAL { ?x2 <field of work> ?x3 . ?x1 <place of birth> ?x4 . ?x1 <sex or gender> ?x5 . ?x1 <academic degree> ?x6 . ?x1 <educated at> ?x7 . }  }
+
+NL-QUESTION:
+What are the personal details and achievements of individuals who are citizens of the United States, including their field of work, place of birth, gender, academic degree, and educational background?

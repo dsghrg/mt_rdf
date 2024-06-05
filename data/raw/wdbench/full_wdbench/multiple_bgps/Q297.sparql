@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> ?x2 . ?x1 <collection> <Finnish National Gallery> . ?x2 <place of birth> ?x3 . ?x1 <instance of> <painting> . ?x4 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What are the birthplaces of creators of paintings in the Finnish National Gallery collection, and where are the coordinates located?

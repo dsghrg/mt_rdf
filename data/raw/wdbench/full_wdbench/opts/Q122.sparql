@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <award received> <Nobel Prize in Literature> . ?x2 <instance of> <book> . ?x3 <author> ?x1 . ?x4 <author> ?x1 . OPTIONAL { ?x2 <publication date> ?x5 . } OPTIONAL { ?x2 <publication date> ?x5 . }  }
+
+NL-QUESTION:
+Which books have authors who have received the Nobel Prize in Literature?

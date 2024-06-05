@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x1 <date of birth> ?x3 . ?x4 <coordinate location> ?x5 . ?x1 <educated at> <Central School of Speech and Drama> .  }
+
+NL-QUESTION:
+What female person was born on a specific date, educated at Central School of Speech and Drama, and has a known coordinate location for their place of birth?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x1 <position held> <Member of the 5th Scottish Parliament> . OPTIONAL { ?x1 <sex or gender> ?x2 . } OPTIONAL { ?x1 <place of birth> ?x3 . } OPTIONAL { ?x3 <coordinate location> ?x4 . } OPTIONAL { ?x1 <image> ?x5 . }  }
+
+NL-QUESTION:
+What are the names of politicians who were members of the 5th Scottish Parliament, along with their gender, place of birth coordinates, and images (if available)?

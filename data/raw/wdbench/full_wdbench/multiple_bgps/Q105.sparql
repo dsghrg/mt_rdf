@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <poet> . ?x1 <place of birth> <Karnataka> . ?x1 <country of citizenship> <India> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What poets were born in Karnataka, India?

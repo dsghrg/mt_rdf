@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . ?x1 <author> ?x2 .  }
+
+NL-QUESTION:
+What are the authors of scholarly articles?

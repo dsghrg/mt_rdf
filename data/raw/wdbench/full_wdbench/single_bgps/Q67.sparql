@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <published in> <Apparatus - Journal for Film, Media and Digital Cultures of Central and Eastern Europe> .  }
+
+NL-QUESTION:
+What is the publication that the Apparatus - Journal for Film, Media and Digital Cultures of Central and Eastern Europe has been published in?

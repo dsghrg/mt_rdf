@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <rower> . ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the places of birth of female rowers with their geographical coordinates in Wikidata?

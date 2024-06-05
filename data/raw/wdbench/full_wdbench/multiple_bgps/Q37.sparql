@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <rower> . ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <male> . ?x1 <country of citizenship> <Spain> . ?x1 <date of birth> ?x3 . ?x4 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What are the names of male rowers born in Spain, along with their date of birth and coordinates of their birth location?

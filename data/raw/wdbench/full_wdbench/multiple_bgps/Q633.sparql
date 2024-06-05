@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 <PubMed ID> ?x3 .  }
+
+NL-QUESTION:
+Which items have an instance relationship with another item and also have a PubMed ID property associated with them?

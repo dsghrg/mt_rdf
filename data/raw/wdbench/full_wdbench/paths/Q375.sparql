@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <dog> }
+
+NL-QUESTION:
+What are all the subclasses of a dog in Wikidata?

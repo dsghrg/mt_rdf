@@ -1,0 +1,4 @@
+SELECT * WHERE { <hunger> ?x1 ?x2 .  }
+
+NL-QUESTION:
+What information is available about the concept of "hunger" in Wikidata?

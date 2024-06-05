@@ -1,0 +1,4 @@
+SELECT * WHERE { <Eugenio Derbez> <spouse> ?x1 .  }
+
+NL-QUESTION:
+Who is the spouse of Eugenio Derbez?

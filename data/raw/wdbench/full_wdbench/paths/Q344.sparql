@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)+ <Carnivora> }
+
+NL-QUESTION:
+What are the parent taxons of Carnivora?

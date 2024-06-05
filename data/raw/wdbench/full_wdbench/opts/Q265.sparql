@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <chemical compound> . OPTIONAL { ?x1 <nickname> ?x2 . }  }
+
+NL-QUESTION:
+What are the nicknames of chemical compounds?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<sport>)* <road bicycle racing> }
+
+NL-QUESTION:
+What are the types of sports related to road bicycle racing on wikidata?

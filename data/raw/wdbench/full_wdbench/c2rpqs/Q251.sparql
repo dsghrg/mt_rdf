@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <France> . ?x1 (<instance of>/(<subclass of>)*) <occurrence> .  }
+
+NL-QUESTION:
+What are the instances or subclasses of occurrences that are related to France?

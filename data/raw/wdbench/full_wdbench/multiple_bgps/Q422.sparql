@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <place of birth> <India> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the places of birth of individuals born in India and their corresponding coordinate locations?

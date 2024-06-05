@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Rome> . ?x1 <native label> ?x2 . ?x1 <instance of> <church building> .  }
+
+NL-QUESTION:
+What are the native labels of church buildings located in Rome?

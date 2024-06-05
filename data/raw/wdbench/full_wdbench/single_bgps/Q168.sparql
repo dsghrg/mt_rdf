@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <automobile model> .  }
+
+NL-QUESTION:
+What are all the automobile models in Wikidata?

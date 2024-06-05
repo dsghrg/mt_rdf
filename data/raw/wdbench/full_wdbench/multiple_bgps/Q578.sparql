@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . ?x1 <industry> <automotive industry> .  }
+
+NL-QUESTION:
+What are all the businesses in the automotive industry?

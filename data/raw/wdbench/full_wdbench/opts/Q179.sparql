@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <instance of> <video game developer> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <headquarters location> ?x4 . } OPTIONAL { ?x4 <coordinate location> ?x5 . }  }
+
+NL-QUESTION:
+What are the countries of the headquarters locations of video game developers, and where are these countries geographically located?

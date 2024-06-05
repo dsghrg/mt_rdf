@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Boom!> .  }
+
+NL-QUESTION:
+What editions or translations of the work "Boom!" exist in Wikidata?

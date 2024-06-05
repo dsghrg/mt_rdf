@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Cinémathèque québécoise work ID> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <film> .  }
+
+NL-QUESTION:
+What are the Quebec Cinémathèque work IDs for films in Wikidata?

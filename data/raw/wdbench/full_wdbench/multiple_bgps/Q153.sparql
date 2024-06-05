@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x3 <occupation> <science fiction writer> . ?x1 <sex or gender> ?x4 . ?x1 <country of citizenship> ?x5 . ?x3 <instance of> <human> .  }
+
+NL-QUESTION:
+What is the occupation, gender, and country of citizenship of all science fiction writers?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <given name> <Joyce> .  }
+
+NL-QUESTION:
+What are the entities with the given name "Joyce" in Wikidata?

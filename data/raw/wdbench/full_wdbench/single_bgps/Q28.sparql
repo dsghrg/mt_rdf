@@ -1,0 +1,4 @@
+SELECT * WHERE { <Bob Sapp> <country of citizenship> ?x1 .  }
+
+NL-QUESTION:
+What is the country of citizenship of Bob Sapp?

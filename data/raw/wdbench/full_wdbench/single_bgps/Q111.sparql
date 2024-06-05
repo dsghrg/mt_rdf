@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <computer science> .  }
+
+NL-QUESTION:
+What are the subclasses of computer science in Wikidata?

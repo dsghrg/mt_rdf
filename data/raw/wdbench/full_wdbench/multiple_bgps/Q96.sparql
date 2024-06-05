@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <artist> . ?x2 <country> ?x3 .  }
+
+NL-QUESTION:
+What country is associated with artists in Wikidata?

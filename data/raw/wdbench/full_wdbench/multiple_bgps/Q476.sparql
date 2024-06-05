@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <IATA airport code> ?x2 . ?x1 <instance of> <airport> .  }
+
+NL-QUESTION:
+What are the IATA airport codes for airports?

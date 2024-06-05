@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <musician> }
+
+NL-QUESTION:
+What are the instances of individuals who are musicians or subtypes of musicians?

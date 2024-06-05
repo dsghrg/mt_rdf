@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Estonia> . ?x1 <instance of> <parish> .  }
+
+NL-QUESTION:
+What are the parishes in Estonia?

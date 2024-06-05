@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> <cultural heritage monument in Germany> . ?x1 <coordinate location> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <church building> . ?x1 (<located in the administrative territorial entity>)* <Mecklenburg-Western Pomerania> .  }
+
+NL-QUESTION:
+What are the cultural heritage monuments in Germany with coordinates located in Mecklenburg-Western Pomerania that are also classified as church buildings?

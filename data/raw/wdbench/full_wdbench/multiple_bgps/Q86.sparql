@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x2 <instance of> <asteroid> .  }
+
+NL-QUESTION:
+What are the occupations of actors who have instances of asteroid?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <title> ?x2 . ?x3 <cast member> <Bud Spencer> . OPTIONAL { ?x3 <image> ?x4 . }  }
+
+NL-QUESTION:
+What movies have Bud Spencer appeared in and do they have images available?

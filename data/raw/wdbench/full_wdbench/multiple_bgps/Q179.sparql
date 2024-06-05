@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <pKa> ?x2 . ?x1 <mass> ?x3 . ?x4 <WikiPathways ID> ?x5 . ?x4 <has part(s)> ?x6 .  }
+
+NL-QUESTION:
+What are the pKa value, mass, WikiPathways ID, and parts of the entity in Wikidata?

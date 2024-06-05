@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <male> . ?x2 <educated at> <University of California, Berkeley> .  }
+
+NL-QUESTION:
+What males are educated at the University of California, Berkeley?

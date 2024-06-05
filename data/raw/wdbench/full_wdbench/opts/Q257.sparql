@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <month of the year> <March> . OPTIONAL { ?x1 <instance of> ?x2 . } OPTIONAL { ?x1 <day of week> ?x3 . }  }
+
+NL-QUESTION:
+What events occurred in March?

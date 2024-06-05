@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Poland> . ?x2 <place of birth> ?x3 .  }
+
+NL-QUESTION:
+What are the places of birth of individuals who are from Poland?

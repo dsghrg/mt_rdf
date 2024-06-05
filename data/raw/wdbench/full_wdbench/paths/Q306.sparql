@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)+ <Baden-Württemberg> }
+
+NL-QUESTION:
+What are the administrative territorial entities located within Baden-Württemberg?

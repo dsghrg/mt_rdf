@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Finland> . ?x2 (<instance of>/(<subclass of>)*) <newspaper> .  }
+
+NL-QUESTION:
+What newspapers are based in Finland?

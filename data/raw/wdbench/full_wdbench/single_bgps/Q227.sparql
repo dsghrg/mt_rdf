@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of origin> <stroopwafel> .  }
+
+NL-QUESTION:
+What is the country of origin for stroopwafel?

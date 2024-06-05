@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <geographic region> }
+
+NL-QUESTION:
+What are the subclasses of the geographic region?

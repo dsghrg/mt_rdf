@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 <instance of> <human> . ?x3 (<located in the administrative territorial entity>)? ?x1 .  }
+
+NL-QUESTION:
+Which humans are located in which country's administrative territorial entity according to Wikidata?

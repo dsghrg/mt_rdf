@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <sovereign state> . OPTIONAL { ?x1 <continent> ?x2 . } OPTIONAL { ?x1 <official language> ?x3 . } OPTIONAL { ?x3 <ISO 639-3 code> ?x4 . } OPTIONAL { ?x1 <currency> ?x5 . } OPTIONAL { ?x1 <basic form of government> ?x6 . }  }
+
+NL-QUESTION:
+Which sovereign states have information on their continent, official language with ISO 639-3 code, currency, and basic form of government available in Wikidata?

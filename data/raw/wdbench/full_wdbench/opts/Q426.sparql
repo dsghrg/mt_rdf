@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <given name> ?x2 . } OPTIONAL { ?x1 <sex or gender> ?x3 . }  }
+
+NL-QUESTION:
+What are the given names and genders of humans?

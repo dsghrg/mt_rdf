@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> ?x2 . ?x1 <part of> <German colonial empire> . OPTIONAL { ?x2 <part of> ?x3 . } OPTIONAL { ?x3 <part of> ?x4 . } OPTIONAL { ?x4 <part of> ?x5 . }  }
+
+NL-QUESTION:
+What are the parts of the German colonial empire and their hierarchical relationships?

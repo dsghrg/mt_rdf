@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Greece> .  }
+
+NL-QUESTION:
+"Which items are associated with the country Greece in Wikidata?"

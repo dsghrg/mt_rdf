@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Aceh> . ?x1 <country> ?x2 . ?x1 (<instance of>)* <island> .  }
+
+NL-QUESTION:
+Which islands are located in the administrative territorial entity of Aceh and in which country are they located?

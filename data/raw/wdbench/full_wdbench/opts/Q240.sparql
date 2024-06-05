@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <TED speaker ID> ?x2 . ?x1 <instance of> <human> . OPTIONAL { ?x1 <sex or gender> ?x3 . } OPTIONAL { ?x1 <country of citizenship> ?x4 . } OPTIONAL { ?x1 <date of birth> ?x5 . } OPTIONAL { ?x1 <occupation> ?x6 . } OPTIONAL { ?x6 <instance of> ?x7 . } OPTIONAL { ?x7 <country of citizenship9> ?x8 . }  }
+
+NL-QUESTION:
+What are the TED speakers' IDs, along with their gender, nationality, date of birth, occupation, and countries of citizenship?

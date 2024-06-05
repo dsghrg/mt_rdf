@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> <species> .  }
+
+NL-QUESTION:
+What are all the species in Wikidata?

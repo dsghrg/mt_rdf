@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <date of birth> ?x2 . OPTIONAL { ?x1 <place of birth> ?x3 . } OPTIONAL { ?x1 <place of death> ?x4 . }  }
+
+NL-QUESTION:
+What are the names and birth dates of all humans in Wikidata, along with their optional places of birth and death?

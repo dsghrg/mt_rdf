@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <railway station> .  }
+
+NL-QUESTION:
+What are all the instances of railway stations in Wikidata?

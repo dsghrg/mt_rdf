@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <administrative divisions of Germany> }
+
+NL-QUESTION:
+What are the different levels of administrative divisions in Germany?

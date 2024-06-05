@@ -1,0 +1,4 @@
+SELECT * WHERE { <Earth> (<instance of>/(<subclass of>)*) ?x1 }
+
+NL-QUESTION:
+What is the classification of Earth in terms of instances or subclasses in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x3 <country of citizenship> <United States of America> . ?x3 <given name> <John> .  }
+
+NL-QUESTION:
+What is the occupation of individuals from the United States of America with the name John?

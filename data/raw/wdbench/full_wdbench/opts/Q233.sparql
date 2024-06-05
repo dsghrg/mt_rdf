@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <CAS Registry Number> ?x2 . ?x3 <instance of> <chemical compound> . OPTIONAL { ?x3 <density> ?x4 . }  }
+
+NL-QUESTION:
+What is the CAS Registry Number of chemical compounds and their corresponding density (if available)?

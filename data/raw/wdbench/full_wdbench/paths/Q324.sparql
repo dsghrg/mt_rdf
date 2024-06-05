@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<award received>/(<subclass of>)*) <Nobel Prize> }
+
+NL-QUESTION:
+What are all the items that have received an award that is a subclass of the Nobel Prize?

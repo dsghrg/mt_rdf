@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <chicken meat> .  }
+
+NL-QUESTION:
+What are the subclasses of chicken meat?

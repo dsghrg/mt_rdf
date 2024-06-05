@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <number of children> ?x2 . ?x1 <spouse> ?x3 . ?x1 <position held> <President of the United States> . OPTIONAL { ?x1 <image> ?x4 . ?x5 <image> ?x6 . }  }
+
+NL-QUESTION:
+What is the number of children of the Presidents of the United States and who are their spouses?

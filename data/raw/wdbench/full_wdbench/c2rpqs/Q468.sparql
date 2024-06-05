@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <lake> .  }
+
+NL-QUESTION:
+What are the instances of lakes in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <military campaign> .  }
+
+NL-QUESTION:
+What are some examples of military campaigns?

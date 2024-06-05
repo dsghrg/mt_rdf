@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <cricketer> . ?x2 <award received> ?x3 . ?x1 <award received> <Wisden Cricketer of the Year> .  }
+
+NL-QUESTION:
+Which cricketers have received the Wisden Cricketer of the Year award?

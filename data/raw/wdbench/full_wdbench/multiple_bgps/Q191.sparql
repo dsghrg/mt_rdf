@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <number of elevators> ?x2 . ?x1 <image> ?x3 . ?x4 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What is the number of elevators, image, and coordinate location for a given item in Wikidata?

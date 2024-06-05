@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <airline> . OPTIONAL { ?x2 <item operated> ?x3 . ?x1 <country> ?x4 . ?x1 <IATA airline designator> ?x5 . ?x1 <ICAO airline designator> ?x6 . ?x1 <callsign of airline> ?x7 . }  }
+
+NL-QUESTION:
+Which airlines have information on the items they operated, their country, IATA airline designator, ICAO airline designator, and callsign of the airline available on Wikidata?

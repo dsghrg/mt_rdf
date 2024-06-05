@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon name> ?x2 . ?x1 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the taxon names and coordinate locations of the items in Wikidata?

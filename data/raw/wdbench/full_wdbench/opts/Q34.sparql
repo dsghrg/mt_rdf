@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chemist> . ?x1 <sex or gender> <female> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <image> ?x4 . } OPTIONAL { ?x1 <place of birth> ?x2 . }  }
+
+NL-QUESTION:
+What female chemists have a coordinate location, image, and place of birth on Wikidata?

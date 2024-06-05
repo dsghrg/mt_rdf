@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <country> ?x3 . ?x1 <ISO 3166-2 code> ?x4 . ?x1 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What is the population, country, and ISO 3166-2 code of cities in Wikidata?

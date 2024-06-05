@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> <Louvre Museum> . ?x1 <instance of> <painting> .  }
+
+NL-QUESTION:
+What paintings are located in the Louvre Museum?

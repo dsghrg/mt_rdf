@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <date of birth> ?x2 . ?x3 <statement is subject of> ?x4 . OPTIONAL { ?x1 <date of death> ?x5 . } OPTIONAL { ?x1 <sex or gender> ?x6 . } OPTIONAL { ?x1 <date of death> ?x7 . } OPTIONAL { ?x1 <manner of death> ?x3 . }  }
+
+NL-QUESTION:
+What are the birth dates, death dates, gender, and manner of death (if available) of all instances of humans in Wikidata?

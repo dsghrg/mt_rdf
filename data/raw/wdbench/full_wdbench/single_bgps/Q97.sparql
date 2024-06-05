@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Vienna> .  }
+
+NL-QUESTION:
+What are the items with a place of birth in Vienna?

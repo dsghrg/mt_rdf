@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human settlement> . ?x2 <country of origin> <Russia> .  }
+
+NL-QUESTION:
+What human settlements are located in Russia?

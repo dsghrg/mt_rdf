@@ -1,0 +1,4 @@
+SELECT * WHERE { <human> ((<subclass of>/((<subclass of>)*|(<instance of>)*))|(<instance of>/((<subclass of>)*|(<instance of>)*))) ?x1 }
+
+NL-QUESTION:
+What is the subclass of human or what is a specific instance of human?

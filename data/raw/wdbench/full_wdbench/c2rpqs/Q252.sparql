@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <France> . ?x1 (<instance of>/(<subclass of>)*) <architectural structure> .  }
+
+NL-QUESTION:
+What are some architectural structures located in France in Wikidata?

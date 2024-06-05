@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Swedish Portrait Archive ID> ?x2 . OPTIONAL { ?x1 <child> ?x3 . } OPTIONAL { ?x1 <image> ?x4 . }  }
+
+NL-QUESTION:
+What is the Swedish Portrait Archive ID, child, and image of the subject?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x2 . } OPTIONAL { ?x1 <mass> ?x3 . } OPTIONAL { ?x1 <official name> ?x4 . }  }
+
+NL-QUESTION:
+What are the occupations, mass, and official names of humans in Wikidata?

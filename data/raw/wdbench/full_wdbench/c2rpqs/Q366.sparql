@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <Immeuble, 11 place du Parlement (Rennes)> (<located in the administrative territorial entity>)* ?x1 .  }
+
+NL-QUESTION:
+What is the ISO 3166-2 code for the administrative territorial entity that the building located at 11 Place du Parlement in Rennes is located in?

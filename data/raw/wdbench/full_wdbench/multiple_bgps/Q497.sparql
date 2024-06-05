@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> ?x2 . ?x3 <country of citizenship> <Slovenia> . ?x3 <instance of> <human> . ?x3 <position held> ?x4 .  }
+
+NL-QUESTION:
+Which positions are held by humans who are citizens of Slovenia and are subclasses of other entities?

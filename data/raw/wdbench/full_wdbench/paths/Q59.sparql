@@ -1,0 +1,4 @@
+SELECT * WHERE { <Earth> ((<instance of>/<subclass of>)/(<subclass of>)+) ?x1 }
+
+NL-QUESTION:
+What are the subsequent subclass of subclasses of subclasses of Earth in Wikidata?

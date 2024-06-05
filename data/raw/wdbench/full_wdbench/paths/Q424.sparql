@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country of citizenship>/(<country>)*) <Kingdom of the Netherlands> }
+
+NL-QUESTION:
+What is the nationality of individuals who are citizens of the Kingdom of the Netherlands?

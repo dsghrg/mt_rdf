@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of sports team> <AC Milan> . ?x2 <start time> ?x3 .  }
+
+NL-QUESTION:
+Give me all the members of AC Milan and their start times.

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <trail> }
+
+NL-QUESTION:
+What is the entity that is an instance of or a subclass of <trail>?

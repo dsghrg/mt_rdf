@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chemist> . ?x1 <instance of> <human> . ?x2 <discoverer or inventor> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <chemical substance> .  }
+
+NL-QUESTION:
+Who are the human chemists who have discovered or invented chemical substances?

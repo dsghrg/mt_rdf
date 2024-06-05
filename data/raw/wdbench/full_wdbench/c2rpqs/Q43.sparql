@@ -1,0 +1,4 @@
+SELECT * WHERE { <Perth> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <bridge> .  }
+
+NL-QUESTION:
+What are the coordinate locations of bridges in Perth?

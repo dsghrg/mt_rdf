@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <poem> . ?x1 <author> <Ibn al-Rumi> .  }
+
+NL-QUESTION:
+What poems were written by Ibn al-Rumi?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ <human settlement> }
+
+NL-QUESTION:
+What are some examples of human settlements?

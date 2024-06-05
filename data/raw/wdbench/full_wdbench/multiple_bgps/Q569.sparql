@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <island> . <Indonesia> <coordinate location> ?x2 .  }
+
+NL-QUESTION:
+What are the coordinates of islands in Indonesia?

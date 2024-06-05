@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> ?x2 . ?x1 <coordinate location> ?x3 . OPTIONAL { ?x1 <country> ?x4 . }  }
+
+NL-QUESTION:
+What are the heritage designations and coordinate locations of items in Wikidata, along with their optional country information?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <named after> ?x2 . ?x1 <instance of> <asteroid> . ?x3 (<instance of>/(<subclass of>)*) <deity> .  }
+
+NL-QUESTION:
+What asteroids are named after deities?

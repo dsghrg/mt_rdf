@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . ?x2 <demonym> ?x3 . ?x1 <sex or gender> <male> . ?x1 <country of citizenship> ?x2 .  }
+
+NL-QUESTION:
+"What are the nationalities of male association football players?"

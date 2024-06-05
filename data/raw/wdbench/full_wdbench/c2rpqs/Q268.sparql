@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Belgium> . ?x1 (<instance of>/(<subclass of>)*) <airport> .  }
+
+NL-QUESTION:
+What are the airports in Belgium?

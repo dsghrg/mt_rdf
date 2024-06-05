@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Meropidae> }
+
+NL-QUESTION:
+What are the descendants of the family Meropidae in the taxonomic hierarchy?

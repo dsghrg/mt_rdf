@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <investigated by> <Art Looting Investigation Unit> . ?x2 <instance of> <human> . OPTIONAL { ?x2 <image> ?x3 . }  }
+
+NL-QUESTION:
+Which humans are investigated by the Art Looting Investigation Unit and are there images available for them?

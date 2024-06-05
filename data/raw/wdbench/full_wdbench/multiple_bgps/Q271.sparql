@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <contains the administrative territorial entity> ?x2 . ?x3 <country> <Germany> . ?x1 <instance of> <federated state of Germany> .  }
+
+NL-QUESTION:
+Which administrative territorial entities contain federated states of Germany?

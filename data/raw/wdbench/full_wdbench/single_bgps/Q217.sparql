@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <DOI> ?x2 .  }
+
+NL-QUESTION:
+What are the DOI values for the entities in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . OPTIONAL { ?x1 <director> ?x2 . }  }
+
+NL-QUESTION:
+What are the directors of films in Wikidata?

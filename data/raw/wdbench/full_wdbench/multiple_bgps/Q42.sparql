@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <university teacher> . ?x1 <employer> <University of Amsterdam> . ?x1 <sex or gender> <female> .  }
+
+NL-QUESTION:
+What female university teachers are employed by the University of Amsterdam?

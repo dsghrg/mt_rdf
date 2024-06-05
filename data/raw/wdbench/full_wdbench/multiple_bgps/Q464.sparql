@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <male> . ?x1 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+What are the males in the United States of America listed in Wikidata?

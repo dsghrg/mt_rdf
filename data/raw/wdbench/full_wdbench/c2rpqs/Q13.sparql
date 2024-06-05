@@ -1,0 +1,4 @@
+SELECT * WHERE { <Texas> <coordinate location> ?x1 . <Hidalgo> <coordinate location> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <school> .  }
+
+NL-QUESTION:
+What schools are located in Texas and Hidalgo with their respective coordinates?

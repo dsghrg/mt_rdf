@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <taxon> . ?x1 (<parent taxon>)* <insect> .  }
+
+NL-QUESTION:
+What are the taxons that are insects or descendants of insects in Wikidata?

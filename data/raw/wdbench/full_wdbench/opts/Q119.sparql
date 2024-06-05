@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Wikidata item of this property> <Instagram> . ?x2 <sex or gender> <female> . ?x3 <instance of> ?x4 . OPTIONAL { ?x2 <sex or gender> ?x5 . } OPTIONAL { ?x1 <Instagram username> ?x4 . }  }
+
+NL-QUESTION:
+Which females have an Instagram account and what is their instance of?

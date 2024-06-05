@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <instance of> <human> . OPTIONAL { ?x1 <family name> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <date of death> ?x4 . } OPTIONAL { ?x1 <country of citizenship> ?x5 . }  }
+
+NL-QUESTION:
+What are the names, date of birth, date of death, and country of citizenship of female humans in Wikidata?

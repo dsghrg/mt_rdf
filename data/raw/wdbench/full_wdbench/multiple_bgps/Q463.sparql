@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x2 <educated at> <Université Libre de Bruxelles> .  }
+
+NL-QUESTION:
+Which females are educated at Université Libre de Bruxelles?

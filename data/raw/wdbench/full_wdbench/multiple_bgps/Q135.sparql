@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the names of all humans who have the occupation of association football player?

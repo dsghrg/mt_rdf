@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <electoral unit> .  }
+
+NL-QUESTION:
+What is the coordinate location of Berlin in electoral units?

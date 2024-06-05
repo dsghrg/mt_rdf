@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Crusades> . OPTIONAL { ?x1 <start time> ?x2 . ?x1 <end time> ?x3 . }  }
+
+NL-QUESTION:
+What are the start and end times of the Crusades instances in Wikidata?

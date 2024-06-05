@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <endemic to> <New Zealand> . ?x2 <image> ?x3 .  }
+
+NL-QUESTION:
+What species have images and are endemic to New Zealand?

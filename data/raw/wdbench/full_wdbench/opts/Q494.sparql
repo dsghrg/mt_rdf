@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <director> <Niki Lindroth von Bahr> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What is the image of a film directed by Niki Lindroth von Bahr?

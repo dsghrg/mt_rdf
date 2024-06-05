@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <list of Harry Potter characters> . ?x3 ((((<father>|<mother>)|<child>)|<relative>)|<sibling>) ?x4 .  }
+
+NL-QUESTION:
+What are the images of relatives, siblings, fathers, mothers, and children of characters in the list of Harry Potter characters?

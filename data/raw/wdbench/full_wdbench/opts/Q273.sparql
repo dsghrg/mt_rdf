@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <publication date> ?x2 . OPTIONAL { ?x1 <IMDb ID> ?x3 . } OPTIONAL { ?x1 <director> ?x4 . } OPTIONAL { ?x1 <genre> ?x5 . } OPTIONAL { ?x1 <cast member> ?x6 . } OPTIONAL { ?x1 <title> ?x7 . }  }
+
+NL-QUESTION:
+What are the publication dates, IMDb IDs, directors, genres, cast members, and titles of films?

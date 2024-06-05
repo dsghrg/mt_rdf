@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Ukraine> . ?x1 <instance of> <educational institution> . OPTIONAL { ?x2 <instance of> ?x1 . }  }
+
+NL-QUESTION:
+What are the educational institutions in Ukraine?

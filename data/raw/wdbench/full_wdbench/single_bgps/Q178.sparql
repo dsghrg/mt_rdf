@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Paradise Papers> .  }
+
+NL-QUESTION:
+What are the instances of Paradise Papers?

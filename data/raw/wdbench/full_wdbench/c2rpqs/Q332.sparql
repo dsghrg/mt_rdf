@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon name> ?x2 . ?x1 <instance of> <fossil taxon> . ?x1 (^<parent taxon>/<taxon name>) ?x3 . ?x1 (^<parent taxon>/<instance of>) ?x4 .  }
+
+NL-QUESTION:
+What are the names of fossil taxa and their respective parent taxa and instances?

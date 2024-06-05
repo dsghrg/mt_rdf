@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <beach> }
+
+NL-QUESTION:
+What are all the instances of items that are beaches in Wikidata?

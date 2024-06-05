@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <taxon> }
+
+NL-QUESTION:
+What are all of the instances and subclasses of the entity "taxon" in Wikidata?

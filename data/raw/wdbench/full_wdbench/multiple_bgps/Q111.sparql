@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chemist> . ?x1 <instance of> <human> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What chemists are humans and have a coordinate location?

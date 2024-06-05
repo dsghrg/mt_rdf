@@ -1,0 +1,4 @@
+SELECT * WHERE { <Le Mans> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <archaeological site> .  }
+
+NL-QUESTION:
+What are the coordinates of archaeological sites in Le Mans?

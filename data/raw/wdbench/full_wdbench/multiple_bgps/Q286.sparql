@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <flag> ?x2 . ?x1 <instance of> <country> . ?x2 <color> ?x3 .  }
+
+NL-QUESTION:
+What color is the flag of each country in Wikidata?

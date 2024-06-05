@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <birth name> ?x2 . } OPTIONAL { ?x1 <country of citizenship> ?x3 . } OPTIONAL { ?x1 <date of birth> ?x4 . } OPTIONAL { ?x1 <place of birth> ?x5 . }  }
+
+NL-QUESTION:
+What are the birth name, country of citizenship, date of birth, and place of birth of humans in Wikidata?

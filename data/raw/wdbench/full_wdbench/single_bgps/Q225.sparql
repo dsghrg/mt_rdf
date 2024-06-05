@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Science Museum people ID> ?x2 .  }
+
+NL-QUESTION:
+What are the Science Museum people IDs for the entities in Wikidata?

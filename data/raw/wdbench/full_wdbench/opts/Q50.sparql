@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . OPTIONAL { ?x1 <sex or gender> ?x2 . } OPTIONAL { ?x1 <birth name> ?x3 . } OPTIONAL { ?x1 <country of citizenship> ?x4 . }  }
+
+NL-QUESTION:
+What are the occupations, gender, birth names, and countries of citizenship of association football players in Wikidata?

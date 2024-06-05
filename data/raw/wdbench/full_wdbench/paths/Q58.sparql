@@ -1,0 +1,4 @@
+SELECT * WHERE { <Earth> ((((((<instance of>/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?) ?x1 }
+
+NL-QUESTION:
+What is the most specific classification of Earth according to Wikidata?

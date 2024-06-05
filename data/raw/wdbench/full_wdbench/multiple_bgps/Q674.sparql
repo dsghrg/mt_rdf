@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <scripting language> . ?x1 ?x2 <object-based language> .  }
+
+NL-QUESTION:
+What programming languages are both scripting languages and object-based languages?

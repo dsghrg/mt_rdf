@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x1 <country of citizenship> ?x3 . ?x1 <SNAC ARK ID> ?x4 . ?x1 <Title not found> ?x5 . ?x1 (<instance of>/(<country of citizenship9>)*) <human> .  }
+
+NL-QUESTION:
+What is the sex or gender, country of citizenship, SNAC ARK ID, and instance of for humans in Wikidata?

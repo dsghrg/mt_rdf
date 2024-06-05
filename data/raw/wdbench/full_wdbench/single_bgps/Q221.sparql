@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <INSEE municipality code> ?x2 .  }
+
+NL-QUESTION:
+What is the INSEE municipality code for the entity represented by variable x1?

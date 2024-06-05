@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of origin> <France> . OPTIONAL { ?x2 <country> ?x3 . ?x2 <shares border with> ?x4 . }  }
+
+NL-QUESTION:
+What are some entities that have a country of origin in France, and what are some countries that they share borders with, if any?

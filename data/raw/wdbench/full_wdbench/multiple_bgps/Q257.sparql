@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> <architectural heritage monument in Bavaria> . ?x2 <Bavarian monument authority ID> ?x3 .  }
+
+NL-QUESTION:
+What are the Bavarian monument authority IDs for architectural heritage monuments in Bavaria?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 (<subclass of>)* <monarch> .  }
+
+NL-QUESTION:
+What monarchs are instances of humans in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . OPTIONAL { ?x1 <author name string> ?x2 . }  }
+
+NL-QUESTION:
+What scholarly articles include information about the author's name?

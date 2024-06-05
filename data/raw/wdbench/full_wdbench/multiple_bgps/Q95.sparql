@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <model> . ?x2 <country> ?x3 .  }
+
+NL-QUESTION:
+What models have occupation and what country are they from?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <mathematician> . ?x2 <country of origin> <Russia> .  }
+
+NL-QUESTION:
+What are the mathematicians who are from Russia in Wikidata?

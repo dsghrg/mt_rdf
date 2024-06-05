@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Title not found> <English> . ?x2 <is a list of> <word> . ?x3 <country of origin> <India> .  }
+
+NL-QUESTION:
+What are the English titles of Indian films that contain the word "word" in their list of attributes?

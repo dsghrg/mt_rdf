@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <native label> ?x2 . ?x3 <Commons category> ?x4 .  }
+
+NL-QUESTION:
+What are the native labels and Commons categories of the items in Wikidata?

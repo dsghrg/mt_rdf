@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <thoroughfare> .  }
+
+NL-QUESTION:
+What are the subclasses of "thoroughfare" in Wikidata?

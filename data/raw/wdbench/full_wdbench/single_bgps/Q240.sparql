@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <director> <Jim Jarmusch> .  }
+
+NL-QUESTION:
+Which films were directed by Jim Jarmusch?

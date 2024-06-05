@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <country of origin> <Israel> .  }
+
+NL-QUESTION:
+What films are from Israel?

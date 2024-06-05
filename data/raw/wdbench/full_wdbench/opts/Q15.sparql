@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <visual artist> . ?x1 <sex or gender> <female> . OPTIONAL { ?x1 <National Gallery of Victoria artist ID> ?x2 . } OPTIONAL { ?x1 <Tate artist ID> ?x3 . } OPTIONAL { ?x1 <Artnet artist ID> ?x4 . } OPTIONAL { ?x1 <sex or gender74> ?x5 . } OPTIONAL { ?x1 <Art UK artist ID> ?x6 . }  }
+
+NL-QUESTION:
+What are the identities of female visual artists with their corresponding IDs from National Gallery of Victoria, Tate, Artnet, and Art UK?

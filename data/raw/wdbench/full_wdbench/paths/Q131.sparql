@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((<mother>)*/(<father>)*)|^(<child>)*) ?x2 }
+
+NL-QUESTION:
+"Who are the parents or children of the item?"

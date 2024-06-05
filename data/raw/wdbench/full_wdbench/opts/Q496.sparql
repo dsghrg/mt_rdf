@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sport> <association football> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What images are available for players in the sport of association football on Wikidata?

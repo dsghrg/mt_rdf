@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <date of birth> ?x2 . ?x1 <date of death> ?x3 . OPTIONAL { ?x1 <place of birth> ?x4 . } OPTIONAL { ?x1 <place of birth> ?x4 . } OPTIONAL { ?x1 <section, verse, paragraph, or clause> ?x5 . }  }
+
+NL-QUESTION:
+What are the birth and death dates, and optional birth place and section/verse/paragraph/clause of humans on Wikidata?

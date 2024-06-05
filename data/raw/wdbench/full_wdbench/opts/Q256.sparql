@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Catalogus Professorum Academiae Rheno-Traiectinae ID> ?x2 . OPTIONAL { ?x1 <image> ?x3 . } OPTIONAL { ?x1 <date of birth> ?x4 . } OPTIONAL { ?x1 <date of death> ?x5 . } OPTIONAL { ?x1 <place of birth> ?x6 . } OPTIONAL { ?x6 <coordinate location> ?x7 . }  }
+
+NL-QUESTION:
+What is the Catalogus Professorum Academiae Rheno-Traiectinae ID, image, date of birth, date of death, and place of birth with coordinate location of individuals in Wikidata?

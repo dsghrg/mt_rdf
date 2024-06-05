@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <file extension> ?x2 . ?x3 <instance of> <file format> . OPTIONAL { ?x1 <media type> ?x4 . } OPTIONAL { ?x1 <name> ?x3 . }  }
+
+NL-QUESTION:
+What are the file extensions of file formats on Wikidata and their corresponding media types and names (if available)?

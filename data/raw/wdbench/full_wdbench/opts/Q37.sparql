@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <computer scientist> . ?x1 <sex or gender> <female> . OPTIONAL { ?x1 <place of birth> ?x2 . } OPTIONAL { ?x2 <coordinate location> ?x3 . } OPTIONAL { ?x1 <image> ?x4 . }  }
+
+NL-QUESTION:
+What are the names of female computer scientists and their respective place of birth coordinates and images, if available?

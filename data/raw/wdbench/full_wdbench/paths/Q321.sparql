@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<follows>|<followed by>) ?x2 }
+
+NL-QUESTION:
+What are the entities that are either followed by or follow another entity in Wikidata?

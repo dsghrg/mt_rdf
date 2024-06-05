@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <hospital> . ?x1 <official website> ?x2 .  }
+
+NL-QUESTION:
+What are the official websites of hospitals?

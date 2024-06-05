@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <India> . ?x1 (<instance of>/(<subclass of>)*) <human settlement> . ?x2 (<instance of>/(<subclass of>)*) <educational organization> .  }
+
+NL-QUESTION:
+What are all the educational organizations located in human settlements in India?

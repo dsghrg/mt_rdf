@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x2 <subclass of> ?x3 .  }
+
+NL-QUESTION:
+What are the subclasses of entities in Germany?

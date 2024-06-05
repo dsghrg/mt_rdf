@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<part of>)+ ?x2 }
+
+NL-QUESTION:
+What are the parts of ?x1 and their connections to ?x2 in Wikidata?

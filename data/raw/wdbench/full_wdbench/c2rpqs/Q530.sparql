@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <main subject> <Wikidata> . ?x1 (<instance of>/(<subclass of>)*) <article> .  }
+
+NL-QUESTION:
+What is the main subject of articles related to Wikidata?

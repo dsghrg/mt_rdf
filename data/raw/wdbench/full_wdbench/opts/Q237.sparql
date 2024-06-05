@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <TED speaker ID> ?x2 . ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x3 . } OPTIONAL { ?x3 <topic's main category> ?x4 . }  }
+
+NL-QUESTION:
+What are the TED speaker IDs of humans, along with their occupations and the main category of their topics?

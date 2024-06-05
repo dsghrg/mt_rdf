@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x3 <coordinate location> ?x4 . ?x1 <educated at> <The Wharton School> .  }
+
+NL-QUESTION:
+What is the place of birth and coordinates location of individuals who were educated at The Wharton School?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Iranian National Heritage registration number> ?x2 . ?x3 <country> <Iran> . ?x1 <image> ?x4 .  }
+
+NL-QUESTION:
+What are the images associated with Iranian National Heritage registration numbers in Iran?

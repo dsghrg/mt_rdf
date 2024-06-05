@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <composer> . ?x1 <place of birth> <Germany> . ?x2 <sex or gender> <female> .  }
+
+NL-QUESTION:
+Which female composers were born in Germany?

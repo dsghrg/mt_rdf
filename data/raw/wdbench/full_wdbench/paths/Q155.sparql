@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<subclass of>)*/<field of this occupation>) ?x2 }
+
+NL-QUESTION:
+What are some occupations that are related to a specific field?

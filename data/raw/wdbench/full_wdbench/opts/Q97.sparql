@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <thriller film> . ?x1 <instance of> <film> . OPTIONAL { ?x1 <main subject> ?x2 . } OPTIONAL { ?x1 <publication date> ?x3 . } OPTIONAL { ?x1 <director> ?x4 . } OPTIONAL { ?x1 <cast member> ?x5 . } OPTIONAL { ?x1 <screenwriter> ?x6 . } OPTIONAL { ?x1 <producer> ?x7 . } OPTIONAL { ?x1 <characters> ?x8 . }  }
+
+NL-QUESTION:
+What are the main subjects, publication dates, directors, cast members, screenwriters, producers, and characters of thriller films?

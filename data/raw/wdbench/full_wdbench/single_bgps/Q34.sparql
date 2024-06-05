@@ -1,0 +1,4 @@
+SELECT * WHERE { <Ada Lovelace> <occupation> ?x1 .  }
+
+NL-QUESTION:
+What is the occupation of Ada Lovelace?

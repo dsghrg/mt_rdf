@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <publication date> ?x2 . OPTIONAL { ?x1 <IMDb ID> ?x3 . } OPTIONAL { ?x1 <image> ?x4 . } OPTIONAL { ?x1 <director> ?x5 . } OPTIONAL { ?x1 <genre> ?x6 . } OPTIONAL { ?x1 <cast member> ?x7 . } OPTIONAL { ?x1 <title> ?x8 . }  }
+
+NL-QUESTION:
+What are the details of films, such as publication date, IMDb ID, image, director, genre, cast members, and title, that are instances of a film on Wikidata?

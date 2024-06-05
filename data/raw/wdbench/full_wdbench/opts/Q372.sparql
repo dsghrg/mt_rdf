@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> <actor> . } OPTIONAL { ?x1 <occupation> <film actor> . } OPTIONAL { ?x1 <occupation> <voice actor> . } OPTIONAL { ?x1 <occupation> <stage actor> . } OPTIONAL { ?x1 <occupation> <director> . } OPTIONAL { ?x1 <occupation> <film director> . } OPTIONAL { ?x1 <occupation> <film producer> . } OPTIONAL { ?x1 <occupation> <screenwriter> . } OPTIONAL { ?x1 <occupation> <human78109> . } OPTIONAL { ?x1 <occupation> <television actor> . } OPTIONAL { ?x1 <occupation> <writer> . } OPTIONAL { ?x1 <occupation> <novelist> . } OPTIONAL { ?x1 <occupation> <author> . } OPTIONAL { ?x1 <occupation> <executive producer> . }  }
+
+NL-QUESTION:
+Which humans have the occupations of actor, film actor, voice actor, stage actor, director, film director, film producer, screenwriter, human78109, television actor, writer, novelist, author, or executive producer?

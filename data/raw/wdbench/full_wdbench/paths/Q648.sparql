@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<discoverer or inventor>|<creator>) ?x2 }
+
+NL-QUESTION:
+Who is the discoverer, inventor, or creator of ?x1?

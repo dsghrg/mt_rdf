@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> <Tom Hiddleston> .  }
+
+NL-QUESTION:
+What are the cast members of Tom Hiddleston?

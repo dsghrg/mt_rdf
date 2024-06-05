@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <coordinate location> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <province of Afghanistan> .  }
+
+NL-QUESTION:
+What are the countries that have a coordinate location in the province of Afghanistan?

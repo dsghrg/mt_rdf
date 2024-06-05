@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <monarch> . ?x2 <instance of> <human> . OPTIONAL { ?x2 <sex or gender> ?x3 . } OPTIONAL { ?x2 <country of citizenship> ?x4 . } OPTIONAL { ?x2 <occupation> ?x5 . } OPTIONAL { ?x2 <date of birth> ?x6 . } OPTIONAL { ?x2 <date of death> ?x7 . } OPTIONAL { ?x2 <place of birth> ?x8 . } OPTIONAL { ?x2 <place of death> ?x9 . } OPTIONAL { ?x2 <place of burial> ?x10 . } OPTIONAL { ?x2 <educated at> ?x11 . } OPTIONAL { ?x2 <award received> ?x12 . } OPTIONAL { ?x2 <genre> ?x13 . } OPTIONAL { ?x2 <position held> ?x14 . } OPTIONAL { ?x2 <notable work> ?x15 . } OPTIONAL { ?x2 <official website> ?x16 . }  }
+
+NL-QUESTION:
+What are the characteristics of monarchs who are human?

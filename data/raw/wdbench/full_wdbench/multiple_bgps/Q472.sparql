@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x3 <instance of> <dog> .  }
+
+NL-QUESTION:
+What are the sexes or genders of dogs in Wikidata?

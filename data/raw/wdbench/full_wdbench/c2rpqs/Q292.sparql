@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x2 <instance of> <country> . ?x1 (<instance of>/(<subclass of>)*) <first-level administrative division> .  }
+
+NL-QUESTION:
+What are the countries that are first-level administrative divisions?

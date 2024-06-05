@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <scientist> . ?x2 <image> ?x3 . ?x1 <place of birth> <Iran> .  }
+
+NL-QUESTION:
+What scientists born in Iran have an image associated with them on Wikidata?

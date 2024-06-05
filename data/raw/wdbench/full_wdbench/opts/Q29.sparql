@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chemist> . ?x1 <sex or gender> <female> . ?x1 <country of citizenship> <United Kingdom> . ?x1 <instance of> <human> . OPTIONAL { ?x1 <image> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <place of birth> ?x4 . } OPTIONAL { ?x4 <coordinate location> ?x5 . }  }
+
+NL-QUESTION:
+What female chemists from the United Kingdom were born with an image, date of birth, place of birth, and coordinates of birth available?

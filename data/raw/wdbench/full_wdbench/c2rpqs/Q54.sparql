@@ -1,0 +1,4 @@
+SELECT * WHERE { <United States of America> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <school> .  }
+
+NL-QUESTION:
+What are the coordinates of schools in the United States of America?

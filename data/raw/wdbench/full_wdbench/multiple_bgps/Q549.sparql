@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <playground> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the coordinate locations of playgrounds?

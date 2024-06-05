@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <France> . ?x2 <position held> <regional council member> .  }
+
+NL-QUESTION:
+What regional council members are citizens of France in Wikidata?

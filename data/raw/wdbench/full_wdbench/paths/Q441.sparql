@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <city> }
+
+NL-QUESTION:
+Which entities are instances of a city in Wikidata?

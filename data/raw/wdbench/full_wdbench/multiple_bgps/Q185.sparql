@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <date of first performance> ?x2 . ?x1 <follows> ?x3 . ?x4 <followed by> ?x5 . ?x1 <part of the series> <Mr. Robot> . ?x1 <instance of> <television series episode> .  }
+
+NL-QUESTION:
+What is the date of the first performance of the television series episode that follows another episode in the series "Mr. Robot" and is followed by a different episode?

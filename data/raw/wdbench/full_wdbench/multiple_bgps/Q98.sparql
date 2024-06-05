@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <artist> . ?x2 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+What artists from the United States of America are listed in Wikidata?

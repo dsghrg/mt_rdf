@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <astronaut> . ?x1 <image> ?x3 . ?x1 <date of birth> ?x4 . ?x5 <coordinate location> ?x6 .  }
+
+NL-QUESTION:
+What are the names, images, dates of birth, and coordinate locations of astronauts in Wikidata?

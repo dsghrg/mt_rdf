@@ -1,0 +1,4 @@
+SELECT * WHERE { <Niche of St. Philip Neri> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+In which administrative territorial entity is the Niche of St. Philip Neri located?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)+ <Quebec> }
+
+NL-QUESTION:
+Which administrative territorial entities is Quebec located in?

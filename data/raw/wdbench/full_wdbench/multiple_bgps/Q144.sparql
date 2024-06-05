@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <place of birth> ?x3 . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the occupations of people born in a specific geographical location?

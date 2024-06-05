@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <family name> ?x2 . ?x1 <given name> ?x3 .  }
+
+NL-QUESTION:
+What are the family names and given names of all individuals in Wikidata?

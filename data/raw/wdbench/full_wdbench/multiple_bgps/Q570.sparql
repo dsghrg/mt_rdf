@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <profession> . ?x2 <author> ?x3 .  }
+
+NL-QUESTION:
+What are the professions of authors in Wikidata?

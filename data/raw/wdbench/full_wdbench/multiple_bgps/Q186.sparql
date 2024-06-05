@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <manner of death> <suicide> . ?x1 <country of citizenship> ?x2 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What countries do humans who died by suicide belong to?

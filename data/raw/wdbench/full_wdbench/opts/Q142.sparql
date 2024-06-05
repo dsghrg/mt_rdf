@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of the series> ?x2 . OPTIONAL { ?x1 <Freebase ID> ?x3 . } OPTIONAL { ?x1 <Rotten Tomatoes ID> ?x4 . } OPTIONAL { ?x1 <AllMovie title ID> ?x5 . } OPTIONAL { ?x1 <has characteristic> ?x6 . } OPTIONAL { ?x1 <Bechdel Test Movie List ID> ?x7 . } OPTIONAL { ?x1 <based on> ?x8 . } OPTIONAL { ?x1 <Quora topic ID> ?x9 . } OPTIONAL { ?x1 <movement> ?x10 . } OPTIONAL { ?x1 <set in period> ?x11 . } OPTIONAL { ?x1 <logo image> ?x12 . } OPTIONAL { ?x1 <main subject> ?x13 . } OPTIONAL { ?x1 <main subject> ?x14 . } OPTIONAL { ?x1 <named after> ?x15 . }  }
+
+NL-QUESTION:
+What are the various IDs and characteristics associated with a series on Wikidata?

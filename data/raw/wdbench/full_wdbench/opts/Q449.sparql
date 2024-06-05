@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <concept car> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What are some concept cars and do they have images available?

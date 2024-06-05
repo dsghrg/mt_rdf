@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> ?x2 . ?x1 <parent taxon> <lion> .  }
+
+NL-QUESTION:
+What is the parent taxon of the lion?

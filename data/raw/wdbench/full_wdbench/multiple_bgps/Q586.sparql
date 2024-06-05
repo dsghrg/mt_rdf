@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What cities have a coordinate location?

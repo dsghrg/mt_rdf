@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <National Heritage List for England number> ?x2 . ?x1 <heritage designation> ?x3 . ?x1 <heritage designation> <Grade I listed building> . ?x1 <country> <United Kingdom> . ?x4 <location> ?x5 . ?x1 (<instance of>/(<subclass of>)*) <church building> .  }
+
+NL-QUESTION:
+What are the Grade I listed church buildings in the United Kingdom that are on the National Heritage List for England?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . ?x1 <industry> ?x2 . OPTIONAL { ?x1 <headquarters location> ?x3 . } OPTIONAL { ?x1 <inception> ?x4 . }  }
+
+NL-QUESTION:
+What businesses have an industry and optionally have a headquarters location and/or an inception date?

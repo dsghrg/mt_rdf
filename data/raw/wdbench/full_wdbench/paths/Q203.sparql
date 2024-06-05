@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<instance of>/<instance of>)/<subclass of>) <Wikimedia internal item> }
+
+NL-QUESTION:
+What are the Wikimedia internal items that have a specific subclass relation in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <coordinate location> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <geographic region> .  }
+
+NL-QUESTION:
+What are the images, coordinate locations, and geographic regions associated with items on Wikidata?

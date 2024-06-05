@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<height>|<area>)|<maximum capacity>) ?x2 }
+
+NL-QUESTION:
+What is the height, area, or maximum capacity of the entity x1?

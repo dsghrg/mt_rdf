@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x2 <instance of> <human> . ?x2 <shares border with> ?x1 . }  }
+
+NL-QUESTION:
+What humans share a border with other humans?

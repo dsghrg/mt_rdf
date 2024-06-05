@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . ?x1 (<located in the administrative territorial entity>/(<located in the administrative territorial entity>)*) <Brandenburg> .  }
+
+NL-QUESTION:
+Which cities are located in Brandenburg?

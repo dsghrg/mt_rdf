@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <participant in> <2017 Asian Athletics Championships> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What participants are associated with the 2017 Asian Athletics Championships and do they have images available?

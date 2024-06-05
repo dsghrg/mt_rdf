@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x2 <country> <Italy> . ?x1 <place of birth> ?x2 . <Rome> <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What painters were born in Italy, specifically in Rome?

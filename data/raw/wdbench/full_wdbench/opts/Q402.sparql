@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <name> ?x2 . } OPTIONAL { ?x1 <URL> ?x3 . } OPTIONAL { ?x1 <date of birth> ?x4 . } OPTIONAL { ?x1 <place of birth> ?x5 . } OPTIONAL { ?x1 <date of death> ?x6 . } OPTIONAL { ?x1 <place of death> ?x7 . } OPTIONAL { ?x1 <reference URL> ?x8 . }  }
+
+NL-QUESTION:
+What information is available for humans in Wikidata, such as their name, URL, date of birth, place of birth, date of death, place of death, and reference URL?

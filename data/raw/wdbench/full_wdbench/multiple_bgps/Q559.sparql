@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Academy Awards ceremony> . ?x1 <edition number> ?x2 .  }
+
+NL-QUESTION:
+What is the edition number of the Academy Awards ceremony?

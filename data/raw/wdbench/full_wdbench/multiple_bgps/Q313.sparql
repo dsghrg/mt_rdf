@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Canada> . ?x2 <instance of> <film festival> . ?x1 <official website> ?x3 .  }
+
+NL-QUESTION:
+What are the official websites of film festivals held in Canada?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Buenos Aires> . ?x2 <sex or gender> <female> . ?x3 <instance of> <human> . ?x1 <instance of> <street> .  }
+
+NL-QUESTION:
+What are the names of the female humans located on the streets of Buenos Aires?

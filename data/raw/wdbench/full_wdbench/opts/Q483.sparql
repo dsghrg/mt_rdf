@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <child> ?x2 . <William I, German Emperor> <child> ?x1 . OPTIONAL { ?x2 <child> ?x3 . ?x3 <child> ?x4 . } OPTIONAL { ?x3 <child> ?x4 . ?x4 <child> ?x5 . } OPTIONAL { ?x4 <child> ?x5 . ?x5 <child> ?x6 . }  }
+
+NL-QUESTION:
+Who are the children of William I, German Emperor and their descendants?

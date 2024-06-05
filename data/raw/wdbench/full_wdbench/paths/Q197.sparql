@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<instance of>/(<subclass of>)*)|<occupation>) ?x2 }
+
+NL-QUESTION:
+What are the instances of or occupations associated with the entities in the dataset?

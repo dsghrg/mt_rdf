@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <characters> <Harry Potter> .  }
+
+NL-QUESTION:
+What are the characters in the Harry Potter series?

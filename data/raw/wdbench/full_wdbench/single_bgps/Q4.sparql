@@ -1,0 +1,4 @@
+SELECT * WHERE { <climate change> <described by source> ?x1 .  }
+
+NL-QUESTION:
+What are the sources that describe climate change?

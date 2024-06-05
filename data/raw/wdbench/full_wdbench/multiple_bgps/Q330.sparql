@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Sweden> . ?x2 <country> <Netherlands> .  }
+
+NL-QUESTION:
+What are the items that have the country set to Sweden and the country set to Netherlands in Wikidata?

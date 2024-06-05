@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Wikidata property related to rail transport> .  }
+
+NL-QUESTION:
+What are the instances of Wikidata properties related to rail transport?

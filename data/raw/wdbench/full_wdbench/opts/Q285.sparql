@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <time zone> . OPTIONAL { ?x1 <short name> ?x2 . } OPTIONAL { ?x1 <UTC timezone offset> ?x3 . }  }
+
+NL-QUESTION:
+What are the short names and UTC timezone offsets of all time zones?

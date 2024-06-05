@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <ministry of the Kingdom of Italy> }
+
+NL-QUESTION:
+What are the instances and subclasses of the Ministry of the Kingdom of Italy in Wikidata?

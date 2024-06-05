@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ <building material> }
+
+NL-QUESTION:
+What are some examples of building materials and their subclasses in Wikidata?

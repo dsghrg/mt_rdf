@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <Kyiv Metro> . OPTIONAL { ?x1 <coordinate location> ?x2 . } OPTIONAL { ?x1 <date of official opening> ?x3 . } OPTIONAL { ?x1 <Commons category> ?x4 . } OPTIONAL { ?x1 <connecting line> ?x5 . }  }
+
+NL-QUESTION:
+What are some details about the parts of the Kyiv Metro system, including their coordinates, official opening dates, Commons categories, and connecting lines?

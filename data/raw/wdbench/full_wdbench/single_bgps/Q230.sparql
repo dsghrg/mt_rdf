@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cause of death> <crucifixion> .  }
+
+NL-QUESTION:
+What is the cause of death for individuals who were crucified?

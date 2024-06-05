@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <part of> <Title not found> .  }
+
+NL-QUESTION:
+What are the images associated with the entity that is a part of the entity with the missing title?

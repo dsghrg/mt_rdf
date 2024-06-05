@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of> ?x2 . <France> <head of state> ?x1 .  }
+
+NL-QUESTION:
+Who is the head of state of France?

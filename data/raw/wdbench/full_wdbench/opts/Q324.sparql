@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painting> . OPTIONAL { ?x1 <creator> ?x2 . } OPTIONAL { ?x1 <movement> ?x3 . }  }
+
+NL-QUESTION:
+What are the creators and movements of paintings in Wikidata?

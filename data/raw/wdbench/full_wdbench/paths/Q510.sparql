@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <protein-coding gene> }
+
+NL-QUESTION:
+What are all the items that are instances of or subclasses of protein-coding genes?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . OPTIONAL { ?x1 <cost> ?x2 . }  }
+
+NL-QUESTION:
+What is the cost of making films on Wikidata?

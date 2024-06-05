@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <performer> <Linkin Park> . ?x1 <instance of> <album> .  }
+
+NL-QUESTION:
+What are the albums performed by Linkin Park?

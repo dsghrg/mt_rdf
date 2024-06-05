@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> ?x2 . ?x2 <instance of> <film genre> . OPTIONAL { ?x1 <IMDb ID> ?x3 . }  }
+
+NL-QUESTION:
+What are the genres of movies with optional IMDb IDs available on Wikidata?

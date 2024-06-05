@@ -1,0 +1,4 @@
+SELECT * WHERE { <The Shaggy Dog> ?x1 ?x2 . OPTIONAL { ?x1 <Commons category> ?x3 . }  }
+
+NL-QUESTION:
+What information is available about the movie "The Shaggy Dog" on Wikidata, including its Commons category?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <sausage> . ?x1 <subclass of> <label> .  }
+
+NL-QUESTION:
+What are the subclasses of sausage and label in Wikidata?

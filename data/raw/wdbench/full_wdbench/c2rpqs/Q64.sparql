@@ -1,0 +1,4 @@
+SELECT * WHERE { <Alfeld> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <business> .  }
+
+NL-QUESTION:
+What businesses are located in Alfeld?

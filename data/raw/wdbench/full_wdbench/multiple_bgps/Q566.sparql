@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <publisher> . ?x2 <instance of> <university> .  }
+
+NL-QUESTION:
+What publishers are also instances of universities?

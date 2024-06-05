@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <director> }
+
+NL-QUESTION:
+What are all directors and individuals with occupations subclassed as director in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Harry Potter> <author> ?x1 . <Harry Potter> <characters> ?x2 .  }
+
+NL-QUESTION:
+Who is the author of the Harry Potter series and who are the characters in the Harry Potter series?

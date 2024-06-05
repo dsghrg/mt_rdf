@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Hirundinidae> }
+
+NL-QUESTION:
+What are the descendants of the taxonomic group "Hirundinidae"?

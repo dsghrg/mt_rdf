@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <sex or gender> ?x2 . }  }
+
+NL-QUESTION:
+"What are the genders of all instances of humans in Wikidata?"

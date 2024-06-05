@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . OPTIONAL { ?x1 <country> ?x3 . } OPTIONAL { ?x1 <demonym> ?x4 . } OPTIONAL { ?x1 <demonym> ?x5 . }  }
+
+NL-QUESTION:
+What are the countries, nationalities, and demonyms associated with entity ?x1 in wikidata?

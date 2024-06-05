@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <place of birth> ?x3 . ?x4 <country of citizenship> <Belgium> . ?x1 <date of birth> ?x5 . ?x1 <date of birth> ?x6 . ?x3 <coordinate location> ?x7 . ?x1 <sport> <road bicycle racing> .  }
+
+NL-QUESTION:
+What road bicycle racers born in Belgium have an image, date of birth, and coordinate location associated with them?

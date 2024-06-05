@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <start time> ?x2 . } OPTIONAL { ?x1 <end time> ?x3 . }  }
+
+NL-QUESTION:
+What are the start and end times for instances of humans?

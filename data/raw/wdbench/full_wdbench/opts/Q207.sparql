@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x1 <instance of> <human> . ?x1 <date of birth> ?x3 . ?x2 <coordinate location> ?x4 . OPTIONAL { ?x1 <image> ?x5 . }  }
+
+NL-QUESTION:
+Which female humans were born in a specific place with coordinates, their date of birth, and possibly an image available in Wikidata?

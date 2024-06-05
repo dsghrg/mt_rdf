@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <punk rock> . ?x2 <instance of> <musical group> .  }
+
+NL-QUESTION:
+What musical groups fall under the genre of punk rock?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x1 <position held> ?x2 . ?x1 <given name> ?x3 .  }
+
+NL-QUESTION:
+What are the positions held and given names of politicians in Wikidata?

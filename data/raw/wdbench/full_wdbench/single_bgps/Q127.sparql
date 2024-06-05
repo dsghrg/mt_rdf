@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <page(s)> ?x2 .  }
+
+NL-QUESTION:
+What are the pages linked to the entity represented by variable ?x1 in Wikidata?

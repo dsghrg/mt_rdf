@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <Buchenwälder im Rosengarten> (<located in the administrative territorial entity>)* ?x1 .  }
+
+NL-QUESTION:
+Which administrative territorial entity do the beech forests in Rosengarten belong to?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 (<instance of>/(<subclass of>)*) <athlete> .  }
+
+NL-QUESTION:
+What athletes are instances of humans in Wikidata?

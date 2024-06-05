@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x1 <instance of> <business> . OPTIONAL { ?x1 <has subsidiary> ?x2 . } OPTIONAL { ?x1 <industry> ?x3 . } OPTIONAL { ?x1 <employees> ?x4 . } OPTIONAL { ?x1 <total revenue> ?x5 . } OPTIONAL { ?x1 <total assets> ?x6 . } OPTIONAL { ?x1 <ISNI> ?x7 . } OPTIONAL { ?x1 <country> ?x8 . }  }
+
+NL-QUESTION:
+What are the businesses in Germany, along with information about their subsidiaries, industry, number of employees, total revenue, total assets, and ISNI numbers?

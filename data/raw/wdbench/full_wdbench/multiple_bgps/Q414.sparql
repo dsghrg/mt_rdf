@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Yate> . ?x2 <sex or gender> <female> . ?x3 <country of citizenship> <United Kingdom> . ?x4 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the names of females born in Yate, United Kingdom who are humans?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <height> ?x2 .  }
+
+NL-QUESTION:
+What is the height of the entity?

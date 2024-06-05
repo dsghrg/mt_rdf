@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<instance of>)*|(<subclass of>)*) ?x2 }
+
+NL-QUESTION:
+What are all instances or subclasses of x2?

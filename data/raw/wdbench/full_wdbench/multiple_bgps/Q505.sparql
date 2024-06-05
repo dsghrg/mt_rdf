@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <United States of America> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What humans hold citizenship in the United States of America?

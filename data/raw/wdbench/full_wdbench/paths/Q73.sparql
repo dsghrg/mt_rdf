@@ -1,0 +1,4 @@
+SELECT * WHERE { <house> (<subclass of>)* ?x1 }
+
+NL-QUESTION:
+What are the subclasses of the concept "house" on Wikidata?

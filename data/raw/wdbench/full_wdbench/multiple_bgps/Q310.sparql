@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United Kingdom> . ?x2 <instance of> <bridge> .  }
+
+NL-QUESTION:
+Which bridges are located in the United Kingdom?

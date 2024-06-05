@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <John Ingleby> .  }
+
+NL-QUESTION:
+What are all the items created by John Ingleby?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((<located in the administrative territorial entity>)+|(<part of>)+)|(<subclass of>)+) ?x2 }
+
+NL-QUESTION:
+What are all the instances that are located in an administrative territorial entity, part of another instance, or a subclass of another instance?

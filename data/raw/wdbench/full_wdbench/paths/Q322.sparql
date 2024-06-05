@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<headquarters location>)+ ?x2 }
+
+NL-QUESTION:
+What is the headquarters location of entity x2?

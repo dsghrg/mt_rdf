@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Rembrandt> .  }
+
+NL-QUESTION:
+What works were created by Rembrandt?

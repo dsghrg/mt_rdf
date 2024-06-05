@@ -1,0 +1,4 @@
+SELECT * WHERE { <Rivière aux Rats> <coordinate location> ?x1 . ?x2 (<mouth of the watercourse>)* <Saint-Maurice river> .  }
+
+NL-QUESTION:
+What are the coordinates of the Rivière aux Rats that flows into the Saint-Maurice river?

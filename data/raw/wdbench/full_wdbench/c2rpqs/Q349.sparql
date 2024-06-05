@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <United States of America> . ?x1 (<instance of>/(<country of citizenship9>)*) <human> .  }
+
+NL-QUESTION:
+What is the list of humans who are citizens of the United States of America?

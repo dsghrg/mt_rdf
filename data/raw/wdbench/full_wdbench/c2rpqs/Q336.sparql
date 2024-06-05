@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> <Leipzig fairgrounds> . ?x1 (<instance of>/(<subclass of>)*) <event> .  }
+
+NL-QUESTION:
+What events take place at the Leipzig fairgrounds?

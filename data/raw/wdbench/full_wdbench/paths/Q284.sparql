@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <Rhine Province> }
+
+NL-QUESTION:
+What is the administrative territorial entity in which the Rhine Province is located?

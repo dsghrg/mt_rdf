@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> <Sciuromorpha> . ?x1 <image> ?x2 . OPTIONAL { ?x3 <parent taxon> ?x1 . ?x3 <image> ?x4 . } OPTIONAL { ?x5 <parent taxon> ?x3 . ?x5 <parent taxon> ?x3 . ?x5 <image> ?x6 . }  }
+
+NL-QUESTION:
+What images are available for species that belong to the taxonomic group Sciuromorpha and their respective parent taxa, if applicable?

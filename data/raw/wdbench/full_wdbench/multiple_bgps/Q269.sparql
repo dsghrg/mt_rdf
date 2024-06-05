@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <birth name> ?x2 . ?x3 <country of origin> <United States of America> .  }
+
+NL-QUESTION:
+What is the birth name of individuals from the United States of America?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <languages spoken, written or signed> ?x2 . ?x3 <country> <Austria> . ?x1 <place of birth> ?x3 .  }
+
+NL-QUESTION:
+What languages are spoken, written or signed by individuals born in Austria?

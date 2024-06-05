@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What is the population of cities?

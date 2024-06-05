@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <PubChem CID> ?x2 .  }
+
+NL-QUESTION:
+What are the PubChem CIDs for all items in Wikidata?

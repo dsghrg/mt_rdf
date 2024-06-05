@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x1 <instance of> <human> . ?x1 <IMDb ID> ?x2 . ?x1 <date of birth> ?x3 .  }
+
+NL-QUESTION:
+What are the IMDb IDs and birthdates of actors?

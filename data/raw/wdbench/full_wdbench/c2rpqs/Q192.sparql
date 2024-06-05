@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Berlin> . ?x1 <instance of> <railway station> . ?x1 <coordinate location> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <human settlement> .  }
+
+NL-QUESTION:
+What human settlements have railway stations located in Berlin?

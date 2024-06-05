@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <electoral unit> }
+
+NL-QUESTION:
+What are all the electoral units and their subclasses in Wikidata?

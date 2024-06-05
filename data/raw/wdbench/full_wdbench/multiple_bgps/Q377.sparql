@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <place of birth> ?x3 . ?x1 <date of birth> ?x4 . ?x5 <coordinate location> ?x6 . ?x1 <educated at> <Tel Aviv University> .  }
+
+NL-QUESTION:
+What is the image, place of birth, date of birth, and coordinates location of individuals who were educated at Tel Aviv University in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <organization> }
+
+NL-QUESTION:
+What are the instances and subclasses of organizations in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <abstract entity> }
+
+NL-QUESTION:
+What are all the abstract entities and their instances or subclasses in Wikidata?

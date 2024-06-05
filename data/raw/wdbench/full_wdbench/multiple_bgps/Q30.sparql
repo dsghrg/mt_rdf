@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <astronomer> . ?x1 <religion or worldview> <Islam> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+What is the occupation of individuals who follow Islam and are human?

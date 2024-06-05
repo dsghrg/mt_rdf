@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Alexa rank> ?x2 . ?x3 <instance of> <website> . OPTIONAL { ?x1 <official website> ?x4 . }  }
+
+NL-QUESTION:
+What is the Alexa rank of websites with an instance of a website and what is their official website (if available)?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> <Paris> . ?x2 <instance of> <school> . OPTIONAL { ?x2 <coordinate location> ?x3 . }  }
+
+NL-QUESTION:
+What schools are located in Paris and do they have coordinate locations specified?

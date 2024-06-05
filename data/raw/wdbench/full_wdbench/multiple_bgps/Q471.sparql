@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x3 <father> <Johann Sebastian Bach> .  }
+
+NL-QUESTION:
+What is the gender of the children of Johann Sebastian Bach?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <United States of America> . ?x2 <given name> <Joyce> . OPTIONAL { ?x2 <place of birth> ?x1 . } OPTIONAL { ?x2 <native language> ?x3 . }  }
+
+NL-QUESTION:
+What is the place of birth and native language of Joyce who was born in the United States of America?

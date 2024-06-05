@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x1 <work location> ?x2 . <Rome> <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What painters have had a work location in Rome?

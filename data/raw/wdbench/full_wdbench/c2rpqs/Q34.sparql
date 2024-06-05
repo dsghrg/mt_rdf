@@ -1,0 +1,4 @@
+SELECT * WHERE { <Munich> <coordinate location> ?x1 . ?x2 (<instance of>/<subclass of>) <GLAM> .  }
+
+NL-QUESTION:
+What are the coordinate locations of GLAM entities that are instances of or subclasses of Munich?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Fukushima> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <airport> .  }
+
+NL-QUESTION:
+Which airports are located near Fukushima?

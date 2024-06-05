@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <depicts> ?x2 . ?x2 <Science Museum people ID> ?x3 .  }
+
+NL-QUESTION:
+What is the Science Museum people ID of the entities that are depicted in the dataset?

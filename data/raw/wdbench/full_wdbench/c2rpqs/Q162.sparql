@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <population> ?x2 . ?x1 <country> ?x3 . ?x1 <country> ?x3 . ?x1 <IATA airport code> ?x4 . ?x1 <coordinate location> ?x5 . ?x6 (<instance of>/(<subclass of>)*) <airport> .  }
+
+NL-QUESTION:
+What are the populations and countries of airports with IATA airport codes and coordinate locations in Wikidata?

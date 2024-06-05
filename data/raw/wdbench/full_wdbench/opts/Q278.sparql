@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . OPTIONAL { ?x1 <cast member> ?x2 . } OPTIONAL { ?x1 <title> ?x3 . } OPTIONAL { ?x1 <IMDb ID> ?x4 . }  }
+
+NL-QUESTION:
+What films have cast members, titles, and IMDb IDs in Wikidata?

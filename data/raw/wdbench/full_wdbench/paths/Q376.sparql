@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <body of water> }
+
+NL-QUESTION:
+"What are all the subclasses of 'body of water' in Wikidata?"

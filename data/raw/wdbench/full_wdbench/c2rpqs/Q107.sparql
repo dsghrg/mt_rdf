@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> <species> . ?x1 (<parent taxon>)* <insect> .  }
+
+NL-QUESTION:
+What species of insects belong to the taxonomic rank of species?

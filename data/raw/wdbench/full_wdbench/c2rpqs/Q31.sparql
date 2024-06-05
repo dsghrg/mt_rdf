@@ -1,0 +1,4 @@
+SELECT * WHERE { <Hanover> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <subterranea> .  }
+
+NL-QUESTION:
+What are the coordinate locations of subterranea places in Hanover?

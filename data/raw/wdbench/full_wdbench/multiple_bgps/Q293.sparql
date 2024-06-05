@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <native label> ?x2 . ?x3 <Commons category> ?x4 . ?x5 <given name> ?x1 .  }
+
+NL-QUESTION:
+What is the native label, commons category, and given name of a specific entity in Wikidata?

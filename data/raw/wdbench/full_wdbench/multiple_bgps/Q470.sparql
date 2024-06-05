@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x1 <given name> <Gianluigi> .  }
+
+NL-QUESTION:
+What is the gender of the person with the given name "Gianluigi"?

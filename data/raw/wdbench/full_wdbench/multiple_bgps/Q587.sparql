@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <poem> . ?x1 <author> <Elia Abu Madi> .  }
+
+NL-QUESTION:
+What poems were authored by Elia Abu Madi?

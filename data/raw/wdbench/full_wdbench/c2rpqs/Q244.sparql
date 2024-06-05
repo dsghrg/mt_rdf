@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Vincent van Gogh> . ?x1 (<instance of>/(<subclass of>)*) <work> .  }
+
+NL-QUESTION:
+What are the works created by Vincent van Gogh?

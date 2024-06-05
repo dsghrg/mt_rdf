@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <companions of the Prophet> . OPTIONAL { ?x1 <date of birth> ?x2 . ?x1 <date of death> ?x3 . }  }
+
+NL-QUESTION:
+What are the dates of birth and death of companions of the Prophet in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x2 <country of citizenship> <Canada> . ?x1 <instance of> <human> . ?x1 (<occupation>/(<country of citizenship9>)*) <artist> .  }
+
+NL-QUESTION:
+What female artists are citizens of Canada?

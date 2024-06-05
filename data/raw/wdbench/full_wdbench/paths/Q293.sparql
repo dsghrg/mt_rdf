@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)+ <Ille-et-Vilaine> }
+
+NL-QUESTION:
+What is the administrative territorial entity that Ille-et-Vilaine is located in?

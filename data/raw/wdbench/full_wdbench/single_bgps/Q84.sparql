@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <manufacturer> <Apple> .  }
+
+NL-QUESTION:
+What products are manufactured by Apple?

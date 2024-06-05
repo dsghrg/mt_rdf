@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Rembrandt> . ?x2 <country> <France> .  }
+
+NL-QUESTION:
+What are the entities that have "Rembrandt" as their creator and are located in France?

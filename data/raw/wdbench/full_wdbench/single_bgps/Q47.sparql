@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chemist> .  }
+
+NL-QUESTION:
+What are the occupations of people who are chemists?

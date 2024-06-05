@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> ?x2 . ?x1 <instance of> ?x3 . ?x1 <sport> ?x4 . ?x3 ((<subclass of>|<located in the administrative territorial entity>))* <sports competition> . ?x4 ((<subclass of>|<located in the administrative territorial entity>))* <basketball> . ?x2 ((<subclass of>|<located in the administrative territorial entity>))* <Canada> .  }
+
+NL-QUESTION:
+What sports competitions in Canada include basketball?

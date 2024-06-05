@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 .  }
+
+NL-QUESTION:
+What is the coordinate location of Berlin?

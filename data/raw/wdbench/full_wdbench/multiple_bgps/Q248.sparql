@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <named after> ?x2 . ?x1 <country> <Spain> . ?x3 <sex or gender> <female> . ?x2 <instance of> <human> . ?x1 <instance of> <street> .  }
+
+NL-QUESTION:
+What streets in Spain are named after females?

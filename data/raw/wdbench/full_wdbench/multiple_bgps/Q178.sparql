@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <employer> <Microsoft> . ?x2 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+Which individuals are employed by Microsoft and are citizens of the United States of America?

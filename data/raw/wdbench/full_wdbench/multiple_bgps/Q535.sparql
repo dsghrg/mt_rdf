@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What films have a coordinate location?

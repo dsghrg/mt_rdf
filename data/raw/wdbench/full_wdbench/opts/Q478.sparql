@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent astronomical body> <Sun> . OPTIONAL { ?x1 <parent astronomical body> ?x2 . }  }
+
+NL-QUESTION:
+What are the astronomical bodies that have the Sun as their parent astronomical body, and is there information about their parent astronomical bodies as well?

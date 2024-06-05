@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <Spain> . ?x1 <head coach> ?x2 . ?x1 <instance of> <human> . ?x3 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the names of the head coaches who are citizens of Spain?

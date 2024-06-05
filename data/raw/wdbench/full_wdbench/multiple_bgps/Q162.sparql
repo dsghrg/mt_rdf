@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <from narrative universe> <Star Trek universe> . ?x1 <instance of> <fictional character> .  }
+
+NL-QUESTION:
+What fictional characters are from the Star Trek universe?

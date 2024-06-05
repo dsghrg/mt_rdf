@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <federal district of Russia> .  }
+
+NL-QUESTION:
+What are the federal districts of Russia?

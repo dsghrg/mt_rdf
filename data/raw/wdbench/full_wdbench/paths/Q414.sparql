@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ <death> }
+
+NL-QUESTION:
+What are the different types of deaths?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Son Excellence Eugène Rougon> .  }
+
+NL-QUESTION:
+What edition or translation is associated with "Son Excellence Eugène Rougon"?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <inventor> . ?x1 <instance of> <human> . ?x2 <discoverer or inventor> ?x3 . OPTIONAL { ?x1 <given name> ?x4 . }  }
+
+NL-QUESTION:
+What are the inventors' names and who discovered or invented their inventions?

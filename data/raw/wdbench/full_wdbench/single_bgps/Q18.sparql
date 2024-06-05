@@ -1,0 +1,4 @@
+SELECT * WHERE { <England> ?x1 ?x2 .  }
+
+NL-QUESTION:
+What information is available about England in Wikidata?

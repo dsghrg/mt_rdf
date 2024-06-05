@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <signaling receptor activity> }
+
+NL-QUESTION:
+What are the subclasses of signaling receptor activity?

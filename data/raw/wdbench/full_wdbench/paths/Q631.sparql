@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<part of>)* <Latin America> }
+
+NL-QUESTION:
+What are all the entities that are part of Latin America in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Italy> . ?x2 (<instance of>/(<subclass of>)*) ?x1 . ?x1 (<subclass of>)* <electoral unit> .  }
+
+NL-QUESTION:
+What are the electoral units in Italy?

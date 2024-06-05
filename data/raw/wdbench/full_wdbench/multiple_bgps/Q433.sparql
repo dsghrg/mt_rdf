@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <male> . ?x3 <coordinate location> ?x4 . ?x1 <educated at> <Fordham University> .  }
+
+NL-QUESTION:
+What are the males who were born in a place, educated at Fordham University, and have a coordinate location?

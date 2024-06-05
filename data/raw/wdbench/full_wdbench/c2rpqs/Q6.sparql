@@ -1,0 +1,4 @@
+SELECT * WHERE { <United States House of Representatives> <has part(s)> ?x1 . ?x2 (<instance of>/(<subclass of>)*) ?x1 .  }
+
+NL-QUESTION:
+What are the parts of the United States House of Representatives?

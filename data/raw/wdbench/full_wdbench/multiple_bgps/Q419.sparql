@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Austria> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the instances of humans who were born in Austria?

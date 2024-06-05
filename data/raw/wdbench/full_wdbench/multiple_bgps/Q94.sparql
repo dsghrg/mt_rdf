@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <statesperson> . ?x2 <country of citizenship> ?x3 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+Which humans are statespersons and have a country of citizenship?

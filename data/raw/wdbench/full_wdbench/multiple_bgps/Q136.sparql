@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . ?x1 <instance of> <human> . ?x1 <date of birth> ?x2 .  }
+
+NL-QUESTION:
+What are the dates of birth of association football players who are humans?

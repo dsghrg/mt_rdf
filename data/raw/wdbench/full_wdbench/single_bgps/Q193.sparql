@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> .  }
+
+NL-QUESTION:
+What countries exist in Wikidata?

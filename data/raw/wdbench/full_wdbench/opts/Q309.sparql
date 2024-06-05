@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <anime film> . OPTIONAL { ?x1 <main subject> ?x2 . }  }
+
+NL-QUESTION:
+What are some main subjects of anime films on Wikidata?

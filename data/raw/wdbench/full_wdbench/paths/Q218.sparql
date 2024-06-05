@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>)* <singer> }
+
+NL-QUESTION:
+What are the occupations of all singers in Wikidata?

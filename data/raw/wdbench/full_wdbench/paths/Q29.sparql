@@ -1,0 +1,4 @@
+SELECT * WHERE { <Glüsingen> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What is the administrative territorial entity where Glüsingen is located?

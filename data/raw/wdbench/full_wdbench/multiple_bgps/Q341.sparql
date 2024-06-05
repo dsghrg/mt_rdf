@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Pakistan> . ?x2 <instance of> <airport> .  }
+
+NL-QUESTION:
+What are the airports located in Pakistan?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 . ?x2 (<instance of>/<subclass of>) ?x3 . ?x2 (<instance of>/<subclass of>) <manor house> .  }
+
+NL-QUESTION:
+What are the coordinates of manor houses in Berlin?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <GeoNames ID> ?x2 . ?x1 <country> <India> . OPTIONAL { ?x1 <located in the administrative territorial entity> ?x3 . }  }
+
+NL-QUESTION:
+What are the GeoNames IDs of locations in India and in which administrative territorial entity are they located?

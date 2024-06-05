@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <instance of> <human> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the birthplaces of all humans on Wikidata that have a known coordinate location?

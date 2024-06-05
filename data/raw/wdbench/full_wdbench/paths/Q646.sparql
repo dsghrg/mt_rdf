@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<field of this occupation>|<field of work>) ?x2 }
+
+NL-QUESTION:
+What is the field of work or occupation of the entity?

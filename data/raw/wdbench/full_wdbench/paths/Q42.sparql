@@ -1,0 +1,4 @@
+SELECT * WHERE { <No label defined> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative entities does the unknown entity belong to?

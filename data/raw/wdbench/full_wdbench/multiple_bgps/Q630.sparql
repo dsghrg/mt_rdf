@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 <RxNorm ID> ?x3 .  }
+
+NL-QUESTION:
+What is the RxNorm ID of entities that are instances of what in Wikidata?

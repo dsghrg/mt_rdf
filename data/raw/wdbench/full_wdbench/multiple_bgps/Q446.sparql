@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <elevation above sea level> ?x2 . ?x1 <instance of> ?x3 . <Odaiba> <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What is the elevation above sea level and the instance of the location Odaiba, based on its coordinate location?

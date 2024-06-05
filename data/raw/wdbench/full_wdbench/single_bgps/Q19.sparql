@@ -1,0 +1,4 @@
+SELECT * WHERE { <Eiffel Tower> <height> ?x1 .  }
+
+NL-QUESTION:
+What is the height of the Eiffel Tower?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Leonardo da Vinci> <notable work> ?x1 .  }
+
+NL-QUESTION:
+What notable works is Leonardo da Vinci known for?

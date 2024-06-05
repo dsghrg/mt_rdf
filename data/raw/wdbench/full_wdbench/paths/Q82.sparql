@@ -1,0 +1,4 @@
+SELECT * WHERE { <Miley Cyrus> (((((<instance of>/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?) ?x1 }
+
+NL-QUESTION:
+What is a classification or classification levels for Miley Cyrus in Wikidata?

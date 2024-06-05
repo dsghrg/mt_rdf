@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <scientific illustrator> . ?x1 <sex or gender> <female> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What is the occupation of female humans who are scientific illustrators on Wikidata?

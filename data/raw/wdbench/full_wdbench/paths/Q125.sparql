@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((<occupation>|<position held>)|<instance of>)/(<subclass of>)*) <city> }
+
+NL-QUESTION:
+What occupations, positions held, or instances of individuals are associated with the city?

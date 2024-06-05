@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> ?x2 . ?x3 <position held> <member of the European Parliament> .  }
+
+NL-QUESTION:
+What positions does a person hold if they are a member of the European Parliament?

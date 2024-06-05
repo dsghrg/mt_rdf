@@ -1,0 +1,4 @@
+SELECT * WHERE { <Mars> (<instance of>/(<subclass of>)*) ?x1 }
+
+NL-QUESTION:
+What is the classification of Mars in terms of instances or subclasses?

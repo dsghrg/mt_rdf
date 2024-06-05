@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x2 . ?x1 <sex or gender> ?x3 . ?x4 <sex or gender> ?x5 . ?x6 <sex or gender> ?x7 . ?x1 <spouse> ?x4 . ?x1 <unmarried partner> ?x6 . ?x1 <date of birth> ?x8 . ?x4 <date of birth> ?x9 . ?x6 <date of birth> ?x10 . ?x1 <date of death> ?x11 . }  }
+
+NL-QUESTION:
+What are the occupations, genders, spouses, unmarried partners, dates of birth, and dates of death of humans in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Claude Monet> . ?x1 <image> ?x2 . ?x1 <instance of> <painting> . ?x1 <inception> ?x3 .  }
+
+NL-QUESTION:
+What paintings were created by Claude Monet and have images and inception dates?

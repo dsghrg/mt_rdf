@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <relative> ?x2 . }  }
+
+NL-QUESTION:
+What are the relatives of humans in Wikidata?

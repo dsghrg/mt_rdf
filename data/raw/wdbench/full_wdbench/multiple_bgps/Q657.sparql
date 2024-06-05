@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of> <ANK '64> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the coordinates of the member of 'ANK '64' ?

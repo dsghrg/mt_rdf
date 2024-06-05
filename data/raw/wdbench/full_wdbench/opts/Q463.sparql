@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x3 <instance of> <name> . OPTIONAL { ?x1 <brand> ?x4 . }  }
+
+NL-QUESTION:
+What are the instances of an entity that has a brand name associated with it?

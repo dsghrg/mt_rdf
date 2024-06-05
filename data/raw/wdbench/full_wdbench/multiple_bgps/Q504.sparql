@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <Spain> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+"Which humans have Spanish citizenship?"

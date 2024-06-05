@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <literary work> .  }
+
+NL-QUESTION:
+What are some subclasses of literary works?

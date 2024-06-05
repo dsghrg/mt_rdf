@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <X username> ?x2 . ?x1 <position held> <Member of Parliament> . OPTIONAL { ?x1 <name in native language> ?x3 . } OPTIONAL { ?x1 <member of political party> ?x4 . } OPTIONAL { ?x4 <official name> ?x5 . }  }
+
+NL-QUESTION:
+What are the usernames, names in native language, political party names, and official names of Members of Parliament on Wikidata?

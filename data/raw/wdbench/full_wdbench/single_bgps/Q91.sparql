@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 .  }
+
+NL-QUESTION:
+What countries are connected with the entity represented by variable x1?

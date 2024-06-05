@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x2 <film poster> ?x3 .  }
+
+NL-QUESTION:
+What films have a film poster in Wikidata?

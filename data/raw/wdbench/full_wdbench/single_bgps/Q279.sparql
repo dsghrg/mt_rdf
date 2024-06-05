@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <Novak Djokovic> .  }
+
+NL-QUESTION:
+What are the properties and values associated with Novak Djokovic on Wikidata?

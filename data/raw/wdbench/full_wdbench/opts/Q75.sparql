@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Cher> . ?x2 <instance of> <commune of France> . OPTIONAL { ?x3 <instance of> <commune of France> . ?x3 <shares border with> ?x2 . }  }
+
+NL-QUESTION:
+What French communes are located within the administrative territorial entity of Cher and share a border with another commune of France?

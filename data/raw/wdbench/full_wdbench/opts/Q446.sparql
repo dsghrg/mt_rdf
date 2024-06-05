@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <currency> . ?x1 <ISO 4217 code> ?x2 . OPTIONAL { ?x1 <Title not found> ?x3 . }  }
+
+NL-QUESTION:
+What are the ISO 4217 codes for currencies in Wikidata, including any titles that may not be found?

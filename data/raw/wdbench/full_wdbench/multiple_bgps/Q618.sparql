@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> . ?x1 <capital> ?x2 . ?x3 <coordinate location> ?x4 . ?x2 <head of government> ?x5 .  }
+
+NL-QUESTION:
+What are the countries with their capitals, coordinates, and head of government?

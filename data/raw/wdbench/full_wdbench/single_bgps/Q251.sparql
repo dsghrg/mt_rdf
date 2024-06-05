@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Le Ventre de Paris> .  }
+
+NL-QUESTION:
+What are the editions or translations of the book "Le Ventre de Paris"?

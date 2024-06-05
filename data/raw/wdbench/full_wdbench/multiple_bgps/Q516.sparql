@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <postal code> ?x2 . ?x3 <instance of> <district of Germany> . ?x1 <instance of> <municipality in Germany> . ?x1 <German municipality key> ?x4 . ?x1 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What are the postal codes, German municipality keys, and coordinates of municipalities in Germany that are instances of districts of Germany?

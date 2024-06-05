@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <creative work> . ?x2 <main subject> ?x3 .  }
+
+NL-QUESTION:
+What are the main subjects of creative works in Wikidata?

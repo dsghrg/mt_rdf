@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <geographical feature> .  }
+
+NL-QUESTION:
+What are the various geographical features in Wikidata and what are their instances?

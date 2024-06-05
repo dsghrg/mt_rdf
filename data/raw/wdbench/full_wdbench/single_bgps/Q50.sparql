@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> .  }
+
+NL-QUESTION:
+What are the occupations of people who are associated with football players?

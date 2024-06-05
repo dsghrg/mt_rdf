@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x2 <instance of> <national flag> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What is the national flag image of Germany?

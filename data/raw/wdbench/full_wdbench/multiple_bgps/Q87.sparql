@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <writer> . ?x2 <genre> <science fiction> .  }
+
+NL-QUESTION:
+What writers are known for their work in the science fiction genre?

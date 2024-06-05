@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x2 <subclass of> <sandwich> . OPTIONAL { ?x2 <image> ?x3 . }  }
+
+NL-QUESTION:
+What are some sandwiches that are associated with Germany and do they have any images available?

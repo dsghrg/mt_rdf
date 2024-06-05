@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of origin> ?x2 .  }
+
+NL-QUESTION:
+What is the country of origin for the entity represented by variable ?x1?

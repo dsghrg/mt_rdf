@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . ?x1 <author> ?x2 . OPTIONAL { ?x1 <author> ?x2 . } OPTIONAL { ?x1 <title> ?x3 . } OPTIONAL { ?x1 <publication date> ?x4 . }  }
+
+NL-QUESTION:
+What scholarly articles have authors, titles, and publication dates?

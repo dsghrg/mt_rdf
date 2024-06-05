@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<instance of>|<occupation>)/(<subclass of>)*) <billionaire> }
+
+NL-QUESTION:
+What are the instances and occupations of individuals who are billionaires?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <parody> . ?x1 (<instance of>/(<subclass of>)*) <work> .  }
+
+NL-QUESTION:
+What are some works that are parodies?

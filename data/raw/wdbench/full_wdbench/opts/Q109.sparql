@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> <World Heritage Site> . ?x2 <instance of> ?x3 . OPTIONAL { ?x1 <coordinate location> ?x4 . }  }
+
+NL-QUESTION:
+What are the instances of heritage sites designated as World Heritage Sites, and can you provide their coordinate locations if available?

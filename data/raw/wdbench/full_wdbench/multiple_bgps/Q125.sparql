@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x2 <country> <Argentina> . ?x3 <place of birth> ?x2 . ?x3 <date of birth> ?x4 .  }
+
+NL-QUESTION:
+Which politicians were born in Argentina and what are their date of births?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . OPTIONAL { ?x1 <population> ?x2 . } OPTIONAL { ?x1 <area> ?x3 . } OPTIONAL { ?x1 <elevation above sea level> ?x4 . } OPTIONAL { ?x1 <country> ?x5 . } OPTIONAL { ?x5 <continent> ?x6 . }  }
+
+NL-QUESTION:
+What are the populations, areas, elevations above sea level, countries, and continents for cities?

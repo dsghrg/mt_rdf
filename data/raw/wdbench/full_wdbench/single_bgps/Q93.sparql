@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <made from material> <wood> .  }
+
+NL-QUESTION:
+What items are made from wood in Wikidata?

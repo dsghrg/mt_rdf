@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <mass shooting> . OPTIONAL { ?x1 <coordinate location> ?x2 . } OPTIONAL { ?x1 <number of deaths> ?x3 . } OPTIONAL { ?x1 <point in time> ?x4 . }  }
+
+NL-QUESTION:
+What are the instances of mass shootings with their corresponding coordinate locations, number of deaths, and point in time?

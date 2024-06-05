@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> .  }
+
+NL-QUESTION:
+What are the names of all actors in Wikidata?

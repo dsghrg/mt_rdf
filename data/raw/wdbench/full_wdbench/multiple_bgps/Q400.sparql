@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <instance of> <Linux distribution> .  }
+
+NL-QUESTION:
+What are the images of Linux distributions?

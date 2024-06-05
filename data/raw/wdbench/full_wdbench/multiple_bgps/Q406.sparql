@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <instance of> <plant> .  }
+
+NL-QUESTION:
+What are the images of plants in Wikidata?

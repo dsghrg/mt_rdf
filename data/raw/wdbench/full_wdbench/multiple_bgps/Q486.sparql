@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> ?x2 . ?x1 <instance of> <battle> . ?x1 <part of> ?x3 . ?x1 <start time> ?x4 . ?x2 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What battles took place at a specific location and what were their start times?

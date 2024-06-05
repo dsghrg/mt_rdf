@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <occurrence> }
+
+NL-QUESTION:
+What occurrences are associated with the items that are instances of or subclasses of a certain class?

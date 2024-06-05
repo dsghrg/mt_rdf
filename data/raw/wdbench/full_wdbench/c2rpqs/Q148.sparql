@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <instance of> <human> . ?x2 (<subclass of>)* <creator> .  }
+
+NL-QUESTION:
+What are the occupations of humans who are creators?

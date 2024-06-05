@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chief executive officer> . ?x2 <instance of> <business> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the humans who are chief executive officers of businesses?

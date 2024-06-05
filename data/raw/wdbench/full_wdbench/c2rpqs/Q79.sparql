@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <park> .  }
+
+NL-QUESTION:
+What parks are located near Berlin?

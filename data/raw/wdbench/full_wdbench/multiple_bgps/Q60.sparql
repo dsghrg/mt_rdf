@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <science fiction writer> . ?x2 <place of birth> ?x3 . ?x2 <place of death> ?x4 . ?x1 <instance of> <human> . ?x2 <date of birth> ?x5 . ?x2 <date of death> ?x6 .  }
+
+NL-QUESTION:
+What are the birth and death places, as well as the birth and death dates, of science fiction writers who are human?

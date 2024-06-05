@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x2 <history of topic> ?x3 .  }
+
+NL-QUESTION:
+What is the history of the countries in Wikidata?

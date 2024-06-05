@@ -1,0 +1,4 @@
+SELECT * WHERE { <Hanover> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <library> .  }
+
+NL-QUESTION:
+What are the coordinates of libraries located in Hanover?

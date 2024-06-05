@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Photographers’ Identities Catalog ID> ?x2 . ?x3 <member of> <Royal Academy of Arts> .  }
+
+NL-QUESTION:
+What are the photographers' identities catalog IDs of members of the Royal Academy of Arts?

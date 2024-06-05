@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <family name> .  }
+
+NL-QUESTION:
+What are some family names on Wikidata?

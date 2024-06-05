@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <musician> . ?x2 <occupation> <politician> . ?x2 <father> ?x3 .  }
+
+NL-QUESTION:
+Who are the fathers of politicians who are also musicians?

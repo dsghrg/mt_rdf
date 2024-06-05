@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <Hamburg> }
+
+NL-QUESTION:
+What administrative territorial entities is Hamburg located in?

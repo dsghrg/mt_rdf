@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Kingdom of Hanover> . ?x1 <instance of> ?x2 . ?x2 (<subclass of>)* <administrative territorial entity> .  }
+
+NL-QUESTION:
+What administrative territorial entities does the Kingdom of Hanover belong to?

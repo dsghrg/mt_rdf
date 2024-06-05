@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <dentist> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+Which humans have the occupation of dentist?

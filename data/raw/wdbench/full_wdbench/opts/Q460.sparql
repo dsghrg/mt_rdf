@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 <author> <Paul Blanshard> . OPTIONAL { ?x1 <publication date> ?x3 . } OPTIONAL { ?x1 <part of the series> ?x4 . } OPTIONAL { ?x1 <part of> ?x4 . }  }
+
+NL-QUESTION:
+What works are authored by Paul Blanshard?

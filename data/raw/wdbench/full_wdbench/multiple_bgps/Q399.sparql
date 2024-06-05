@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <instance of> <bridge> . ?x1 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the images and coordinates of bridges in Wikidata?

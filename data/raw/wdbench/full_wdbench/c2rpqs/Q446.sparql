@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 (<occupation>/(<subclass of>)*) <artist> . ?x1 ((<occupation>/(<subclass of>)*)/(<subclass of>)*) <artist> .  }
+
+NL-QUESTION:
+What artists are also classified as humans?

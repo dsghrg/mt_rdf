@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <album> . OPTIONAL { ?x1 <performer> ?x2 . }  }
+
+NL-QUESTION:
+What are the performers of each album in Wikidata?

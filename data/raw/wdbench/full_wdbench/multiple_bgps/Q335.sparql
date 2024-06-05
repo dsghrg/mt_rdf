@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Austria> . ?x2 <instance of> <cathedral> .  }
+
+NL-QUESTION:
+What cathedrals are located in Austria?

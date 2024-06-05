@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <mountain> . OPTIONAL { ?x1 <country> <Germany> . }  }
+
+NL-QUESTION:
+What mountains are located in Germany?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 (<subclass of>)+ <death> .  }
+
+NL-QUESTION:
+What are the images associated with entities that are subclasses of death?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Early Modern Letters Online person ID> ?x2 . OPTIONAL { ?x1 <image> ?x3 . ?x4 <image> ?x5 . }  }
+
+NL-QUESTION:
+What is the Early Modern Letters Online person ID for each person and do they have images available?

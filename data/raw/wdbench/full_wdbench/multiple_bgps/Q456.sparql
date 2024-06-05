@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <date of birth> ?x2 .  }
+
+NL-QUESTION:
+What are the dates of birth of all females in Wikidata?

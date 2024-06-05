@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Perth> .  }
+
+NL-QUESTION:
+What administrative territorial entity is Perth located in?

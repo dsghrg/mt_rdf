@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <district of Germany> . OPTIONAL { ?x1 <location> ?x2 . } OPTIONAL { ?x2 <population> ?x3 . }  }
+
+NL-QUESTION:
+What is the population of districts in Germany?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <hackspace> .  }
+
+NL-QUESTION:
+What are the hackspace instances in Wikidata?

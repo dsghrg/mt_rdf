@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <economist> . ?x2 <country of citizenship> <Brazil> . ?x3 <instance of> <human> . OPTIONAL { ?x3 <sex or gender> ?x4 . }  }
+
+NL-QUESTION:
+What economists from Brazil are human and what is their gender, if available?

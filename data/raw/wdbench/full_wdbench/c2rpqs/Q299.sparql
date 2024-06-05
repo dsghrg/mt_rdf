@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <depicts> ?x2 . ?x1 <image> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <painting> . ?x2 (<subclass of>)* <musical instrument> .  }
+
+NL-QUESTION:
+What musical instruments are depicted in paintings on Wikidata?

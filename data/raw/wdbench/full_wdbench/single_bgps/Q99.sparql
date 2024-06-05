@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <area> ?x2 .  }
+
+NL-QUESTION:
+What is the area of the entity?

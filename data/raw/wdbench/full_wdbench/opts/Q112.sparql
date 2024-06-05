@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <title> <Paradise Papers> . OPTIONAL { ?x1 <publication date> ?x2 . }  }
+
+NL-QUESTION:
+What is the publication date of the document titled "Paradise Papers"?

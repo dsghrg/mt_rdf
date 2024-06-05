@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <German colonial empire> . OPTIONAL { ?x2 <part of> ?x1 . } OPTIONAL { ?x2 <instance of> ?x3 . }  }
+
+NL-QUESTION:
+What are some entities that are part of the German colonial empire, along with their respective parent entities and instances?

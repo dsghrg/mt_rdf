@@ -1,0 +1,4 @@
+SELECT * WHERE { <Ghost Dog: The Way of the Samurai> ?x1 ?x2 .  }
+
+NL-QUESTION:
+What information is available about the movie "Ghost Dog: The Way of the Samurai" on Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <astronaut> . ?x1 (<instance of>/(<instance of>)*) <taxon> .  }
+
+NL-QUESTION:
+What taxons are related to individuals who have the occupation of astronaut?

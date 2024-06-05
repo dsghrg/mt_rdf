@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <scientist> . ?x1 <sex or gender> <list of NCAA Division I men's soccer teams> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the names of human scientists who are associated with NCAA Division I men's soccer teams?

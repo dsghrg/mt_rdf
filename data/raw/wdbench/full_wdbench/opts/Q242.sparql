@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <TED speaker ID> ?x2 . ?x3 <instance of> <profession> . ?x1 <instance of> <human> . OPTIONAL { ?x1 <sex or gender> ?x4 . } OPTIONAL { ?x1 <country of citizenship> ?x5 . } OPTIONAL { ?x1 <date of birth> ?x6 . } OPTIONAL { ?x1 <occupation> ?x3 . } OPTIONAL { ?x3 <country of citizenship9> ?x7 . }  }
+
+NL-QUESTION:
+What are the TED speakers who are human, have a profession, and may have a specified gender, country of citizenship, date of birth, occupation, and country of citizenship of their profession?

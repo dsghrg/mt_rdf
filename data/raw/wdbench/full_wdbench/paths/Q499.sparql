@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <local government area of Australia> }
+
+NL-QUESTION:
+What are all the entities that are instances or subclasses of local government areas in Australia?

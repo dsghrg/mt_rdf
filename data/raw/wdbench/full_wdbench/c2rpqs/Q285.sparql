@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <image> ?x3 . ?x2 <ISO 3166-1 alpha-2 code> ?x4 . ?x1 <instance of> ?x5 . ?x1 (<instance of>/(<subclass of>)*) <food> . ?x1 (<instance of>/(<subclass of>)*) ?x6 .  }
+
+NL-QUESTION:
+What are some food items with images and their corresponding countries and ISO 3166-1 alpha-2 codes?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Jabal Maswar> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative territorial entity is Jabal Maswar located in?

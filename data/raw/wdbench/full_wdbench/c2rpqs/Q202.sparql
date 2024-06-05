@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <country> <Germany> . ?x1 <coordinate location> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <human settlement> . ?x1 (<located in the administrative territorial entity>)+ <Baden-Württemberg> .  }
+
+NL-QUESTION:
+What are all the human settlements located in Baden-Württemberg, Germany with their respective coordinates?

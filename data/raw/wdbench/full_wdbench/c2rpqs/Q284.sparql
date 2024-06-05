@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <image> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <geographic region> .  }
+
+NL-QUESTION:
+What countries in geographic regions have images available on Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <country of citizenship> <Iran> . ?x1 <instance of> <human> . ?x2 <cause of death> ?x3 .  }
+
+NL-QUESTION:
+What is the cause of death of Iranian female humans?

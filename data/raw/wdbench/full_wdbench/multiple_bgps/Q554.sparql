@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <television program> . ?x2 <country of origin> <South Korea> .  }
+
+NL-QUESTION:
+What television programs originate from South Korea?

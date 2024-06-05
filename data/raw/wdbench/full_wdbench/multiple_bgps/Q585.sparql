@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . ?x2 <instance of> <country> . ?x1 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+Which cities have coordinate locations and belong to a country on Wikidata?

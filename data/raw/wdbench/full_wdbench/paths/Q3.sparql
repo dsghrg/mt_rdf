@@ -1,0 +1,4 @@
+SELECT * WHERE { <Mars> ((((((<instance of>/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?)/(<subclass of>)?) ?x1 }
+
+NL-QUESTION:
+What categories does Mars belong to?

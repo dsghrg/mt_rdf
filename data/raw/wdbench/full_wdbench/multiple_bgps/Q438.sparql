@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x2 <place of birth> ?x3 . ?x1 <given name> <Ehud Manor> .  }
+
+NL-QUESTION:
+What is the birthplace of the person named Ehud Manor and the birthplace of the person who was born there?

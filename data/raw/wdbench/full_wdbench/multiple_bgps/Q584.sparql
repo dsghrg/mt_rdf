@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . ?x1 <inception> ?x2 .  }
+
+NL-QUESTION:
+What cities have a known inception date?

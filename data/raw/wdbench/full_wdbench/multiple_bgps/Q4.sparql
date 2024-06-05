@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Iran statistics ID> ?x2 . ?x3 <image> ?x4 .  }
+
+NL-QUESTION:
+What is the Iran statistics ID and image of the entity in Wikidata?

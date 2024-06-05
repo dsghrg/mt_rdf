@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <composer> <Maurice Ravel> .  }
+
+NL-QUESTION:
+What composers have a connection to Maurice Ravel?

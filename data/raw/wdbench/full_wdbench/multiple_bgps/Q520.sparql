@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <page(s)> ?x2 . ?x1 <instance of> <scholarly article> .  }
+
+NL-QUESTION:
+What scholarly articles are associated with a specific page(s) on Wikidata?

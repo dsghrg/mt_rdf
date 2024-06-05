@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . ?x1 <parent organization> ?x2 . OPTIONAL { ?x1 <official website> ?x3 . } OPTIONAL { ?x4 <official website> ?x3 . }  }
+
+NL-QUESTION:
+What are the parent organizations of businesses on Wikidata and do they have official websites?

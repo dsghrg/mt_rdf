@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <residence> <India> .  }
+
+NL-QUESTION:
+What are the images associated with individuals who reside in India in Wikidata?

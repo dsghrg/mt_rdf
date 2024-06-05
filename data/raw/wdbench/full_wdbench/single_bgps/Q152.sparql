@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <church building> .  }
+
+NL-QUESTION:
+What are all the church buildings in wikidata?

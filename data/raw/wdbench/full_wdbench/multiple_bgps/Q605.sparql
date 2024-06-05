@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <instance of> <human> . ?x1 <educated at> ?x3 . ?x2 <educated at> ?x3 .  }
+
+NL-QUESTION:
+Which humans have been educated at the same institution?

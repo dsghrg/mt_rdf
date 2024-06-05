@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Wikidata item of this property> <Instagram> . ?x2 <Instagram username> ?x3 . ?x4 <sex or gender> <female> . OPTIONAL { ?x4 <sex or gender> ?x5 . } OPTIONAL { ?x4 <website username or ID> ?x2 . }  }
+
+NL-QUESTION:
+What are the Instagram usernames of female individuals with a specified property on Wikidata?

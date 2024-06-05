@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <NRHP reference number> ?x2 . ?x1 <NRHP reference number> ?x3 . <Washington, D.C.> <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the NRHP reference numbers for two locations in Washington, D.C. with their coordinate locations?

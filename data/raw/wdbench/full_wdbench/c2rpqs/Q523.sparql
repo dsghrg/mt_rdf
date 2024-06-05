@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <coordinate location> ?x2 . ?x1 <official website> ?x3 . ?x1 (<instance of>/(<subclass of>)?) <national park> .  }
+
+NL-QUESTION:
+What national parks have a coordinate location and an official website on Wikidata?

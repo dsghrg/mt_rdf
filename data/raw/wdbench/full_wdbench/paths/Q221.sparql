@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <painter> }
+
+NL-QUESTION:
+What are the occupations of individuals who are painters in Wikidata?

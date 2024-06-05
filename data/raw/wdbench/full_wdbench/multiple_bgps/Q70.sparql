@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <screenwriter> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+What screenwriters are humans?

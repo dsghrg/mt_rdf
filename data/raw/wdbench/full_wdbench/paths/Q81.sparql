@@ -1,0 +1,4 @@
+SELECT * WHERE { <Cologne Cathedral> (<instance of>/<subclass of>) <church building> }
+
+NL-QUESTION:
+What type of building is Cologne Cathedral classified as in Wikidata?

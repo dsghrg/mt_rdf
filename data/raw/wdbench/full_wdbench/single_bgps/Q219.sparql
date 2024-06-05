@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <is a list of> <country> .  }
+
+NL-QUESTION:
+What countries are listed in the dataset?

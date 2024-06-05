@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <Morocco> . OPTIONAL { ?x1 <educated at> <École Hassania des travaux publics> . } OPTIONAL { ?x1 <place of birth> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <image> ?x4 . } OPTIONAL { ?x2 <coordinate location> ?x5 . }  }
+
+NL-QUESTION:
+What are the details of individuals who are citizens of Morocco, including their education at École Hassania des travaux publics, place of birth, date of birth, and image, as well as the coordinate location of their place of birth?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <country of origin> ?x2 .  }
+
+NL-QUESTION:
+What countries do the films in Wikidata originate from?

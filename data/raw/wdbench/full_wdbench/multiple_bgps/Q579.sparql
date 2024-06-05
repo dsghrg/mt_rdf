@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . ?x1 <industry> ?x2 .  }
+
+NL-QUESTION:
+What industries do businesses identified in Wikidata belong to?

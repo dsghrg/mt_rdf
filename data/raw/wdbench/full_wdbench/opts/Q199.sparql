@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <collection> <National Portrait Gallery> . OPTIONAL { ?x1 <genre> ?x2 . }  }
+
+NL-QUESTION:
+What genres are included in the National Portrait Gallery collection?

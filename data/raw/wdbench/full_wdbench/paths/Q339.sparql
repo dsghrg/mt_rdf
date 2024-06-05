@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <plant> }
+
+NL-QUESTION:
+What are all the parent taxa of the plant?

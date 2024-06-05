@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . OPTIONAL { ?x1 <Wikidata property> ?x3 . }  }
+
+NL-QUESTION:
+What images are associated with items in Wikidata, and what additional properties do these items have?

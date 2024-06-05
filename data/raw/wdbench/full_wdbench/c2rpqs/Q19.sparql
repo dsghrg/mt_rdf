@@ -1,0 +1,4 @@
+SELECT * WHERE { <Rivière L'Assomption> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <airport> .  }
+
+NL-QUESTION:
+What are the coordinates of Rivière L'Assomption and all airports?

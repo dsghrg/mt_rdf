@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <house cat> .  }
+
+NL-QUESTION:
+What are all the instances of house cats in Wikidata?

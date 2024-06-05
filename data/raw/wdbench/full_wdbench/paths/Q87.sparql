@@ -1,0 +1,4 @@
+SELECT * WHERE { <Local Court Stuttgart> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative territorial entities is the Local Court Stuttgart located in?

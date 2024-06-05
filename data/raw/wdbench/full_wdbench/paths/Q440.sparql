@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <commune of France> }
+
+NL-QUESTION:
+What are all the instances of commune of France in Wikidata?

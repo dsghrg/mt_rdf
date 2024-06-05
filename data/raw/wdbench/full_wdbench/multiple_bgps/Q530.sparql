@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <director> ?x2 .  }
+
+NL-QUESTION:
+What movies have a director?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <electoral unit> }
+
+NL-QUESTION:
+What electoral units are instances or subclasses of?

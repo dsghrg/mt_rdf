@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <human> . ?x1 <date of birth> ?x3 .  }
+
+NL-QUESTION:
+What are the images of humans with their date of birth in Wikidata?

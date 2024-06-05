@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <collection> <Department of Paintings of the Louvre> .  }
+
+NL-QUESTION:
+What is the collection of the Department of Paintings of the Louvre?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((<occupation>|<position held>)|<instance of>)/(<subclass of>)*) <mountain> }
+
+NL-QUESTION:
+What are the occupations or positions held by people related to mountains in Wikidata?

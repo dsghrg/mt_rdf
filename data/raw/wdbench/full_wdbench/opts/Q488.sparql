@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of origin> <United States of America> . OPTIONAL { ?x1 <publication date> ?x2 . }  }
+
+NL-QUESTION:
+What are the items with a country of origin that is the United States of America, and what are their publication dates (if available)?

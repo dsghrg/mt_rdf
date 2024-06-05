@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <North Sumatra> . ?x1 <instance of> <mountain> . OPTIONAL { ?x1 <elevation above sea level> ?x2 . }  }
+
+NL-QUESTION:
+What are the names and elevations above sea level of mountains located in North Sumatra?

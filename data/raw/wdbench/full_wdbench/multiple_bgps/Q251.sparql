@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <named after> ?x2 . ?x3 <instance of> <fictional human> .  }
+
+NL-QUESTION:
+Which fictional humans are named after someone?

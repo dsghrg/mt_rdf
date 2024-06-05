@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> . ?x1 (<country>)? <Spain> .  }
+
+NL-QUESTION:
+What countries are instances of Spain?

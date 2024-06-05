@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Category:Emigrants from Nazi Germany> . OPTIONAL { ?x1 <date of birth> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x2 . } OPTIONAL { ?x1 <occupation> ?x3 . }  }
+
+NL-QUESTION:
+What are the birth dates and occupations of emigrants from Nazi Germany?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <metro station> . ?x1 <part of> <Shanghai Metro> .  }
+
+NL-QUESTION:
+What are the metro stations that are part of the Shanghai Metro in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <meat> ?x1 ?x2 .  }
+
+NL-QUESTION:
+What properties does meat have in Wikidata?

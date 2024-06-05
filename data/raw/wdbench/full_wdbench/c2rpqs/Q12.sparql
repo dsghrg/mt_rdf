@@ -1,0 +1,4 @@
+SELECT * WHERE { <France> <head of state> ?x1 . ?x1 (<subclass of>)+ <entity> .  }
+
+NL-QUESTION:
+Who is the head of state of France?

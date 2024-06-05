@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <published in> ?x2 . ?x1 <issue> ?x3 . ?x1 <volume> ?x4 .  }
+
+NL-QUESTION:
+What are the publications that are published in a specific issue and volume?

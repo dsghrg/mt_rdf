@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <contains the administrative territorial entity> ?x1 . ?x2 <country> <Germany> .  }
+
+NL-QUESTION:
+What administrative territorial entities are contained within Germany?

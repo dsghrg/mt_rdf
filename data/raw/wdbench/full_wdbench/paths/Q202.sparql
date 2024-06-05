@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<instance of>/<instance of>)/(<instance of>)+) ?x2 }
+
+NL-QUESTION:
+What are the instances of instances of instances of a given entity?

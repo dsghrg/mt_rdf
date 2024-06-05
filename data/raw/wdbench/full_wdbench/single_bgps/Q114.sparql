@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <city> .  }
+
+NL-QUESTION:
+What cities are subclasses of other cities?

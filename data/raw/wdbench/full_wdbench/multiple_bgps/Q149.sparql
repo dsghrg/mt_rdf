@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x2 <subclass of> ?x3 . ?x2 <subclass of> ?x4 . ?x2 <instance of> ?x5 . ?x2 <instance of> ?x6 .  }
+
+NL-QUESTION:
+What are the occupations that are subclasses of two different classes and instances of two different things in Wikidata?

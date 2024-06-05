@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <followed by> <secondary sex characteristic> . ?x1 <part of> <secondary sex characteristic> .  }
+
+NL-QUESTION:
+What are some examples of secondary sex characteristics that are followed by and are part of the same entity in Wikidata?

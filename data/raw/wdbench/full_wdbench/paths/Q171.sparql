@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<subclass of>|<located in the administrative territorial entity>))* <Galicia> }
+
+NL-QUESTION:
+What are all the items that are subclasses or located in the administrative territorial entity of Galicia?

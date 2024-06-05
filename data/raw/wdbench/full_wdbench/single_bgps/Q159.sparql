@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <oblast of Bulgaria> .  }
+
+NL-QUESTION:
+What are the instances of oblast of Bulgaria?

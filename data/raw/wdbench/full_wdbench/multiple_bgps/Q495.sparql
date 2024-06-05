@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> ?x2 . ?x3 <subclass of> <artificial intelligence> .  }
+
+NL-QUESTION:
+What are the subclasses of artificial intelligence?

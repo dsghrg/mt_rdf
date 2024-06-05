@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Thessaloniki> . ?x2 <instance of> <human> . ?x3 <part of> <date of birth> .  }
+
+NL-QUESTION:
+What are the dates of birth for humans born in Thessaloniki?

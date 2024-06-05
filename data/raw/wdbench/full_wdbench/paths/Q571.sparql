@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <country> }
+
+NL-QUESTION:
+What countries are instances of a country or a subclass of a country in Wikidata?

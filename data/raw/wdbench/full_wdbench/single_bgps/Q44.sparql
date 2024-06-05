@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <student of> <Leonardo da Vinci> .  }
+
+NL-QUESTION:
+Who were the students of Leonardo da Vinci?

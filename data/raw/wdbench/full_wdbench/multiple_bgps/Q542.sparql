@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <tribe> . ?x2 <instance of> <language> . ?x3 <category combines topics> <Africa> .  }
+
+NL-QUESTION:
+What are some tribes in Africa that have a language associated with them?

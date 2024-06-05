@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <author> . ?x1 <sex or gender> <female> . ?x1 <instance of> <human> . OPTIONAL { ?x1 <place of birth> ?x2 . } OPTIONAL { ?x1 <place of death> ?x3 . } OPTIONAL { ?x1 <sex or gender> ?x4 . } OPTIONAL { ?x1 <date of birth> ?x5 . } OPTIONAL { ?x1 <date of death> ?x6 . } OPTIONAL { ?x1 <member of> ?x7 . } OPTIONAL { ?x1 <occupation> ?x8 . } OPTIONAL { ?x1 <notable work> ?x9 . } OPTIONAL { ?x1 <award received> ?x10 . } OPTIONAL { ?x1 <residence> ?x11 . } OPTIONAL { ?x1 <educated at> ?x12 . } OPTIONAL { ?x1 <Commons category> ?x13 . } OPTIONAL { ?x1 <Dictionary of Welsh Biography ID> ?x14 . }  }
+
+NL-QUESTION:
+What female authors were human?

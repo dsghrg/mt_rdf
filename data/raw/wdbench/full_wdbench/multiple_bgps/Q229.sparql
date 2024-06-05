@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <action film> . ?x2 <instance of> <film> .  }
+
+NL-QUESTION:
+What action films are instances of a film?

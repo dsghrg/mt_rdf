@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <supercomputer> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the instances of supercomputers with their coordinate locations?

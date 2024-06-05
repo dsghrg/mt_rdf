@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <sovereign state> . OPTIONAL { ?x1 <continent> ?x2 . } OPTIONAL { ?x1 <official language> ?x3 . } OPTIONAL { ?x3 <ISO 639-3 code> ?x4 . }  }
+
+NL-QUESTION:
+What are the continents and official languages with ISO 639-3 codes of all sovereign states?

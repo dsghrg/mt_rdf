@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <El Greco> .  }
+
+NL-QUESTION:
+What artworks were created by El Greco?

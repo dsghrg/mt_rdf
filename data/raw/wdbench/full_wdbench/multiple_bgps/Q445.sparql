@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <length> ?x2 . ?x3 <subclass of> <management> . ?x1 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+Which management entities have a length and coordinate location associated with them in Wikidata?

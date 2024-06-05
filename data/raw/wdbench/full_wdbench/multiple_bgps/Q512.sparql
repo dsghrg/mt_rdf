@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> ?x2 . ?x1 <country of citizenship> ?x3 . ?x1 <instance of> <human> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the countries of citizenship for humans who are citizens of more than one country?

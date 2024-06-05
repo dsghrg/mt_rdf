@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <NORAF ID> ?x2 . ?x3 <work location> <Strasbourg> .  }
+
+NL-QUESTION:
+What are the NORAF ID numbers of entities located in Strasbourg?

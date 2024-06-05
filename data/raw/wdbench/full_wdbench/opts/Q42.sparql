@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . OPTIONAL { ?x1 <languages spoken, written or signed> ?x2 . } OPTIONAL { ?x1 <sex or gender> ?x3 . }  }
+
+NL-QUESTION:
+What are the languages spoken, written, or signed by politicians and what is their gender?

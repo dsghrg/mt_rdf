@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Russia> . ?x2 <instance of> <human settlement> . OPTIONAL { ?x2 <coordinate location> ?x3 . } OPTIONAL { ?x2 <population> ?x4 . }  }
+
+NL-QUESTION:
+What are the human settlements in Russia, along with their geographic coordinates and population information (if available)?

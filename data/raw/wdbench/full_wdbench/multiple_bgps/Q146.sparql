@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <country of citizenship> ?x3 .  }
+
+NL-QUESTION:
+What are the occupations and countries of citizenship of the individuals in Wikidata?

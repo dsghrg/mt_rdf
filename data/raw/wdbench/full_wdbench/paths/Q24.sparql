@@ -1,0 +1,4 @@
+SELECT * WHERE { <Pteropodidae> (<parent taxon>)* ?x1 }
+
+NL-QUESTION:
+What are the parent taxons of Pteropodidae?

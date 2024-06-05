@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <baseball manager> . ?x2 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+Which baseball managers are citizens of the United States of America?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <chemist> . ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x3 <location> ?x4 . ?x1 <date of birth> ?x5 . OPTIONAL { ?x1 <image> ?x6 . }  }
+
+NL-QUESTION:
+What is the birthplace and location of female chemists, as well as their date of birth and optional image?

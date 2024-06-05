@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<author>|<composer>) ?x2 }
+
+NL-QUESTION:
+Which authors or composers are associated with the entity represented by x1?

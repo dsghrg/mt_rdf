@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <neighborhood> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the coordinates of neighborhoods in Wikidata?

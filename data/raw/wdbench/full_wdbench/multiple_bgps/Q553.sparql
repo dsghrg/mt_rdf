@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <television program> . ?x2 <IMDb ID> ?x3 . ?x1 <country of origin> <South Korea> .  }
+
+NL-QUESTION:
+What are the IMDb IDs of television programs from South Korea?

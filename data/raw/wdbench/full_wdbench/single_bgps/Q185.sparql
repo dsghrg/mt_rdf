@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <EXO> .  }
+
+NL-QUESTION:
+What are instances of the entity EXO in Wikidata?

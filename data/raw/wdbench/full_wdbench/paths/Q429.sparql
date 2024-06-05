@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <Wikidata property for authority control> }
+
+NL-QUESTION:
+What are the authority control items in Wikidata?

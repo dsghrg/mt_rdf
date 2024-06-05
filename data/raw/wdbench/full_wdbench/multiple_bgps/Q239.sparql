@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> ?x2 . ?x3 <genre> <heavy metal> . ?x4 <subclass of> <heavy metal> .  }
+
+NL-QUESTION:
+What genres are subcategories of heavy metal?

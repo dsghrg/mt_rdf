@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <coal mine> . OPTIONAL { ?x1 <located in the administrative territorial entity> ?x2 . } OPTIONAL { ?x2 <coordinate location> ?x3 . }  }
+
+NL-QUESTION:
+What are the administrative territorial entities in which coal mines are located, along with their coordinate locations?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <country> ?x3 . ?x1 <instance of> <city> . ?x1 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What is the population of cities and their coordinates by country in Wikidata?

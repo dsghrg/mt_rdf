@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<position held>)* <President of Artsakh> }
+
+NL-QUESTION:
+What are the positions held by the President of Artsakh in Wikidata?

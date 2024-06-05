@@ -1,0 +1,4 @@
+SELECT * WHERE { <Alfeld> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <mine> .  }
+
+NL-QUESTION:
+What are the coordinates of mines located in Alfeld?

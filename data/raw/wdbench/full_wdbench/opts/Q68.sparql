@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Avebury> . OPTIONAL { ?x1 <coordinate location> ?x2 . } OPTIONAL { ?x1 <image> ?x3 . }  }
+
+NL-QUESTION:
+What is the administrative territorial entity in which Avebury is located?

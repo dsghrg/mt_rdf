@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <mass> ?x2 .  }
+
+NL-QUESTION:
+What is the mass of the entity?

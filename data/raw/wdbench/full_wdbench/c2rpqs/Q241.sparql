@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <GeoNames ID> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <geographic location> .  }
+
+NL-QUESTION:
+What are the GeoNames IDs of geographic locations?

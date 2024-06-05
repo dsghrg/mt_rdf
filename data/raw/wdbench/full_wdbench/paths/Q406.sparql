@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* ?x2 }
+
+NL-QUESTION:
+What are all the instances where one entity is a subclass of another entity?

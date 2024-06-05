@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <place of birth> ?x3 . ?x1 <sex or gender> <female> . ?x4 <coordinate location> ?x5 . ?x1 <educated at> <Université Libre de Bruxelles> .  }
+
+NL-QUESTION:
+What are the occupations of females who were born in a specific location, studied at Université Libre de Bruxelles, and have a coordinate location?

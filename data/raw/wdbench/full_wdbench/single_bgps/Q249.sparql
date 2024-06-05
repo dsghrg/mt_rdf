@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Artemis Fowl and the Last Guardian> .  }
+
+NL-QUESTION:
+What editions or translations of "Artemis Fowl and the Last Guardian" are available in Wikidata?

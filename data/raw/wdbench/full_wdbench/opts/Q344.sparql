@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . OPTIONAL { ?x1 <headquarters location> ?x2 . } OPTIONAL { ?x1 <inception> ?x3 . } OPTIONAL { ?x1 <industry> ?x4 . }  }
+
+NL-QUESTION:
+What are the headquarters locations, inception dates, and industries of businesses in Wikidata?

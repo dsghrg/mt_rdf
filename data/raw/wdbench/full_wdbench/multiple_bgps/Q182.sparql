@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <pKa> ?x2 . ?x3 <has part(s)> ?x1 .  }
+
+NL-QUESTION:
+What are the pKa values of all parts in a compound?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <star> . ?x1 (<instance of>/(<subclass of>)*) <entity> .  }
+
+NL-QUESTION:
+What is the <star> of <entity>?

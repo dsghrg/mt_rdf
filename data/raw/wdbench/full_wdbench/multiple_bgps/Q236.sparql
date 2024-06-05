@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <crime film> . ?x2 <part of the series> <Tatort> .  }
+
+NL-QUESTION:
+What crime films are part of the series Tatort?

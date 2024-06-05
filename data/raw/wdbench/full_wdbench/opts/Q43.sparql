@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . OPTIONAL { ?x1 <ethnic group> ?x2 . }  }
+
+NL-QUESTION:
+What is the occupation of politicians and what ethnic group do they belong to, if available?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <date of birth> ?x3 . ?x2 <coordinate location> ?x4 . ?x1 <sport> <road bicycle racing> . <Berlin> <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+Where were road bicycle racers born in Berlin and when were they born?

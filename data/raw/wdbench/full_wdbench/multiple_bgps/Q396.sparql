@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <image> ?x2 . ?x1 <instance of> <human> . ?x3 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the images and instances of humans associated with the same image in Wikidata?

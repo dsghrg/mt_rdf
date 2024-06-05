@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <founded by> ?x2 . ?x1 <country> <Israel> . ?x1 (<instance of>/(<subclass of>)*) <agent> .  }
+
+NL-QUESTION:
+Which agents founded organizations in Israel?

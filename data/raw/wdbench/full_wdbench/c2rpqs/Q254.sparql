@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <People's Republic of China> . <People's Republic of China> <official language> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What cities have People's Republic of China as their country and have an official language?

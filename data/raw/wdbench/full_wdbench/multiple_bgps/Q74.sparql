@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x1 <image> ?x2 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What actors have images and are humans?

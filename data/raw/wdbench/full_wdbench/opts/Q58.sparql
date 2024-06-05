@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <signature> ?x2 . ?x3 <GTAA ID> ?x4 . OPTIONAL { ?x3 <date of birth> ?x5 . } OPTIONAL { ?x3 <place of birth> ?x6 . } OPTIONAL { ?x3 <date of death> ?x7 . } OPTIONAL { ?x3 <place of death> ?x8 . } OPTIONAL { ?x3 <occupation> ?x9 . }  }
+
+NL-QUESTION:
+What is the signature, GTAA ID, date of birth, place of birth, date of death, place of death, and occupation of the entity?

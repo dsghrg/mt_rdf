@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <given name> ?x2 . } OPTIONAL { ?x1 <pseudonym> ?x3 . } OPTIONAL { ?x1 <noble title> ?x4 . }  }
+
+NL-QUESTION:
+What are the given names, pseudonyms, and noble titles of humans in Wikidata?

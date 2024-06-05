@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painter> . ?x1 <work location> ?x2 .  }
+
+NL-QUESTION:
+What are the work locations of painters in Wikidata?

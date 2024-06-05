@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <region of Italy> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What regions of Italy have a coordinate location?

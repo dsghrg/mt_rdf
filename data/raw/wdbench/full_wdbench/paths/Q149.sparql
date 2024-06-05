@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<place of birth>|<place of death>)|<residence>) <Vienna> }
+
+NL-QUESTION:
+What are the individuals who were born, died, or resided in Vienna?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . OPTIONAL { ?x1 <coordinate location> ?x2 . } OPTIONAL { ?x1 <located in the administrative territorial entity> ?x3 . } OPTIONAL { ?x3 <located in the administrative territorial entity> ?x4 . }  }
+
+NL-QUESTION:
+What cities have coordinates and what administrative territorial entities are they located in?

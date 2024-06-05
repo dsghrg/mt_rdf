@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 <instance of> <software company> . ?x4 <part of> <Nasdaq-100> .  }
+
+NL-QUESTION:
+Which software companies are part of the Nasdaq-100 index?

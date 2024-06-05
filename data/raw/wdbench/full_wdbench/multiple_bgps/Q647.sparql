@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <space launch vehicle> ?x2 . ?x3 <country of origin> ?x4 . ?x2 <powered by> ?x3 . ?x5 <coordinate location> ?x6 . ?x4 <coordinate location> ?x7 .  }
+
+NL-QUESTION:
+What countries are space launch vehicles powered by and where are they launched from?

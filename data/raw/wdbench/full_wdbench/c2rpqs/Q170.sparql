@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <country> ?x3 . ?x1 <coordinate location> ?x4 . ?x1 (<instance of>/(<subclass of>)*) <city> . ?x5 (<instance of>/(<subclass of>)*) <federated state> .  }
+
+NL-QUESTION:
+What is the population, country, and coordinate location of cities that are also federated states?

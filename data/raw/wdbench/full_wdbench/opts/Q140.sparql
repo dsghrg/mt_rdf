@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <developer> <Microsoft> . OPTIONAL { ?x1 <logo image> ?x2 . } OPTIONAL { ?x1 <official website> ?x3 . } OPTIONAL { ?x1 <official blog URL> ?x4 . }  }
+
+NL-QUESTION:
+Which entities are developed by Microsoft and what are their corresponding logo images, official websites, and official blog URLs (if available)?

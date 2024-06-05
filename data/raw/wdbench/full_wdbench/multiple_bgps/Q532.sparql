@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x2 <instance of> <genre> .  }
+
+NL-QUESTION:
+What films are classified under specific genres in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <award received> <Dublin> . ?x1 <instance of> <Eurovision Song Contest> .  }
+
+NL-QUESTION:
+What Eurovision Song Contest winners are from Dublin?

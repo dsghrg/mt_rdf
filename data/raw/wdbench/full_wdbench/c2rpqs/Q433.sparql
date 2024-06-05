@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . ?x1 <publication date> ?x2 . ?x1 <main subject> ?x3 . ?x4 (<main subject>)* ?x3 .  }
+
+NL-QUESTION:
+What scholarly articles have been published on a specific subject and when were they published?

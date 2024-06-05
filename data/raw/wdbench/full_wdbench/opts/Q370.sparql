@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <member of political party> ?x2 . }  }
+
+NL-QUESTION:
+What is the political party affiliation of humans on Wikidata?

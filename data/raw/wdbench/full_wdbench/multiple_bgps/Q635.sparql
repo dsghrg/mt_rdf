@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x2 <instance of> ?x3 . ?x3 <instance of> ?x4 . ?x5 <instance of> ?x6 . ?x6 <instance of> ?x7 . ?x7 <instance of> ?x4 .  }
+
+NL-QUESTION:
+What are the instances of an item that is an instance of an item that is an instance of an item that is an instance of an item that is an instance of an item that is an instance of the same item?

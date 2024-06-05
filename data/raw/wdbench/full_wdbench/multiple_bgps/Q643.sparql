@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <is a list of> <human> . ?x2 <date of birth> ?x3 .  }
+
+NL-QUESTION:
+What is the date of birth of all humans in the list?

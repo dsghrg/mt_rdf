@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <sex or gender> ?x3 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the occupations and genders of all human entities in Wikidata?

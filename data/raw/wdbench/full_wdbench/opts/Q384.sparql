@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <languages spoken, written or signed> ?x2 . }  }
+
+NL-QUESTION:
+What languages do humans speak, write or sign?

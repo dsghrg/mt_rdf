@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . ?x2 <demonym> ?x3 . ?x1 <country of citizenship> ?x2 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the nationalities of association football players who are humans?

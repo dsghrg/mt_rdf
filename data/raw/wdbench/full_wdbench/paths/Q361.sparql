@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<place of birth>/(<located in the administrative territorial entity>)*) <Finland> }
+
+NL-QUESTION:
+What is the place of birth of individuals located in the administrative territorial entity of Finland?

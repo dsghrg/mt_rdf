@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <named after> ?x3 . ?x1 <country> <France> . ?x3 <instance of> <human> . ?x1 <instance of> <street> .  }
+
+NL-QUESTION:
+What streets named after humans are located in administrative territorial entities in France?

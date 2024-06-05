@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <member of> <Royal Society> .  }
+
+NL-QUESTION:
+What individuals are both instances of humans and members of the Royal Society?

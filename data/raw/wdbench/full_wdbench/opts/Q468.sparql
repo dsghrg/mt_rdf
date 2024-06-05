@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . OPTIONAL { ?x2 <image> ?x3 . }  }
+
+NL-QUESTION:
+What are the instances of the items in Wikidata and do they have an image associated with them?

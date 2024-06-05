@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <instance of> <television series> . OPTIONAL { ?x1 <title> ?x2 . } OPTIONAL { ?x1 <AlloCiné person ID> ?x3 . } OPTIONAL { ?x1 <IMDb ID> ?x4 . } OPTIONAL { ?x1 <AllMovie title ID> ?x5 . } OPTIONAL { ?x1 <Freebase ID> ?x6 . } OPTIONAL { ?x1 <MovieMeter film ID> ?x7 . } OPTIONAL { ?x1 <Rotten Tomatoes ID> ?x8 . } OPTIONAL { ?x1 <Open Media Database film ID> ?x9 . } OPTIONAL { ?x1 <Netflix ID> ?x10 . } OPTIONAL { ?x1 <Metacritic ID> ?x11 . } OPTIONAL { ?x1 <image> ?x12 . } OPTIONAL { ?x1 <instance of> ?x13 . }  }
+
+NL-QUESTION:
+What are the titles of films that are also television series and what are their corresponding AlloCiné person ID, IMDb ID, AllMovie title ID, Freebase ID, MovieMeter film ID, Rotten Tomatoes ID, Open Media Database film ID, Netflix ID, Metacritic ID, and images?

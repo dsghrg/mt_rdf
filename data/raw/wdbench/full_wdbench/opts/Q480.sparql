@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> <member of the French National Assembly> . OPTIONAL { ?x2 <date of birth> ?x2 . }  }
+
+NL-QUESTION:
+What are the positions held by members of the French National Assembly and what are their dates of birth (if known)?

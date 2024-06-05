@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <date of birth> ?x2 . ?x1 (((<occupation>|<position held>)|<instance of>)/(<subclass of>)*) <human> .  }
+
+NL-QUESTION:
+What is the date of birth of all humans specified in Wikidata?

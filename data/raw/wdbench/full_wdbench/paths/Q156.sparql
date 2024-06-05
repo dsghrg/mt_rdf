@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<subclass of>)+|(<instance of>/(<subclass of>)*)) <agent> }
+
+NL-QUESTION:
+What are all the entities that are instances of or subclasses of the class "agent" in Wikidata?

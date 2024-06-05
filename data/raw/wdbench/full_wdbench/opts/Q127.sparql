@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Wassily Kandinsky> . OPTIONAL { ?x1 <image> ?x2 . } OPTIONAL { ?x1 <location> ?x3 . } OPTIONAL { ?x3 <coordinate location> ?x4 . }  }
+
+NL-QUESTION:
+Which items have been created by Wassily Kandinsky, and what images and locations are associated with them?

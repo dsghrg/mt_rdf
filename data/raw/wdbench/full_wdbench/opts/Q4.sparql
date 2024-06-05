@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x2 <occupation> <painter> . ?x3 <occupation> <painter> . ?x1 <father> ?x2 . ?x1 <instance of> <human> . OPTIONAL { ?x1 <mother> ?x3 . }  }
+
+NL-QUESTION:
+Which painters have a father who is also a painter, and are they human? If applicable, who is their mother?

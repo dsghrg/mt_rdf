@@ -1,0 +1,4 @@
+SELECT * WHERE { <Wismar Observation Tower> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What is the administrative territorial entity in which the Wismar Observation Tower is located?

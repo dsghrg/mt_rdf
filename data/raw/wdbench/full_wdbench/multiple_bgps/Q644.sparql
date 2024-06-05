@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <is a list of> <word> . ?x2 <country of origin> <India> .  }
+
+NL-QUESTION:
+What is a list of words that are of Indian origin?

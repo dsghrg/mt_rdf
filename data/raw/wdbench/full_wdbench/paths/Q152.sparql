@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<mother>)*/(<father>)*) ?x1 }
+
+NL-QUESTION:
+Who is the mother or father of the subject?

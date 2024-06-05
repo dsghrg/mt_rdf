@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <library> . ?x1 (<located in the administrative territorial entity>/(<located in the administrative territorial entity>)*) <Wales> .  }
+
+NL-QUESTION:
+What libraries are located in Wales?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <building> . <Barcelona> <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What buildings in Barcelona have images associated with them and where are they located?

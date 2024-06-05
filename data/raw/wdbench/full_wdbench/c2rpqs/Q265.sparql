@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Hungary> . ?x1 <image> ?x2 . ?x1 <length> ?x3 . ?x4 <coordinate location> ?x5 . ?x1 (<instance of>/(<subclass of>)*) <river> .  }
+
+NL-QUESTION:
+What rivers in Hungary have images, lengths, and coordinates?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football player> . ?x1 <sex or gender> <male> . ?x1 <country of citizenship> <Tunisia> .  }
+
+NL-QUESTION:
+What male association football players are from Tunisia?

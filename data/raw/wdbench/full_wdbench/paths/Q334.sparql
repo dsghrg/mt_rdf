@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Lepidoptera> }
+
+NL-QUESTION:
+What are the species that belong to the taxonomic group Lepidoptera or any of its parent taxonomic groups?

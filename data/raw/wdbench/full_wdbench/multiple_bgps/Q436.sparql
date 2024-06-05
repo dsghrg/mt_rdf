@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <cause of death> <crucifixion> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the locations and coordinates of birthplaces of individuals who died by crucifixion?

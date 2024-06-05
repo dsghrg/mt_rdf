@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> <member of the French National Assembly> . ?x2 <start time> ?x3 . ?x2 <end time> ?x4 .  }
+
+NL-QUESTION:
+What are the start and end times of individuals who have held the position of member of the French National Assembly?

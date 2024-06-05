@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <television series> }
+
+NL-QUESTION:
+What are all the television series and their instances and subclasses in Wikidata?

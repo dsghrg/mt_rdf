@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of political party> ?x2 . ?x1 <place of birth> ?x3 . ?x4 <country of citizenship> <United States of America> . ?x1 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+What political party members were born in the United States of America?

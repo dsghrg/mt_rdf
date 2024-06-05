@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<location>)*/(<country>)*) <Spain> }
+
+NL-QUESTION:
+What are all the entities located within Spain, directly or indirectly through location or country?

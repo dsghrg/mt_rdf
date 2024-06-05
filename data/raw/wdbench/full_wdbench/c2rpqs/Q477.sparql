@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x2 (<subclass of>)* <scholarly article> .  }
+
+NL-QUESTION:
+What are all the instances that are scholarly articles?

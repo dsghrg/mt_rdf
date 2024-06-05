@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <official name> ?x2 . ?x1 <instance of> <city> . ?x1 (<country>)+ <Germany> .  }
+
+NL-QUESTION:
+What are the official names of cities in Germany?

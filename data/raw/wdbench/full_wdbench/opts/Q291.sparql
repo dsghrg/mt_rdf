@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <European Orienteering Championships> . OPTIONAL { ?x1 <country> ?x2 . } OPTIONAL { ?x1 <issue> ?x3 . } OPTIONAL { ?x1 <point in time> ?x4 . } OPTIONAL { ?x1 <location> ?x5 . }  }
+
+NL-QUESTION:
+What are the countries, issues, points in time, and locations associated with the European Orienteering Championships?

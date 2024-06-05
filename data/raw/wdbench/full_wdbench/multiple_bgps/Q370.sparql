@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <hair color> ?x2 . ?x3 <discoverer or inventor> ?x4 .  }
+
+NL-QUESTION:
+What is the hair color of the object with the attribute "discoverer or inventor"?

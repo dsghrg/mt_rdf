@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <scientist> . ?x1 <sex or gender> <female> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+Which female scientists are humans?

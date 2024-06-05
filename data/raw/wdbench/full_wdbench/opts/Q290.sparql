@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <municipality of Sweden> . OPTIONAL { ?x1 <official website> ?x2 . } OPTIONAL { ?x1 <Swedish municipality code> ?x3 . } OPTIONAL { ?x1 <dissolved, abolished or demolished date> ?x4 . } OPTIONAL { ?x3 <end time> ?x5 . }  }
+
+NL-QUESTION:
+What are some of the official websites, municipality codes, and dissolution dates of municipalities in Sweden?

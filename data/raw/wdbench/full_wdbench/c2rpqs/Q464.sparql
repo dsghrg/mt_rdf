@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . <Berlin> <coordinate location> ?x3 . ?x1 (<instance of>|(<instance of>/<subclass of>)) <manor house> .  }
+
+NL-QUESTION:
+What are the manor houses that are instances or subclasses of manor houses located geographically near Berlin?

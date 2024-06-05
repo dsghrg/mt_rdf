@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <number of elevators> ?x2 .  }
+
+NL-QUESTION:
+How many elevators does entity x1 have?

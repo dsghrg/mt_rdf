@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 <instance of> <history of a country or state> .  }
+
+NL-QUESTION:
+What countries have a history of a country or state?

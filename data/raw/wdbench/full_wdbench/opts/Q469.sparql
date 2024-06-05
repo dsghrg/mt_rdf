@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <DOI> ?x2 . OPTIONAL { ?x1 <PubMed ID> ?x3 . }  }
+
+NL-QUESTION:
+What are the DOI and potential PubMed IDs of the entities in Wikidata?

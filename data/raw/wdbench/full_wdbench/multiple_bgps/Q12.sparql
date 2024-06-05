@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> <species> . ?x1 <IUCN conservation status> <Vulnerable> .  }
+
+NL-QUESTION:
+Which species have a conservation status of "Vulnerable"?

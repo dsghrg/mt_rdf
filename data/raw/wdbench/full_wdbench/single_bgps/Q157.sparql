@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <member state of the European Union> .  }
+
+NL-QUESTION:
+What are all the instances of member states of the European Union?

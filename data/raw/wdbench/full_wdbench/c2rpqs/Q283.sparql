@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 (<instance of>/<subclass of>) <first-level administrative division> . ?x2 (<official language>/<ISO 639-1 code>) ?x3 .  }
+
+NL-QUESTION:
+What are the official languages of the first-level administrative divisions in each country?

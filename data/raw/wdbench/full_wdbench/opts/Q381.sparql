@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <spouse> ?x4 . } OPTIONAL { ?x1 <sex or gender> ?x5 . } OPTIONAL { ?x1 <genre> ?x6 . } OPTIONAL { ?x1 <date of death> ?x7 . } OPTIONAL { ?x1 <image> ?x8 . } OPTIONAL { ?x1 <IMDb ID> ?x9 . } OPTIONAL { ?x1 <field of work> ?x10 . } OPTIONAL { ?x1 <official name> ?x11 . } OPTIONAL { ?x1 <given name> ?x12 . }  }
+
+NL-QUESTION:
+What are the occupations, date of birth, spouse, gender, genre, date of death, image, IMDb ID, field of work, official name, and given name of all humans in Wikidata?

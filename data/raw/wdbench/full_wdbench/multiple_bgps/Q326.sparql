@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Spain> . ?x1 <instance of> <human settlement> .  }
+
+NL-QUESTION:
+What human settlements are located in Spain?

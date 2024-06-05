@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <athlete> }
+
+NL-QUESTION:
+What are all the instances of individuals who have the occupation of athlete in Wikidata?

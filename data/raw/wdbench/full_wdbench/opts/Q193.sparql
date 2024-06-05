@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <dog breed> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What are some images of dog breeds available on Wikidata?

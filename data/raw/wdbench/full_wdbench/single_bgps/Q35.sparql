@@ -1,0 +1,4 @@
+SELECT * WHERE { <Ada Lovelace> ?x1 ?x2 .  }
+
+NL-QUESTION:
+What are the properties of Ada Lovelace in Wikidata?

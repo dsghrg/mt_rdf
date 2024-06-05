@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <award received> ?x2 . ?x3 <sex or gender> <female> . ?x1 <instance of> <film> .  }
+
+NL-QUESTION:
+What films have received awards and have a female gender?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Alcidae> }
+
+NL-QUESTION:
+What are all the subcategories of the taxonomic category "Alcidae"?

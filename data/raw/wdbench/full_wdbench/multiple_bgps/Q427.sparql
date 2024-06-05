@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x1 <educated at> <University of Edinburgh> .  }
+
+NL-QUESTION:
+What females were born in a specific place, are educated at the University of Edinburgh?

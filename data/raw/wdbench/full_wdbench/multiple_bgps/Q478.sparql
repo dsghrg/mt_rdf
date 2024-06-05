@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <WikiPathways ID> ?x2 . ?x1 <exact match> ?x3 . ?x1 <found in taxon> <Homo sapiens> .  }
+
+NL-QUESTION:
+What are the WikiPathways IDs, exact matches, and taxa for pathways found in the Homo sapiens species?

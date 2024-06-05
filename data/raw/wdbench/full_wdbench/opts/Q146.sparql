@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <France> . OPTIONAL { ?x2 <country> ?x3 . ?x2 <shares border with> ?x4 . }  }
+
+NL-QUESTION:
+What countries share a border with France?

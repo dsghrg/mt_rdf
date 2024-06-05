@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Edvard Munch> . ?x1 <instance of> <painting> .  }
+
+NL-QUESTION:
+What paintings were created by Edvard Munch?

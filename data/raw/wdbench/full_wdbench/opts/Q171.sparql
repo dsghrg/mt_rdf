@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Hungary> . ?x1 <instance of> <political party> . OPTIONAL { ?x1 <chairperson> ?x2 . } OPTIONAL { ?x1 <inception> ?x3 . }  }
+
+NL-QUESTION:
+Which political parties in Hungary have a chairperson and an inception date on Wikidata?

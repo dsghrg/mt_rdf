@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . <Dédestapolcsány> <coordinate location> ?x3 . OPTIONAL { ?x1 <image> ?x4 . }  }
+
+NL-QUESTION:
+What is the instance of Dédestapolcsány and what is its coordinate location?

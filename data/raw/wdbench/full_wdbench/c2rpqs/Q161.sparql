@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 (<instance of>/(<subclass of>)*) ?x3 .  }
+
+NL-QUESTION:
+What is the population and classification of the entities in Wikidata?

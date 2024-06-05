@@ -1,0 +1,4 @@
+SELECT * WHERE { <Amtsgericht Emmendingen> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What is the administrative territorial entity where the Amtsgericht Emmendingen is located in?

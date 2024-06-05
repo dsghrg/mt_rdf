@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <official name> ?x3 . ?x4 <official name> ?x5 . ?x1 <instance of> <country> . ?x1 <capital> ?x6 .  }
+
+NL-QUESTION:
+What is the population and official name of the country that has a capital and is categorized as a country?

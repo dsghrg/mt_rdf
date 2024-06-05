@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <United States of America> . ?x1 <position held> <United States of America461> .  }
+
+NL-QUESTION:
+What positions are held by individuals who are citizens of the United States of America and have held position 461 in the United States of America?

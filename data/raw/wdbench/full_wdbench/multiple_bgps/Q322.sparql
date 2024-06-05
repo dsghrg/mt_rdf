@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x2 <instance of> <railway station> .  }
+
+NL-QUESTION:
+What are the railway stations in Germany?

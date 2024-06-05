@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <field of work> <musician> . ?x2 <genre> ?x3 .  }
+
+NL-QUESTION:
+What are the genres of musicians in wikidata?

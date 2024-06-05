@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <physically interacts with> ?x2 . ?x3 <genetic association> ?x4 . ?x4 <encodes> ?x2 . ?x3 (<subclass of>)* <leukemia> .  }
+
+NL-QUESTION:
+What genes are associated with leukemia and physically interact with each other?

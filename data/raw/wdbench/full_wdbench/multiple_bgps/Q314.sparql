@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Japan> . ?x1 <instance of> <embassy> .  }
+
+NL-QUESTION:
+What embassies are located in Japan?

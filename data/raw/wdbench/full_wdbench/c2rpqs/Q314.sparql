@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Germany> . ?x2 <sex or gender> <female> . ?x1 (<occupation>/(<subclass of>)*) <musician> .  }
+
+NL-QUESTION:
+What female musicians were born in Germany?

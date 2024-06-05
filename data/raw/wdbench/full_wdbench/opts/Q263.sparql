@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <family name> . OPTIONAL { ?x1 <native label> ?x2 . } OPTIONAL { ?x1 <language of work or name> ?x3 . }  }
+
+NL-QUESTION:
+What are the family names along with their native labels and languages of work or name in Wikidata?

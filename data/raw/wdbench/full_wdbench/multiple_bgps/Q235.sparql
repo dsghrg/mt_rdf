@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <music> . ?x2 <instance of> <album> .  }
+
+NL-QUESTION:
+What albums are categorized under the genre of music?

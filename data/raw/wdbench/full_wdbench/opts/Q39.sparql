@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x1 <country of citizenship> <Germany> . OPTIONAL { ?x1 <languages spoken, written or signed> ?x2 . } OPTIONAL { ?x1 <given name> ?x3 . } OPTIONAL { ?x1 <family name> ?x4 . } OPTIONAL { ?x1 <place of birth> ?x5 . } OPTIONAL { ?x1 <date of birth> ?x6 . } OPTIONAL { ?x1 <native language> ?x7 . } OPTIONAL { ?x1 <name in native language> ?x8 . }  }
+
+NL-QUESTION:
+What politicians from Germany have information on their languages spoken, written or signed, given name, family name, place of birth, date of birth, native language, and name in native language?

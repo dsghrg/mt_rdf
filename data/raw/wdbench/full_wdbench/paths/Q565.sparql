@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <administrative territorial entity> }
+
+NL-QUESTION:
+What are all the entities that are instances or subclasses of administrative territorial entities?

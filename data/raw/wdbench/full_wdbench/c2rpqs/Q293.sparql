@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <geographic location> .  }
+
+NL-QUESTION:
+What countries have a geographical location?

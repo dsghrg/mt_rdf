@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <pKa> ?x2 . ?x3 <pKa> ?x4 . ?x5 <WikiPathways ID> ?x6 . ?x7 <WikiPathways ID> ?x8 . ?x5 <exact match> ?x9 . ?x5 <has part(s)> ?x1 . ?x7 <has part(s)> ?x3 .  }
+
+NL-QUESTION:
+What are the pKa values of compounds that are part of the same WikiPathways pathway?

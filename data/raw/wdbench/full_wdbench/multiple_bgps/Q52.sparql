@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <singer> . ?x1 <genre> <new wave> . ?x1 <given name> ?x2 .  }
+
+NL-QUESTION:
+What are the names of singers who are associated with the new wave genre?

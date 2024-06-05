@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <company> . ?x1 <industry> ?x2 .  }
+
+NL-QUESTION:
+What industries do companies belong to?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <official name> ?x2 . ?x1 <instance of> <city> .  }
+
+NL-QUESTION:
+What is the official name of cities in Wikidata?

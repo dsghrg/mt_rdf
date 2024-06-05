@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <mass> ?x2 . ?x3 <mass> ?x4 .  }
+
+NL-QUESTION:
+What are the masses of two items in Wikidata?

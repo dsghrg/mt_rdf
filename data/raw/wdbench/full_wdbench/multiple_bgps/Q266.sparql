@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <official name> ?x2 . ?x3 <instance of> <software company> . ?x4 <industry> <software industry> .  }
+
+NL-QUESTION:
+What are the official names of software companies in the software industry?

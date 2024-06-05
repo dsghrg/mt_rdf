@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <industry> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <organization> .  }
+
+NL-QUESTION:
+What industries are organizations in on Wikidata?

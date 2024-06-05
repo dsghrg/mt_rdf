@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x1 <languages spoken, written or signed> <Hindi> . ?x1 <sex or gender> <female> . OPTIONAL { ?x1 <image> ?x2 . } OPTIONAL { ?x1 <place of birth> ?x3 . } OPTIONAL { ?x3 <coordinate location> ?x4 . }  }
+
+NL-QUESTION:
+What female actors speak Hindi and where were they born?

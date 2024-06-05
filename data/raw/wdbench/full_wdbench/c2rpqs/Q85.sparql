@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What is the coordinate location of cities that are instances of or subclasses of Berlin?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . <ulcerative colitis> <genetic association> ?x3 .  }
+
+NL-QUESTION:
+What is the image of ulcerative colitis and what is its genetic association?

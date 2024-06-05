@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <population> ?x2 . ?x1 <country> ?x3 . ?x1 <country> ?x3 . ?x1 <IATA airport code> ?x4 . ?x1 <coordinate location> ?x5 . ?x6 (<instance of>/(<subclass of>)*) <airport> . ?x1 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What is the population, country, IATA airport code, and coordinate location of cities that have an airport?

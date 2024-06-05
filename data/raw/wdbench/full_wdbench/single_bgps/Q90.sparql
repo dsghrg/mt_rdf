@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Paradise Papers> .  }
+
+NL-QUESTION:
+Which countries are mentioned in the Paradise Papers?

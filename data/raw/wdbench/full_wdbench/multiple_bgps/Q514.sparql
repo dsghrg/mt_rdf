@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> ?x2 . ?x1 <instance of> <human> . ?x1 <family name> ?x3 . ?x1 <given name> ?x4 .  }
+
+NL-QUESTION:
+What are the names of humans who have a specific country of citizenship on Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x1 <occupation> ?x3 . ?x3 (<subclass of>)+ ?x2 .  }
+
+NL-QUESTION:
+What occupations are there where one occupation is a subclass of another occupation?

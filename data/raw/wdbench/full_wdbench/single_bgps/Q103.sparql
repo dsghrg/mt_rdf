@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ISNI> ?x2 .  }
+
+NL-QUESTION:
+Who has an International Standard Name Identifier (ISNI)?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <winner> ?x2 . ?x2 <country> ?x3 . ?x4 <country of citizenship> ?x3 . ?x5 <instance of> <international association football clubs cup> . ?x1 <sports season of league or competition> ?x5 .  }
+
+NL-QUESTION:
+Which international association football clubs cup winners have the same country of citizenship as the club they won with during the sports season of the league or competition?

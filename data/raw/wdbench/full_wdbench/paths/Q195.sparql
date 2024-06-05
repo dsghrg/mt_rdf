@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<instance of>/(<subclass of>)*)|(<occupation>/(<subclass of>)*)) <human> }
+
+NL-QUESTION:
+What are the instances and occupations of humans in Wikidata?

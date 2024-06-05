@@ -1,0 +1,4 @@
+SELECT * WHERE { <beard> <subclass of> ?x1 .  }
+
+NL-QUESTION:
+What are the subclasses of "beard"?

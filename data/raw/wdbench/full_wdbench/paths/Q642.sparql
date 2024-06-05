@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<child>)* <Ian Liddell-Grainger> }
+
+NL-QUESTION:
+Who are all the children of Ian Liddell-Grainger?

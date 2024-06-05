@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <means of locomotion> <bipedalism> . ?x1 (<instance of>/(<subclass of>)*) <taxon> . ?x1 (<parent taxon>)+ <songbirds> .  }
+
+NL-QUESTION:
+What taxon of songbirds have bipedalism as a means of locomotion?

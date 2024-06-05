@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <librarian> . ?x1 <place of birth> <Buenos Aires> . ?x1 <date of birth> ?x3 . ?x4 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What is the date of birth of librarians born in Buenos Aires and where are they located geographically?

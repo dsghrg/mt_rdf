@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <librarian> . ?x1 (<instance of>)* <human> .  }
+
+NL-QUESTION:
+Which humans are librarians?

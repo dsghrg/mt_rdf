@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x2 <occupation> <politician> . OPTIONAL { ?x1 <father> ?x2 . }  }
+
+NL-QUESTION:
+What politicians have fathers who are also politicians?

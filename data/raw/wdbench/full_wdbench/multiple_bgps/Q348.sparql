@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <instance of> <company> .  }
+
+NL-QUESTION:
+Which countries have companies as instances in Wikidata?

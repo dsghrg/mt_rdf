@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<genre>/(<instance of>)?)/(<subclass of>)*) <portrait> }
+
+NL-QUESTION:
+What are the instances of items that have the genre of portrait or are a subclass of portrait?

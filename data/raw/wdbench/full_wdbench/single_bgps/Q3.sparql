@@ -1,0 +1,4 @@
+SELECT * WHERE { <Corfe Castle> <instance of> ?x1 .  }
+
+NL-QUESTION:
+What type of entity is Corfe Castle?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <coordinate location> ?x3 . ?x1 (<instance of>/(<subclass of>)*) ?x4 .  }
+
+NL-QUESTION:
+Which items have an image, coordinate location, and instance/subclass information in Wikidata?

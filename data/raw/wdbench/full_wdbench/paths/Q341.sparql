@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* ?x2 }
+
+NL-QUESTION:
+What are all the instances of taxonomic parents for a given taxon?

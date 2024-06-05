@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<author>/(<subclass of>)*)/<instance of>) ?x2 }
+
+NL-QUESTION:
+What are the authors of instances that are subclasses of a certain entity in Wikidata?

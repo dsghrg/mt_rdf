@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <writer> . ?x2 <place of birth> ?x3 . ?x1 <country of citizenship> <Russia> .  }
+
+NL-QUESTION:
+What writers were born in Russia?

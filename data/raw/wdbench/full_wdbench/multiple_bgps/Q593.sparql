@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <IMDb ID> ?x2 .  }
+
+NL-QUESTION:
+What are the IMDb IDs of humans on Wikidata?

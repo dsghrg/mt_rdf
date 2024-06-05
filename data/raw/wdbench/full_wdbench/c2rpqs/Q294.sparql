@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <town> . ?x1 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What cities are in countries that contain towns?

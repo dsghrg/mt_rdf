@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x2 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+What actors are from the United States of America?

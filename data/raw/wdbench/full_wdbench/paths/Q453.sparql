@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <family name> }
+
+NL-QUESTION:
+What are all instances and subclasses of <family name>?

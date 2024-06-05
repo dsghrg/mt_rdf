@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <award received> <National Film Registry> . ?x2 (<instance of>/(<subclass of>)*) <film> .  }
+
+NL-QUESTION:
+What are all the films that received an award from the National Film Registry?

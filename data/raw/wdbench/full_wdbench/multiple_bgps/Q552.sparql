@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <tram service> . ?x1 <part of> <tram transport in Vienna> .  }
+
+NL-QUESTION:
+What tram services are part of the tram transport in Vienna?

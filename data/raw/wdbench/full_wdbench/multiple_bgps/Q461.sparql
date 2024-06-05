@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x2 <instance of> <book> .  }
+
+NL-QUESTION:
+What books are written by female authors?

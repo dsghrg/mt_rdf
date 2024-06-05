@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> ?x2 . ?x2 (<instance of>/(<subclass of>)*) <organization> . ?x1 (<instance of>/(<subclass of>)*) <organization> .  }
+
+NL-QUESTION:
+What organizations are part of other organizations?

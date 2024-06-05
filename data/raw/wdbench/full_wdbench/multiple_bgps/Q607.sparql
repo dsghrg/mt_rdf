@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <position held> <President of the United States> .  }
+
+NL-QUESTION:
+What are the positions held by humans who have been Presidents of the United States?

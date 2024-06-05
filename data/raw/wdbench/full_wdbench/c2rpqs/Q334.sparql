@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <studied in> ?x2 . ?x1 (<subclass of>)+ <object> . ?x2 ((<instance of>)?/(<subclass of>)+) <academic discipline> .  }
+
+NL-QUESTION:
+What academic disciplines do students study in?

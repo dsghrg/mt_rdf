@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> <Polyphaga> . ?x1 (<instance of>)* <taxon> .  }
+
+NL-QUESTION:
+What taxons are instances of the parent taxon Polyphaga?

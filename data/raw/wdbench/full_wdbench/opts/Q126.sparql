@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Artemisia Gentileschi> . OPTIONAL { ?x1 <collection> ?x2 . }  }
+
+NL-QUESTION:
+What are the collections associated with artworks created by Artemisia Gentileschi?

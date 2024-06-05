@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <named after> ?x2 . ?x1 <country> <Argentina> . ?x3 <sex or gender> <female> . ?x2 <instance of> <human> . ?x1 <instance of> <street> .  }
+
+NL-QUESTION:
+Who is a female human that has a street named after them in Argentina?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <television series> . OPTIONAL { ?x1 <country of origin> ?x2 . } OPTIONAL { ?x1 <number of seasons> ?x3 . } OPTIONAL { ?x1 <number of episodes> ?x4 . } OPTIONAL { ?x1 <start time> ?x5 . } OPTIONAL { ?x1 <end time> ?x6 . }  }
+
+NL-QUESTION:
+What are the details of television series in Wikidata including country of origin, number of seasons, number of episodes, start time, and end time?

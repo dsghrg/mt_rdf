@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <member state of the European Union> . OPTIONAL { ?x1 <capital> ?x2 . }  }
+
+NL-QUESTION:
+What are the member states of the European Union and what are their capitals?

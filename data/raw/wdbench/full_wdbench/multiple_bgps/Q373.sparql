@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <image> ?x3 . ?x1 <Erdős number> ?x4 . ?x1 <archives at> <Computer History Museum> .  }
+
+NL-QUESTION:
+What is the image, Erdős number, and archive location at the Computer History Museum of the entity?

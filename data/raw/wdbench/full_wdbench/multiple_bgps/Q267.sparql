@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <official name> ?x2 . ?x3 <instance of> <canton of Switzerland> .  }
+
+NL-QUESTION:
+What are the official names of the cantons of Switzerland?

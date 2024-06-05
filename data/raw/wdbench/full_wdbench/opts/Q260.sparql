@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <continent> ?x2 . ?x1 <instance of> <country> . OPTIONAL { ?x2 <locator map image> ?x3 . ?x1 <flag image> ?x4 . ?x5 <flag image> ?x6 . }  }
+
+NL-QUESTION:
+Which countries have a continent with a corresponding flag image and locator map image available on Wikidata?

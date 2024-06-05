@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <significant event> ?x2 .  }
+
+NL-QUESTION:
+What are the significant events related to the entity represented by ?x1?

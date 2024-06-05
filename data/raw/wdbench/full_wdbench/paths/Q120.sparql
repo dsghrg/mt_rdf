@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((((<located in the administrative territorial entity>)*/(<country>)?)/(<continent>)?)/(<part of>)?) <Asia> }
+
+NL-QUESTION:
+What are all the entities located in Asia that are administrative territorial entities, countries, continents, or parts of other entities?

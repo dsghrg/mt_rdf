@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <IATA airline designator> ?x3 . ?x1 <ICAO airline designator> ?x4 . ?x2 <ISO 3166-1 alpha-2 code> ?x5 . ?x1 <instance of> <airline> . OPTIONAL { ?x1 <callsign of airline> ?x6 . } OPTIONAL { ?x1 <airline hub> ?x7 . } OPTIONAL { ?x1 <official website> ?x8 . } OPTIONAL { ?x1 <owned by> ?x9 . }  }
+
+NL-QUESTION:
+What are the country, IATA airline designator, ICAO airline designator, ISO 3166-1 alpha-2 code, instance of airline, callsign of airline, airline hub, official website, and owner of each airline?

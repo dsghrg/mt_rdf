@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x2 <located in the administrative territorial entity> <Brittany> . ?x3 <subclass of> <mayor of a place in France> . ?x1 <instance of> <commune of France> . ?x2 <instance of> <department of France> . ?x4 <position held> ?x3 . OPTIONAL { ?x1 <located in the administrative territorial entity3> ?x4 . }  }
+
+NL-QUESTION:
+What are the communes in Brittany where the mayor holds a position in France?

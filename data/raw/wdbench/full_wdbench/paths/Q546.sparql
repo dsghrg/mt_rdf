@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <administrative divisions of Germany> }
+
+NL-QUESTION:
+What are the administrative divisions of Germany?

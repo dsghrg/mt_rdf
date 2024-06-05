@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x3 <date of birth> ?x4 . ?x2 <coordinate location> ?x5 . ?x1 <educated at> <University of Edinburgh> .  }
+
+NL-QUESTION:
+What are the names and birthdates of female individuals born in a place with coordinate location at the University of Edinburgh?

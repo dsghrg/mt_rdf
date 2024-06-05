@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ISO 3166-1 alpha-2 code> ?x2 .  }
+
+NL-QUESTION:
+What are the ISO 3166-1 alpha-2 codes for all entities in Wikidata?

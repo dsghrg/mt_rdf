@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <illustrator> . ?x1 <image> ?x2 . ?x1 <place of birth> <San Sebastián> . ?x1 <date of birth> ?x3 . ?x4 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What are the names and images of illustrators born in San Sebastián, along with their dates of birth and coordinates of their birthplaces?

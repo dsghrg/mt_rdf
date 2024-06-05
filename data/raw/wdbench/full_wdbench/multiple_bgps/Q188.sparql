@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Internet Broadway Database venue ID> ?x2 . ?x3 <instance of> <school> .  }
+
+NL-QUESTION:
+What are the Internet Broadway Database venue IDs for schools?

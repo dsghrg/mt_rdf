@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country>|<country of origin>) <United States of America> }
+
+NL-QUESTION:
+What are all the items with <country> or <country of origin> set to <United States of America>?

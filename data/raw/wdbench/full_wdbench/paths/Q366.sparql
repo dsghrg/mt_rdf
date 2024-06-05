@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<connects with>)+ ?x2 }
+
+NL-QUESTION:
+Which entities are connected with each other in Wikidata?

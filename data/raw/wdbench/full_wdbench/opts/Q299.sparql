@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . OPTIONAL { ?x1 <author> ?x2 . } OPTIONAL { ?x1 <author name string> ?x3 . }  }
+
+NL-QUESTION:
+What are the scholarly articles with their authors and author names available in wikidata?

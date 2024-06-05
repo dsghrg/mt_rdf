@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <factory> }
+
+NL-QUESTION:
+Which entities are instances of or subclasses of the concept 'factory'?

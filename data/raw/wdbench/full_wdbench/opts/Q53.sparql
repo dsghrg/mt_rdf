@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . OPTIONAL { ?x1 <area> ?x3 . }  }
+
+NL-QUESTION:
+What is the population and area (if available) of the entity in Wikidata?

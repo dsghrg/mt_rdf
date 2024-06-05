@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> <minister> . ?x2 <educated at> ?x3 .  }
+
+NL-QUESTION:
+What ministers have been educated at which institution?

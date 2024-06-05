@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ICAO airport code> ?x2 . ?x3 <instance of> <airport> . OPTIONAL { ?x3 <ICAO airport code> ?x4 . }  }
+
+NL-QUESTION:
+What are the ICAO airport codes for airports?

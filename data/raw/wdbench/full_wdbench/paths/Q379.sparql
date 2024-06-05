@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <church building> }
+
+NL-QUESTION:
+What are the different types of buildings that are subclasses of church buildings in wikidata?

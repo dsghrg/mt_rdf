@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Catalogus Professorum Academiae Rheno-Traiectinae ID> ?x2 . OPTIONAL { ?x1 <image> ?x3 . } OPTIONAL { ?x1 <date of birth> ?x4 . } OPTIONAL { ?x1 <date of death> ?x5 . } OPTIONAL { ?x1 <place of birth> ?x6 . } OPTIONAL { ?x6 <place of death> ?x7 . }  }
+
+NL-QUESTION:
+What are the catalog IDs, images, dates of birth and death, and places of birth and death for professors of the University of Utrecht?

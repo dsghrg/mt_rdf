@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <contains the administrative territorial entity> ?x2 . ?x1 <instance of> <country> . OPTIONAL { ?x1 <locator map image> ?x3 . } OPTIONAL { ?x1 <flag image> ?x4 . } OPTIONAL { ?x2 <locator map image> ?x5 . } OPTIONAL { ?x2 <flag image> ?x6 . } OPTIONAL { ?x2 <capital> ?x7 . } OPTIONAL { ?x7 <instance of> <city> . }  }
+
+NL-QUESTION:
+What countries have administrative territorial entities and what are their corresponding details, such as locator map images, flag images, and capitals?

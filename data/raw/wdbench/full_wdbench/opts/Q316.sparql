@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <profession> . OPTIONAL { ?x1 <field of this occupation> ?x2 . } OPTIONAL { ?x2 <part of> ?x3 . } OPTIONAL { ?x1 <ROME Occupation Code> ?x4 . } OPTIONAL { ?x1 <ISCO-88 occupation class> ?x5 . } OPTIONAL { ?x1 <described by source> ?x6 . } OPTIONAL { ?x1 <BabelNet ID> ?x7 . }  }
+
+NL-QUESTION:
+What are some optional details related to the profession of a specific entity?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <country> <Spain> . ?x1 <instance of> <municipality of Spain> .  }
+
+NL-QUESTION:
+What is the population of municipalities in Spain?

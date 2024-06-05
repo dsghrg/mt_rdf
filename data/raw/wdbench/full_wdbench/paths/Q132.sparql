@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((<instance of>)*/(<subclass of>)*))+ <industry> }
+
+NL-QUESTION:
+What industries are classified as instances or subclasses of the "industry" category in Wikidata?

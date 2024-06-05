@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Wikimedia disambiguation page> .  }
+
+NL-QUESTION:
+What are the Wikimedia disambiguation pages?

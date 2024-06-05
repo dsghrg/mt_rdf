@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <chemical compound> }
+
+NL-QUESTION:
+What are all the instances of or subclasses of chemical compounds stored in Wikidata?

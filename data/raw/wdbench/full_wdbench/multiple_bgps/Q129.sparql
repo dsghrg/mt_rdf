@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <scientist> . ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x1 <instance of> <human> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the coordinates of the birthplaces of female scientists?

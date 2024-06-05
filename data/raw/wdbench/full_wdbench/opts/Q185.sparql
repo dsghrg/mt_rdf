@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . OPTIONAL { ?x1 <country> ?x3 . ?x1 <IPv4 routing prefix> ?x4 . } OPTIONAL { ?x1 <IPv6 routing prefix> ?x5 . }  }
+
+NL-QUESTION:
+What are the countries of the entities in Wikidata along with their IPv4 routing prefixes and IPv6 routing prefixes, if available?

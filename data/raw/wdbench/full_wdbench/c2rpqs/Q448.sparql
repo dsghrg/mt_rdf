@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <author> ?x2 . ?x2 (<instance of>/(<subclass of>)*) <work> .  }
+
+NL-QUESTION:
+Which works were authored by humans?

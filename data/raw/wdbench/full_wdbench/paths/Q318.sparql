@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<named after>/<occupation>) <painter> }
+
+NL-QUESTION:
+Which painters have someone or something named after them?

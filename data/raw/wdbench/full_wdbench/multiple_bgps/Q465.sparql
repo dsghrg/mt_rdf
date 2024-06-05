@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <male> . ?x1 <country of citizenship> <United States of America> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What males are citizens of the United States of America and are classified as humans in Wikidata?

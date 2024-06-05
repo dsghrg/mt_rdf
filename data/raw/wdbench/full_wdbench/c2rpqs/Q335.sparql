@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <interested in> <marine conservation> . ?x1 (<country>)* <United Kingdom> .  }
+
+NL-QUESTION:
+Which individuals from the United Kingdom are interested in marine conservation?

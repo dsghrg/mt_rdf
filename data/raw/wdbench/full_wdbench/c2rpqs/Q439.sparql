@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <sovereign state> . ?x1 (<country>)? <Spain> .  }
+
+NL-QUESTION:
+What sovereign states are instances of Spain?

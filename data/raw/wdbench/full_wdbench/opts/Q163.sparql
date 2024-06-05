@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Norway> . ?x2 <instance of> <museum> . OPTIONAL { ?x1 <country> ?x3 . }  }
+
+NL-QUESTION:
+What museums are located in Norway?

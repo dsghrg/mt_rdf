@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <date of official opening> ?x2 . ?x3 <instance of> <railway station> .  }
+
+NL-QUESTION:
+What is the date of official opening for railway stations?

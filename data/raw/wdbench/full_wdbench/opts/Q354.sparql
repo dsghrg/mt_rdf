@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> . OPTIONAL { ?x1 <twinned administrative body> ?x2 . } OPTIONAL { ?x1 <country> ?x3 . } OPTIONAL { ?x2 <country> ?x4 . }  }
+
+NL-QUESTION:
+Which cities have a twinned administrative body and in which countries are they located?

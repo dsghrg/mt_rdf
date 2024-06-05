@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <taxon> . ?x1 (<parent taxon>)* <plant> .  }
+
+NL-QUESTION:
+Which plants are part of the taxonomic group known as "Taxon"?

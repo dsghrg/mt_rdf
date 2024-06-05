@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 (<located in the administrative territorial entity>)+ <Genoa> . ?x2 (<subclass of>)+ <human settlement> .  }
+
+NL-QUESTION:
+What settlements are located in Genoa and are classified as human settlements?

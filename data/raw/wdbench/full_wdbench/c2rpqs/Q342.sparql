@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> ?x2 . <electric-type Pokémon> ((<instance of>|<subclass of>))* ?x3 .  }
+
+NL-QUESTION:
+What are the subclasses of electric-type Pokémon in Wikidata?

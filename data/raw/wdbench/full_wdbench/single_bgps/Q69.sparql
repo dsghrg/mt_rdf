@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> <World Heritage Site> .  }
+
+NL-QUESTION:
+What are the World Heritage Sites?

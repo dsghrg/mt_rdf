@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <educated at> <Technical University of Berlin> .  }
+
+NL-QUESTION:
+What individuals were educated at Technical University of Berlin?

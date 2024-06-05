@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <instance of> <city> .  }
+
+NL-QUESTION:
+Which cities are located in which countries?

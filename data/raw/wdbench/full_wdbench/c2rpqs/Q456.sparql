@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> . ?x1 ((((<located in the administrative territorial entity>)*/(<country>)?)/(<continent>)?)/(<part of>)?) <Asia> .  }
+
+NL-QUESTION:
+Which countries are located in Asia?

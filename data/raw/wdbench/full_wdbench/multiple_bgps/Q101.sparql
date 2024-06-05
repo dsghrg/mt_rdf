@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <pornographic actor> . ?x1 <image> ?x2 . ?x3 <image> ?x4 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the images of humans who are pornographic actors?

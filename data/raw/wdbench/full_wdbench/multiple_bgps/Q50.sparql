@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <mathematician> . ?x2 <country of citizenship> <Kingdom of France> .  }
+
+NL-QUESTION:
+What mathematicians were citizens of the Kingdom of France?

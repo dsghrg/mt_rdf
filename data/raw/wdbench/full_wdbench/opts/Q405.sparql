@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <country of citizenship> <Bulgaria> . } OPTIONAL { ?x1 <sex or gender> <female> . } OPTIONAL { ?x1 <transport network> <scientist> . }  }
+
+NL-QUESTION:
+What female scientists from Bulgaria are there on Wikidata?

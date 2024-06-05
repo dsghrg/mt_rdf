@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <operating system> <Unix-like operating system> . ?x1 <software version identifier> ?x2 . ?x3 <official website> ?x4 .  }
+
+NL-QUESTION:
+What is the software version identifier for Unix-like operating systems with an official website listed on Wikidata?

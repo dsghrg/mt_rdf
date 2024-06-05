@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Argentina> . ?x1 <instance of> <mountain> .  }
+
+NL-QUESTION:
+What are the mountains located in Argentina?

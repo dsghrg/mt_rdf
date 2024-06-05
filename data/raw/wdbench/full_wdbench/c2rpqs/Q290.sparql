@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x2 (<instance of>/(<subclass of>)*) <entity> .  }
+
+NL-QUESTION:
+What is the country of the entity?

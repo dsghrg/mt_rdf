@@ -1,0 +1,4 @@
+SELECT * WHERE { <Paris> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <airport> .  }
+
+NL-QUESTION:
+What airports are located at the coordinate location of Paris?

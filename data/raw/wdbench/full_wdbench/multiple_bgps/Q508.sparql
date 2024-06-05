@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <United States of America> . ?x2 <instance of> <human> . ?x3 <family name> <Presley> .  }
+
+NL-QUESTION:
+What are the names of humans with the family name "Presley" who are citizens of the United States of America?

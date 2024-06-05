@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Iranian National Heritage registration number> ?x2 . ?x3 <image> ?x4 .  }
+
+NL-QUESTION:
+What is the Iranian National Heritage registration number for items that have an image on Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <statute> . OPTIONAL { ?x1 <date of birth> ?x2 . } OPTIONAL { ?x1 <sex or gender> ?x3 . } OPTIONAL { ?x1 <country of citizenship> ?x4 . }  }
+
+NL-QUESTION:
+What are the instances of statutes and what are their corresponding dates of birth, sex or gender, and country of citizenship (if available)?

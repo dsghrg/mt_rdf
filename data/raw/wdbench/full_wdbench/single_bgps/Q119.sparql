@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+Which people have United States of America as their country of citizenship?

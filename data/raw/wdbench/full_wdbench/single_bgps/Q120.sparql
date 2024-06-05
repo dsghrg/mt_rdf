@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <Israel> .  }
+
+NL-QUESTION:
+What are the individuals who are citizens of Israel in Wikidata?

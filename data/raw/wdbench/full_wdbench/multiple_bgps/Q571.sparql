@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painting> . ?x2 <Title not found> ?x3 .  }
+
+NL-QUESTION:
+What are the titles of paintings?

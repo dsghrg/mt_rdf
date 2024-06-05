@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <country of citizenship> <Iran> . ?x1 <instance of> <human> . ?x1 <date of birth> ?x2 . ?x3 <date of death> ?x4 .  }
+
+NL-QUESTION:
+What Iranian females are humans with known dates of birth and death?

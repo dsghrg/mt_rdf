@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<RKDartists ID>)* ?x2 }
+
+NL-QUESTION:
+What are the relationships between two items based on their RKDartists ID?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> ?x2 . ?x1 <instance of> <musical group> .  }
+
+NL-QUESTION:
+What genres do musical groups belong to in Wikidata?

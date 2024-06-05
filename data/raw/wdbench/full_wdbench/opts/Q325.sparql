@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painting> . OPTIONAL { ?x1 <coordinate location> ?x2 . } OPTIONAL { ?x1 <image> ?x3 . }  }
+
+NL-QUESTION:
+What paintings have a coordinate location and an image in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <country of citizenship> <Canada> . ?x1 <date of birth> ?x2 .  }
+
+NL-QUESTION:
+What is the date of birth for females from Canada in Wikidata?

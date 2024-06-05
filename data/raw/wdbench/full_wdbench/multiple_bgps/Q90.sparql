@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <writer> . ?x2 <languages spoken, written or signed> <French> . ?x3 <country of citizenship> <Spain> .  }
+
+NL-QUESTION:
+Which writers speak, write or sign in French and are citizens of Spain?

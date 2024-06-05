@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <cricketer> . ?x2 <country> ?x3 . ?x1 <place of birth> ?x2 . ?x4 <date of birth> ?x4 .  }
+
+NL-QUESTION:
+What are the dates of birth of cricketers born in which countries?

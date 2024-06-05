@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <male given name> .  }
+
+NL-QUESTION:
+What are some examples of male given names in Wikidata?

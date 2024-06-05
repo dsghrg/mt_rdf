@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <date of birth> ?x2 . ?x1 ^((<father>|<mother>))+ <Ian Liddell-Grainger> . ?x1 ^((<father>|<mother>))+ <Nicholas Soames> .  }
+
+NL-QUESTION:
+What are the dates of birth of the children of both Ian Liddell-Grainger and Nicholas Soames?

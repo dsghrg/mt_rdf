@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> <Lagomorpha> . ?x1 <image> ?x2 . OPTIONAL { ?x3 <parent taxon> ?x1 . ?x3 <image> ?x4 . } OPTIONAL { ?x5 <parent taxon> ?x3 . ?x5 <image> ?x6 . } OPTIONAL { ?x3 <parent taxon> ?x1 . ?x5 <parent taxon> ?x3 . ?x7 <parent taxon> ?x5 . ?x7 <image> ?x8 . }  }
+
+NL-QUESTION:
+What are the images of species within the taxonomic group Lagomorpha and their respective higher taxonomic levels?

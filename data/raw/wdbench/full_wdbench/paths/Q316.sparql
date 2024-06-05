@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>/<located in the administrative territorial entity>) <Žďár nad Sázavou District> }
+
+NL-QUESTION:
+What is the administrative territorial entity in which Žďár nad Sázavou District is located?

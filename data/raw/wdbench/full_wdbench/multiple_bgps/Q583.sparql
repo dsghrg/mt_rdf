@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <catalogue of classical compositions> . ?x2 <main subject> ?x3 .  }
+
+NL-QUESTION:
+What are the main subjects of classical compositions in the catalogue of classical compositions?

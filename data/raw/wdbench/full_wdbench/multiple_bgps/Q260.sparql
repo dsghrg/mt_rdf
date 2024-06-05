@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> <World Heritage Site> . ?x2 <instance of> ?x3 .  }
+
+NL-QUESTION:
+What are all the items that have a heritage designation of "World Heritage Site" and are instances of another item?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<country>)*/<country>) ?x2 }
+
+NL-QUESTION:
+What are all the countries that are directly or indirectly connected to a specific country in Wikidata?

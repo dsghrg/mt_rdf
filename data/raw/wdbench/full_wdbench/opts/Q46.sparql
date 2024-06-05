@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . OPTIONAL { ?x1 <position held> ?x2 . } OPTIONAL { ?x1 <country of citizenship> ?x3 . } OPTIONAL { ?x1 <date of birth> ?x4 . } OPTIONAL { ?x2 <start time> ?x5 . }  }
+
+NL-QUESTION:
+What politicians have positions, country of citizenship, date of birth, and start time of their positions in Wikidata?

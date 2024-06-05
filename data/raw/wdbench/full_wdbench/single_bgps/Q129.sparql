@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Last.fm ID> ?x2 .  }
+
+NL-QUESTION:
+What are the Last.fm IDs of the items in Wikidata?

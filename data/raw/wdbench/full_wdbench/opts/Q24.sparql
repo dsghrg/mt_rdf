@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <philosopher> . ?x2 <place of birth> <France> . OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <date of death> ?x4 . }  }
+
+NL-QUESTION:
+What is the list of philosophers born in France, along with their dates of birth and death if available?

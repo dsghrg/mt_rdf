@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <language of work or name> <German> . ?x1 <official website> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <media> .  }
+
+NL-QUESTION:
+What are the official websites of German media organizations?

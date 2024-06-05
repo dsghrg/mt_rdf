@@ -1,0 +1,4 @@
+SELECT * WHERE { <Paris> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <school> .  }
+
+NL-QUESTION:
+What schools are located near the coordinates of Paris?

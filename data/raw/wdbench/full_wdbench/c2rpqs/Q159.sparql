@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <city> . ?x3 (<located in the administrative territorial entity>)+ <Paris> .  }
+
+NL-QUESTION:
+What is the population of cities located in the administrative territorial entity of Paris?

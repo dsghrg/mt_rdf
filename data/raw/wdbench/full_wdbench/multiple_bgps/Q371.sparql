@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <different from> <class> . ?x2 <subclass of> ?x1 . ?x3 <instance of> ?x2 . ?x2 <topic's main category> ?x4 .  }
+
+NL-QUESTION:
+What main category does an instance have that is a subclass of a class that is different from a specific class?

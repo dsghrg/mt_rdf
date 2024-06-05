@@ -1,0 +1,4 @@
+SELECT * WHERE { <Milan> <coordinate location> ?x1 . <Varese> <coordinate location> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <record label> .  }
+
+NL-QUESTION:
+What record labels have their headquarters in Milan and Varese?

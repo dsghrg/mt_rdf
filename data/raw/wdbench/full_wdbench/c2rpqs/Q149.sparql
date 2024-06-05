@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x2 ((<instance of>|<subclass of>))+ <occupation> .  }
+
+NL-QUESTION:
+What are the occupations of people who have occupations?

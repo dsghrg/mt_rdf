@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> ?x2 . ?x3 <instance of> <book> .  }
+
+NL-QUESTION:
+What genres do books belong to?

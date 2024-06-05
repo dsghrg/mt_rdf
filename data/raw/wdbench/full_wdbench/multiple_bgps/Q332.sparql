@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Poland> . ?x2 <place of birth> ?x3 . ?x4 <elevation above sea level> ?x5 . ?x2 <place of death> ?x4 .  }
+
+NL-QUESTION:
+What is the elevation above sea level of places where individuals born in Poland have died?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <academic journal article> . ?x2 (<instance of>/(<subclass of>)*) <animal> .  }
+
+NL-QUESTION:
+What are the academic journal articles authored by individuals who are classified as animals?

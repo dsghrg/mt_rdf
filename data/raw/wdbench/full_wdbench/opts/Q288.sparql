@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <airport> . ?x2 <instance of> <country> . OPTIONAL { ?x2 <IATA airport code> ?x3 . }  }
+
+NL-QUESTION:
+What are the countries that have airports and what are the corresponding IATA airport codes, if available?

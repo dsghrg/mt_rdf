@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <subclass of> <computer worm> . OPTIONAL { ?x3 <named after> ?x1 . }  }
+
+NL-QUESTION:
+What are the images associated with entities that are subclasses of "computer worm", with the option of including their names if they are named after any entity?

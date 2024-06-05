@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author> ?x2 . ?x3 <author> ?x2 . ?x1 <publication date> ?x4 . ?x3 <publication date> ?x5 .  }
+
+NL-QUESTION:
+What are the publications and publication dates of works written by authors who have written more than one publication?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <father> <Johann Sebastian Bach> .  }
+
+NL-QUESTION:
+What is the name of Johann Sebastian Bach's father?

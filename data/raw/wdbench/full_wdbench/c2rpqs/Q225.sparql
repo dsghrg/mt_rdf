@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x2 <located in the administrative territorial entity> <Spain> . ?x3 <image> ?x4 . ?x3 <coordinate location> ?x5 . ?x3 (<instance of>/(<subclass of>)*) <archaeological site> .  }
+
+NL-QUESTION:
+What are the archaeological sites located in administrative territorial entities within Spain, along with their images and coordinates?

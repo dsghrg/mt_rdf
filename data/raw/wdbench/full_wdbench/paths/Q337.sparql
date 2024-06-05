@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Formicariidae> }
+
+NL-QUESTION:
+What are all the parent taxa of Formicariidae?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <computer scientist> . ?x2 <country> ?x3 . ?x1 <image> ?x4 . ?x1 <sex or gender> ?x5 . ?x1 <date of birth> ?x6 . ?x7 <coordinate location> ?x8 .  }
+
+NL-QUESTION:
+Which computer scientists have images, gender, date of birth, and coordinates along with their respective countries?

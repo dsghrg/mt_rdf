@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <family name> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <date of death> ?x4 . } OPTIONAL { ?x1 <country of citizenship> ?x5 . } OPTIONAL { ?x1 <place of birth> ?x6 . }  }
+
+NL-QUESTION:
+What are the family name, date of birth, date of death, country of citizenship, and place of birth of humans?

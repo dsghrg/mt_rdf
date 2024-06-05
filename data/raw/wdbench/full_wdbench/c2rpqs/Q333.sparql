@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Musée d'Orsay artist ID> ?x2 . ?x1 <instance of> <human> . ?x1 (<occupation>/(<subclass of>)*) <artist> .  }
+
+NL-QUESTION:
+Which humans identified in Wikidata have a Musée d'Orsay artist ID and are classified as artists?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<part of>|<part of the series>))* <Tanakh> }
+
+NL-QUESTION:
+What are all the items that are contained within the Tanakh or part of a series that includes the Tanakh?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country>)* <Germany> }
+
+NL-QUESTION:
+Which country is Germany in?

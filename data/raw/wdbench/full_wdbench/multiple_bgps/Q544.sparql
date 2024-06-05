@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Wikimedia list article> . ?x2 <is a list of> <word> . ?x3 <country of origin> <India> .  }
+
+NL-QUESTION:
+What are some Wikimedia list articles that contain lists related to words originating from India?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of sports team> ?x2 . ?x3 <member of sports team> <AC Milan> .  }
+
+NL-QUESTION:
+Who are the members of the sports team AC Milan?

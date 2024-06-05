@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <movement> <Art Nouveau> . ?x1 <creator> <Adam Friedrich Oeser> . ?x2 <instance of> ?x3 .  }
+
+NL-QUESTION:
+What are the instances of items created by Adam Friedrich Oeser that are associated with the Art Nouveau movement?

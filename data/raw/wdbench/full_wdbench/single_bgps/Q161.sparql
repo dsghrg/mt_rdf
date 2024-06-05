@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Norwegian parliamentary election> .  }
+
+NL-QUESTION:
+What are all the instances of Norwegian parliamentary elections in Wikidata?

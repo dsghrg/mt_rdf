@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <crime fiction writer> . ?x2 <author> ?x3 .  }
+
+NL-QUESTION:
+Who are the crime fiction writers who are also authors?

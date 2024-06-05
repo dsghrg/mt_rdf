@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Museum of Modern Art artist ID> ?x2 . OPTIONAL { ?x1 <place of birth> ?x3 . ?x1 <place of death> ?x4 . ?x1 <Union List of Artist Names ID> ?x5 . ?x1 <date of birth> ?x6 . ?x1 <date of death> ?x7 . ?x8 <coordinate location> ?x9 . ?x1 <work location> ?x10 . }  }
+
+NL-QUESTION:
+Which artists have a Museum of Modern Art artist ID and what is their place of birth, place of death, Union List of Artist Names ID, date of birth, date of death, coordinate location, and work location (if available)?

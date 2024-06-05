@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country>)? <Spain> }
+
+NL-QUESTION:
+What are the objects that have a country property set to Spain in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x1 (<instance of>/(<subclass of>)*) <occurrence> .  }
+
+NL-QUESTION:
+What are some occurrences that are associated with Germany?

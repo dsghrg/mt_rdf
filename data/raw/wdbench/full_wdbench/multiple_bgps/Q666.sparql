@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <educated at> <The Wharton School> . ?x1 <educated at> <University of Pennsylvania> .  }
+
+NL-QUESTION:
+What individuals were educated at both The Wharton School and the University of Pennsylvania?

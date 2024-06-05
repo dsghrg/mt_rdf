@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . ?x1 <main subject> ?x2 .  }
+
+NL-QUESTION:
+What are the main subjects of scholarly articles?

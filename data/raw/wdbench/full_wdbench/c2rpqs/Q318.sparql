@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <place of death> ?x3 . ?x1 <instance of> <human> . ?x1 <date of birth> ?x4 . ?x1 <date of death> ?x5 . ?x2 (<instance of>/<subclass of>) <human settlement> . ?x3 (<instance of>/<subclass of>) <human settlement> .  }
+
+NL-QUESTION:
+What are the birth and death locations of humans, along with their dates of birth and death, who were born in and died in human settlements?

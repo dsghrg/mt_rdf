@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> .  }
+
+NL-QUESTION:
+What are all the instances of businesses in Wikidata?

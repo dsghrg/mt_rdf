@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <simulation video game> . ?x2 <country> ?x3 . OPTIONAL { ?x1 <country8> ?x2 . }  }
+
+NL-QUESTION:
+What are the countries of origin for simulation video games?

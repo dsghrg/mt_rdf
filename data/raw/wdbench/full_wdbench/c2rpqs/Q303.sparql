@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 (<instance of>/(<subclass of>)*) ?x3 .  }
+
+NL-QUESTION:
+What are the images and types of instances or subclasses of entities in Wikidata?

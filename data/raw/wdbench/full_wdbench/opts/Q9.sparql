@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <ski jumper> . ?x1 <sex or gender> <male> . OPTIONAL { ?x1 <place of birth> ?x2 . } OPTIONAL { ?x1 <image> ?x3 . } OPTIONAL { ?x1 <mass> ?x4 . } OPTIONAL { ?x1 <personal best> ?x5 . } OPTIONAL { ?x1 <height> ?x6 . } OPTIONAL { ?x2 <coordinate location> ?x7 . }  }
+
+NL-QUESTION:
+What are the details of male ski jumpers, including their place of birth, image, mass, personal best, height, and coordinate location if available?

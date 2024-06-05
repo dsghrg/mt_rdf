@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <mouth of the watercourse> ?x2 . ?x1 <drainage basin> ?x3 . ?x2 <drainage basin> ?x4 . ?x4 <drainage basin> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <watercourse> . ?x2 (<instance of>/(<subclass of>)*) <watercourse> .  }
+
+NL-QUESTION:
+What is the relationship between the mouth of a watercourse and its drainage basin, taking into account their hierarchy and the fact that they are both instances or subclasses of a watercourse?

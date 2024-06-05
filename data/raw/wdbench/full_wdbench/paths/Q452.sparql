@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<NACSIS-CAT author ID>)*) <mountain> }
+
+NL-QUESTION:
+What are the instances of mountains with NACSIS-CAT author ID in Wikidata?

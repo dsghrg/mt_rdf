@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> <species> . ?x1 <taxon common name> ?x2 . ?x1 <IUCN taxon ID> ?x3 .  }
+
+NL-QUESTION:
+What are the common names and IUCN taxon IDs of all species in Wikidata?

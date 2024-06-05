@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <family name> <Myhre> .  }
+
+NL-QUESTION:
+What is the family name of individuals with the last name "Myhre" on Wikidata?

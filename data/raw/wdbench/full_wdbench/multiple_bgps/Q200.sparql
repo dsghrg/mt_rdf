@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Žďár nad Sázavou District> . ?x2 <instance of> <municipality of the Czech Republic> .  }
+
+NL-QUESTION:
+What municipalities are located in the Žďár nad Sázavou District in the Czech Republic?

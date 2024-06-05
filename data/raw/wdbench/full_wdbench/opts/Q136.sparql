@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <GTAA ID> ?x2 . OPTIONAL { ?x1 <award received> ?x3 . } OPTIONAL { ?x3 <point in time> ?x4 . } OPTIONAL { ?x1 <sex or gender> ?x5 . } OPTIONAL { ?x1 <birth name> ?x6 . } OPTIONAL { ?x1 <pseudonym> ?x7 . } OPTIONAL { ?x1 <date of birth> ?x8 . } OPTIONAL { ?x1 <place of birth> ?x9 . } OPTIONAL { ?x1 <date of death> ?x10 . } OPTIONAL { ?x1 <place of death> ?x11 . } OPTIONAL { ?x1 <occupation> ?x12 . }  }
+
+NL-QUESTION:
+What is the GTAA ID, award received, point in time, sex or gender, birth name, pseudonym, date of birth, place of birth, date of death, place of death, and occupation of the entity with given properties?

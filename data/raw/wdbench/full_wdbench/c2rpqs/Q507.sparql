@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <discoverer or inventor> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <artificial physical object> .  }
+
+NL-QUESTION:
+Who is the discoverer or inventor of artificial physical objects?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <Title not found> }
+
+NL-QUESTION:
+What are the instances or subclasses of <Title not found>?

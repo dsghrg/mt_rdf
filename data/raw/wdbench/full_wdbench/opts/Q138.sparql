@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <DVN ID> ?x2 . ?x3 <coordinate location> ?x4 . OPTIONAL { ?x1 <place of birth> ?x3 . } OPTIONAL { ?x1 <date of birth> ?x5 . } OPTIONAL { ?x1 <image> ?x6 . }  }
+
+NL-QUESTION:
+What is the geographical location and additional information about a person's birth using their identifier and which may include their date of birth and image if available on Wikidata?

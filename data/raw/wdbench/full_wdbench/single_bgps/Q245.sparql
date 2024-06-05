@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Poems> .  }
+
+NL-QUESTION:
+What poems have editions or translations in Wikidata?

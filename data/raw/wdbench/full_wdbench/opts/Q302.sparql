@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <urban agglomeration> . OPTIONAL { ?x1 <coordinate location> ?x2 . }  }
+
+NL-QUESTION:
+What are the urban agglomerations and their corresponding coordinates?

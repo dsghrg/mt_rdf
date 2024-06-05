@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <official name> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <date of death> ?x4 . } OPTIONAL { ?x1 <country of citizenship> ?x5 . }  }
+
+NL-QUESTION:
+What are the official name, date of birth, date of death, and country of citizenship of humans in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (^<parent taxon>/<taxon name>) ?x2 }
+
+NL-QUESTION:
+What is the taxonomic name of the parent of a given taxon?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Japan> . ?x1 (<instance of>/(<subclass of>)*) <geographic location> .  }
+
+NL-QUESTION:
+What are all the geographic locations that are instances of or subclasses of countries located in Japan?

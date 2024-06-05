@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> <species> . ?x1 <IUCN conservation status> <Critically Endangered> .  }
+
+NL-QUESTION:
+What are the critically endangered species on Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Syria> . ?x2 <country> <Syria> .  }
+
+NL-QUESTION:
+What are the countries that share a country border with Syria?

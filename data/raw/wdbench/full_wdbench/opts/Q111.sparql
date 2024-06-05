@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <legal form> <incorporated educational institution> . OPTIONAL { ?x1 <Corporate Number (Japan)> ?x2 . } OPTIONAL { ?x1 <country> ?x3 . }  }
+
+NL-QUESTION:
+Which incorporated educational institutions have legal form and what are their Corporate Numbers in Japan and countries?

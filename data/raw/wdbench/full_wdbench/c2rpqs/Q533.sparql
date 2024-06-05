@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <main subject> <Joan of Arc> . ?x1 (<located in the administrative territorial entity>)+ <France> . ?x1 (<instance of>/(<subclass of>)*) <sculpture> .  }
+
+NL-QUESTION:
+What sculptures located in France have Joan of Arc as their main subject?

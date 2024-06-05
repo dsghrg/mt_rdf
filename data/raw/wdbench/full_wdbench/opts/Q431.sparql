@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <composer> ?x2 . }  }
+
+NL-QUESTION:
+What are the names of all humans who may also be composers in Wikidata?

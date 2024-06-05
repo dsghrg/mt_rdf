@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <male> . ?x1 <date of birth> ?x3 . ?x4 <coordinate location> ?x5 . ?x1 <educated at> <Fordham University> .  }
+
+NL-QUESTION:
+What are the names of male individuals born in a specific place, having a specific date of birth, educated at Fordham University, and with a coordinate location listed in Wikidata?

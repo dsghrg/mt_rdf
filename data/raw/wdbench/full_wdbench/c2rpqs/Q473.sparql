@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 <filming location> ?x3 . ?x2 ((<subclass of>|<located in the administrative territorial entity>))* <film> . ?x3 ((<subclass of>|<located in the administrative territorial entity>))* <Galicia> .  }
+
+NL-QUESTION:
+What films were filmed in Galicia?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Douglas Adams> <instance of> ?x1 .  }
+
+NL-QUESTION:
+What is the instance of Douglas Adams?

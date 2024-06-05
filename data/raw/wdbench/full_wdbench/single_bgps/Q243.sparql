@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Artemis Fowl: The Graphic Novel> .  }
+
+NL-QUESTION:
+What are the editions or translations of the book "Artemis Fowl: The Graphic Novel" in Wikidata?

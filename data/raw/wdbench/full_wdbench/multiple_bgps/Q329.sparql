@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United States of America> . ?x2 <instance of> <airport> .  }
+
+NL-QUESTION:
+What are the airports located in the United States of America?

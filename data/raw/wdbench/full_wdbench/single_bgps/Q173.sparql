@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <sport> .  }
+
+NL-QUESTION:
+What are all the instances of the class "sport" in Wikidata?

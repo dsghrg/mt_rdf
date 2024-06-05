@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <named after> <Francis of Assisi> .  }
+
+NL-QUESTION:
+What or who is named after Francis of Assisi?

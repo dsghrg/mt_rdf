@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<located in the administrative territorial entity>)*/<country>) <United Kingdom> }
+
+NL-QUESTION:
+Which items are located in the United Kingdom administrative territorial entity?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <is a list of> <human> .  }
+
+NL-QUESTION:
+What is a list of humans?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x2 <located in the administrative territorial entity> <Pyrénées-Orientales> . ?x1 (<instance of>/(<subclass of>)*) <geographical feature> .  }
+
+NL-QUESTION:
+What geographical features are located in an administrative territorial entity that is located within Pyrénées-Orientales?

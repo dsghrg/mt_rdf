@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <gene> . ?x2 <found in taxon> <Escherichia coli str. K-12 substr. MG1655> .  }
+
+NL-QUESTION:
+Which genes are found in Escherichia coli str. K-12 substr. MG1655?

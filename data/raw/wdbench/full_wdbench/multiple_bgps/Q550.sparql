@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <house cat> . ?x1 <instance of> <Chinese> .  }
+
+NL-QUESTION:
+What are the Chinese house cats in Wikidata?

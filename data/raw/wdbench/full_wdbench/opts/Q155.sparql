@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x1 <instance of> <city> . ?x1 <local dialing code> ?x2 . <Russia> <country calling code> ?x3 . OPTIONAL { ?x1 <OpenStreetMap relation ID> ?x4 . }  }
+
+NL-QUESTION:
+What is the local dialing code of cities in Germany and the corresponding country calling code for Russia?

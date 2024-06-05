@@ -1,0 +1,4 @@
+SELECT * WHERE { <Hamburger Verkehrsverbund> <instance of> ?x1 .  }
+
+NL-QUESTION:
+What is the instance of Hamburger Verkehrsverbund?

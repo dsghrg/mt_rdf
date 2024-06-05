@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Gian Lorenzo Bernini> . OPTIONAL { ?x1 <collection> ?x2 . }  }
+
+NL-QUESTION:
+What artworks were created by Gian Lorenzo Bernini and in which collections are they part of?

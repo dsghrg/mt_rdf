@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x3 <named after> ?x1 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+Who are humans named after in terms of occupation?

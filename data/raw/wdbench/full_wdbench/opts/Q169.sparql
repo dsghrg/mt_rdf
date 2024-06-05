@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Hungary> . ?x1 <instance of> <gymnasium> . OPTIONAL { ?x1 <coordinate location> ?x2 . }  }
+
+NL-QUESTION:
+Which gymnasiums located in Hungary have their coordinate locations available on Wikidata?

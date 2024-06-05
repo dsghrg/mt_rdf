@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<occupation>/(<subclass of>)*)/(<subclass of>)*) <artist> }
+
+NL-QUESTION:
+What are all the entities that are directly or indirectly classified as an artist in Wikidata?

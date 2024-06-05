@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x2 <country> <Portugal> . OPTIONAL { ?x1 <area> ?x3 . } OPTIONAL { ?x2 <area> ?x3 . }  }
+
+NL-QUESTION:
+What are the areas of countries Germany and Portugal?

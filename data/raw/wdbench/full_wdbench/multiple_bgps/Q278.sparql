@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> <Zbigniew Cybulski> . ?x2 <instance of> <film> . ?x3 <film poster> ?x4 .  }
+
+NL-QUESTION:
+What are the film posters of films in which Zbigniew Cybulski is a cast member?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of the series> <Game of Thrones> . ?x1 <instance of> <television series episode> . ?x2 <part of> ?x3 .  }
+
+NL-QUESTION:
+What are the television series episodes that are part of the series "Game of Thrones"?

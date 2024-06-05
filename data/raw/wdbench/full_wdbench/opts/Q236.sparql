@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <name> ?x2 . ?x3 <instance of> <musical group> . OPTIONAL { ?x1 <official name> ?x4 . }  }
+
+NL-QUESTION:
+What are the names of the musical groups along with their official names, if available?

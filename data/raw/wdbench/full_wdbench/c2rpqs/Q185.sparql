@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <facet of> ?x2 . ?x1 <instance of> ?x3 . ?x3 ((<subclass of>|<located in the administrative territorial entity>))* <events in a specific year or time period> . ?x2 ((<subclass of>|<located in the administrative territorial entity>))* <Canada> .  }
+
+NL-QUESTION:
+What are the facets of events in a specific year or time period that are located in Canada?

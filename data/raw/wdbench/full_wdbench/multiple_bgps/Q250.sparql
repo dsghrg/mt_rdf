@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <named after> ?x2 . ?x3 <country> <Czech Republic> . ?x3 <instance of> <street> .  }
+
+NL-QUESTION:
+What streets in the Czech Republic are named after someone?

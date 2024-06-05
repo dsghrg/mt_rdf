@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* ?x2 }
+
+NL-QUESTION:
+What is the administrative territorial entity in which the subject is located?

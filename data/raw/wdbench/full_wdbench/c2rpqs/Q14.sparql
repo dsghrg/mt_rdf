@@ -1,0 +1,4 @@
+SELECT * WHERE { <Kisangani> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <library> .  }
+
+NL-QUESTION:
+What are the coordinates of libraries in Kisangani?

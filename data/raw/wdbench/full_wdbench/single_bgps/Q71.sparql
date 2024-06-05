@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <GeoNames ID> ?x2 .  }
+
+NL-QUESTION:
+What are the GeoNames IDs for all entities in Wikidata?

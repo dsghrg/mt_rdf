@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <regency of Indonesia> }
+
+NL-QUESTION:
+What is the instance of or subclass of Regency of Indonesia?

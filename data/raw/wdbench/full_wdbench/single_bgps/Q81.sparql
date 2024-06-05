@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> <Trigonopterus> .  }
+
+NL-QUESTION:
+What are the parent taxa of Trigonopterus?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x2 <occupation> <painter> . ?x3 <father> ?x2 .  }
+
+NL-QUESTION:
+Who are the fathers of painters on Wikidata who are also painters themselves?

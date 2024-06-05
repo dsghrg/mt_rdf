@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painting> . OPTIONAL { ?x1 <inscription> ?x2 . } OPTIONAL { ?x2 <applies to part> ?x3 . }  }
+
+NL-QUESTION:
+What paintings have inscriptions that apply to a specific part?

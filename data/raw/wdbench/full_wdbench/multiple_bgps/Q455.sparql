@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the females who are instances of humans?

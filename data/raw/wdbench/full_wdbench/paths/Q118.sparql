@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((((<instance of>/<subclass of>)/<subclass of>)/<subclass of>)/<subclass of>)/<subclass of>) ?x1 }
+
+NL-QUESTION:
+What are the instances of the subclasses of the subclasses of the subclasses of the subclasses of the subclasses of a specific entity in Wikidata?

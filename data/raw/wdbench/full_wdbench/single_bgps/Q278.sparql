@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <Wikimedia disambiguation page> .  }
+
+NL-QUESTION:
+What are the Wikimedia disambiguation pages available in Wikidata?

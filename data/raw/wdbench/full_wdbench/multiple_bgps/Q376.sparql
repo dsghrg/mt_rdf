@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <place of birth> <Bilbao> . ?x1 <place of death> ?x3 . ?x1 <date of death> ?x4 . ?x3 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What is the image, place of birth, place of death, date of death, and coordinate location of a person born in Bilbao?

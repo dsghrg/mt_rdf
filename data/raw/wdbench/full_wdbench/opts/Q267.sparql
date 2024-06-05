@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <original language of film or TV show> ?x2 . ?x1 <publication date> ?x3 . OPTIONAL { ?x1 <director> ?x4 . } OPTIONAL { ?x1 <composer> ?x5 . } OPTIONAL { ?x1 <cast member> ?x6 . }  }
+
+NL-QUESTION:
+What are the original language, publication date, director, composer, and cast members of films?

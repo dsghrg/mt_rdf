@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <gene> . OPTIONAL { ?x1 <subclass of> ?x2 . } OPTIONAL { ?x1 <found in taxon> ?x3 . } OPTIONAL { ?x1 <encodes> ?x4 . } OPTIONAL { ?x1 <gene substitution association with> ?x5 . }  }
+
+NL-QUESTION:
+What are some additional properties of genes in Wikidata?

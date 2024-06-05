@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <Switzerland> . ?x2 <instance of> <human> . OPTIONAL { ?x2 <date of birth> ?x3 . } OPTIONAL { ?x2 <country of citizenship> ?x1 . } OPTIONAL { ?x2 <date of death> ?x4 . }  }
+
+NL-QUESTION:
+What humans have citizenship in Switzerland and what are their birth and death dates if available?

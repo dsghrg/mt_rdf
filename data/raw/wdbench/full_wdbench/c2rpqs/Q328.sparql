@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <male> . ?x2 (<instance of>/(<subclass of>)*) <athlete> .  }
+
+NL-QUESTION:
+What male athletes are present in Wikidata?

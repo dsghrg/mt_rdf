@@ -1,0 +1,4 @@
+SELECT * WHERE { <Dresden> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <road> .  }
+
+NL-QUESTION:
+What are the coordinates of roads in Dresden?

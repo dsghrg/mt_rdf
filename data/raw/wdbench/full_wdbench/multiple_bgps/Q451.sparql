@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <country of citizenship> <United States of America> . ?x1 <instance of> <human> . ?x1 <given name> ?x2 . ?x1 <given name> ?x3 .  }
+
+NL-QUESTION:
+What are the female individuals from the United States of America who are humans and have given names?

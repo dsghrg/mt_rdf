@@ -1,0 +1,4 @@
+SELECT * WHERE { <university archive Bamberg> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative territorial entities is the university archive in Bamberg located in?

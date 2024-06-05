@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> ?x2 . ?x1 <parent taxon> ?x3 . ?x1 <taxon name> ?x4 . <Pteropodidae> (<parent taxon>)* ?x1 .  }
+
+NL-QUESTION:
+What is the taxon rank, parent taxon, and taxon name of all members of the Pteropodidae family?

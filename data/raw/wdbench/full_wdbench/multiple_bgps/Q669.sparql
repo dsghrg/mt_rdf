@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <category combines topics> ?x2 . ?x3 <category combines topics> ?x2 .  }
+
+NL-QUESTION:
+What topics are combined in the category on Wikimedia projects?

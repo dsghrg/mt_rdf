@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <San Bernardino County> }
+
+NL-QUESTION:
+What administrative territorial entities is San Bernardino County located in?

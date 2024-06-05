@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <India> . ?x1 (<instance of>/(<subclass of>)*) <city> . ?x2 (<instance of>/(<subclass of>)*) <educational organization> .  }
+
+NL-QUESTION:
+Which educational organizations are located in cities in India?

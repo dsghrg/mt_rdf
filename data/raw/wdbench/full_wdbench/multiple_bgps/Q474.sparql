@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <father> <Johann Sebastian Bach> . ?x1 <mother> <Maria Barbara Bach> .  }
+
+NL-QUESTION:
+Who are the children of Johann Sebastian Bach and Maria Barbara Bach?

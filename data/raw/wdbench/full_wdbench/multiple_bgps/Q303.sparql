@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <manufacturer> ?x2 . ?x1 <part of the series> ?x3 . ?x4 <country> ?x4 . ?x1 <instance of> <automobile model> .  }
+
+NL-QUESTION:
+What automobile models are manufactured by a company that is part of a series and located in a specific country?

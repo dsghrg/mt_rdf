@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <start point> ?x2 . ?x2 <coordinate location> ?x3 . ?x4 <organizer> ?x5 .  }
+
+NL-QUESTION:
+What are the start points, coordinate locations, and organizers of events on Wikidata?

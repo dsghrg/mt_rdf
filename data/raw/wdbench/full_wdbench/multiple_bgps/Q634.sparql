@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x2 <instance of> <beer style> .  }
+
+NL-QUESTION:
+What are the instances of beer styles?

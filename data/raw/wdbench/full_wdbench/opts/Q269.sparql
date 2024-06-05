@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <country of origin> <France> . ?x2 <publication date> ?x3 . OPTIONAL { ?x1 <duration> ?x4 . }  }
+
+NL-QUESTION:
+What films from France have been published and what are their publication dates?

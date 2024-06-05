@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Japan> . ?x2 <instance of> <Summer Olympic Games> . ?x3 <instance of> <Winter Olympic Games> .  }
+
+NL-QUESTION:
+Which countries have hosted both the Summer and Winter Olympic Games?

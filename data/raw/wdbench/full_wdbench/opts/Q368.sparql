@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <country of origin> <Russia> . OPTIONAL { ?x2 <occupation> ?x3 . }  }
+
+NL-QUESTION:
+Which humans from Russia have a known occupation on Wikidata?

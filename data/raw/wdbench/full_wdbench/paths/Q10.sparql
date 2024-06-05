@@ -1,0 +1,4 @@
+SELECT * WHERE { <Corfe Castle> (<instance of>/(<subclass of>)*) ?x1 }
+
+NL-QUESTION:
+What category does Corfe Castle belong to on Wikidata?

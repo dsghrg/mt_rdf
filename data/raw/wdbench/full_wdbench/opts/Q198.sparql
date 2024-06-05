@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <collection> <Royal Museum of Fine Arts Antwerp> . OPTIONAL { ?x1 <creator> ?x2 . } OPTIONAL { ?x2 <Commons category> ?x3 . }  }
+
+NL-QUESTION:
+What artworks are part of the collection of the Royal Museum of Fine Arts Antwerp and who are their creators?

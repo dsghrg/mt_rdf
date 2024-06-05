@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <computer> . OPTIONAL { ?x1 <retrieved> ?x2 . }  }
+
+NL-QUESTION:
+What are the instances of computers and when were they last retrieved from wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <area> ?x3 . ?x1 <postal code> ?x4 . ?x1 <instance of> <municipality of the Netherlands> . ?x1 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+Which municipalities of the Netherlands have a population, area, postal code, and coordinate location?

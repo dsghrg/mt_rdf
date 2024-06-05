@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . OPTIONAL { ?x1 <occupation> ?x2 . }  }
+
+NL-QUESTION:
+What are the occupations of females in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <St. Nicholas Church, Fehmarn> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+Where is St. Nicholas Church, Fehmarn located?

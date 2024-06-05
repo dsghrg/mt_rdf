@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Ploceidae> }
+
+NL-QUESTION:
+What is the parent taxon of Ploceidae?

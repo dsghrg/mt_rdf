@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((((<father>|<mother>)|<child>)|<relative>)|<sibling>) ?x2 }
+
+NL-QUESTION:
+What are the relationships between two entities on Wikidata?

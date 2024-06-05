@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <musical group> . ?x2 (<place of birth>/<coordinate location>) ?x3 .  }
+
+NL-QUESTION:
+What are the musical groups and their places of birth or coordinate locations?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <official name> ?x2 . }  }
+
+NL-QUESTION:
+What are the official names of all humans on Wikidata?

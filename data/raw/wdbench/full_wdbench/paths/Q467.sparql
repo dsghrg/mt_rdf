@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <bridge> }
+
+NL-QUESTION:
+What are the instances and subclasses of the concept "bridge" in Wikidata?

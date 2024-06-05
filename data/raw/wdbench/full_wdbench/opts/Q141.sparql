@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of the series> <The X-Files> . ?x1 <instance of> <television series episode> . ?x1 <director> ?x2 . OPTIONAL { ?x1 <date of first performance> ?x3 . }  }
+
+NL-QUESTION:
+What are the television series episodes of "The X-Files" that have a director and, optionally, a date of first performance?

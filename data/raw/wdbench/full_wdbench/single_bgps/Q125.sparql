@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <WikiTree person ID> ?x2 .  }
+
+NL-QUESTION:
+What is the WikiTree person ID of the entity?

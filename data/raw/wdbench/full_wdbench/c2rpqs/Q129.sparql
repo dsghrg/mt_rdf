@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> ?x2 . ?x3 <taxon rank> ?x4 . ?x1 <parent taxon> ?x3 . ?x1 <instance of> <taxon> . ?x3 <instance of> <taxon> . ?x4 (<part of>)+ ?x2 .  }
+
+NL-QUESTION:
+What are the taxonomic ranks of all taxa which are part of a higher taxon within Wikidata?

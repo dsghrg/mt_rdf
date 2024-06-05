@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Instagram username> ?x2 . ?x3 <sex or gender> <female> .  }
+
+NL-QUESTION:
+What are the Instagram usernames of females on Wikidata?

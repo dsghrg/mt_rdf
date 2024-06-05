@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Italy> . ?x1 <instance of> <weather station> .  }
+
+NL-QUESTION:
+What weather stations are located in Italy?

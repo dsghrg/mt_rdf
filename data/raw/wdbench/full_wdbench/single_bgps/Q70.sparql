@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <title> ?x2 .  }
+
+NL-QUESTION:
+What are the titles of items in Wikidata?

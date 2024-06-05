@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <eye color> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <human> .  }
+
+NL-QUESTION:
+What is the eye color of humans in Wikidata?

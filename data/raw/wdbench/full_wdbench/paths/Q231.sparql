@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <politician> }
+
+NL-QUESTION:
+What politicians are in Wikidata?

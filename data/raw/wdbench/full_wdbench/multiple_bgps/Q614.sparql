@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <author> ?x1 . ?x3 <author> ?x1 . ?x2 <publication date> ?x4 . ?x3 <publication date> ?x5 .  }
+
+NL-QUESTION:
+Which human has authored two (or more) articles, with each article having a publication date?

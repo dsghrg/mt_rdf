@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <from narrative universe> <Tolkien's legendarium> .  }
+
+NL-QUESTION:
+What narrative universe does Tolkien's legendarium belong to?

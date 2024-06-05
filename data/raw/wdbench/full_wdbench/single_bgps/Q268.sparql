@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <influenced by> <C> .  }
+
+NL-QUESTION:
+Who was influenced by C?

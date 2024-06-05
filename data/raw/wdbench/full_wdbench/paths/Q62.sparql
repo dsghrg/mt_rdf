@@ -1,0 +1,4 @@
+SELECT * WHERE { <Charlemagne> (<child>)* ?x1 }
+
+NL-QUESTION:
+What are all the children of Charlemagne?

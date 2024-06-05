@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <scholarly article> }
+
+NL-QUESTION:
+What are all the subclasses of a scholarly article?

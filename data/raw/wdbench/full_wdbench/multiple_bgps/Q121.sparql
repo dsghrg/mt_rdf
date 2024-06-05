@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x1 <instance of> <human> . ?x2 <instance of> <name> .  }
+
+NL-QUESTION:
+What are the names of the politicians who are human?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <official name> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <ministry of the Kingdom of Italy> .  }
+
+NL-QUESTION:
+What is the official name of the ministries of the Kingdom of Italy?

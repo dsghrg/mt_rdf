@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <Artemis Fowl and the Lost Colony> .  }
+
+NL-QUESTION:
+What are the editions or translations of "Artemis Fowl and the Lost Colony"?

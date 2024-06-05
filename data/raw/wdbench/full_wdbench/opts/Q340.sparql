@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . ?x1 <industry> <pharmaceutical industry> . OPTIONAL { ?x1 <industry> ?x2 . } OPTIONAL { ?x1 <inception> ?x3 . } OPTIONAL { ?x1 <chief executive officer> ?x4 . } OPTIONAL { ?x1 <country> ?x5 . } OPTIONAL { ?x1 <total assets> ?x6 . } OPTIONAL { ?x1 <total revenue> ?x7 . } OPTIONAL { ?x7 <point in time> ?x8 . } OPTIONAL { ?x1 <has subsidiary> ?x9 . } OPTIONAL { ?x1 <has subsidiary> ?x10 . } OPTIONAL { ?x1 <legal form> ?x11 . } OPTIONAL { ?x1 <official website> ?x12 . } OPTIONAL { ?x1 <ISIN> ?x13 . }  }
+
+NL-QUESTION:
+What are some details about businesses within the pharmaceutical industry?

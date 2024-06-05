@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <New Dutch Waterline> . OPTIONAL { ?x1 <Rijksmonument ID> ?x2 . } OPTIONAL { ?x1 <coordinate location> ?x3 . } OPTIONAL { ?x4 <part of> ?x1 . } OPTIONAL { ?x4 <Rijksmonument ID> ?x5 . } OPTIONAL { ?x4 <coordinate location> ?x6 . }  }
+
+NL-QUESTION:
+What are the parts, monument IDs, and coordinate locations associated with the New Dutch Waterline and its related entities in Wikidata?

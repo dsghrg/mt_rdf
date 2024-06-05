@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <municipio> . ?x1 <instance of> <municipality> . OPTIONAL { ?x1 <coordinate location> ?x2 . }  }
+
+NL-QUESTION:
+What municipalities are subclasses of the superclass "municipio" in Wikidata and do they have coordinate locations?

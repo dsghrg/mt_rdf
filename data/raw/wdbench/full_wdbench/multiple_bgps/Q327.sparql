@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United States of America> . ?x1 <instance of> <neighborhood> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What neighborhoods in the United States of America have coordinate locations?

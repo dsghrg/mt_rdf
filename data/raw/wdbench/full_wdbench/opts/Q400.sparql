@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <GND ID> ?x2 . } OPTIONAL { ?x1 <ORCID iD> ?x3 . } OPTIONAL { ?x1 <ISNI> ?x4 . } OPTIONAL { ?x1 <VIAF ID> ?x5 . }  }
+
+NL-QUESTION:
+What are the unique identifiers for humans in Wikidata, such as GND ID, ORCID iD, ISNI, and VIAF ID?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((((((((((<place of birth>|<headquarters location>)|<location of formation>)|<residence>)|<country of citizenship>)|<affiliation>)|<country of citizenship6>)|<located in the administrative territorial entity>)|<home venue>)|<country for sport>)|(<country>/(<located in the administrative territorial entity>)*)))* <Syria> }
+
+NL-QUESTION:
+What is the place of birth, headquarters location, location of formation, residence, country of citizenship, affiliation, country of citizenship6, located in the administrative territorial entity, home venue, and country for sport of individuals or entities located in Syria?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <artist> . ?x2 <place of birth> <United States of America> .  }
+
+NL-QUESTION:
+What artists were born in the United States of America?

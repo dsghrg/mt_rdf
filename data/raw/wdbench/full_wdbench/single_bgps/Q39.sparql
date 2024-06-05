@@ -1,0 +1,4 @@
+SELECT * WHERE { <London> <country> ?x1 .  }
+
+NL-QUESTION:
+What is the country of London?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <Himalayas> . ?x1 (<instance of>/(<subclass of>)*) <mountain> .  }
+
+NL-QUESTION:
+What mountains are part of the Himalayas?

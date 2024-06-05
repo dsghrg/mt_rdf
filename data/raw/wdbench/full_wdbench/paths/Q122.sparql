@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((((<subclass of>/<subclass of>)/<subclass of>)/<subclass of>)/<subclass of>) ?x1 }
+
+NL-QUESTION:
+What are the items that are five levels down in the subclass hierarchy?

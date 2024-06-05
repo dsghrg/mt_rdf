@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <Pleinfeld> }
+
+NL-QUESTION:
+What administrative territorial entities is Pleinfeld located in?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <action film> . ?x1 <instance of> <film> . OPTIONAL { ?x1 <main subject> ?x2 . } OPTIONAL { ?x1 <publication date> ?x3 . } OPTIONAL { ?x1 <director> ?x4 . } OPTIONAL { ?x1 <cast member> ?x5 . } OPTIONAL { ?x1 <screenwriter> ?x6 . } OPTIONAL { ?x1 <producer> ?x7 . }  }
+
+NL-QUESTION:
+What action films are the main subjects, publication dates, directors, cast members, screenwriters, and producers of?

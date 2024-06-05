@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x1 <country of citizenship> <Belarus> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What politicians from Belarus have coordinate locations?

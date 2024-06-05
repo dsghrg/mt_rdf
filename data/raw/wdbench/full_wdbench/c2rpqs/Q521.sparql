@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <coordinate location> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What are the coordinates of cities in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <album> .  }
+
+NL-QUESTION:
+What albums are instances of in Wikidata?

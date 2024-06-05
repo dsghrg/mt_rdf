@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <Sherlock Holmes> . ?x1 <place of birth> <India> . ?x1 <place of death> <Mumbai> . OPTIONAL { ?x1 <date of birth> ?x2 . }  }
+
+NL-QUESTION:
+What is the occupation of a person whose birthplace is India and place of death is Mumbai, and optionally, when were they born?

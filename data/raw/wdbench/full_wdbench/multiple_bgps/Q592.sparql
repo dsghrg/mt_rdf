@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <book> . ?x1 <author> <Mustafa Mahmoud> .  }
+
+NL-QUESTION:
+Which books are authored by Mustafa Mahmoud?

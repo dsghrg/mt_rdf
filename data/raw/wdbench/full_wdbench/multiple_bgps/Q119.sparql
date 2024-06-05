@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x1 <sex or gender> <female> . ?x1 <country of citizenship> <Albania> .  }
+
+NL-QUESTION:
+What female politicians are citizens of Albania?

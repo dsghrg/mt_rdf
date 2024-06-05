@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<subclass of>|<located in the administrative territorial entity>))* <Poland> }
+
+NL-QUESTION:
+Which entities are either subclasses of or located in Poland?

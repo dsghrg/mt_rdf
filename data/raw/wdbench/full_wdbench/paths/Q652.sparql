@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<topic's main category>/<instance of>) <Wikimedia category> }
+
+NL-QUESTION:
+What is the main category of the Wikimedia category in Wikidata?

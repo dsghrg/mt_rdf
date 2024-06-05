@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <female given name> .  }
+
+NL-QUESTION:
+What are the female given names in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 . ?x2 (<instance of>/<subclass of>) <Title not found> .  }
+
+NL-QUESTION:
+What is the coordinate location of Berlin and what are the instances or subclasses of an entity with an unknown title?

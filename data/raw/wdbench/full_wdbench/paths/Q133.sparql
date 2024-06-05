@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((<instance of>)*|(<located in the administrative territorial entity>)*)/(<subclass of>)*) <geographical feature> }
+
+NL-QUESTION:
+What are all the geographical features in Wikidata along with their instances of or located in administrative territorial entities and their subclass information?

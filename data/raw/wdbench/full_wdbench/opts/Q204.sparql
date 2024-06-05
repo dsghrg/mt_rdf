@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Durango> . ?x1 <instance of> <human> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <image> ?x4 . } OPTIONAL { ?x1 <place of death> ?x2 . }  }
+
+NL-QUESTION:
+What humans were born in Durango, and what are their coordinates, images (if available), and place of death (if available)?

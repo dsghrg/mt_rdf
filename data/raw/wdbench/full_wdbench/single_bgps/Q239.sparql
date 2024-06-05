@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <publication date> ?x2 .  }
+
+NL-QUESTION:
+What are the publication dates of the items in Wikidata?

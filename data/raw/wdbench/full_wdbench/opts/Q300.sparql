@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . OPTIONAL { ?x1 <PubMed ID> ?x2 . } OPTIONAL { ?x1 <DOI> ?x3 . } OPTIONAL { ?x1 <PMCID> ?x4 . }  }
+
+NL-QUESTION:
+Can you provide me with information about scholarly articles, including their PubMed ID, DOI, and PMC ID where available?

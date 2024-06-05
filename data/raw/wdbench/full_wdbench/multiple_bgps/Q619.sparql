@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> . ?x1 <head of government> ?x2 .  }
+
+NL-QUESTION:
+Which countries have a head of government?

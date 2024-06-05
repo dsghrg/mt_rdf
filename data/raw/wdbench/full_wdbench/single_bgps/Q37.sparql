@@ -1,0 +1,4 @@
+SELECT * WHERE { <Barack Obama> ?x1 <United States of America> .  }
+
+NL-QUESTION:
+What is the connection between Barack Obama and the United States of America in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of origin> <Germany> . ?x2 <discoverer or inventor> ?x3 . OPTIONAL { ?x3 <given name> ?x4 . } OPTIONAL { ?x3 <family name> ?x5 . }  }
+
+NL-QUESTION:
+What are the given and family names of the discoverers or inventors from Germany?

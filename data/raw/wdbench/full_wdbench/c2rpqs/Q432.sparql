@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . ?x1 <publication date> ?x2 . ?x1 (<main subject>)* ?x3 .  }
+
+NL-QUESTION:
+What are the scholarly articles, publication dates, and main subjects of these articles in Wikidata?

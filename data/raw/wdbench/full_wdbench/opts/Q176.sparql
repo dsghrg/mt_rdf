@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Argentina> . ?x1 <instance of> <association football venue> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <image> ?x4 . }  }
+
+NL-QUESTION:
+What association football venues are located in Argentina and what are their coordinates?

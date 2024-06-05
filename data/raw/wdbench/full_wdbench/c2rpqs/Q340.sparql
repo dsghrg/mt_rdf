@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> ?x2 . ?x3 <coordinate location> ?x4 . ?x2 (<instance of>/(<subclass of>)*) <National Park System unit> .  }
+
+NL-QUESTION:
+What are the locations and coordinate locations of National Park System units?

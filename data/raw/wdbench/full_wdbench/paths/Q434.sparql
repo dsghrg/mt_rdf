@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <automobile model> }
+
+NL-QUESTION:
+What are the different types of automobile models?

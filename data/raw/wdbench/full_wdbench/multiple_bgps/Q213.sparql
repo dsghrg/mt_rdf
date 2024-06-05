@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <country> <Austria> . ?x3 <instance of> <cathedral> .  }
+
+NL-QUESTION:
+What cathedrals are located in administrative territorial entities of Austria?

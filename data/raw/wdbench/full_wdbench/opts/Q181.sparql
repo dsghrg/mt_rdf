@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 <species kept> <polar bear> . ?x3 <instance of> <zoo> . OPTIONAL { ?x3 <coordinate location> ?x4 . } OPTIONAL { ?x3 <inception> ?x5 . }  }
+
+NL-QUESTION:
+Which zoos keep polar bears and in which countries are they located?

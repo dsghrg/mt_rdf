@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <writer> . ?x2 <languages spoken, written or signed> <Spanish> .  }
+
+NL-QUESTION:
+What writers speak or write in Spanish?

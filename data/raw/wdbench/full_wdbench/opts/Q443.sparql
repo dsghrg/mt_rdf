@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <elephant> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What images are available for elephants on Wikidata?

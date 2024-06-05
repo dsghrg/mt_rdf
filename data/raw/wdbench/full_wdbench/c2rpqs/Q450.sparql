@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <date of birth> ?x2 . ?x1 <date of death> ?x3 . ?x4 <family name> ?x4 . ?x1 (<occupation>/<subclass of>) <musician> .  }
+
+NL-QUESTION:
+What are the names, birth dates, death dates, and family names of musicians who are humans?

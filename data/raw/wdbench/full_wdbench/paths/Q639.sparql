@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<mouth of the watercourse>)* <Saint-Maurice river> }
+
+NL-QUESTION:
+What is the location of the mouth of the Saint-Maurice river?

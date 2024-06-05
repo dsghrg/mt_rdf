@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <sex or gender> <female> . ?x3 <date of birth> ?x4 . ?x2 <coordinate location> ?x5 . ?x1 <educated at> <Jagiellonian University> .  }
+
+NL-QUESTION:
+What are the birth dates and birth places of females who were educated at the Jagiellonian University, and what are the coordinates of their birth places?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <album> .  }
+
+NL-QUESTION:
+What are the subclasses of "album" in Wikidata?

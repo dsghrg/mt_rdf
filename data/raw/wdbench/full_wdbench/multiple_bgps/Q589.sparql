@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <public limited company> . ?x1 <industry> ?x2 .  }
+
+NL-QUESTION:
+What industries do public limited companies operate in?

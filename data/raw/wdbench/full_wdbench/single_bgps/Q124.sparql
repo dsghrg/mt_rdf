@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <UMLS CUI> ?x2 .  }
+
+NL-QUESTION:
+What are the UMLS CUI codes associated with each entity in Wikidata?

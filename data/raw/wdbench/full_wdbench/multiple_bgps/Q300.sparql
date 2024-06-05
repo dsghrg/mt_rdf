@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <GTAA ID> ?x2 . ?x1 <pseudonym> ?x3 .  }
+
+NL-QUESTION:
+What is the pseudonym of the entity with GTAA ID?

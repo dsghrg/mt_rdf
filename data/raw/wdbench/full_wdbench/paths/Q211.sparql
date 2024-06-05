@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<said to be the same as>|<exact match>)|<permanent duplicated item>) ?x2 }
+
+NL-QUESTION:
+What items are said to be the same as or exactly match another item, or are permanent duplicates?

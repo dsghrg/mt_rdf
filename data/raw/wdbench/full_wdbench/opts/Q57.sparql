@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <employer> <Stanford University> . ?x1 <instance of> <human> . OPTIONAL { ?x1 <ISNI> ?x2 . }  }
+
+NL-QUESTION:
+Which humans are employed by Stanford University, and what are their ISNI identifiers if available?

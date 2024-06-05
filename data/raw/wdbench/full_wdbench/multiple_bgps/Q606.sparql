@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <is a list of> <human> .  }
+
+NL-QUESTION:
+What is a list of humans who are instances of humans in Wikidata?

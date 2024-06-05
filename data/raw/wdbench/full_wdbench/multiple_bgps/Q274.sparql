@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <has effect> ?x2 . ?x3 <instance of> <taxon> .  }
+
+NL-QUESTION:
+What are the effects of the taxon?

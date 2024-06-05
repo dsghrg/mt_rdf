@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <postal code> ?x2 .  }
+
+NL-QUESTION:
+What are the postal codes for the entities in Wikidata?

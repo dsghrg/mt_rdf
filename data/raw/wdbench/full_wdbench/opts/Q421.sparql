@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <family name> ?x2 . } OPTIONAL { ?x1 <date of birth> ?x3 . } OPTIONAL { ?x1 <image> ?x4 . } OPTIONAL { ?x1 <sex or gender> ?x5 . } OPTIONAL { ?x1 <given name> ?x6 . }  }
+
+NL-QUESTION:
+What are the family name, date of birth, image, sex or gender, and given name of humans in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <educated at> <Beilrode> .  }
+
+NL-QUESTION:
+What individuals were educated at Beilrode?

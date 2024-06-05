@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x2 <located in the administrative territorial entity> ?x3 . ?x4 <instance of> <race track> . ?x1 <coordinate location> ?x5 . OPTIONAL { ?x1 <GeoNames ID> ?x6 . }  }
+
+NL-QUESTION:
+What race tracks are located in administrative territorial entities that are located in other administrative territorial entities?

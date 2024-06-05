@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> <species> . ?x1 <parent taxon> ?x2 . ?x2 (<parent taxon>)* <Hirundinidae> .  }
+
+NL-QUESTION:
+Which species belong to the taxonomic family Hirundinidae?

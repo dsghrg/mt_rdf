@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> <architectural heritage monument> . ?x1 (<located in the administrative territorial entity>/(<located in the administrative territorial entity>)*) <Bavaria> .  }
+
+NL-QUESTION:
+What architectural heritage monuments are located in Bavaria?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x2 (<subclass of>)* ?x2 .  }
+
+NL-QUESTION:
+What are all the instances and subclasses of a given entity in Wikidata?

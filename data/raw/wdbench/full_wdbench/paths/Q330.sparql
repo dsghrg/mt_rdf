@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Otididae> }
+
+NL-QUESTION:
+What are the subcategories of the taxon "Otididae"?

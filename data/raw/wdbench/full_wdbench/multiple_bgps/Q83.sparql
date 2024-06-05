@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x2 <sex or gender> <female> . ?x1 <country of citizenship> <Tunisia> . ?x2 <instance of> <human> .  }
+
+NL-QUESTION:
+What female actors are citizens of Tunisia?

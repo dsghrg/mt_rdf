@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <rural district> }
+
+NL-QUESTION:
+What are all the rural districts and their subclasses in Wikidata?

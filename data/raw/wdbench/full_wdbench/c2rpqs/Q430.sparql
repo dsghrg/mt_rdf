@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <airport> . ?x2 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What are all the airports located within a city?

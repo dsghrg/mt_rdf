@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Norway> . ?x2 <participating team> ?x1 . ?x2 ((<instance of>/<subclass of>))* <association football match> .  }
+
+NL-QUESTION:
+Which teams participated in association football matches involving Norway?

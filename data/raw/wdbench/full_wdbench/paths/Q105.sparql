@@ -1,0 +1,4 @@
+SELECT * WHERE { <Patna> ((<located in the administrative territorial entity>)+/(<country>)+) <United Kingdom> }
+
+NL-QUESTION:
+What administrative territorial entity is Patna located in, and in which country is it situated?

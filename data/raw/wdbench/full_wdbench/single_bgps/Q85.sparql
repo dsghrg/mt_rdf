@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <developer> <Google> .  }
+
+NL-QUESTION:
+Which developers are associated with Google?

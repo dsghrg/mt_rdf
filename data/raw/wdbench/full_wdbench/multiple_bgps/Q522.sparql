@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <family name> . ?x2 <instance of> <given name> .  }
+
+NL-QUESTION:
+What are the family names and given names in Wikidata?

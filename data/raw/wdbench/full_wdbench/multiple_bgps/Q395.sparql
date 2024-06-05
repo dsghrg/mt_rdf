@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the images and coordinate locations for the entities in wikidata?

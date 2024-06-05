@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <maximum capacity> ?x2 . ?x1 <located in the administrative territorial entity> ?x3 . ?x4 <instance of> <association football club> . ?x1 <coordinate location> ?x5 . OPTIONAL { ?x4 <home venue> ?x1 . ?x4 <logo image> ?x6 . ?x4 <country> ?x7 . }  }
+
+NL-QUESTION:
+What is the maximum capacity and location of association football clubs with their coordinate locations and optional home venue, logo image, and country information?

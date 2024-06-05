@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <city> .  }
+
+NL-QUESTION:
+What are all the instances of cities in Wikidata?

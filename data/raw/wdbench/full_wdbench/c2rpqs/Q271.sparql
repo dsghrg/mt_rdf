@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Sweden> . ?x2 (<instance of>)* <Wikidata property for authority control> .  }
+
+NL-QUESTION:
+What are the authority control properties for items in Sweden on Wikidata?

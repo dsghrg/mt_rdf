@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <Welsh Landscape Collection> . OPTIONAL { ?x1 <Handle ID> ?x2 . } OPTIONAL { ?x1 <inventory number> ?x3 . } OPTIONAL { ?x1 <creator> ?x4 . ?x5 <VIAF ID> ?x6 . } OPTIONAL { ?x1 <inception> ?x7 . } OPTIONAL { ?x1 <depicts> ?x8 . ?x8 <instance of> ?x9 . ?x8 <coordinate location> ?x10 . OPTIONAL { ?x8 <VIAF ID> ?x11 . } } OPTIONAL { ?x1 <publisher> ?x12 . ?x12 <VIAF ID> ?x13 . }  }
+
+NL-QUESTION:
+What is part of the Welsh Landscape Collection and what are its associated properties?

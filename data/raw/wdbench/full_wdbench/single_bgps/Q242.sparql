@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <coordinate location> ?x2 .  }
+
+NL-QUESTION:
+What are the coordinate locations of the entities in Wikidata?

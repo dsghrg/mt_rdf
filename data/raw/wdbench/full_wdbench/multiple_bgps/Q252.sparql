@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <languages spoken, written or signed> <English> . ?x2 <continent> <Africa> .  }
+
+NL-QUESTION:
+What are all the entities that speak or write English and belong to the continent Africa?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <country> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+In which country is the administrative territorial entity located and what type of entity is it?

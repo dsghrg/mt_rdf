@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <album> . ?x1 <publication date> <2017> .  }
+
+NL-QUESTION:
+What are the albums published in 2017?

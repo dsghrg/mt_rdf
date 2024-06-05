@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <published in> ?x2 . ?x1 <issue> ?x3 . ?x1 <volume> ?x4 . OPTIONAL { ?x2 <ISSN> ?x5 . }  }
+
+NL-QUESTION:
+What is the volume and issue of the publication that was published in a certain time period?

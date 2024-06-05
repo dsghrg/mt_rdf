@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Norway> . ?x1 <instance of> <museum> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What museums in Norway have images available in Wikidata?

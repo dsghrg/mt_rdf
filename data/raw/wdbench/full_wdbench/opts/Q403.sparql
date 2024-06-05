@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <spouse> ?x1 . ?x1 <category combines topics> <death> . } OPTIONAL { ?x1 <sex or gender> ?x1 . } OPTIONAL { ?x1 <award received> ?x1 . }  }
+
+NL-QUESTION:
+What are the names of humans who may have a spouse, have a specified gender, and have received an award?

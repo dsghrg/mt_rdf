@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <Member of Parliament> }
+
+NL-QUESTION:
+What are all the subclasses of a Member of Parliament?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <located in the administrative territorial entity> ?x3 . ?x1 <country> ?x4 . ?x1 <area> ?x5 . ?x1 (<instance of>/(<subclass of>)*) <entity> .  }
+
+NL-QUESTION:
+What is the population, location, country, area, and instance of a specific entity on Wikidata?

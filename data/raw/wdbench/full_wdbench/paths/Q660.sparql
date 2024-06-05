@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ^<author> ?x2 }
+
+NL-QUESTION:
+What are the authors of the entity represented by ?x1?

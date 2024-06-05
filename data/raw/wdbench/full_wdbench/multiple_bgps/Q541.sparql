@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <sports team> . ?x2 <member of sports team> ?x3 .  }
+
+NL-QUESTION:
+What are the members of sports teams?

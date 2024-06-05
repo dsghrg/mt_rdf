@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <family name> ?x2 .  }
+
+NL-QUESTION:
+What are the family names of humans in Wikidata?

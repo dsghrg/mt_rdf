@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <date of birth> ?x2 . ?x1 (<occupation>/(<subclass of>)*) <artist> .  }
+
+NL-QUESTION:
+What are the dates of birth of human individuals who are artists?

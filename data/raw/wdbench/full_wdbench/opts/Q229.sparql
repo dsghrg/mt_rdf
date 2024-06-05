@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . OPTIONAL { ?x1 <Erdős number> ?x2 . }  }
+
+NL-QUESTION:
+What is the Erdős number of females in Wikidata?

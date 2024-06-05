@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <position held> <Member of Parliament> . ?x2 <position held> <Member of Parliament> . ?x1 ((<mother>|<father>))+ ?x2 .  }
+
+NL-QUESTION:
+Who are the female Members of Parliament who have a parent who was also a Member of Parliament?

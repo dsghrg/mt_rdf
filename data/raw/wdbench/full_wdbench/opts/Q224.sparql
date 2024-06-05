@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Museum of Modern Art artist ID> ?x2 . OPTIONAL { ?x1 <work location> ?x3 . } OPTIONAL { ?x3 <coordinate location> ?x4 . }  }
+
+NL-QUESTION:
+What are the Museum of Modern Art artist IDs and work locations of artists at the Museum of Modern Art, and what are the coordinate locations of their work locations, if available?

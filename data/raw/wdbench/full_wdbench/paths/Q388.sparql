@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <text> }
+
+NL-QUESTION:
+What are all subclasses of <text>?

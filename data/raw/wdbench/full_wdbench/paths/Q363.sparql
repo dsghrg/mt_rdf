@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<place of birth>/<coordinate location>) ?x2 }
+
+NL-QUESTION:
+What is the coordinate location of the place of birth for the entity?

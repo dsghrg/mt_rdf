@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> .  }
+
+NL-QUESTION:
+What politicians are included in Wikidata?

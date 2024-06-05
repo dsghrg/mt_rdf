@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <fantasy> . ?x1 <instance of> <literary work> .  }
+
+NL-QUESTION:
+What are some literary works that belong to the genre of fantasy?

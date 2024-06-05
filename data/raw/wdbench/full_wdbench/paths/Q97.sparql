@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> ((<instance of>)*/(<subclass of>)*) <fixed construction> }
+
+NL-QUESTION:
+What is the fixed construction that Berlin is either an instance of or a subclass of in Wikidata?

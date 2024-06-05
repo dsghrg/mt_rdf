@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Zürich> . ?x2 <image> ?x3 .  }
+
+NL-QUESTION:
+What images are associated with locations in the administrative territorial entity of Zürich?

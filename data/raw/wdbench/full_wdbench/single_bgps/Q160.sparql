@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <fourth-level administrative division in Indonesia> .  }
+
+NL-QUESTION:
+What are the fourth-level administrative divisions in Indonesia?

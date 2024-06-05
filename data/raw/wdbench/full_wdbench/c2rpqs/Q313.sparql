@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <properties for this type> ?x2 . ?x3 (<subclass of>)* ?x1 .  }
+
+NL-QUESTION:
+What are the properties of the subclass of a specific type in Wikidata?

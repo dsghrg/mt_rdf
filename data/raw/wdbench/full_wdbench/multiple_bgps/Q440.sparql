@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x3 <instance of> <given name> . ?x2 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the coordinates of the place of birth for people with the instance of a given name?

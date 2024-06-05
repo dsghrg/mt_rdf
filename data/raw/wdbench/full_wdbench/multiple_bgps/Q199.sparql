@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Dittelbrunn> . ?x1 <instance of> <cultural heritage ensemble> .  }
+
+NL-QUESTION:
+What cultural heritage ensembles are located in Dittelbrunn?

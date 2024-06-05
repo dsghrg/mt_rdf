@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <ancient Chinese state> .  }
+
+NL-QUESTION:
+What are all the instances of ancient Chinese states?

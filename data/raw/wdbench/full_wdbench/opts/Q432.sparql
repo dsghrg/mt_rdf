@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <audio recording of the subject's spoken voice> ?x2 . } OPTIONAL { ?x1 <date of death> ?x3 . }  }
+
+NL-QUESTION:
+What is the spoken voice recording and date of death (if available) of all instances of humans in Wikidata?

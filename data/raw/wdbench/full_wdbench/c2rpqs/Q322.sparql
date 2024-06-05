@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <melting point> ?x2 . ?x1 <boiling point> ?x3 . ?x1 <color> ?x4 . ?x1 (<instance of>/(<subclass of>)*) <chemical compound> .  }
+
+NL-QUESTION:
+What are the melting point, boiling point, and color of chemical compounds on Wikidata?

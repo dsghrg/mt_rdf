@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Czech Republic> . ?x1 <instance of> <remarkable tree> . ?x2 (<located in the administrative territorial entity>/<located in the administrative territorial entity>) <Žďár nad Sázavou District> .  }
+
+NL-QUESTION:
+What are the remarkable trees located in the Žďár nad Sázavou District in the country of Czech Republic?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<child>)+ <Nicholas Soames> }
+
+NL-QUESTION:
+What are the children of Nicholas Soames?

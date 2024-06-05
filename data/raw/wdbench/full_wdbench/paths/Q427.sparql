@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <Wikimedia list article> }
+
+NL-QUESTION:
+What are all the Wikimedia list articles available in Wikidata?

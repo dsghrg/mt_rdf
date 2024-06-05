@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <pianist> . OPTIONAL { ?x1 <date of birth> ?x2 . }  }
+
+NL-QUESTION:
+Find all pianists with their date of birth (if available).

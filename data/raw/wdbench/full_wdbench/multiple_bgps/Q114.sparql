@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <computer scientist> . ?x1 <image> ?x2 . ?x1 <sex or gender> ?x3 . ?x1 <date of birth> ?x4 . ?x5 <coordinate location> ?x6 .  }
+
+NL-QUESTION:
+What computer scientists have an image, sex or gender, date of birth, and coordinate location in wikidata?

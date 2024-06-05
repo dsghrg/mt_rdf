@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <lower house of U.S. state legislature> . ?x2 <instance of> <U.S. state> .  }
+
+NL-QUESTION:
+Which U.S. state has a lower house of state legislature?

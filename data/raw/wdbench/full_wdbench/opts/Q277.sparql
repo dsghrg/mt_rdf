@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . OPTIONAL { ?x1 <cast member> ?x2 . }  }
+
+NL-QUESTION:
+What are the films and their cast members on Wikidata?

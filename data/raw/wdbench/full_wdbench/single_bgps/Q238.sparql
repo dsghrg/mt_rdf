@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <inception> ?x2 .  }
+
+NL-QUESTION:
+What is the inception date of entity x1?

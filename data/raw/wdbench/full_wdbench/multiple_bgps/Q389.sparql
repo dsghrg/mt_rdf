@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <parliament building> . <Berlin> <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the images of parliament buildings located near Berlin?

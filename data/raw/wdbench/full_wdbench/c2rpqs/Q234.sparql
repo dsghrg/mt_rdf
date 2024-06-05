@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <template has topic> ?x2 . ?x1 <instance of> <Wikimedia infobox template> . <Midden-Drenthe> (<instance of>/(<subclass of>)*) ?x2 .  }
+
+NL-QUESTION:
+What Wikimedia infobox templates are related to Midden-Drenthe?

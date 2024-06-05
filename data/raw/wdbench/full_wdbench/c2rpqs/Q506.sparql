@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <EC enzyme number> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <protein-coding gene> .  }
+
+NL-QUESTION:
+What are the EC enzyme numbers of protein-coding genes?

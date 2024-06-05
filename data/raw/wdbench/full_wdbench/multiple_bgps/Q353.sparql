@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x2 <history of topic> ?x3 . ?x4 <coat of arms> ?x1 .  }
+
+NL-QUESTION:
+What is the history of the coat of arms of countries?

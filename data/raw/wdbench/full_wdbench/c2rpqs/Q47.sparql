@@ -1,0 +1,4 @@
+SELECT * WHERE { <Nashville> <coordinate location> ?x1 . ?x2 (<instance of>)* <architectural structure> .  }
+
+NL-QUESTION:
+What are the coordinate locations of architectural structures in Nashville?

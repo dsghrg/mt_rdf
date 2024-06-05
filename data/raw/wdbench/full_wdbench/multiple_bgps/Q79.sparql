@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x2 <image> ?x3 .  }
+
+NL-QUESTION:
+What are the images of actors in Wikidata?

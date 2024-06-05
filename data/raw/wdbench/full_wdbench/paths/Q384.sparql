@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <athlete> }
+
+NL-QUESTION:
+What athletes have subclasses in wikidata?

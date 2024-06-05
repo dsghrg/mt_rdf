@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <East Nusa Tenggara> . ?x2 <instance of> <island> .  }
+
+NL-QUESTION:
+Which islands are located in East Nusa Tenggara?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x3 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the administrative territorial entities where humans are located?

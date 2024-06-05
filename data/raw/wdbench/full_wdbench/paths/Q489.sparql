@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <hospital> }
+
+NL-QUESTION:
+What are all the entities that are instances of or subclasses of hospitals in Wikidata?

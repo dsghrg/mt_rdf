@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <educated at> <University of Edinburgh> .  }
+
+NL-QUESTION:
+What individuals were educated at the University of Edinburgh?

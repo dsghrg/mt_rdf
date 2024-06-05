@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <painting> . ?x2 <public domain date> ?x3 . OPTIONAL { ?x2 <image> ?x4 . }  }
+
+NL-QUESTION:
+What are the public domain dates of paintings and do they have corresponding images available?

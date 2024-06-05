@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country of citizenship>/(<country of citizenship9>)*) <People's Republic of China> }
+
+NL-QUESTION:
+What are the people with the country of citizenship as People's Republic of China in Wikidata?

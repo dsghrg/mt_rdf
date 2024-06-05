@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <business> . OPTIONAL { ?x1 <net profit> ?x2 . } OPTIONAL { ?x1 <total assets> ?x3 . }  }
+
+NL-QUESTION:
+What is the net profit and total assets of businesses in Wikidata?

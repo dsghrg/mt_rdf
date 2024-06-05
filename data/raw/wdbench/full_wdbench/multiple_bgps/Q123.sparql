@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x1 <position held> ?x2 . ?x3 <given name> <Barack> .  }
+
+NL-QUESTION:
+What positions has Barack held as a politician?

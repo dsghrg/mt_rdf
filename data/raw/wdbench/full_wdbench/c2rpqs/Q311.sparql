@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <coordinate location> ?x4 . ?x1 (<award received>/(<subclass of>)*) <Nobel Prize> .  }
+
+NL-QUESTION:
+Which items have an image and are located at coordinates, and have received the Nobel Prize or are a subclass of an item that has received the Nobel Prize?

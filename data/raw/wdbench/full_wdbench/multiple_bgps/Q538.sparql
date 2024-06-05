@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <disease> . ?x2 <symptoms and signs> ?x3 .  }
+
+NL-QUESTION:
+What are the symptoms and signs of diseases in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<place of birth>/(<located in the administrative territorial entity>)*) <Canary Islands> }
+
+NL-QUESTION:
+What are the entities with a place of birth located in the Canary Islands?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What countries have a specified coordinate location?

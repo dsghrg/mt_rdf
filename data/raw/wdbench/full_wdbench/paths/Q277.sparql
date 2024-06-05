@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <Balearic Islands> }
+
+NL-QUESTION:
+What are all the entities located in the Balearic Islands?

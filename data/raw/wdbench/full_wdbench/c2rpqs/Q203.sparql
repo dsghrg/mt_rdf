@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <country> <Germany> . ?x2 <instance of> ?x3 . ?x1 <coordinate location> ?x4 . ?x1 (<instance of>/(<subclass of>)*) <geographic location> .  }
+
+NL-QUESTION:
+Which administrative territorial entities in Germany have a geographic location with coordinates?

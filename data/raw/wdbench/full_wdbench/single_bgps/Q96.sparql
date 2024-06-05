@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Chicago> .  }
+
+NL-QUESTION:
+What is the place of birth of individuals born in Chicago?

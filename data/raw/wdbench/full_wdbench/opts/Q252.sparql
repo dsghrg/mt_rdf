@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <Belgium> . ?x2 <instance of> <human> . OPTIONAL { ?x1 <given name> ?x3 . }  }
+
+NL-QUESTION:
+What are the names of humans who are citizens of Belgium?

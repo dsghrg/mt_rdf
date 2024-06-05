@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> ?x2 . ?x3 <cast member> ?x2 . ?x3 <cast member> ?x4 . ?x5 <cast member> ?x4 . ?x5 <cast member> ?x6 . ?x7 <cast member> ?x6 . ?x7 <cast member> <Kevin Bacon> .  }
+
+NL-QUESTION:
+Which actors are connected to Kevin Bacon through a chain of movies where they were cast members together?

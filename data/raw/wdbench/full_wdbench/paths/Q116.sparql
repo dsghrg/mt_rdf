@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((((((((<parent taxon>|<Title not found>)|<Title not found>)|<Title not found>)|<Title not found>)|<Title not found>)|<Title not found>)|<Title not found>)|<Title not found>))* <animal> }
+
+NL-QUESTION:
+What are the parent taxa of the animal?

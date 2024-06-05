@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <father> ?x2 . ?x1 <mother> ?x3 . ?x4 <position held> <Roman emperor> . ?x5 <date of birth> ?x6 . OPTIONAL { ?x3 <father> ?x7 . } OPTIONAL { ?x3 <mother> ?x8 . }  }
+
+NL-QUESTION:
+Who were the Roman emperors born to parents, including their fathers, mothers, and birth dates?

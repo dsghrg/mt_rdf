@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <IMO ship number> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <ship> .  }
+
+NL-QUESTION:
+What are the ship numbers of ships that are instances of or subclasses of ships in Wikidata?

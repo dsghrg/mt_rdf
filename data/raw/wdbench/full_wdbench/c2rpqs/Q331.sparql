@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x1 <instance of> <human> . ?x1 (<occupation>/(<subclass of>)*) ?x3 .  }
+
+NL-QUESTION:
+What are the occupations of human individuals with their respective genders?

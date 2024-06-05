@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <United Kingdom> }
+
+NL-QUESTION:
+What is the administrative territorial entity where the United Kingdom is located?

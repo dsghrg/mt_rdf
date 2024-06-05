@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x1 <image> ?x2 . ?x1 <instance of> <library> . ?x1 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What libraries in Germany have images and coordinates?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <child> ?x2 . ?x2 <child> ?x1 .  }
+
+NL-QUESTION:
+What are the pairs of items that are children of each other in Wikidata?

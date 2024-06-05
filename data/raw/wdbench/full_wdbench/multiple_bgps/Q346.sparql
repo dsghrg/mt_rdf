@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <instance of> <city> . ?x2 <instance of> <country> . ?x3 <position held> <mayor> . ?x1 <head of government> ?x3 .  }
+
+NL-QUESTION:
+What are the cities where the head of government is a mayor and which country do they belong to?

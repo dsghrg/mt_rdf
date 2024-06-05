@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <automobile manufacturer> . ?x2 <country of origin> <Poland> .  }
+
+NL-QUESTION:
+What automobile manufacturers are based in Poland?

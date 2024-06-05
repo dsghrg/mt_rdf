@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x3 <subclass of> <monarch> .  }
+
+NL-QUESTION:
+What are the occupations of monarchs?

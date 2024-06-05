@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <province of Afghanistan> }
+
+NL-QUESTION:
+What provinces are located in Afghanistan?

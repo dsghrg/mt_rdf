@@ -1,0 +1,4 @@
+SELECT * WHERE { <San Sebastián> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <airport> .  }
+
+NL-QUESTION:
+What airports are located in San Sebastián?

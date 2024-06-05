@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> ?x2 . ?x2 <place of birth> <Estonia> . ?x3 <coordinate location> ?x4 . ?x1 (<instance of>/(<subclass of>)*) <work of art> .  }
+
+NL-QUESTION:
+Which works of art were created by individuals born in Estonia and have a coordinate location listed?

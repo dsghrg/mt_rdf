@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <Poland> . ?x3 <instance of> <faculty> . OPTIONAL { ?x3 <part of> ?x1 . } OPTIONAL { ?x3 <country> ?x2 . }  }
+
+NL-QUESTION:
+What faculties are located in Poland?

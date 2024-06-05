@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ <entity> }
+
+NL-QUESTION:
+What are all the subclasses of the entity?

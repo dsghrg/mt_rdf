@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 <position held> <member of the German Bundestag> . OPTIONAL { ?x3 <date of birth> ?x4 . } OPTIONAL { ?x3 <member of political party> ?x5 . }  }
+
+NL-QUESTION:
+What country is the member of the German Bundestag from, and what is their date of birth and political party (if available)?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <grave> }
+
+NL-QUESTION:
+What are all of the instances and subclasses of a grave in Wikidata?

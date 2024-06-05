@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<country>)+ <People's Republic of China> }
+
+NL-QUESTION:
+What countries are related to the People's Republic of China?

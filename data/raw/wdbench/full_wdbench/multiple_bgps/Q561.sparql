@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <hospital> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What hospitals have a coordinate location?

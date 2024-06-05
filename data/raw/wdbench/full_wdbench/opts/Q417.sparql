@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <date of death> ?x2 . }  }
+
+NL-QUESTION:
+What is the date of death of humans in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) ?x2 }
+
+NL-QUESTION:
+What are the occupations of the subclass of a person or entity in Wikidata?

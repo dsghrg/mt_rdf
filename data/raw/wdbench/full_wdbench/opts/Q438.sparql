@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> . OPTIONAL { ?x1 <country calling code> ?x2 . }  }
+
+NL-QUESTION:
+Which countries have a country calling code?

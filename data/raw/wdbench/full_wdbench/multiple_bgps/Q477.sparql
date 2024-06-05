@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <WikiPathways ID> ?x2 . ?x1 <exact match> ?x3 .  }
+
+NL-QUESTION:
+What are the WikiPathways IDs that have an exact match in Wikidata?

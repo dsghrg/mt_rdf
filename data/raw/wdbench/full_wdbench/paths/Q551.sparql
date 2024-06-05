@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <building> }
+
+NL-QUESTION:
+What buildings are instances of or subclasses of the class "building"?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <company> . ?x2 <Freebase ID> ?x3 .  }
+
+NL-QUESTION:
+What are the Freebase IDs of companies in Wikidata?

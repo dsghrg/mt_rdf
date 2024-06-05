@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<child>)* <Nicholas Soames> }
+
+NL-QUESTION:
+Retrieve all descendants of Nicholas Soames.

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <instance of> <human> . ?x1 <family name> ?x3 . ?x1 <given name> ?x4 .  }
+
+NL-QUESTION:
+What are the names of humans who were born in a specific place, along with their family names and given names?

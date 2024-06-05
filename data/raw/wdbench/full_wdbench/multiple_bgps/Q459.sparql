@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x2 <country of citizenship> <Spain> . ?x1 <date of birth> ?x3 . ?x1 <educated at> <Technical University of Berlin> .  }
+
+NL-QUESTION:
+What are the names of all females born in Spain, educated at the Technical University of Berlin, and when were they born?

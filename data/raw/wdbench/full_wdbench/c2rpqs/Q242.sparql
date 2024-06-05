@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> <Daniel Vernet> . ?x1 (<instance of>/(<subclass of>)*) <film> .  }
+
+NL-QUESTION:
+What films does Daniel Vernet appear in?

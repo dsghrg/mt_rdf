@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author> ?x2 .  }
+
+NL-QUESTION:
+Who are the authors of the items in Wikidata?

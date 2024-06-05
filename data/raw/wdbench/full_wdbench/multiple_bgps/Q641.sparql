@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <IMDb ID> ?x2 . ?x3 <ORCID iD> ?x4 .  }
+
+NL-QUESTION:
+What are the IMDb IDs and ORCID IDs of the entities in Wikidata?

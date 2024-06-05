@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <airport> . ?x2 <instance of> <city> . ?x1 <coordinate location> ?x3 . OPTIONAL { ?x1 <IATA airport code> ?x4 . } OPTIONAL { ?x1 <country> ?x5 . }  }
+
+NL-QUESTION:
+Which cities have airports with their corresponding IATA airport codes and coordinates listed in Wikidata?

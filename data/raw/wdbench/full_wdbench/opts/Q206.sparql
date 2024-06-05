@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 <place of birth> <Amsterdam> . OPTIONAL { ?x1 <place of death> ?x3 . } OPTIONAL { ?x1 <date of death> ?x4 . } OPTIONAL { ?x1 <date of birth> ?x5 . } OPTIONAL { ?x3 <coordinate location> ?x6 . }  }
+
+NL-QUESTION:
+What is the place of birth, place of death, date of death, date of birth, and coordinate location for individuals who were born in Amsterdam?

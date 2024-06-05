@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <edition or translation of> <A Traitor to Memory> .  }
+
+NL-QUESTION:
+What edition or translation of "A Traitor to Memory" is available on Wikidata?

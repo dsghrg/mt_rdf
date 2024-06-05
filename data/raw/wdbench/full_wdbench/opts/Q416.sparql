@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <date of birth> ?x2 . } OPTIONAL { ?x1 <date of death> ?x3 . } OPTIONAL { ?x1 <page(s)> ?x4 . } OPTIONAL { ?x1 <title> ?x5 . }  }
+
+NL-QUESTION:
+What are the names, date of birth, date of death, page(s), and title of all humans in Wikidata?

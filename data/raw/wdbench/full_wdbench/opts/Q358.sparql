@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 <cause of death> <death by burning> . ?x1 <date of death> ?x2 . OPTIONAL { ?x3 <place of death> ?x4 . ?x4 <coordinate location> ?x5 . }  }
+
+NL-QUESTION:
+What humans died by burning and when did they die?

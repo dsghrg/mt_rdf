@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <date of birth> ?x2 . } OPTIONAL { ?x1 <X username> ?x3 . }  }
+
+NL-QUESTION:
+What are the instances of humans with their dates of birth and usernames, if available?

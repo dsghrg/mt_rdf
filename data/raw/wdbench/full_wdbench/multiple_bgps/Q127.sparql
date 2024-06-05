@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . ?x2 <sex or gender> ?x3 .  }
+
+NL-QUESTION:
+What is the gender of politicians?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <main subject> <lie> . ?x2 (<instance of>/(<subclass of>)*) <work> .  }
+
+NL-QUESTION:
+What are some works that have the main subject of lying?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<child>)+ ?x1 }
+
+NL-QUESTION:
+What are the children of <entity>?

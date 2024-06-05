@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Wikimedia category> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What Wikimedia categories have images associated with them?

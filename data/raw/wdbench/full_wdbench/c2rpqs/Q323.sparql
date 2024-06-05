@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 (<occupation>/(<subclass of>)*) <artist> .  }
+
+NL-QUESTION:
+What female artists are listed in Wikidata?

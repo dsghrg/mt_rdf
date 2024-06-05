@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of death> <Mount Everest> . ?x1 <instance of> <human> . OPTIONAL { ?x1 <image> ?x2 . ?x1 <date of death> ?x3 . }  }
+
+NL-QUESTION:
+Who are the humans who died on Mount Everest and what are their images and dates of death?

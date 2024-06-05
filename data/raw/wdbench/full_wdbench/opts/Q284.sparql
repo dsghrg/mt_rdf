@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <female given name> . OPTIONAL { ?x1 <said to be the same as> ?x2 . } OPTIONAL { ?x1 <language of work or name> ?x3 . } OPTIONAL { ?x2 <language of work or name> ?x4 . }  }
+
+NL-QUESTION:
+What are the names of female given names in Wikidata, along with any possible alternative names and the languages of these names?

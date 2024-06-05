@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sponsor> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <scholarly article> .  }
+
+NL-QUESTION:
+What are the sponsors of scholarly articles?

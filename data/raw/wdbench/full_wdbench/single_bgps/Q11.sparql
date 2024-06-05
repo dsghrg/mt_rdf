@@ -1,0 +1,4 @@
+SELECT * WHERE { <Russia> <OKATO ID> ?x1 .  }
+
+NL-QUESTION:
+What is the OKATO ID of Russia in Wikidata?

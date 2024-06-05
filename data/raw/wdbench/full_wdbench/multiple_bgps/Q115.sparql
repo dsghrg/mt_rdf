@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <computer scientist> . ?x1 <image> ?x2 . ?x3 <country of citizenship> <India> . ?x1 <date of birth> ?x4 .  }
+
+NL-QUESTION:
+What are the images of computer scientists from India along with their date of birth?

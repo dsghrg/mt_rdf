@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <library> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What is the library's coordinate location?

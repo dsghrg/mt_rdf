@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <web framework> .  }
+
+NL-QUESTION:
+What are some examples of web frameworks in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <occurrence> }
+
+NL-QUESTION:
+What are the occurrences that are subclasses of other occurrences in Wikidata?

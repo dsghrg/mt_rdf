@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <taxon> . OPTIONAL { ?x1 <parent taxon> ?x2 . } OPTIONAL { ?x1 <taxon name> ?x3 . } OPTIONAL { ?x1 <taxon common name> ?x4 . } OPTIONAL { ?x1 <image> ?x5 . } OPTIONAL { ?x1 <taxon rank> ?x6 . }  }
+
+NL-QUESTION:
+What are the taxon instances along with their parent taxon, taxon name, taxon common name, image, and taxon rank (if available)?

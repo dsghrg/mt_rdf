@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of political party> <Alternative for Germany> . OPTIONAL { ?x1 <date of birth> ?x2 . } OPTIONAL { ?x1 <place of birth> ?x3 . } OPTIONAL { ?x1 <sex or gender> ?x4 . } OPTIONAL { ?x3 <coordinate location> ?x5 . }  }
+
+NL-QUESTION:
+What are the dates of birth, places of birth, genders, and coordinate locations of individuals who are members of the political party Alternative for Germany?

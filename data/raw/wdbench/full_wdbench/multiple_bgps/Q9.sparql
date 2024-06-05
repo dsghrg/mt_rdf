@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <native language> <French> . ?x2 <sex or gender> <female> .  }
+
+NL-QUESTION:
+What are the instances for which the native language is French and the gender is female?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <rower> . ?x1 <place of birth> ?x2 . ?x1 <country of citizenship> <Spain> . ?x3 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What is the place of birth for rowers from Spain with their corresponding coordinate location?

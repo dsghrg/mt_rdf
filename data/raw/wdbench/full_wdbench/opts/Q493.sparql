@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <date of birth> ?x2 . ?x3 <date of death> ?x4 . OPTIONAL { ?x3 <name> ?x5 . }  }
+
+NL-QUESTION:
+What are the dates of birth and death for individuals that have corresponding names in Wikidata?

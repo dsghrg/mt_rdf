@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x1 (<instance of>)* <key> .  }
+
+NL-QUESTION:
+What is the key of the items that are instances of a specific class?

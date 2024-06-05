@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <athlete> . ?x2 <place of birth> <Amsterdam> .  }
+
+NL-QUESTION:
+Which athletes were born in Amsterdam?

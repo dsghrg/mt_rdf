@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> ?x2 . ?x1 <instance of> <painting> . ?x1 (<located in the administrative territorial entity>/(<country>)*) <Sweden> .  }
+
+NL-QUESTION:
+What paintings were created by artists from Sweden?

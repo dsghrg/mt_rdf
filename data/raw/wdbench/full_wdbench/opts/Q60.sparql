@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Handle ID> ?x2 . ?x1 <part of> <Welsh Landscape Collection> . OPTIONAL { ?x1 <creator> ?x3 . ?x4 <VIAF ID> ?x5 . } OPTIONAL { ?x1 <inception> ?x6 . } OPTIONAL { ?x1 <depicts> ?x7 . ?x7 <coordinate location> ?x8 . }  }
+
+NL-QUESTION:
+What is the handle ID, creator, VIAF ID, inception, and coordinate location of items that are part of the Welsh Landscape Collection in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Berlin> . ?x1 <instance of> <railway station> . ?x1 <coordinate location> ?x2 .  }
+
+NL-QUESTION:
+What are the coordinates of railway stations located in Berlin?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <operator> <People's Liberation Army Navy> . ?x2 <instance of> <ship> .  }
+
+NL-QUESTION:
+What ships are operated by the People's Liberation Army Navy in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Poland> . ?x1 <instance of> <association football club> . OPTIONAL { ?x1 <located in the administrative territorial entity> ?x2 . } OPTIONAL { ?x2 <coordinate location> ?x3 . }  }
+
+NL-QUESTION:
+What association football clubs are located in Poland, and in which administrative territorial entities are they situated?

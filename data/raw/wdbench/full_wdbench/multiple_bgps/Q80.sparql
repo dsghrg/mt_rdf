@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <actor> . ?x2 <place of birth> ?x3 . ?x1 <sex or gender> <female> .  }
+
+NL-QUESTION:
+What are the names of female actors and their places of birth?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film award> . ?x2 <has part(s)> ?x3 .  }
+
+NL-QUESTION:
+What film awards have specific parts?

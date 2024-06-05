@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) ?x2 }
+
+NL-QUESTION:
+What are the instances and subclasses of the entities represented by variables x1 and x2 in Wikidata?

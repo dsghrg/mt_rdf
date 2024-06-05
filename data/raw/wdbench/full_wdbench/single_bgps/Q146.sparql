@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <dog> .  }
+
+NL-QUESTION:
+What are all the entities that are instances of a dog in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x1 <place of birth> <Amsterdam> . ?x1 <date of death> ?x2 . ?x3 <notable work> ?x4 .  }
+
+NL-QUESTION:
+What notable work did painters born in Amsterdam create and when did they die?

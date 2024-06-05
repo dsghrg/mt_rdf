@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)+ <plant> }
+
+NL-QUESTION:
+What are the parent taxa of plants in Wikidata?

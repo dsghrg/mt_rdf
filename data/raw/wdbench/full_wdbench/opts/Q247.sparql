@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <computer worm> . OPTIONAL { ?x1 <named after> ?x2 . } OPTIONAL { ?x2 <image> ?x3 . }  }
+
+NL-QUESTION:
+What are the instances of entities that are subclasses of computer worms, and do they have a name and an image associated with them?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<depicts>/(<subclass of>)*) <alcoholic beverage> }
+
+NL-QUESTION:
+What are all the items that depict or are subclasses of alcoholic beverages?

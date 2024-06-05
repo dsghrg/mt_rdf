@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x1 <instance of> <hackspace> . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the coordinates of the hackspace located in Germany?

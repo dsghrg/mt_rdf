@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x2 <archives at> <Atria Institute on gender equality and women's history> .  }
+
+NL-QUESTION:
+Who are the humans whose archives are located at the Atria Institute on gender equality and women's history?

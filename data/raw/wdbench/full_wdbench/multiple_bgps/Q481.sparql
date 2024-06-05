@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <has part(s) of the class> ?x2 . ?x3 <part of> ?x4 .  }
+
+NL-QUESTION:
+What are the parts of the class that are connected to each other?

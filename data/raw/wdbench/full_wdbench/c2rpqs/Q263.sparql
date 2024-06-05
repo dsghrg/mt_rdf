@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Czech Republic> . ?x1 (<instance of>/(<subclass of>)*) <power station> . ?x1 (<located in the administrative territorial entity>)* <Central Bohemian Region> .  }
+
+NL-QUESTION:
+What are the power stations located in the Central Bohemian Region of the Czech Republic?

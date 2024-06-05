@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <mountain> . OPTIONAL { ?x1 <country> ?x2 . }  }
+
+NL-QUESTION:
+What mountains and their countries are listed in Wikidata?

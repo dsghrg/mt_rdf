@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <river> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What are the rivers in Wikidata and do they have images available?

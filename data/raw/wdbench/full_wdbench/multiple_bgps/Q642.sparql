@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <head of state> ?x2 . ?x3 <country of origin> <France> .  }
+
+NL-QUESTION:
+Who is the head of state of France?

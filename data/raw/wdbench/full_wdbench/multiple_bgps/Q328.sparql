@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United States of America> . ?x1 <instance of> <magazine> . ?x1 <official website> ?x2 .  }
+
+NL-QUESTION:
+What are the official websites of magazines that are based in the United States of America?

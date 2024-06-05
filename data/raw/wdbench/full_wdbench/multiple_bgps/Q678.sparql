@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <chief executive officer> . ?x1 <image> ?x3 . ?x4 <spouse> ?x5 . ?x1 <date of birth> ?x6 .  }
+
+NL-QUESTION:
+What is the image, spouse, and date of birth of the chief executive officer?

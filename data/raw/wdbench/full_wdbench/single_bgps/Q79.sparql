@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <creator> <Peter Paul Rubens> .  }
+
+NL-QUESTION:
+What items were created by Peter Paul Rubens?

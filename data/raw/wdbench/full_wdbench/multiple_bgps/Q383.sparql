@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <building> . <Barcelona> <located in the administrative territorial entity> ?x3 .  }
+
+NL-QUESTION:
+What buildings in Barcelona have images available and are located in which administrative territorial entity?

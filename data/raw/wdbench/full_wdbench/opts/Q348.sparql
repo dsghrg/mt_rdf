@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human settlement> . OPTIONAL { ?x1 <coordinate location> ?x2 . }  }
+
+NL-QUESTION:
+What are the human settlements with their coordinates available in Wikidata?

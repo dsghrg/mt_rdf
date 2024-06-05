@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x2 <instance of> <district of Germany> . OPTIONAL { ?x2 <contains the administrative territorial entity> ?x3 . }  }
+
+NL-QUESTION:
+What are the administrative territorial entities within the districts of Germany?

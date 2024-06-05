@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <part of> <Europe> . OPTIONAL { ?x2 <country> ?x1 . }  }
+
+NL-QUESTION:
+What countries are part of Europe?

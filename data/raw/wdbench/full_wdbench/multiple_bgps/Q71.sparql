@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <film producer> . ?x1 <occupation> <model> . ?x1 <sex or gender> <female> . ?x2 <country of citizenship> <United States of America> .  }
+
+NL-QUESTION:
+Which female individuals are film producers and models, and are citizens of the United States of America?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ethnic group> <Arabs> . ?x1 <sex or gender> <female> . ?x2 <coordinate location> ?x3 . OPTIONAL { ?x1 <date of birth> ?x4 . } OPTIONAL { ?x1 <place of birth> ?x2 . }  }
+
+NL-QUESTION:
+What are the names of female Arabs and where were they born?

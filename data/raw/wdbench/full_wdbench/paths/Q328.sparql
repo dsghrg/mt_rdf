@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <sunbird> }
+
+NL-QUESTION:
+What are all the parent taxa of the sunbird?

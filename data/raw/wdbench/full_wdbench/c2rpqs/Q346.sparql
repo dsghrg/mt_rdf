@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> ?x2 . ?x3 <instance of> ?x4 . ?x5 <part of> ?x3 . ?x1 (<subclass of>)* <academic discipline> .  }
+
+NL-QUESTION:
+What are the academic disciplines in which a certain entity is a part of?

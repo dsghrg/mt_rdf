@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <contains the administrative territorial entity> ?x2 . ?x1 <continent> ?x3 . ?x1 <instance of> <country> . OPTIONAL { ?x3 <locator map image> ?x4 . } OPTIONAL { ?x1 <locator map image> ?x5 . } OPTIONAL { ?x2 <locator map image> ?x6 . } OPTIONAL { ?x2 <capital> ?x7 . } OPTIONAL { ?x7 <instance of> <city> . }  }
+
+NL-QUESTION:
+Which countries contain administrative territorial entities, are situated on which continent, and may have a locator map image for their continent, country, administrative territorial entity, capital city, and a capital city that is classified as a city?

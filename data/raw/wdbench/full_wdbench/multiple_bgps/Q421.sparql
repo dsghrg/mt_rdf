@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> <Paris> . ?x2 <instance of> ?x3 .  }
+
+NL-QUESTION:
+What are the instances where the place of birth is Paris?

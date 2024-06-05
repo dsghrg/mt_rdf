@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Sankt Andreasberg> . ?x1 <instance of> <mine> .  }
+
+NL-QUESTION:
+What mines are located in the administrative territorial entity of Sankt Andreasberg?

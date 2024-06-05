@@ -1,0 +1,4 @@
+SELECT * WHERE { <Christophe Caresche> <occupation> ?x1 . ?x1 ((<subclass of>)*/<field of this occupation>) ?x2 .  }
+
+NL-QUESTION:
+What is the field of occupation of Christophe Caresche?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<name in native language>)* <cancer> }
+
+NL-QUESTION:
+What are the entities in Wikidata that have a label in their native language corresponding to "cancer"?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<subclass of>|<located in the administrative territorial entity>))* <events in a specific year or time period> }
+
+NL-QUESTION:
+What are the subclasses or locations within administrative territorial entities of events in a specific year or time period?

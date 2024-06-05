@@ -1,0 +1,7 @@
+SELECT * WHERE { 
+    <Sale> <coordinate location> ?x1 . 
+    ?x2 (<instance of>/(<subclass of>)*) <building> .  
+}
+
+NL-QUESTION:
+What buildings are located near the Sale coordinate location?

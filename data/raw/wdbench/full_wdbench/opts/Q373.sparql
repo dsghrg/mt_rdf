@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <occupation> ?x2 . ?x1 <nickname> ?x3 . ?x1 <Freebase ID> ?x4 . }  }
+
+NL-QUESTION:
+What are the occupations, nicknames, and Freebase IDs of humans on Wikidata?

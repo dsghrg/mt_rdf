@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <CAS Registry Number> ?x2 . ?x3 <instance of> <chemical compound> .  }
+
+NL-QUESTION:
+What are the CAS Registry Numbers of chemical compounds?

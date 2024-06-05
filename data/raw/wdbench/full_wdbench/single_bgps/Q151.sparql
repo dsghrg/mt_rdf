@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <seven deadly sins> .  }
+
+NL-QUESTION:
+What are the seven deadly sins?

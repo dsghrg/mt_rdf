@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <knowledge> }
+
+NL-QUESTION:
+What is the knowledge of the instances or subclasses present in the Wikidata database?

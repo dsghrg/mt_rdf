@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <elevation above sea level> ?x2 . ?x1 ((<located in the administrative territorial entity>)+|<location>) <Germany> . ?x1 (((<occupation>|<position held>)|<instance of>)/(<subclass of>)*) <mountain> .  }
+
+NL-QUESTION:
+What are the elevations above sea level of mountains located in Germany?

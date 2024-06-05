@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <county of Illinois> .  }
+
+NL-QUESTION:
+What are the counties in Illinois?

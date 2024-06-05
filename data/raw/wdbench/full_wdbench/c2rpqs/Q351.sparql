@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <Želvice> (<located in the administrative territorial entity>)* ?x1 .  }
+
+NL-QUESTION:
+What is the ISO 3166-2 code for Želvice and in which administrative territorial entity is it located?

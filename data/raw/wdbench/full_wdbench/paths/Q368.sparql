@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <academic discipline> }
+
+NL-QUESTION:
+What are the subclasses of academic discipline?

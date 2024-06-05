@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <simulation video game> . OPTIONAL { ?x1 <developer> ?x2 . } OPTIONAL { ?x2 <country> ?x3 . } OPTIONAL { ?x3 <coordinate location> ?x4 . }  }
+
+NL-QUESTION:
+What are the simulation video games and their developers, along with their respective countries and coordinate locations?

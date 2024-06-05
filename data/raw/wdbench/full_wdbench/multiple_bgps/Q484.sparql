@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> <Dublin> . ?x1 <instance of> <Eurovision Song Contest> .  }
+
+NL-QUESTION:
+What Eurovision Song Contest events have taken place in Dublin?

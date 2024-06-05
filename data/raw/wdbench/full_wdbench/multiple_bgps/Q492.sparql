@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <pizza> . ?x2 <has part(s)> ?x3 .  }
+
+NL-QUESTION:
+What are the subclasses of pizza and what are the parts of those subclasses?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> ?x2 . ?x2 <Wikidata property> ?x3 . <Grote Kerk> <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What is the heritage designation and Wikidata property of the Grote Kerk's coordinate location?

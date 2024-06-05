@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <architectural structure> }
+
+NL-QUESTION:
+What are all the architectural structures in Wikidata?

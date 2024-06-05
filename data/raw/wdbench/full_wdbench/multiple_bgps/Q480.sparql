@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <name> <natural satellite> . ?x1 <parent astronomical body> <Sun> .  }
+
+NL-QUESTION:
+What are the natural satellites that orbit the Sun?

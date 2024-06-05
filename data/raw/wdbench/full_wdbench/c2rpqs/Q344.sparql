@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> ?x2 . ?x1 (<subclass of>)* <composed musical work> .  }
+
+NL-QUESTION:
+What are the subclasses of composed musical work?

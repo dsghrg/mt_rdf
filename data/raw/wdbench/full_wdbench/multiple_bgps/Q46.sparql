@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <physicist> . ?x2 <place of birth> ?x3 . ?x1 <sex or gender> <male> .  }
+
+NL-QUESTION:
+What are the names of male physicists and their places of birth?

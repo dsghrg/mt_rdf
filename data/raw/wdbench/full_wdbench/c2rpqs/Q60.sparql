@@ -1,0 +1,4 @@
+SELECT * WHERE { <Burbank> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <tourist attraction> .  }
+
+NL-QUESTION:
+What are the tourist attractions located in Burbank?

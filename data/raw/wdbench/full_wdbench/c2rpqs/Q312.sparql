@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <coordinate location> ?x4 . ?x3 (<instance of>/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What cities have an image and coordinate location in Wikidata?

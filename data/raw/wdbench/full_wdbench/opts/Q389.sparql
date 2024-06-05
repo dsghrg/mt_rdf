@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <ethnic group> ?x2 . }  }
+
+NL-QUESTION:
+What is the ethnic group of each human?

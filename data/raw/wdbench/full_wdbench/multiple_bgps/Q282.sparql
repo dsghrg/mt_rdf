@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> ?x2 . ?x1 <duration> ?x3 . ?x1 <instance of> <film> . ?x1 <publication date> ?x4 .  }
+
+NL-QUESTION:
+Who are the cast members, duration, publication date of films on Wikidata?

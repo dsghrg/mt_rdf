@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <industry> <bank> .  }
+
+NL-QUESTION:
+Which countries have industries related to banks?

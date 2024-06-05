@@ -1,0 +1,4 @@
+SELECT * WHERE { <Tuusula> <coordinate location> ?x1 . <Espoo> <coordinate location> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <school> .  }
+
+NL-QUESTION:
+Which schools are located between Tuusula and Espoo?

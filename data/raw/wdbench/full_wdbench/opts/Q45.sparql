@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . OPTIONAL { ?x1 <position held> ?x2 . } OPTIONAL { ?x1 <country of citizenship> ?x3 . } OPTIONAL { ?x1 <relative> ?x4 . } OPTIONAL { ?x1 <sibling> ?x5 . } OPTIONAL { ?x1 <father> ?x6 . } OPTIONAL { ?x1 <mother> ?x7 . } OPTIONAL { ?x1 <child> ?x8 . } OPTIONAL { ?x1 <date of birth> ?x9 . }  }
+
+NL-QUESTION:
+What politicians have held positions, their country of citizenship, relatives, siblings, parents, children, and date of birth?

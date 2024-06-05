@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What scholarly articles in Wikidata have an image associated with them?

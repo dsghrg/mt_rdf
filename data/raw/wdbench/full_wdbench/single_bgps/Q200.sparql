@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <video game> .  }
+
+NL-QUESTION:
+What are all the instances of video games?

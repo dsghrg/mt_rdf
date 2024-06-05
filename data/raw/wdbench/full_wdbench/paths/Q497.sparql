@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <administrative territorial entity of Prussia> }
+
+NL-QUESTION:
+What are the instances or subclasses of administrative territorial entities of Prussia?

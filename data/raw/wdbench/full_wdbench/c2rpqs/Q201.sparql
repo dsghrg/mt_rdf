@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <country> <Germany> . ?x1 <coordinate location> ?x3 . ?x1 (<instance of>/(<subclass of>)*) <municipality in Germany> . ?x1 (<located in the administrative territorial entity>)+ <Baden-Württemberg> .  }
+
+NL-QUESTION:
+What municipalities in Germany are located in Baden-Württemberg with their administrative territorial entity and coordinates?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Myspace ID> ?x2 .  }
+
+NL-QUESTION:
+What are the Myspace IDs of all entities in Wikidata?

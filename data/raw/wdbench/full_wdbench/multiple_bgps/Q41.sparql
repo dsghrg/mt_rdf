@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <jazz musician> . ?x1 <place of birth> ?x2 . ?x1 <place of death> <Washington, D.C.> . ?x1 <date of death> ?x3 . ?x4 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What jazz musicians were born in a specific place, died in Washington, D.C., and have coordinates available?

@@ -1,0 +1,4 @@
+SELECT * WHERE { <Earth> (<instance of>/(<subclass of>)+) ?x1 }
+
+NL-QUESTION:
+What are the instances and subclasses of Earth?

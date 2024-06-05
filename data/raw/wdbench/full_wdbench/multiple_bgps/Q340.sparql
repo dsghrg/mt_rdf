@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Iran> . ?x2 <location> ?x3 . ?x2 <instance of> <aviation accident> .  }
+
+NL-QUESTION:
+What aviation accidents have occurred in Iran?

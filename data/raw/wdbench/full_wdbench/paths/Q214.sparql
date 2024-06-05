@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((^(<subclass of>)*/^(<instance of>)?)/<country>) <Germany> }
+
+NL-QUESTION:
+Which items are either instances of, subclasses of, or located in Germany?

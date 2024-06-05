@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Belarus> . ?x1 <instance of> <city> . OPTIONAL { ?x1 <country> ?x2 . }  }
+
+NL-QUESTION:
+What cities are located in Belarus?

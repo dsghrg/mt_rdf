@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x3 <coordinate location> ?x4 . ?x1 <educated at> <Tel Aviv University> . OPTIONAL { ?x1 <image> ?x5 . }  }
+
+NL-QUESTION:
+Where were people born who were educated at Tel Aviv University and what is the coordinate location of that place?

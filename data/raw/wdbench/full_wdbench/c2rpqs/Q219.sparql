@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> ?x2 . ?x1 <instance of> ?x3 . ?x4 (<contains the administrative territorial entity>)* ?x2 . ?x4 (<located in the administrative territorial entity>)* <Lower Saxony> . ?x3 (<subclass of>)* <rural district> .  }
+
+NL-QUESTION:
+What are the rural districts located in Lower Saxony?

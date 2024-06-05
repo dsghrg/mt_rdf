@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <subclass of> <skirt> .  }
+
+NL-QUESTION:
+What are the subclasses of the item "skirt" in Wikidata?

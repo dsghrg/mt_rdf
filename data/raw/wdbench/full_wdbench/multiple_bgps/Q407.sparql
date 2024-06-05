@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x3 <instance of> ?x1 .  }
+
+NL-QUESTION:
+What are the images of items that have a certain instance of property?

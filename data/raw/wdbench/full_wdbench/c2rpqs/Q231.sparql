@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <genre> <post-hardcore> . ?x1 <instance of> <musical group> . ?x1 (<location of formation>/(<located in the administrative territorial entity>)*) <Wales> .  }
+
+NL-QUESTION:
+What post-hardcore musical groups are formed in Wales?

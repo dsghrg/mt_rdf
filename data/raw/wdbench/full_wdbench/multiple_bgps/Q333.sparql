@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Poland> . ?x2 <elevation above sea level> ?x3 . ?x2 <instance of> <mountain> .  }
+
+NL-QUESTION:
+What are the elevations above sea level of mountains in Poland?

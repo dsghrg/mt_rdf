@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Nepal> . ?x1 <instance of> <mountain> . OPTIONAL { ?x1 <country> ?x2 . } OPTIONAL { ?x1 <continent> ?x3 . } OPTIONAL { ?x1 <part of> ?x4 . } OPTIONAL { ?x1 <named after> ?x5 . } OPTIONAL { ?x1 <located in the administrative territorial entity> ?x6 . } OPTIONAL { ?x1 <located in/on physical feature> ?x7 . } OPTIONAL { ?x1 <coordinate location> ?x8 . } OPTIONAL { ?x1 <made from material> ?x9 . } OPTIONAL { ?x1 <topographic prominence> ?x10 . } OPTIONAL { ?x1 <elevation above sea level> ?x11 . } OPTIONAL { ?x1 <continent18> ?x12 . } OPTIONAL { ?x1 <topographic isolation> ?x13 . } OPTIONAL { ?x1 <Title not found> ?x14 . } OPTIONAL { ?x1 <significant event> ?x15 . } OPTIONAL { ?x15 <point in time> ?x16 . }  }
+
+NL-QUESTION:
+What are the details of the mountain in Nepal?

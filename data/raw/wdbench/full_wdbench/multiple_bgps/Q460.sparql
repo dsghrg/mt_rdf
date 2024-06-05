@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> <female> . ?x2 <country of citizenship> ?x3 . ?x1 <instance of> <human> . ?x3 <official language> <Spanish> .  }
+
+NL-QUESTION:
+What female humans are citizens of a country where the official language is Spanish?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Reading> . ?x2 <image> ?x3 . ?x2 <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What are the images and coordinates for locations in Reading?

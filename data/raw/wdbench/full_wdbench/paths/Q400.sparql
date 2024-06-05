@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <organism> }
+
+NL-QUESTION:
+What are all the organisms and their subclasses in Wikidata?

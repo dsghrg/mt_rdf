@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <health profession> }
+
+NL-QUESTION:
+What are all the items that have the occupation of a health profession or any of its subclasses in Wikidata?

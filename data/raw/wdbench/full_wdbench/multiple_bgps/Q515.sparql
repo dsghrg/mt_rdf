@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> ?x2 . ?x3 <instance of> <asteroid> . ?x3 <discoverer or inventor> ?x1 .  }
+
+NL-QUESTION:
+What country of citizenship do the discoverers or inventors of asteroids have?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scholarly article> . OPTIONAL { ?x1 <DOI> ?x2 . }  }
+
+NL-QUESTION:
+What scholarly articles have a DOI?

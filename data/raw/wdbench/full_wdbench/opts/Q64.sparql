@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of burial> <Ostfriedhof Aachen> . ?x2 <instance of> <human> . OPTIONAL { ?x2 <Find a Grave memorial ID> ?x3 . } OPTIONAL { ?x1 <place of burial> ?x4 . } OPTIONAL { ?x2 <image of grave> ?x5 . }  }
+
+NL-QUESTION:
+What humans are buried at Ostfriedhof Aachen and do they have a Find a Grave memorial ID or an image of their grave?

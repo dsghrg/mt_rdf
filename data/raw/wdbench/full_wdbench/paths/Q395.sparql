@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <object> }
+
+NL-QUESTION:
+What is the classification hierarchy for the specified object in Wikidata?

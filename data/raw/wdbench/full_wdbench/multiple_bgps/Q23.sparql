@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x2 <occupation> <painter> . ?x1 <father> ?x2 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+Which fathers and sons are both painters and humans in Wikidata?

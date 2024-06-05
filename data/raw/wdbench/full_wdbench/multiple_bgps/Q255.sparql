@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <published in> ?x2 . ?x1 <instance of> <scholarly article> .  }
+
+NL-QUESTION:
+What scholarly articles have been published?

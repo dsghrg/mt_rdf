@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Canada> .  }
+
+NL-QUESTION:
+What are all the items that have the property "country" with the value "Canada"?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <vertical depth> ?x2 . ?x3 (<instance of>/(<subclass of>)*) <body of water> .  }
+
+NL-QUESTION:
+What is the vertical depth of bodies of water?

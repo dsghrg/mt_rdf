@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <operating system> <Unix-like operating system> . ?x1 <software version identifier> ?x2 . OPTIONAL { ?x1 <official website> ?x3 . }  }
+
+NL-QUESTION:
+What Unix-like operating systems have a software version identifier and optionally an official website?

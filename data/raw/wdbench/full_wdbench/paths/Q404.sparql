@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <drug> }
+
+NL-QUESTION:
+What drugs are subclasses of other drugs in Wikidata?

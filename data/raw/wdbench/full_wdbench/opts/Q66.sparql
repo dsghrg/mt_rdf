@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <owned by> ?x2 . ?x3 <instance of> <business> . OPTIONAL { ?x3 <owned by> ?x4 . }  }
+
+NL-QUESTION:
+What businesses are owned by someone or some entity?

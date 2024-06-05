@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <educated at> <National Sun Yat-sen University> .  }
+
+NL-QUESTION:
+What individuals were educated at National Sun Yat-sen University?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x2 <coordinate location> ?x3 .  }
+
+NL-QUESTION:
+What are the coordinates for the place of birth of the subject in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <administrative territorial entity of Austria> .  }
+
+NL-QUESTION:
+What is the population of administrative territorial entities in Austria?

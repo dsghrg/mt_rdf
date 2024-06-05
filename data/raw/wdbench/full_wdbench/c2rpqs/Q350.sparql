@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country of citizenship> <Australia> . ?x1 ((<instance of>/(<country of citizenship9>)*)|(<occupation>/(<country of citizenship9>)*)) <human> .  }
+
+NL-QUESTION:
+Which humans are citizens of Australia and either have the occupation of being a human or have instances of being a human?

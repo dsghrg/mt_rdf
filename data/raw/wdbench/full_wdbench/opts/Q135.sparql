@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <GTAA ID> ?x2 . OPTIONAL { ?x1 <award received> ?x3 . } OPTIONAL { ?x3 <point in time> ?x4 . }  }
+
+NL-QUESTION:
+What is the GTAA ID, award received, and point in time for a certain entity?

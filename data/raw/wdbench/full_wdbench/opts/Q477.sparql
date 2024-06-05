@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <capital> ?x2 . ?x3 <coordinate location> ?x4 . OPTIONAL { ?x1 <end time> ?x5 . } OPTIONAL { ?x2 <end time> ?x5 . }  }
+
+NL-QUESTION:
+What are the capitals and their coordinate locations in wikidata along with their end times, if available?

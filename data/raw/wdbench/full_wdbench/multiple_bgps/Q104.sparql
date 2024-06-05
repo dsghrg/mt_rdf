@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <philosopher> . ?x2 <cites work> ?x3 .  }
+
+NL-QUESTION:
+Which works are cited by philosophers?

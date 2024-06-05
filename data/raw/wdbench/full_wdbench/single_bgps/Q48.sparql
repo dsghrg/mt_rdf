@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <computer scientist> .  }
+
+NL-QUESTION:
+What are the occupations of individuals who are computer scientists?

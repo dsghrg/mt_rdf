@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Brazil> . ?x1 <iPatrimônio ID> ?x2 . ?x3 <coordinate location> ?x4 . OPTIONAL { ?x1 <located in the administrative territorial entity> ?x3 . } OPTIONAL { ?x1 <coordinate location> ?x5 . } OPTIONAL { ?x1 <image> ?x6 . }  }
+
+NL-QUESTION:
+What are the IDs of the cultural heritage sites in Brazil, along with their locations and other optional information such as administrative territorial entities, coordinates, and images?

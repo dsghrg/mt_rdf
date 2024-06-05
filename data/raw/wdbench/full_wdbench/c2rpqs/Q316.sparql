@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x1 (<instance of>/(<subclass of>)*) <geographic region> .  }
+
+NL-QUESTION:
+What is the place of birth of people born in a geographic region?

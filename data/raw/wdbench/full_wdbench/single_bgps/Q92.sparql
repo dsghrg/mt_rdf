@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <depicts> <waterfall> .  }
+
+NL-QUESTION:
+What are some instances that depict a waterfall on Wikidata?

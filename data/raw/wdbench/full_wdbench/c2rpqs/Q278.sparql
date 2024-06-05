@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 (<instance of>)* <city> . ?x1 (<instance of>)* <town> .  }
+
+NL-QUESTION:
+What are the countries that have both cities and towns in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Wikidata SPARQL query equivalent> ?x2 .  }
+
+NL-QUESTION:
+What is the equivalent natural language question for the given SPARQL query: SELECT * WHERE { ?x1 <Wikidata SPARQL query equivalent> ?x2 .  }

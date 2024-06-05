@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon name> ?x2 .  }
+
+NL-QUESTION:
+What are the taxon names in Wikidata?

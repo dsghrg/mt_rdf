@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <maximum capacity> ?x2 . ?x1 ((<located in the administrative territorial entity>)+|<location>) <Germany> . ?x1 (((<occupation>|<position held>)|<instance of>)/(<subclass of>)*) <city> .  }
+
+NL-QUESTION:
+What is the maximum capacity of cities located in Germany?

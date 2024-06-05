@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x2 (<subclass of>)+ <entity> .  }
+
+NL-QUESTION:
+What countries are classified as a subclass of a specific entity in Wikidata?

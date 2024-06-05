@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <taxon> }
+
+NL-QUESTION:
+What are the instances of the taxon?

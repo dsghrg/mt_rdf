@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <Claude Monet> .  }
+
+NL-QUESTION:
+What information is available about Claude Monet in Wikidata?

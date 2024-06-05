@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <mathematician> . ?x2 <sex or gender> ?x3 . ?x1 <date of birth> ?x4 .  }
+
+NL-QUESTION:
+What is the date of birth of mathematicians and their corresponding genders?

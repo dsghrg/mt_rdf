@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <painter> . ?x1 <place of birth> ?x2 . ?x1 <instance of> <human> .  }
+
+NL-QUESTION:
+What are the birthplaces of painters who are humans in Wikidata?

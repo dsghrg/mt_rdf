@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> <Federal Chancellor of Germany> . ?x2 <date of birth> ?x3 . ?x1 <family name> ?x4 . ?x1 <given name> ?x5 .  }
+
+NL-QUESTION:
+What are the names and dates of birth of individuals who have held the position of Federal Chancellor of Germany?

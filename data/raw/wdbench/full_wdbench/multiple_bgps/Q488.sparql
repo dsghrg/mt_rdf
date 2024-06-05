@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <location> ?x2 . ?x3 <instance of> <terrorist attack> .  }
+
+NL-QUESTION:
+What are the locations of terrorist attacks?

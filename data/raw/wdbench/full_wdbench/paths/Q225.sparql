@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)*) <visual artist> }
+
+NL-QUESTION:
+What are some instances of individuals that have the occupation of a visual artist or any subclass of visual artist?

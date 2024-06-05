@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <rural commune of Morocco> .  }
+
+NL-QUESTION:
+What are the rural communes of Morocco?

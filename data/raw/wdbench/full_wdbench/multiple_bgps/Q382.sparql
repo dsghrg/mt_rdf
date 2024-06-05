@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> <painting> . ?x1 <significant event> <art theft> .  }
+
+NL-QUESTION:
+What paintings are significant events in art thefts and have an image associated with them?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <archaeological site> }
+
+NL-QUESTION:
+What are all the archaeological sites and their instances/subclasses in Wikidata?

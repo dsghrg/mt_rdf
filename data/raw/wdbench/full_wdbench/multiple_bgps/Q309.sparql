@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <France> . ?x2 <subclass of> ?x3 . ?x1 <subclass of> ?x4 . ?x2 <instance of> <organization> .  }
+
+NL-QUESTION:
+What organizations in France are subclasses of other organizations?

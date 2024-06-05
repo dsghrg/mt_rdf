@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> <United States senator> . ?x2 <end time> ?x3 .  }
+
+NL-QUESTION:
+What are the positions held by individuals who have served as United States senators and when did their terms end?

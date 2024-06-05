@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x2 ((<instance of>|<subclass of>))* <person> .  }
+
+NL-QUESTION:
+What are all the instances of entities that are either instances or subclasses of 'person'?

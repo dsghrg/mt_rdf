@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <FIPS 55-3 (locations in the US)> ?x2 . ?x3 <official website> ?x4 .  }
+
+NL-QUESTION:
+What are the official websites of locations in the United States with FIPS 55-3 codes?

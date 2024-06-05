@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> . OPTIONAL { ?x1 <ISO 3166-1 alpha-2 code> ?x2 . } OPTIONAL { ?x1 <population> ?x3 . }  }
+
+NL-QUESTION:
+What countries have ISO 3166-1 alpha-2 codes and population data available in Wikidata?

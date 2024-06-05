@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x1 <country> ?x3 . ?x1 <instance of> <island> .  }
+
+NL-QUESTION:
+What countries have islands?

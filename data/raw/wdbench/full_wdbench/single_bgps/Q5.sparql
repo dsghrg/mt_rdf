@@ -1,0 +1,4 @@
+SELECT * WHERE { <Johann Sebastian Bach> <child> ?x1 .  }
+
+NL-QUESTION:
+Who were the children of Johann Sebastian Bach?

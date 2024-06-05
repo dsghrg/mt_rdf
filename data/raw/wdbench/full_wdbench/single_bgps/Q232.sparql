@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author> <Arthur Conan Doyle> .  }
+
+NL-QUESTION:
+What are all the items with an author of Arthur Conan Doyle in Wikidata?

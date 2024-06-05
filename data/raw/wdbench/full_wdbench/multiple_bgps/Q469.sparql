@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x1 <instance of> ?x3 .  }
+
+NL-QUESTION:
+What is the sex or gender and instance of each item in Wikidata?

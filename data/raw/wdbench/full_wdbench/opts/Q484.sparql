@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <shares border with> <Digne-les-Bains> . ?x1 <coordinate location> ?x2 . OPTIONAL { ?x1 <image> ?x3 . }  }
+
+NL-QUESTION:
+Which entities share a border with Digne-les-Bains and what are their coordinates?

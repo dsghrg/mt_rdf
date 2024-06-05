@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <politician> . OPTIONAL { ?x1 <date of birth> ?x2 . }  }
+
+NL-QUESTION:
+What are the occupations of politicians with their date of birth (if available)?

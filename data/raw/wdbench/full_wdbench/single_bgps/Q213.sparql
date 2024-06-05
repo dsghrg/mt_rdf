@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x1 .  }
+
+NL-QUESTION:
+What is the instance of each entity in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <Wikidata property for an identifier> }
+
+NL-QUESTION:
+What are the instances or subclasses of entities that have a specific identifier on Wikidata?

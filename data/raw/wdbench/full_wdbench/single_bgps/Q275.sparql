@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <category combines topics> <Doctor Who> .  }
+
+NL-QUESTION:
+What are some topics that are combined in the category for Doctor Who?

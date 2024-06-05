@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <place of birth> ?x2 . ?x3 <sport> <Formula One> .  }
+
+NL-QUESTION:
+What are the birthplaces of Formula One athletes?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <machine element> .  }
+
+NL-QUESTION:
+What are the machine elements in Wikidata?

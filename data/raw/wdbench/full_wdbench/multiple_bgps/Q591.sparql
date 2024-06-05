@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <scientific journal> . ?x2 <main subject> <Infectious Diseases> .  }
+
+NL-QUESTION:
+What are some scientific journals that focus on Infectious Diseases?

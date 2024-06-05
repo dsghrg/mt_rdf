@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . OPTIONAL { ?x1 <duration> ?x2 . }  }
+
+NL-QUESTION:
+What are the names of all films along with their durations when available?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . OPTIONAL { ?x1 <position held> ?x2 . }  }
+
+NL-QUESTION:
+What positions have been held by humans in Wikidata?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Iran> . ?x1 <instance of> <village> .  }
+
+NL-QUESTION:
+What villages are in Iran?

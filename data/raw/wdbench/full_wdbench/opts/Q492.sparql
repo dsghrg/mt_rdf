@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <member of sports team> <Argentina national association football team> . OPTIONAL { ?x1 <end time> ?x2 . }  }
+
+NL-QUESTION:
+"Who is a member of the Argentina national association football team?"

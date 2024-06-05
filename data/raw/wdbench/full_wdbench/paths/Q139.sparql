@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<located in the administrative territorial entity>)*/^<has part(s)>) <Basque Country> }
+
+NL-QUESTION:
+What is the administrative territorial entity in which the Basque Country is located in?

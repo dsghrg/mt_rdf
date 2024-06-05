@@ -1,0 +1,4 @@
+SELECT * WHERE { <base> (<subclass of>)* ?x1 }
+
+NL-QUESTION:
+What are the subclasses of the entity specified by the <base> variable?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> ?x2 . ?x1 <taxon name> ?x3 .  }
+
+NL-QUESTION:
+What is the taxon name and parent taxon of the entities in Wikidata?

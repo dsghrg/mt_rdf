@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <ethnic group> <Arabs> . ?x1 <sex or gender> <female> . OPTIONAL { ?x1 <date of birth> ?x2 . } OPTIONAL { ?x1 <place of birth> ?x3 . } OPTIONAL { ?x3 <coordinate location> ?x4 . }  }
+
+NL-QUESTION:
+What are the dates and birthplaces of female individuals who belong to the ethnic group "Arabs" in Wikidata?

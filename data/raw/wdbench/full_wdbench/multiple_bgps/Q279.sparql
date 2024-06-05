@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cast member> <Claire Foy> . ?x1 <instance of> ?x2 . ?x3 <publication date> ?x4 .  }
+
+NL-QUESTION:
+Which instances are cast members of Claire Foy and have a publication date?

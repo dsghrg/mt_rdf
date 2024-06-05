@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <position held> <United States senator> . ?x2 <start time> ?x3 .  }
+
+NL-QUESTION:
+What are the start times of individuals who have held the position of United States senator?

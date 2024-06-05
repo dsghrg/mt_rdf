@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author> <August Strindberg> .  }
+
+NL-QUESTION:
+What works were written by August Strindberg?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <film> . ?x1 <publication date> ?x2 . OPTIONAL { ?x1 <IMDb ID> ?x3 . } OPTIONAL { ?x1 <image> ?x4 . } OPTIONAL { ?x1 <director> ?x5 . }  }
+
+NL-QUESTION:
+What are the publication date, IMDb ID, image, and director of films on Wikidata?

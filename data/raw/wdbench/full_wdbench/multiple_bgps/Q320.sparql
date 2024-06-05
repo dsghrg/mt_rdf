@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x2 <country> <Portugal> .  }
+
+NL-QUESTION:
+What are the items that have Germany as their country and Portugal as their country in Wikidata?

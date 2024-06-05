@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> ?x2 . ?x2 <taxon name> ?x3 . ?x1 <taxon name> ?x4 . ?x1 (<parent taxon>/<parent taxon>) <Panthera> .  }
+
+NL-QUESTION:
+What are the taxon names of the children of Panthera?

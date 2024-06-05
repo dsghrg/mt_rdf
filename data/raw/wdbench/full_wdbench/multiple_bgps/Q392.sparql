@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <instance of> ?x3 . <Dédestapolcsány> <coordinate location> ?x4 .  }
+
+NL-QUESTION:
+What is the image and instance of property for entities located in Dédestapolcsány?

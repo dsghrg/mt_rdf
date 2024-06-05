@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <human> . ?x1 (<country of citizenship>/(<country>)*) <Kingdom of the Netherlands> . ?x1 (<occupation>/(<country of citizenship9>)*) <singer> .  }
+
+NL-QUESTION:
+Which singers are citizens of the Kingdom of the Netherlands?

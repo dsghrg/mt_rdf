@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <atomic number> ?x2 . ?x1 <element symbol> ?x3 . ?x1 <instance of> <chemical element> . ?x1 <discoverer or inventor> ?x4 . ?x5 <coordinate location> ?x6 . OPTIONAL { ?x4 <place of birth> ?x5 . }  }
+
+NL-QUESTION:
+What are the atomic numbers, element symbols, discoverers, and locations of discoverers of all chemical elements on Wikidata?

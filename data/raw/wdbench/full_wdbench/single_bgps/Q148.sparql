@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <cantonal capital of Switzerland> .  }
+
+NL-QUESTION:
+What are the cantonal capitals of Switzerland?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<medical condition>/((<instance of>/(<subclass of>)*))*) <dwarfism> }
+
+NL-QUESTION:
+What are the medical conditions that are instances of or subclasses of dwarfism?

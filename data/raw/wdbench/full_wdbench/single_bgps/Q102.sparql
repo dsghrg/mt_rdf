@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <author name string> ?x2 .  }
+
+NL-QUESTION:
+What are the names of all authors in Wikidata?

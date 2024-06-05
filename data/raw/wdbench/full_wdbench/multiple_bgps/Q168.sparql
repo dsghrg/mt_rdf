@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <population> ?x2 . ?x1 <country> ?x3 . ?x3 <instance of> <country> . ?x3 <member of> ?x4 .  }
+
+NL-QUESTION:
+What is the population of countries that are members of certain organizations?

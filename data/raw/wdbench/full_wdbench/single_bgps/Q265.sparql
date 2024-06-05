@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <educated at> ?x2 .  }
+
+NL-QUESTION:
+What schools did the individuals on Wikidata attend?

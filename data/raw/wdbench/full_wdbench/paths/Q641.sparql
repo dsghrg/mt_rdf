@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<child>)* <Henry of Scotland> }
+
+NL-QUESTION:
+What is the list of all children of Henry of Scotland?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <parent taxon> <Sarcopterygii> . ?x1 (<instance of>)* <taxon> .  }
+
+NL-QUESTION:
+What taxonomic groups are part of the Sarcopterygii clade?

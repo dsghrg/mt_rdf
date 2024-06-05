@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <image> ?x2 . ?x1 <place of birth> ?x3 . ?x1 <date of birth> ?x4 . ?x5 <coordinate location> ?x6 . ?x1 <educated at> <Tel Aviv University> . OPTIONAL { ?x1 <image> ?x2 . }  }
+
+NL-QUESTION:
+What are the images, place of birth, date of birth, and educated at information for individuals who were educated at Tel Aviv University and have a coordinate location?

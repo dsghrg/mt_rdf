@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <chemical element> . ?x1 <part of> ?x2 .  }
+
+NL-QUESTION:
+Which chemical elements are part of other substances?

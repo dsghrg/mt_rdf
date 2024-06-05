@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <company> . ?x2 <official website> ?x3 . OPTIONAL { ?x1 <country> ?x4 . } OPTIONAL { ?x1 <base salary> ?x5 . }  }
+
+NL-QUESTION:
+What companies have an official website, and what is the country and base salary information for these companies (if available)?

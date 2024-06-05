@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <title> ?x2 . ?x1 <instance of> <scholarly article> . OPTIONAL { ?x1 <image> ?x3 . }  }
+
+NL-QUESTION:
+What scholarly articles have a title and optionally an image?

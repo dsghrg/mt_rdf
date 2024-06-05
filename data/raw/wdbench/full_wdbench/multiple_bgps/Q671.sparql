@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ?x2 <National Basketball Association> . ?x1 <date of birth> ?x3 . ?x4 <coordinate location> ?x5 .  }
+
+NL-QUESTION:
+What are the birthdates of individuals associated with the National Basketball Association and where are they located?

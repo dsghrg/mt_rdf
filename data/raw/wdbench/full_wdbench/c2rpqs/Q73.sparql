@@ -1,0 +1,4 @@
+SELECT * WHERE { <Varese> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <record label> .  }
+
+NL-QUESTION:
+What record labels are located in Varese?

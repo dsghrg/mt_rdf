@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <atomic number> ?x2 . ?x3 <element symbol> ?x4 . ?x3 <instance of> <chemical element> .  }
+
+NL-QUESTION:
+What are the atomic numbers and symbols of all chemical elements in Wikidata?

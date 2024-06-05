@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Spain> . ?x2 <image> ?x3 . ?x1 <coordinate location> ?x4 . ?x1 (<instance of>/(<subclass of>)*) <municipality> .  }
+
+NL-QUESTION:
+What are the images of municipalities located in Spain?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<located in the administrative territorial entity>)* <France> }
+
+NL-QUESTION:
+What are all the entities that are located in the administrative territorial entity of France?

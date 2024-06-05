@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <country> . OPTIONAL { ?x1 <country> ?x2 . } OPTIONAL { ?x1 <population> ?x2 . }  }
+
+NL-QUESTION:
+What are the instances of countries and their corresponding country and population data, if available?

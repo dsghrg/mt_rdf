@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <Museum of Modern Art artist ID> ?x2 . ?x3 <coordinate location> ?x4 . OPTIONAL { ?x1 <place of birth> ?x3 . }  }
+
+NL-QUESTION:
+What are the Museum of Modern Art artist IDs and coordinates of artists associated with museums and their places of birth when available in Wikidata?

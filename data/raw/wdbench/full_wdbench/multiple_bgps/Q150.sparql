@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . ?x2 <instance of> ?x3 .  }
+
+NL-QUESTION:
+What is the occupation and instance of each item in Wikidata?

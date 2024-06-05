@@ -1,0 +1,4 @@
+SELECT * WHERE { <Jabal al Yājūrah> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What is the administrative territorial entity in which Jabal al Yājūrah is located?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>/(<subclass of>)*) <educational organization> }
+
+NL-QUESTION:
+What educational organizations are there in Wikidata?

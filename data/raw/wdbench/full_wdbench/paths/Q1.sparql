@@ -1,0 +1,4 @@
+SELECT * WHERE { <Želvice> (<located in the administrative territorial entity>)* ?x1 }
+
+NL-QUESTION:
+What administrative territorial entity is Želvice located in?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <cites work> ?x2 . ?x2 <instance of> ?x3 .  }
+
+NL-QUESTION:
+What works does entity x1 cite, and what is the instance of entity x3 for those works cited?

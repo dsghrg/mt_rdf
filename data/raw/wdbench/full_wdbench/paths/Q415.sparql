@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ <geographical feature> }
+
+NL-QUESTION:
+What are the geographical features that are subclasses of other geographical features?

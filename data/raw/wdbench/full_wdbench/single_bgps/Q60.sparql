@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <located in the administrative territorial entity> <Province of Turin> .  }
+
+NL-QUESTION:
+What is located in the administrative territorial entity of Province of Turin?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 <sex or gender> <female> . ?x1 <instance of> <city> . ?x2 <instance of> <country> . ?x3 <position held> <mayor> . ?x1 <head of government> ?x3 .  }
+
+NL-QUESTION:
+What are the female mayors of cities in which country?

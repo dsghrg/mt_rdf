@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <ward area of Tokyo> .  }
+
+NL-QUESTION:
+What are all the instances of ward areas in Tokyo?

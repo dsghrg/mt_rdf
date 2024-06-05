@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (((((<official language>|<native language>)|<original language of film or TV show>)|<language of work or name>)|<languages spoken, written or signed>)|<Title not found>) ?x2 }
+
+NL-QUESTION:
+What are the official, native, original languages of films or TV shows, languages of works or names, languages spoken, written, or signed, or titles not found in Wikidata?

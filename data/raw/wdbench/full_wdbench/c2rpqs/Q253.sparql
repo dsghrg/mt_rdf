@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <United Kingdom> . ?x2 ((<instance of>|<occupation>)/(<subclass of>)*) <billionaire> .  }
+
+NL-QUESTION:
+Which billionaires are associated with the United Kingdom?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> ?x2 . ?x3 <country> ?x2 . ?x1 <instance of> <national sports team> . ?x3 <instance of> <sports governing body> . ?x1 <sport> <tennis> . ?x3 <sport> <tennis> .  }
+
+NL-QUESTION:
+What national sports teams and sports governing bodies are associated with the sport of tennis?

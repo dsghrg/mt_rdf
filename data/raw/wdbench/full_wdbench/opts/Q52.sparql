@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> ?x2 . OPTIONAL { ?x2 <image> ?x3 . }  }
+
+NL-QUESTION:
+What are the occupations of the people in Wikidata and do they have images associated with their occupation?

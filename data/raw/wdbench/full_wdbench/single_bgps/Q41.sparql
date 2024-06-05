@@ -1,0 +1,4 @@
+SELECT * WHERE { <Noam Chomsky> ?x1 <linguist> .  }
+
+NL-QUESTION:
+What is Noam Chomsky known for?

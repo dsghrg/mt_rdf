@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <country> <Germany> . ?x1 <instance of> <parliament building> .  }
+
+NL-QUESTION:
+What are the parliament buildings located in Germany on Wikidata?

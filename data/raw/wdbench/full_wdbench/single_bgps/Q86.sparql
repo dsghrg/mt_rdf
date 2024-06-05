@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <format as a regular expression> ?x2 .  }
+
+NL-QUESTION:
+What are the entities in Wikidata that have a format matching a specific regular expression?

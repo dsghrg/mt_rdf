@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <Wikimedia list article> . ?x2 <is a list of> <word> .  }
+
+NL-QUESTION:
+What are some Wikimedia list articles that contain a list of a specific word?

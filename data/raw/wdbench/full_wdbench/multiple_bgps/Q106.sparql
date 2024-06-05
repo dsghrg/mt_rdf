@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <geologist> . ?x2 <family name> ?x3 .  }
+
+NL-QUESTION:
+What is the family name of geologists?

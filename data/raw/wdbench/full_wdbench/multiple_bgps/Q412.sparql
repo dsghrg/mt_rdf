@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <twinned administrative body> ?x2 . ?x3 <instance of> <municipality of Belgium> .  }
+
+NL-QUESTION:
+What are the administrative bodies that are twinned with municipalities in Belgium?

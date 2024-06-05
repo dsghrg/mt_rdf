@@ -1,0 +1,4 @@
+SELECT * WHERE { <Berlin> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <human> .  }
+
+NL-QUESTION:
+What are the coordinates of Berlin and who are all the individuals that are instances or subclasses of humans?

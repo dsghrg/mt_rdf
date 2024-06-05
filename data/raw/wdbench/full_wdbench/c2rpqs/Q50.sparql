@@ -1,0 +1,4 @@
+SELECT * WHERE { <Indonesia> <coordinate location> ?x1 . ?x2 (<instance of>/(<subclass of>)*) <island> .  }
+
+NL-QUESTION:
+What is the coordinate location of Indonesia and which islands does it belong to?

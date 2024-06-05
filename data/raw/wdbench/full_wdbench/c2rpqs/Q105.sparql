@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <applies to jurisdiction> ?x2 . ?x1 <instance of> <Dutch municipal coat of arms> . ?x3 (<instance of>/(<subclass of>)*) <human settlement> .  }
+
+NL-QUESTION:
+What is the jurisdiction to which Dutch municipal coat of arms applies, and what type of human settlement does this jurisdiction belong to?

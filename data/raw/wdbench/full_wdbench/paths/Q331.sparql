@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<parent taxon>)* <Phasianidae> }
+
+NL-QUESTION:
+What are the parent taxons of the Phasianidae?

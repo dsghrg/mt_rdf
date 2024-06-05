@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<instance of>)* <Title not found> }
+
+NL-QUESTION:
+What are all the instances of an entity with the title not found?

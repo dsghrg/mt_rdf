@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <occupation> <association football> . ?x1 <place of birth> ?x2 . ?x3 <coordinate location> ?x4 . OPTIONAL { ?x1 <image> ?x5 . }  }
+
+NL-QUESTION:
+What are the names, birthplaces, and coordinates of individuals who are associated with football?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <capital city> .  }
+
+NL-QUESTION:
+What are all the capital cities?

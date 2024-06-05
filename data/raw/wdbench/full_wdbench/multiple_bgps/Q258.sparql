@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <heritage designation> <World Heritage Site> . ?x1 <country> ?x2 . ?x3 <instance of> <city> .  }
+
+NL-QUESTION:
+Which cities have been designated as World Heritage Sites and what country are they located in?

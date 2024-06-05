@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> <United States presidential election> . ?x2 <successful candidate> ?x3 . OPTIONAL { ?x2 <votes received> ?x4 . }  }
+
+NL-QUESTION:
+What are the successful candidates and their corresponding votes received in United States presidential elections?

@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <sex or gender> ?x2 . ?x1 <instance of> <human> . ?x1 <family name> ?x3 . ?x1 <given name> ?x4 .  }
+
+NL-QUESTION:
+What are the given and family names of humans listed in Wikidata along with their gender?

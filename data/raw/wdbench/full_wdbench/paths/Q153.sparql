@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 ((<mother>|<father>))+ ?x2 }
+
+NL-QUESTION:
+Who are the parents of the entity?

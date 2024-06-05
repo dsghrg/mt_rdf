@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <instance of> ?x2 . ?x2 (<subclass of>)+ <ordinary matter> .  }
+
+NL-QUESTION:
+What are the instances of entities that are a subclass of ordinary matter in Wikidata?

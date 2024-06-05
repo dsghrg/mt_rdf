@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <website account on> <Myspace> .  }
+
+NL-QUESTION:
+What are the website accounts on Myspace?

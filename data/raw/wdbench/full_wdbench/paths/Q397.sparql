@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)* <administrative territorial entity> }
+
+NL-QUESTION:
+What are all the subclasses of an administrative territorial entity?

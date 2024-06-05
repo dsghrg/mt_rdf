@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <published in> ?x2 .  }
+
+NL-QUESTION:
+What publications have been published in which journals?

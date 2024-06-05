@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <manner of death> <accident> . ?x2 <instance of> <human> . ?x2 <date of birth> ?x3 . OPTIONAL { ?x2 <date of death> ?x4 . } OPTIONAL { ?x2 <sex or gender> ?x5 . } OPTIONAL { ?x2 <date of death> ?x6 . } OPTIONAL { ?x2 <manner of death> ?x1 . }  }
+
+NL-QUESTION:
+What are the details of humans who died in accidents, including their date of birth, date of death, sex or gender, and manner of death?

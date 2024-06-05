@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <adjacent station> ?x2 . ?x3 <part of> <New York City Subway> .  }
+
+NL-QUESTION:
+Which stations are adjacent to each other in the New York City Subway?

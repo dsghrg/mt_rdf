@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <taxon rank> <species> . ?x2 <parent taxon> ?x3 . ?x2 <taxon common name> ?x4 . ?x2 <taxon name> ?x5 . ?x1 <instance of> <taxon> .  }
+
+NL-QUESTION:
+What are the parent taxa, common names, and taxon names of all the species in Wikidata?

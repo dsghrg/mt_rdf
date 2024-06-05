@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 (<subclass of>)+ ?x2 }
+
+NL-QUESTION:
+What are all the instances where X1 is a subclass of X2 in Wikidata?

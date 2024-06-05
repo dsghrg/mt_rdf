@@ -1,0 +1,4 @@
+SELECT * WHERE { ?x1 <coordinate location> ?x2 . OPTIONAL { ?x1 <image> ?x3 . }  }
+
+NL-QUESTION:
+What are the coordinate locations of items in Wikidata, and for those items that have images, what are the images associated with them?
