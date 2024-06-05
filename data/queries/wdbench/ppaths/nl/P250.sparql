@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}
-
-Pfarrhof
-
-NL-QUESTION:
-Which ISO 3166-2 codes are associated with administrative territorial entities that have a location label defined?

@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <physically interacts with> ?x2 .
-	?x3 <genetic association> ?x4 .
-	?x4 <encodes> ?x2 .
-	?x3 <subclass of>* <leukemia> .
-}
-
-NL-QUESTION:
-Which genes physically interact with proteins that have a genetic association with leukemia?

@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <place of birth> ?x2 .
-	?x1 <instance of> ?c165 .
-	?c165 <subclass of>* <geographic region> .
-}
-
-NL-QUESTION:
-Which geographic regions are the birthplaces of individuals in Wikidata?

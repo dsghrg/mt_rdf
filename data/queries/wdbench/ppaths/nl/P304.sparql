@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Empire of Brazil> <located in the administrative territorial entity>* ?x1 .
-}
-
-NL-QUESTION:
-Which administrative territorial entities have ISO 3166-2 codes that are connected to the Empire of Brazil?

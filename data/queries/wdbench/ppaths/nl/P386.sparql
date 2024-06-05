@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <main subject> <Wikidata> .
-	?x1 <instance of> ?c909 .
-	?c909 <subclass of>* <article> .
-}
-
-NL-QUESTION:
-"What are all the articles on Wikidata and what are their main subjects?"

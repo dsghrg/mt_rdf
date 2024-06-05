@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <official name> ?x2 .
-	?x1 <instance of> ?c198 .
-	?c198 <subclass of>* <ministry of the Kingdom of Italy> .
-}
-
-NL-QUESTION:
-What are the official names of ministries of the Kingdom of Italy?

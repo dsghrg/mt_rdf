@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <country> ?x2 .
-	?x2 <ISO 3166-2 code> ?x3 .
-	?x1 <instance of>* <university> .
-}
-
-NL-QUESTION:
-Which universities are located in countries with ISO 3166-2 codes?

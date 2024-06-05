@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	<Segundo Mercado> <occupation> ?x1 .
-	?x1 <subclass of>* ?c487 .
-	?c487 <field of this occupation> ?x2 .
-}
-
-NL-QUESTION:
-What is the field of occupation of Segundo Mercado and its subclasses?

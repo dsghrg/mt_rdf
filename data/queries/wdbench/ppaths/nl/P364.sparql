@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <country> <Myanmar> .
-	?x1 <instance of> ?c153 .
-	?c153 <subclass of>* <hospital> .
-}
-
-NL-QUESTION:
-Which hospitals are located in Myanmar?

@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <located in the administrative territorial entity>* <Mecklenburg-Western Pomerania> .
-	?x1 <instance of> ?c71 .
-	?c71 <subclass of>* <station> .
-}
-
-NL-QUESTION:
-Which stations are located in Mecklenburg-Western Pomerania and in which geographic coordinates are they situated?

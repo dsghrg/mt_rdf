@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x1 <instance of> ?c783 .
-	?c783 <subclass of>* <lake> .
-}
-
-NL-QUESTION:
-What are all the instances that are both instances of a subclass of a lake?

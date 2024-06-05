@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c704 .
-	?c704 <subclass of>* <university> .
-	?x1 <located in the administrative territorial entity>* <London> .
-}
-
-NL-QUESTION:
-What universities are located in London and what are their coordinates?

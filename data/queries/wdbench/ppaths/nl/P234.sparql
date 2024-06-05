@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <instance of> <human> .
-	?x1 <author> ?c301 .
-	?c301 <instance of> ?c1 .
-	?c1 <subclass of>+ <work> .
-}
-
-NL-QUESTION:
-Which humans have authored works?

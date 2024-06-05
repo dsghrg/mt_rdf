@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <country> <France> .
-	?x1 <instance of> ?c335 .
-	?c335 <subclass of>* <architectural structure> .
-}
-
-NL-QUESTION:
-Which architectural structures in France have as their instance?

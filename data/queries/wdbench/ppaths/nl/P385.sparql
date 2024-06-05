@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <country> <Estonia> .
-	?x1 <located in the administrative territorial entity> ?c804 .
-	?c804 <instance of>* <village> .
-}
-
-NL-QUESTION:
-Which villages are located in Estonia?

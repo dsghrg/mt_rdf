@@ -1,7 +1,0 @@
-SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<university archive Bamberg> <located in the administrative territorial entity>* ?x1 .
-}
-
-NL-QUESTION:
-What universities are located in the administrative territorial entity with the ISO 3166-2 code corresponding to that of the university archive in Bamberg?

@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <country> ?x2 .
-	?x1 <coordinate location> ?x3 .
-	?x1 <instance of> ?c83 .
-	?c83 <subclass of>* <province of Afghanistan> .
-}
-
-NL-QUESTION:
-Which countries have provinces in Afghanistan along with their coordinates?

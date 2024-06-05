@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <instance of> ?c563 .
-	?c563 <subclass of>* <administrative territorial entity of Austria> .
-}
-
-NL-QUESTION:
-What are the populations of administrative territorial entities of Austria?

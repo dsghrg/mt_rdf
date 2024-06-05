@@ -40,13 +40,17 @@ def res_to_logs(result: dict, forced):
     res_df = pd.DataFrame(result)
     res_df.to_csv(res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv', index=False)
 
-
+def load_results(forced):
+    res_df = pd.read_csv(res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv')
+    return res_df
 
 def main(args):
     if args.blazegraph:
         sparql_query = Blazegraph()
     else:
         sparql_query = Virtuoso()
+
+    old_res = load_results(forced=args.forced)
         
     wdbench = WDBench()
     wdbench.queries['exec_n'] = 0
@@ -60,17 +64,20 @@ def main(args):
         for j, row in tqdm(query_df.iterrows(), total=query_df.shape[0]):
             for i in range(4):
                 query = parse_to_sparql(row['query_parts'])
+                if old_res[(old_res['query_id'] == row['q_id']) & (old_res['q_type'] == qtype.value) & (old_res['exec_n'] == i)].shape[0] > 0:
+                    print("Skipping", row['q_id'], qtype.value, i)
+                    continue
                 _, exec_time = sparql_query.execute_sparql(query=query, force_order=args.forced, timeout=900)
                 res_dict['query_id'].append(row['q_id'])
                 res_dict['q_type'].append(qtype.value)
                 res_dict['exec_n'].append(i)
                 res_dict['exec_time'].append(exec_time)
 
-            if index % 10 == 0:
-                res_to_logs(result=res_dict, forced=args.forced)
+            # if index % 10 == 0:
+            #     res_to_logs(result=res_dict, forced=args.forced)
 
             index += 1
-        res_to_logs(res_dict, forced=args.forced)
+        # res_to_logs(res_dict, forced=args.forced)
 
 
 if __name__ == "__main__":

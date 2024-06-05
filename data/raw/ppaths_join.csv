@@ -1,0 +1,1108 @@
+query_id,query,label
+P180,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q702842> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q90> .
+}",0
+P181,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q3501742> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c815 .
+	?c815 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P182,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q108106> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P183,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q23794244> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P184,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q994059> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P186,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P19> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c235 .
+	?c235 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q82794> .
+}",0
+P187,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x4 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1055> .
+	?x4 <http://www.wikidata.org/prop/direct/P150> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q387917> .
+}",0
+P188,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3231690> .
+	?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q3231690> .
+}",0
+P189,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q20202327> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P190,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q39715> .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q55> .
+}",0
+P191,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P18> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c192 .
+	?c192 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q2095> .
+}",0
+P192,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1194951> .
+	?x1 <http://www.wikidata.org/prop/direct/P641>* <http://www.wikidata.org/entity/Q3609> .
+}",0
+P193,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q28733563> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P195,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P50> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c443 .
+	?c443 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q18918145> .
+	?x2 <http://www.wikidata.org/prop/direct/P31> ?c860 .
+	?c860 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q729> .
+}",0
+P196,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q3582579> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P197,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P2268> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+	?x1 <http://www.wikidata.org/prop/direct/P106> ?c409 .
+	?c409 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q483501> .
+}",1
+P198,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P129> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P2293> ?x4 .
+	?x4 <http://www.wikidata.org/prop/direct/P688> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q29496> .
+}",0
+P199,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q481075> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P200,"SELECT * WHERE {
+	# ?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q1741> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c567 .
+	?c567 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q173387> .
+}",1
+P201,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q14468873> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c560 .
+	?c560 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q11424> .
+}",1
+P202,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c254 .
+	?c254 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3918> .
+}",0
+P203,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q84> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c956 .
+	?c956 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3918> .
+}",0
+P204,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x4 <http://www.wikidata.org/prop/direct/P150> ?x2 .
+	?x4 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q54939> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P205,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P225> ?x4 .
+	<http://www.wikidata.org/entity/Q185230> <http://www.wikidata.org/prop/direct/P171>* ?x1 .
+}",0
+P206,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29875661> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P207,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P180> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P18> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c356 .
+	?c356 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3305213> .
+	?x2 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q34379> .
+}",0
+P208,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q34644785> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P209,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q484170> .
+}",0
+P210,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29018634> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P211,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P105> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x3 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x4 <http://www.wikidata.org/prop/direct/P361> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q130942> .
+}",0
+P212,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q461021> .
+}",0
+P213,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q35409> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q28319> .
+}",0
+P214,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P3896> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q25> .
+}",0
+P215,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q26773> .
+}",0
+P216,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c806 .
+	?c806 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}",0
+P217,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q28738935> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P218,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P105> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x4 <http://www.wikidata.org/prop/direct/P361>+ ?x2 .
+}",0
+P219,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q326313> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P220,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29872961> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P222,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q28486> .
+}",0
+P223,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q183147> .
+}",0
+P224,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P403> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P4614> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P4614> ?x4 .
+	?x4 <http://www.wikidata.org/prop/direct/P4614> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c171 .
+	?c171 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q355304> .
+	?x2 <http://www.wikidata.org/prop/direct/P31> ?c701 .
+	?c701 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q355304> .
+}",0
+P225,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q206615> .
+}",0
+P226,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P2046> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c874 .
+	?c874 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q361733> .
+}",0
+P227,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q108053> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P228,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* ?c972 .
+	?c972 <http://www.wikidata.org/prop/direct/P17> ?c855 .
+	?c855 <http://www.wikidata.org/prop/direct/P30> ?c365 .
+	?c365 <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q48> .
+}",1
+P229,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x4 <http://www.wikidata.org/prop/direct/P150> ?x2 .
+	?x4 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1197> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q15630906> .
+}",0
+P230,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+	?x1 <http://www.wikidata.org/prop/direct/P50> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P31> ?c521 .
+	?c521 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q386724> .
+}",1
+P232,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q18003161> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P233,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P19> <http://www.wikidata.org/entity/Q36> .
+	?x1 <http://www.wikidata.org/prop/direct/P106>* <http://www.wikidata.org/entity/Q82955> .
+}",0
+P234,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+	?x1 <http://www.wikidata.org/prop/direct/P50> ?c301 .
+	?c301 <http://www.wikidata.org/prop/direct/P31> ?c1 .
+	?c1 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q386724> .
+}",1
+P235,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q20304516> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P236,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q31> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c610 .
+	?c610 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q1248784> .
+}",0
+P237,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q3132941> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c601 .
+	?c601 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P238,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q24192592> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P239,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P686> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c907 .
+	?c907 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q2996394> .
+}",0
+P240,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c185 .
+	?c185 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q12620> .
+}",0
+P241,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P21> <http://www.wikidata.org/entity/Q6581072> .
+	?x1 <http://www.wikidata.org/prop/direct/P106> ?c713 .
+	?c713 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q483501> .
+}",0
+P242,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q12620> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c192 .
+	?c192 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .
+}",0
+P243,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q480801> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P244,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q62> .
+}",0
+P245,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1448> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> .
+	?x1 <http://www.wikidata.org/prop/direct/P17>+ <http://www.wikidata.org/entity/Q183> .
+}",0
+P246,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q377910> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q215380> .
+	?x1 <http://www.wikidata.org/prop/direct/P740> ?c171 .
+	?c171 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q25> .
+}",0
+P247,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P137> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c414 .
+	?c414 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q7075> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q25> .
+}",0
+P248,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q142> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c335 .
+	?c335 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q811979> .
+}",0
+P249,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q118146> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P250,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q41259536> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P251,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q7446404> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c487 .
+	?c487 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P252,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P3512> <http://www.wikidata.org/entity/Q372949> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c549 .
+	?c549 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q16521> .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q194240> .
+}",1
+P253,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q5451> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c425 .
+	?c425 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q8502> .
+}",1
+P254,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q21755> .
+}",0
+P255,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P2046> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c18 .
+	?c18 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}",0
+P256,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P452> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c418 .
+	?c418 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q43229> .
+}",0
+P257,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q7351> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c724 .
+	?c724 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P258,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q25306> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?c994 .
+	?c994 <http://www.wikidata.org/prop/direct/P105> ?x4 .
+	?x4 <http://www.wikidata.org/prop/direct/P361>+ ?x2 .
+}",0
+P259,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29874692> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P260,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q11701> <http://www.wikidata.org/prop/direct/P527> ?x1 .
+	?x2 <http://www.wikidata.org/prop/direct/P31> ?c935 .
+	?c935 <http://www.wikidata.org/prop/direct/P279>* ?x1 .
+}",0
+P261,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q28733811> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P262,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q36180> .
+	?x1 <http://www.wikidata.org/prop/direct/P21> <http://www.wikidata.org/entity/Q6581097> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c186 .
+	?c186 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q5> .
+}",0
+P263,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c563 .
+	?c563 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q361733> .
+}",0
+P264,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P105> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x3 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x2 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q427626> .
+	?x4 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q427626> .
+	?x4 <http://www.wikidata.org/prop/direct/P361> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q130942> .
+}",0
+P265,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c226 .
+	?c226 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q41176> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q64> .
+}",0
+P266,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q6661223> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P267,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P27> <http://www.wikidata.org/entity/Q148> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c347 .
+	?c347 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q5> .
+}",0
+P268,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q11691318> .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c948 .
+	?c948 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1196> .
+}",0
+P269,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P61> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c904 .
+	?c904 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q8205328> .
+}",0
+P270,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q41354164> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P271,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q1549583> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P272,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1823> .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q23442> .
+}",0
+P273,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P279> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q207628> .
+}",0
+P274,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q518801> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P275,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q5582> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c303 .
+	?c303 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q386724> .
+}",1
+P276,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c783 .
+	?c783 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23397> .
+}",0
+P277,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1448> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c198 .
+	?c198 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q26243694> .
+}",0
+P278,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q39614> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q22> .
+}",0
+P279,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q488653> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P280,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q93633> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P281,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q2315249> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P283,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q36> .
+	?x2 <http://www.wikidata.org/prop/direct/P19> ?x1 .
+	?x2 <http://www.wikidata.org/prop/direct/P106>* <http://www.wikidata.org/entity/Q82955> .
+}",0
+P284,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q2966137> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c937 .
+	?c937 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P285,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q2763> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c983 .
+	?c983 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q191067> .
+}",1
+P286,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q1637057> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P287,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13100073> .
+	?x1 <http://www.wikidata.org/prop/direct/P17>+ <http://www.wikidata.org/entity/Q148> .
+}",0
+P288,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q5964731> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P289,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P170> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3305213> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c658 .
+	?c658 <http://www.wikidata.org/prop/direct/P17>* <http://www.wikidata.org/entity/Q34> .
+}",0
+P290,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c15 .
+	?c15 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q23442> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q90> .
+}",0
+P291,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q1625526> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P292,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q41417942> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P294,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q41323003> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P295,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q1367808> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P296,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P21> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c403 .
+	?c403 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q6671777> .
+}",0
+P297,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c59 .
+	?c59 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q980> .
+}",0
+P298,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q534932> .
+}",0
+P299,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7226> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q142> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c140 .
+	?c140 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q860861> .
+}",0
+P300,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q1651871> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P301,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c54 .
+	?c54 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q262166> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q985> .
+}",0
+P302,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P18> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c515 .
+	?c515 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3305213> .
+	?x1 <http://www.wikidata.org/prop/direct/P180> ?c22 .
+	?c22 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q154> .
+}",0
+P303,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q8255504> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P304,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q217230> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P305,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c799 .
+	?c799 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}",0
+P306,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c755 .
+	?c755 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1208> .
+}",0
+P307,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q501292> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P308,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q208221> .
+}",0
+P309,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q90642> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c582 .
+	?c582 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",0
+P310,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c85 .
+	?c85 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}",0
+P312,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q28734951> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P313,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P105> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x3 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x2 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q427626> .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q130942> .
+	?x2 <http://www.wikidata.org/prop/direct/P361>+ ?x4 .
+}",0
+P314,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29873614> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P315,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P300> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q3918> .
+}",0
+P316,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q28555911> .
+}",0
+P317,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q829925> .
+}",0
+P318,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c29 .
+	?c29 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}",0
+P319,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q28294> .
+}",0
+P320,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q130942> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?c877 .
+	?c877 <http://www.wikidata.org/prop/direct/P105> ?x4 .
+	?x4 <http://www.wikidata.org/prop/direct/P361>+ ?x2 .
+}",0
+P321,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29875500> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P322,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q82955> .
+	?x1 <http://www.wikidata.org/prop/direct/P19> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1711695> .
+	?x1 <http://www.wikidata.org/prop/direct/P39> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q21> .
+}",0
+P323,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q28738964> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P324,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> ?x2 .
+	?x3 <http://www.wikidata.org/prop/direct/P105> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x3 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16521> .
+	?x4 <http://www.wikidata.org/prop/direct/P361> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q7377> .
+}",0
+P325,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q328046> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P326,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P180> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P18> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c922 .
+	?c922 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3305213> .
+	?x2 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q234460> .
+}",0
+P327,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q10281806> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P328,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q35001555> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P329,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q14468873> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c318 .
+	?c318 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q571> .
+}",1
+P330,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x4 <http://www.wikidata.org/prop/direct/P150> ?x2 .
+	?x4 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1197> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q532> .
+}",0
+P331,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c842 .
+	?c842 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q7075> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c650 .
+	?c650 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q25> .
+}",0
+P332,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c898 .
+	?c898 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q486972> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1356> .
+}",0
+P333,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q64> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c605 .
+	?c605 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q41176> .
+}",0
+P334,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q481074> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P335,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P279> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q12737077> .
+}",0
+P336,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1449> .
+	?x1 <http://www.wikidata.org/prop/direct/P31>+ <http://www.wikidata.org/entity/Q486972> .
+}",0
+P337,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16970> .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q2683> .
+}",0
+P338,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q2379472> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c325 .
+	?c325 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P339,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P19> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c165 .
+	?c165 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q82794> .
+}",0
+P340,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q23826203> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P341,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q939035> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P342,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q3138626> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c732 .
+	?c732 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P343,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q108093> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P344,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q28733587> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P345,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P859> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c520 .
+	?c520 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q13442814> .
+}",1
+P346,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c923 .
+	?c923 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}",0
+P347,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q20299171> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P348,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1196> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c71 .
+	?c71 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q719456> .
+}",0
+P349,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q480656> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P350,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q441270> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c971 .
+	?c971 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P351,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c922 .
+	?c922 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q33506> .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q60> .
+}",0
+P352,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q11941017> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P353,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q38133595> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P354,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q525485> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c727 .
+	?c727 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P355,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P21> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P27> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P3430> ?x4 .
+	?x1 <http://www.wikidata.org/prop/direct/P969> ?x5 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c215 .
+	?c215 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q5> .
+}",0
+P356,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q928830> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q176> .
+}",0
+P357,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P127> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c966 .
+	?c966 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q43229> .
+}",0
+P358,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1340> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c132 .
+	?c132 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q5> .
+}",1
+P359,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q1971093> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P360,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P921> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P361>* <http://www.wikidata.org/entity/Q660519> .
+}",0
+P362,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x4 <http://www.wikidata.org/prop/direct/P150> ?x2 .
+	?x4 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q1197> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q15324> .
+}",0
+P363,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q108047> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P364,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q836> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c153 .
+	?c153 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q16917> .
+}",0
+P365,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q257023> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P366,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q998351> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P367,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q204756> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P368,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P4000> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P171>+ <http://www.wikidata.org/entity/Q756> .
+}",0
+P369,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q18789> .
+}",0
+P370,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P105> <http://www.wikidata.org/entity/Q7432> .
+	?x1 <http://www.wikidata.org/prop/direct/P171> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q39861> .
+}",0
+P371,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1082> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c856 .
+	?c856 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q515> .
+}",0
+P372,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q10860948> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c237 .
+	?c237 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P373,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q28738934> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P374,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P106> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P106> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+	?x2 <http://www.wikidata.org/prop/direct/P31>* ?c799 .
+	?c799 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q931260> .
+}",0
+P375,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c83 .
+	?c83 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q158683> .
+}",0
+P376,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29871816> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P378,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q29884672> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P379,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q38> .
+	?x2 <http://www.wikidata.org/prop/direct/P31> ?c501 .
+	?c501 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q192611> .
+}",0
+P380,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q894219> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P381,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q2321874> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P382,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q263742> .
+	?x3 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q56061> .
+}",0
+P383,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q40614> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q30> .
+}",0
+P384,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q1644223> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P385,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q191> .
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?c804 .
+	?c804 <http://www.wikidata.org/prop/direct/P31>* <http://www.wikidata.org/entity/Q532> .
+}",0
+P386,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q2013> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c909 .
+	?c909 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q191067> .
+}",1
+P387,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P131> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x3 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c449 .
+	?c449 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q486972> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q985> .
+}",0
+P388,"SELECT * WHERE {
+	<http://www.wikidata.org/entity/Q6287639> <http://www.wikidata.org/prop/direct/P106> ?x1 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* ?c761 .
+	?c761 <http://www.wikidata.org/prop/direct/P425> ?x2 .
+}",1
+P389,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q41353339> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P390,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q15850691> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P392,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q17> .
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c917 .
+	?c917 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q82794> .
+}",0
+P393,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q1449> .
+	?x2 <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q486972> .
+}",0
+P394,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1423> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q19887878> .
+	<http://www.wikidata.org/entity/Q835125> <http://www.wikidata.org/prop/direct/P31> ?c46 .
+	?c46 <http://www.wikidata.org/prop/direct/P279>* ?x2 .
+}",0
+P395,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q640191> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P396,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P27> <http://www.wikidata.org/entity/Q30> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c627 .
+	?c627 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q5> .
+}",0
+P397,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c704 .
+	?c704 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3918> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q84> .
+}",0
+P398,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q811165> .
+	?x1 <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .
+	?x1 <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q980> .
+}",0
+P399,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P170> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P276> ?x3 .
+	?x2 <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q270920> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c776 .
+	?c776 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q3305213> .
+	?x3 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q145> .
+}",0
+P400,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P625> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c803 .
+	?c803 <http://www.wikidata.org/prop/direct/P271>* <http://www.wikidata.org/entity/Q8502> .
+}",0
+P401,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P279> ?x2 .
+	?x1 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q34379> .
+}",0
+P402,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P300> ?x2 .
+	<http://www.wikidata.org/entity/Q481120> <http://www.wikidata.org/prop/direct/P131>* ?x1 .
+}",0
+P403,"SELECT * WHERE {
+	?x1 <http://www.wikidata.org/prop/direct/P17> ?x2 .
+	?x2 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> .
+	?x1 <http://www.wikidata.org/prop/direct/P31> ?c942 .
+	?c942 <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q10864048> .
+}",0

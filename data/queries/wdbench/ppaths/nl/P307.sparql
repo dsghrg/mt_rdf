@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <Luzerne County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}
-
-NL-QUESTION:
-What are all the entities that are located in an administrative territorial entity that is located in Luzerne County and are instances of or subclasses of administrative territorial entities?

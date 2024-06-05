@@ -1,8 +1,0 @@
-SELECT * WHERE {
-	?x1 <eye color> ?x2 .
-	?x1 <instance of> ?c132 .
-	?c132 <subclass of>* <human> .
-}
-
-NL-QUESTION:
-"What are the eye colors of humans?"

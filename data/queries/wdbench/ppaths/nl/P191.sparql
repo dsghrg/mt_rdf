@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <image> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x1 <instance of> ?c192 .
-	?c192 <subclass of>+ <food> .
-}
-
-NL-QUESTION:
-What are the images of items on Wikidata that are instances of a subclass of food?

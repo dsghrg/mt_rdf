@@ -1,9 +1,0 @@
-SELECT * WHERE {
-	?x1 <Musée d'Orsay artist ID> ?x2 .
-	?x1 <instance of> <human> .
-	?x1 <occupation> ?c409 .
-	?c409 <subclass of>* <artist> .
-}
-
-NL-QUESTION:
-Which human artists have an occupation that is a subclass of "artist" and are associated with the Musée d'Orsay artist ID in Wikidata?
