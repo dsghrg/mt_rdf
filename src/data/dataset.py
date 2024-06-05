@@ -54,7 +54,7 @@ class ModelDataset():
 
     def _load_dataset(self):
         logging.info(f'Loading dataset {self.dataset_name}')
-        return pd.read_csv({dataset_raw_file_path(Config.DATASET[self.dataset_name])})
+        return pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
     
 
     def _get_train_test_val(self):
