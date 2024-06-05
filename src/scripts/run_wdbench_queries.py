@@ -37,12 +37,14 @@ def parse_to_sparql(query):
 
 
 def res_to_logs(result: dict, forced):
+    outpath = res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv'
     res_df = pd.DataFrame(result)
-    res_df.to_csv(res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv', index=False)
+    # 
+    res_df.to_csv(outpath, mode='a', header=not os.path.exists(outpath), index=False)
 
 def load_results(forced):
     outpath = res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv'
-    res_df = pd.read_csv(outpath, mode='a', header=not os.path.exists(outpath))
+    res_df = pd.read_csv(outpath)
     return res_df
 
 def main(args):
