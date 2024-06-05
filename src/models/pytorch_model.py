@@ -96,14 +96,14 @@ class PyTorchModel:
 
                 # lehl@2022-10-24: Using (Log)SoftmaxLayer in addition with the appropriate loss function
                 # (see https://pytorch.org/docs/stable/generated/torch.nn.NLLLoss.html)
-                # if self.args.use_softmax_layer:
-                #     # loss_fn = nn.NLLLoss(weight=None, reduction='mean')
-                #     loss_fn = nn.CrossEntropyLoss(weight=self.dataset.label_weights)
-                #     loss = loss_fn(output, labels.view(-1))
+                if self.args.use_softmax_layer:
+                    # loss_fn = nn.NLLLoss(weight=self.dataset.label_weights)
+                    loss_fn = nn.CrossEntropyLoss(weight=self.dataset.label_weights)
+                    # import code; code.interact(local=dict(globals(), **locals()))
+                    loss = loss_fn(output, labels.view(-1))
 
-                loss_fn = nn.BCELoss(weight=self.dataset.label_weights)
-                import code; code.interact(local=dict(globals(), **locals()))
-                loss = loss_fn(output, labels.float().view(-1))
+                # loss_fn = nn.BCELoss(weight=self.dataset.label_weights)
+                # loss = loss_fn(output, labels.float().view(-1))
 
                 loss.backward()
                 torch.nn.utils.clip_grad_norm_(self.network.parameters(), self.args.max_grad_norm)
