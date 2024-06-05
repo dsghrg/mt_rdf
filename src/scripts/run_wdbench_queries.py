@@ -41,7 +41,8 @@ def res_to_logs(result: dict, forced):
     res_df.to_csv(res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv', index=False)
 
 def load_results(forced):
-    res_df = pd.read_csv(res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv')
+    outpath = res_path + f'results_wdbench_all{"_forced" if forced else ""}.csv'
+    res_df = pd.read_csv(outpath, mode='a', header=not os.path.exists(outpath))
     return res_df
 
 def main(args):
@@ -73,11 +74,11 @@ def main(args):
                 res_dict['exec_n'].append(i)
                 res_dict['exec_time'].append(exec_time)
 
-            # if index % 10 == 0:
-            #     res_to_logs(result=res_dict, forced=args.forced)
+            if index % 10 == 0:
+                res_to_logs(result=res_dict, forced=args.forced)
 
             index += 1
-        # res_to_logs(res_dict, forced=args.forced)
+        res_to_logs(res_dict, forced=args.forced)
 
 
 if __name__ == "__main__":
