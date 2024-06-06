@@ -1,1116 +1,215 @@
 query_id,query,label
-P180,"SELECT * WHERE {
-	?x1 <instance of> <municipal arrondissement> .
-	?x1 <located in the administrative territorial entity>* <Paris> .
-}",0
-P181,"SELECT * WHERE {
-	<Stéphane Dujarric> <occupation> ?x1 .
-	?x1 <subclass of>* ?c815 .
-	?c815 <field of this occupation> ?x2 .
-}",1
-P182,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <Santa Barbara County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P183,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Mittlerer Schwarzwald> <located in the administrative territorial entity>* ?x1 .
-}",0
-P184,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Brunsberg> <located in the administrative territorial entity>* ?x1 .
-}",0
-P186,"SELECT * WHERE {
-	?x1 <place of birth> ?x2 .
-	?x1 <instance of> ?c235 .
-	?c235 <subclass of>+ <geographic region> .
-}",0
-P187,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x4 <located in the administrative territorial entity>* <Hamburg> .
-	?x4 <contains the administrative territorial entity> ?x2 .
-	?x3 <subclass of>* <administrative divisions of Germany> .
-}",0
-P188,"SELECT * WHERE {
-	?x1 <instance of> <automobile model> .
-	?x1 <instance of>* <automobile model> .
-}",0
-P189,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Immeuble, 11 place du Parlement (Rennes)> <located in the administrative territorial entity>* ?x1 .
-}",0
-P190,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> <lighthouse> .
-	?x2 <located in the administrative territorial entity>* <Netherlands> .
-}",0
-P191,"SELECT * WHERE {
-	?x1 <image> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x1 <instance of> ?c192 .
-	?c192 <subclass of>+ <food> .
-}",0
-P192,"SELECT * WHERE {
-	?x1 <instance of> <national sports team> .
-	?x1 <sport>* <road bicycle racing> .
-}",0
-P193,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}
-
-Gemeinde- und Zentralbücherei Seevetal-Meckelfeld",0
-P195,"SELECT * WHERE {
-	?x1 <author> ?x2 .
-	?x1 <instance of> ?c443 .
-	?c443 <subclass of>* <academic journal article> .
-	?x2 <instance of> ?c860 .
-	?c860 <subclass of>* <animal> .
-}",0
-P196,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Chiesa San Martino> <located in the administrative territorial entity>* ?x1 .
-}",0
-P197,"SELECT * WHERE {
-	?x1 <Musée d'Orsay artist ID> ?x2 .
-	?x1 <instance of> <human> .
-	?x1 <occupation> ?c409 .
-	?c409 <subclass of>* <artist> .
-}",1
-P198,"SELECT * WHERE {
-	?x1 <physically interacts with> ?x2 .
-	?x3 <genetic association> ?x4 .
-	?x4 <encodes> ?x2 .
-	?x3 <subclass of>* <leukemia> .
-}",0
-P199,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}
-
-Amtsgericht Stuttgart-Bad Cannstatt",0
-P200,"SELECT * WHERE {
-	# ?x1 <coordinate location> ?x2 .
-	?x1 <located in the administrative territorial entity>+ <Vienna> .
-	?x1 <instance of> ?c567 .
-	?c567 <subclass of>* <grave> .
-}",1
-P201,"SELECT * WHERE {
-	?x1 <cast member> <Daniel Vernet> .
-	?x1 <instance of> ?c560 .
-	?c560 <subclass of>* <film> .
-}",1
-P202,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?c254 .
-	?c254 <subclass of>* <university> .
-}",0
-P203,"SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x1 <coordinate location> ?x3 .
-	?x1 <located in the administrative territorial entity>* <London> .
-	?x1 <instance of> ?c956 .
-	?c956 <subclass of>* <university> .
-}",0
-P204,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x4 <contains the administrative territorial entity> ?x2 .
-	?x4 <located in the administrative territorial entity>* <Valencia Province> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P205,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <taxon name> ?x4 .
-	<Pteropodidae> <parent taxon>* ?x1 .
-}",0
-P206,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Jabal an Nahdayn> <located in the administrative territorial entity>* ?x1 .
-}",0
-P207,"SELECT * WHERE {
-	?x1 <depicts> ?x2 .
-	?x1 <image> ?x3 .
-	?x1 <instance of> ?c356 .
-	?c356 <subclass of>* <painting> .
-	?x2 <subclass of>* <musical instrument> .
-}",0
-P208,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Februarigatan> <located in the administrative territorial entity>* ?x1 .
-}",0
-P209,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <instance of>* <commune of France> .
-}",0
-P210,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Limberg> <located in the administrative territorial entity>* ?x1 .
-}",0
-P211,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x3 <taxon rank> ?x4 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <instance of> <taxon> .
-	?x3 <instance of> <taxon> .
-	?x4 <part of> ?x2 .
-	?x1 <parent taxon>+ <Theria> .
-}",0
-P212,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Formicariidae> .
-}",0
-P213,"SELECT * WHERE {
-	?x1 <taxon rank> <family> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Lepidoptera> .
-}",0
-P214,"SELECT * WHERE {
-	?x1 <geoshape> ?x2 .
-	?x1 <located in the administrative territorial entity>* <Wales> .
-}",0
-P215,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Hornbill> .
-}",0
-P216,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <country> ?x3 .
-	?x1 <coordinate location> ?x4 .
-	?x1 <instance of> ?c806 .
-	?c806 <subclass of>* <city> .
-}",0
-P217,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Metropolitankapitel Bamberg. Bibliothek> <located in the administrative territorial entity>* ?x1 .
-}",0
-P218,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x3 <taxon rank> ?x4 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <instance of> <taxon> .
-	?x4 <part of>+ ?x2 .
-}",0
-P219,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Hiddesen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P220,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Jabal Shi‘bat al Khāwī> <located in the administrative territorial entity>* ?x1 .
-}",0
-P222,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Emberizidae> .
-}",0
-P223,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Meropidae> .
-}",0
-P224,"SELECT * WHERE {
-	?x1 <mouth of the watercourse> ?x2 .
-	?x1 <drainage basin> ?x3 .
-	?x2 <drainage basin> ?x4 .
-	?x4 <drainage basin> ?x3 .
-	?x1 <instance of> ?c171 .
-	?c171 <subclass of>* <watercourse> .
-	?x2 <instance of> ?c701 .
-	?c701 <subclass of>* <watercourse> .
-}",0
-P225,"SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x2 <subclass of>+ <building material> .
-}",0
-P226,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <country> ?x3 .
-	?x1 <area> ?x4 .
-	?x1 <instance of> ?c874 .
-	?c874 <subclass of>* <administrative territorial entity of Austria> .
-}",0
-P227,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <San Bernardino County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P228,"SELECT * WHERE {
-	?x1 <instance of> <country> .
-	?x1 <located in the administrative territorial entity>* ?c972 .
-	?c972 <country> ?c855 .
-	?c855 <continent> ?c365 .
-	?c365 <part of> <Asia> .
-}",1
-P229,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x4 <contains the administrative territorial entity> ?x2 .
-	?x4 <located in the administrative territorial entity>* <Lower Saxony> .
-	?x3 <subclass of>* <rural district> .
-}",0
-P230,"SELECT * WHERE {
-	?x1 <instance of> <human> .
-	?x1 <author> ?x2 .
-	?x2 <instance of> ?c521 .
-	?c521 <subclass of>* <work> .
-}",1
-P232,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Brunsberg> <located in the administrative territorial entity>* ?x1 .
-}",0
-P233,"SELECT * WHERE {
-	?x1 <place of birth> <Poland> .
-	?x1 <occupation>* <politician> .
-}",0
-P234,"SELECT * WHERE {
-	?x1 <instance of> <human> .
-	?x1 <author> ?c301 .
-	?c301 <instance of> ?c1 .
-	?c1 <subclass of>+ <work> .
-}",1
-P235,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Ash Shaykh> <located in the administrative territorial entity>* ?x1 .
-}",0
-P236,"SELECT * WHERE {
-	?x1 <country> <Belgium> .
-	?x1 <instance of> ?c610 .
-	?c610 <subclass of>* <airport> .
-}",0
-P237,"SELECT * WHERE {
-	<Henry Martin> <occupation> ?x1 .
-	?x1 <subclass of>* ?c601 .
-	?c601 <field of this occupation> ?x2 .
-}",1
-P238,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Bötersheim> <located in the administrative territorial entity>* ?x1 .
-}",0
-P239,"SELECT * WHERE {
-	?x1 <Gene Ontology ID> ?x2 .
-	?x1 <instance of> ?c907 .
-	?c907 <subclass of>* <biological process> .
-}",0
-P240,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?c185 .
-	?c185 <subclass of>* <church building> .
-	?x1 <located in the administrative territorial entity>* <Mayenne> .
-}",0
-P241,"SELECT * WHERE {
-	?x1 <sex or gender> <female> .
-	?x1 <occupation> ?c713 .
-	?c713 <subclass of>* <artist> .
-}",0
-P242,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x2 <located in the administrative territorial entity>+ <Mayenne> .
-	?x1 <instance of> ?c192 .
-	?c192 <subclass of>* <church building> .
-}",0
-P243,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Amtsgericht Kenzingen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P244,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <located in the administrative territorial entity>* <San Francisco> .
-}",0
-P245,"SELECT * WHERE {
-	?x1 <official name> ?x2 .
-	?x1 <instance of> <city> .
-	?x1 <country>+ <Germany> .
-}",0
-P246,"SELECT * WHERE {
-	?x1 <genre> <post-hardcore> .
-	?x1 <instance of> <musical group> .
-	?x1 <location of formation> ?c171 .
-	?c171 <located in the administrative territorial entity>* <Wales> .
-}",0
-P247,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <operator> ?x3 .
-	?x1 <instance of> ?c414 .
-	?c414 <subclass of>* <library> .
-	?x1 <located in the administrative territorial entity>* <Wales> .
-}",0
-P248,"SELECT * WHERE {
-	?x1 <country> <France> .
-	?x1 <instance of> ?c335 .
-	?c335 <subclass of>* <architectural structure> .
-}",0
-P249,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Schwarzenburg (Breisgau)> <located in the administrative territorial entity>* ?x1 .
-}",0
-P250,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}
-
-Pfarrhof",0
-P251,"SELECT * WHERE {
-	<Segundo Mercado> <occupation> ?x1 .
-	?x1 <subclass of>* ?c487 .
-	?c487 <field of this occupation> ?x2 .
-}",1
-P252,"SELECT * WHERE {
-	?x1 <means of locomotion> <bipedalism> .
-	?x1 <instance of> ?c549 .
-	?c549 <subclass of> <taxon> .
-	?x1 <parent taxon>+ <songbirds> .
-}",1
-P253,"SELECT * WHERE {
-	?x1 <part of> <Himalayas> .
-	?x1 <instance of> ?c425 .
-	?c425 <subclass of>* <mountain> .
-}",1
-P254,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Otididae> .
-}",0
-P255,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <area> ?x3 .
-	?x1 <instance of> ?c18 .
-	?c18 <subclass of>* <city> .
-}",0
-P256,"SELECT * WHERE {
-	?x1 <industry> ?x2 .
-	?x1 <instance of> ?c418 .
-	?c418 <subclass of>* <organization> .
-}",0
-P257,"SELECT * WHERE {
-	<Robert Schumann> <occupation> ?x1 .
-	?x1 <subclass of>* ?c724 .
-	?c724 <field of this occupation> ?x2 .
-}",1
-P258,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <instance of> <taxon> .
-	?x1 <parent taxon>+ <Carnivora> .
-	?x1 <parent taxon> ?c994 .
-	?c994 <taxon rank> ?x4 .
-	?x4 <part of>+ ?x2 .
-}",0
-P259,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Jabal al Yājūrah> <located in the administrative territorial entity>* ?x1 .
-}",0
-P260,"SELECT * WHERE {
-	<United States House of Representatives> <has part(s)> ?x1 .
-	?x2 <instance of> ?c935 .
-	?c935 <subclass of>* ?x1 .
-}",0
-P261,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}
-
-Bücherei im Rathaus Neu Wulmstorf",0
-P262,"SELECT * WHERE {
-	?x1 <occupation> <writer> .
-	?x1 <sex or gender> <male> .
-	?x1 <instance of> ?c186 .
-	?c186 <subclass of>* <human> .
-}",0
-P263,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <instance of> ?c563 .
-	?c563 <subclass of>* <administrative territorial entity of Austria> .
-}",0
-P264,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x3 <taxon rank> ?x4 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <instance of> <taxon> .
-	?x3 <instance of> <taxon> .
-	?x2 <instance of> <taxonomic rank> .
-	?x4 <instance of> <taxonomic rank> .
-	?x4 <part of> ?x2 .
-	?x1 <parent taxon>+ <Theria> .
-}",0
-P265,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c226 .
-	?c226 <subclass of>* <building> .
-	?x1 <located in the administrative territorial entity>* <Berlin> .
-}",0
-P266,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Llandough> <located in the administrative territorial entity>* ?x1 .
-}",0
-P267,"SELECT * WHERE {
-	?x1 <country of citizenship> <People's Republic of China> .
-	?x1 <instance of> ?c347 .
-	?c347 <country of citizenship9>* <human> .
-}",0
-P268,"SELECT * WHERE {
-	?x1 <heritage designation> <cultural heritage monument in Germany> .
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c948 .
-	?c948 <subclass of>* <church building> .
-	?x1 <located in the administrative territorial entity>* <Mecklenburg-Western Pomerania> .
-}",0
-P269,"SELECT * WHERE {
-	?x1 <discoverer or inventor> ?x2 .
-	?x1 <instance of> ?c904 .
-	?c904 <subclass of>* <artificial physical object> .
-}",0
-P270,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Mariensäule> <located in the administrative territorial entity>* ?x1 .
-}",0
-P271,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Holzhausen-Externsteine> <located in the administrative territorial entity>* ?x1 .
-}",0
-P272,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> <Aceh> .
-	?x1 <country> ?x2 .
-	?x1 <instance of>* <island> .
-}",0
-P273,"SELECT * WHERE {
-	?x1 <subclass of> ?x2 .
-	?x1 <subclass of>* <composed musical work> .
-}",0
-P274,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Bahlingen am Kaiserstuhl> <located in the administrative territorial entity>* ?x1 .
-}",0
-P275,"SELECT * WHERE {
-	?x1 <creator> <Vincent van Gogh> .
-	?x1 <instance of> ?c303 .
-	?c303 <subclass of>* <work> .
-}",1
-P276,"SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x1 <instance of> ?c783 .
-	?c783 <subclass of>* <lake> .
-}",0
-P277,"SELECT * WHERE {
-	?x1 <official name> ?x2 .
-	?x1 <instance of> ?c198 .
-	?c198 <subclass of>* <ministry of the Kingdom of Italy> .
-}",0
-P278,"SELECT * WHERE {
-	?x1 <instance of> <cemetery> .
-	?x1 <located in the administrative territorial entity>+ <Scotland> .
-}",0
-P279,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <Albemarle County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P280,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Flesberg> <located in the administrative territorial entity>* ?x1 .
-}",0
-P281,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Osbysjön> <located in the administrative territorial entity>* ?x1 .
-}",0
-P283,"SELECT * WHERE {
-	?x1 <country> <Poland> .
-	?x2 <place of birth> ?x1 .
-	?x2 <occupation>* <politician> .
-}",0
-P284,"SELECT * WHERE {
-	<Christophe Caresche> <occupation> ?x1 .
-	?x1 <subclass of>* ?c937 .
-	?c937 <field of this occupation> ?x2 .
-}",1
-P285,"SELECT * WHERE {
-	?x1 <main subject> <The Holocaust> .
-	?x1 <instance of> ?c983 .
-	?c983 <subclass of>* <article> .
-}",1
-P286,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Humfeld> <located in the administrative territorial entity>* ?x1 .
-}",0
-P287,"SELECT * WHERE {
-	?x1 <instance of> <village> .
-	?x1 <country>+ <People's Republic of China> .
-}",0
-P288,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Höxter Rathaus station> <located in the administrative territorial entity>* ?x1 .
-}",0
-P289,"SELECT * WHERE {
-	?x1 <creator> ?x2 .
-	?x1 <instance of> <painting> .
-	?x1 <located in the administrative territorial entity> ?c658 .
-	?c658 <country>* <Sweden> .
-}",0
-P290,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c15 .
-	?c15 <subclass of>* <island> .
-	?x1 <located in the administrative territorial entity>+ <Paris> .
-}",0
-P291,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Holzhausen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P292,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}",0
-P294,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Scheune> <located in the administrative territorial entity>* ?x1 .
-}",0
-P295,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Eskilsø> <located in the administrative territorial entity>* ?x1 .
-}",0
-P296,"SELECT * WHERE {
-	?x1 <sex or gender> ?x2 .
-	?x1 <instance of> ?c403 .
-	?c403 <subclass of>* <structure> .
-}",0
-P297,"SELECT * WHERE {
-	?x1 <heritage designation> <architectural heritage monument> .
-	?x1 <located in the administrative territorial entity> ?c59 .
-	?c59 <located in the administrative territorial entity>* <Bavaria> .
-}",0
-P298,"SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x1 <instance of>* <key> .
-}",0
-P299,"SELECT * WHERE {
-	?x1 <main subject> <Joan of Arc> .
-	?x1 <located in the administrative territorial entity>+ <France> .
-	?x1 <instance of> ?c140 .
-	?c140 <subclass of>* <sculpture> .
-}",0
-P300,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Hörstmar> <located in the administrative territorial entity>* ?x1 .
-}",0
-P301,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <country> <Germany> .
-	?x1 <coordinate location> ?x3 .
-	?x1 <instance of> ?c54 .
-	?c54 <subclass of>* <municipality in Germany> .
-	?x1 <located in the administrative territorial entity>+ <Baden-Württemberg> .
-}",0
-P302,"SELECT * WHERE {
-	?x1 <image> ?x2 .
-	?x1 <instance of> ?c515 .
-	?c515 <subclass of>* <painting> .
-	?x1 <image0> ?c22 .
-	?c22 <subclass of>* <alcoholic beverage> .
-}",0
-P303,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<calle de Arturo Soria> <located in the administrative territorial entity>* ?x1 .
-}",0
-P304,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Empire of Brazil> <located in the administrative territorial entity>* ?x1 .
-}",0
-P305,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c799 .
-	?c799 <subclass of>* <city> .
-}",0
-P306,"SELECT * WHERE {
-	?x1 <instance of> <city> .
-	?x1 <located in the administrative territorial entity> ?c755 .
-	?c755 <located in the administrative territorial entity>* <Brandenburg> .
-}",0
-P307,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <Luzerne County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P308,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <sunbird> .
-}",0
-P309,"SELECT * WHERE {
-	<Ernst Maria Lieber> <occupation> ?x1 .
-	?x1 <subclass of>* ?c582 .
-	?c582 <field of this occupation> ?x2 .
-}",0
-P310,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <instance of> ?c85 .
-	?c85 <subclass of>* <city> .
-}",0
-P312,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<university archive Bamberg> <located in the administrative territorial entity>* ?x1 .
-}",0
-P313,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x3 <taxon rank> ?x4 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <instance of> <taxon> .
-	?x3 <instance of> <taxon> .
-	?x2 <instance of> <taxonomic rank> .
-	?x1 <parent taxon>+ <Theria> .
-	?x2 <part of>+ ?x4 .
-}",0
-P314,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Jabal al Kawlah> <located in the administrative territorial entity>* ?x1 .
-}",0
-P315,"SELECT * WHERE {
-	?x1 <country> ?x2 .
-	?x2 <ISO 3166-2 code> ?x3 .
-	?x1 <instance of>* <university> .
-}",0
-P316,"SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x2 <subclass of>+ <ordinary matter> .
-}",0
-P317,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Petroicidae> .
-}",0
-P318,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <country> ?x3 .
-	?x1 <ISO 3166-2 code> ?x4 .
-	?x1 <instance of> ?c29 .
-	?c29 <subclass of>* <city> .
-}",0
-P319,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Alcidae> .
-}",0
-P320,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <instance of> <taxon> .
-	?x1 <parent taxon>+ <Theria> .
-	?x1 <parent taxon> ?c877 .
-	?c877 <taxon rank> ?x4 .
-	?x4 <part of>+ ?x2 .
-}",0
-P321,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Jabal Nuqum> <located in the administrative territorial entity>* ?x1 .
-}",0
-P322,"SELECT * WHERE {
-	?x1 <occupation> <politician> .
-	?x1 <place of birth> ?x2 .
-	?x3 <subclass of> <Member of the Scottish Parliament> .
-	?x1 <position held> ?x3 .
-	?x2 <located in the administrative territorial entity>* <England> .
-}",0
-P323,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Oberlandesgericht Bamberg, Library> <located in the administrative territorial entity>* ?x1 .
-}",0
-P324,"SELECT * WHERE {
-	?x1 <taxon rank> ?x2 .
-	?x3 <taxon rank> ?x4 .
-	?x1 <parent taxon> ?x3 .
-	?x1 <instance of> <taxon> .
-	?x3 <instance of> <taxon> .
-	?x4 <part of> ?x2 .
-	?x1 <parent taxon>+ <mammal> .
-}",0
-P325,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Hornoldendorf> <located in the administrative territorial entity>* ?x1 .
-}",0
-P326,"SELECT * WHERE {
-	?x1 <depicts> ?x2 .
-	?x1 <image> ?x3 .
-	?x1 <instance of> ?c922 .
-	?c922 <subclass of>* <painting> .
-	?x2 <subclass of>* <text> .
-}",0
-P327,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Želvice> <located in the administrative territorial entity>* ?x1 .
-}",0
-P328,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Grytefotsvägen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P329,"SELECT * WHERE {
-	?x1 <author> <Daniel Vernet> .
-	?x1 <instance of> ?c318 .
-	?c318 <subclass of>* <book> .
-}",1
-P330,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x4 <contains the administrative territorial entity> ?x2 .
-	?x4 <located in the administrative territorial entity>* <Lower Saxony> .
-	?x3 <subclass of>* <village> .
-}",0
-P331,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?c842 .
-	?c842 <subclass of>* <library> .
-	?x1 <located in the administrative territorial entity> ?c650 .
-	?c650 <located in the administrative territorial entity>* <Wales> .
-}",0
-P332,"SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x1 <coordinate location> ?x3 .
-	?x1 <instance of> ?c898 .
-	?c898 <subclass of>* <human settlement> .
-	?x1 <located in the administrative territorial entity>* <West Bengal> .
-}",0
-P333,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <located in the administrative territorial entity>* <Berlin> .
-	?x1 <instance of> ?c605 .
-	?c605 <subclass of>* <building> .
-}",0
-P334,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Local Court Stuttgart> <located in the administrative territorial entity>* ?x1 .
-}",0
-P335,"SELECT * WHERE {
-	?x1 <subclass of> ?x2 .
-	?x1 <subclass of>* <occupation> .
-}",0
-P336,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> <Genoa> .
-	?x1 <instance of>+ <human settlement> .
-}",0
-P337,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x3 <subclass of>* <church building> .
-	?x2 <located in the administrative territorial entity>* <Parma> .
-}",0
-P338,"SELECT * WHERE {
-	<André Grosjean> <occupation> ?x1 .
-	?x1 <subclass of>* ?c325 .
-	?c325 <field of this occupation> ?x2 .
-}",1
-P339,"SELECT * WHERE {
-	?x1 <place of birth> ?x2 .
-	?x1 <instance of> ?c165 .
-	?c165 <subclass of>* <geographic region> .
-}",0
-P340,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Kaiserstuhl> <located in the administrative territorial entity>* ?x1 .
-}",0
-P341,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Hohenhausen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P342,"SELECT * WHERE {
-	<Nakaoka Shintarō> <occupation> ?x1 .
-	?x1 <subclass of>* ?c732 .
-	?c732 <field of this occupation> ?x2 .
-}",1
-P343,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <El Dorado County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P344,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}",0
-P345,"SELECT * WHERE {
-	?x1 <sponsor> ?x2 .
-	?x1 <instance of> ?c520 .
-	?c520 <subclass of>* <scholarly article> .
-}",1
-P346,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <country> ?x3 .
-	?x1 <instance of> ?c923 .
-	?c923 <subclass of>* <city> .
-}",0
-P347,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Al Hadabi> <located in the administrative territorial entity>* ?x1 .
-}",0
-P348,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <located in the administrative territorial entity>* <Mecklenburg-Western Pomerania> .
-	?x1 <instance of> ?c71 .
-	?c71 <subclass of>* <station> .
-}",0
-P349,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Amtsgericht Emmendingen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P350,"SELECT * WHERE {
-	<Marloes Coenen> <occupation> ?x1 .
-	?x1 <subclass of>* ?c971 .
-	?c971 <field of this occupation> ?x2 .
-}",1
-P351,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?c922 .
-	?c922 <subclass of>* <museum> .
-	?x2 <located in the administrative territorial entity>* <New York City> .
-}",0
-P352,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Vrchoslav> <located in the administrative territorial entity>* ?x1 .
-}",0
-P353,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Niche of St. Philip Neri> <located in the administrative territorial entity>* ?x1 .
-}",0
-P354,"SELECT * WHERE {
-	<Trinko Keen> <occupation> ?x1 .
-	?x1 <subclass of>* ?c727 .
-	?c727 <field of this occupation> ?x2 .
-}",1
-P355,"SELECT * WHERE {
-	?x1 <sex or gender> ?x2 .
-	?x1 <country of citizenship> ?x3 .
-	?x1 <SNAC ARK ID> ?x4 .
-	?x1 <Title not found> ?x5 .
-	?x1 <instance of> ?c215 .
-	?c215 <country of citizenship9>* <human> .
-}",0
-P356,"SELECT * WHERE {
-	?x1 <instance of> <metro station> .
-	?x1 <located in the administrative territorial entity>+ <Quebec> .
-}",0
-P357,"SELECT * WHERE {
-	?x1 <owned by> ?x2 .
-	?x1 <instance of> ?c966 .
-	?c966 <subclass of>* <organization> .
-}",0
-P358,"SELECT * WHERE {
-	?x1 <eye color> ?x2 .
-	?x1 <instance of> ?c132 .
-	?c132 <subclass of>* <human> .
-}",1
-P359,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Kleppelshagen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P360,"SELECT * WHERE {
-	?x1 <main subject> ?x2 .
-	?x1 <part of>* <Noctes Atticae> .
-}",0
-P362,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x4 <contains the administrative territorial entity> ?x2 .
-	?x4 <located in the administrative territorial entity>* <Lower Saxony> .
-	?x3 <subclass of>* <body of water> .
-}",0
-P363,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <Kern County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P364,"SELECT * WHERE {
-	?x1 <country> <Myanmar> .
-	?x1 <instance of> ?c153 .
-	?c153 <subclass of>* <hospital> .
-}",0
-P365,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Elsen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P366,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Buchenwälder im Rosengarten> <located in the administrative territorial entity>* ?x1 .
-}",0
-P367,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Glüsingen> <located in the administrative territorial entity>* ?x1 .
-}",0
-P368,"SELECT * WHERE {
-	?x1 <has fruit type> ?x2 .
-	?x1 <parent taxon>+ <plant> .
-}",0
-P369,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Heron> .
-}",0
-P370,"SELECT * WHERE {
-	?x1 <taxon rank> <species> .
-	?x1 <parent taxon> ?x2 .
-	?x2 <parent taxon>* <Hirundinidae> .
-}",0
-P371,"SELECT * WHERE {
-	?x1 <population> ?x2 .
-	?x1 <country> ?x3 .
-	?x1 <instance of> ?c856 .
-	?c856 <subclass of>* <city> .
-}",0
-P372,"SELECT * WHERE {
-	<Nikki Havenaar> <occupation> ?x1 .
-	?x1 <subclass of>* ?c237 .
-	?c237 <field of this occupation> ?x2 .
-}",1
-P373,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}",0
-P374,"SELECT * WHERE {
-	?x1 <occupation> ?x2 .
-	?x1 <occupation> ?x2 .
-	?x1 <instance of> <human> .
-	?x2 <instance of>* ?c799 .
-	?c799 <subclass of>* <murderer> .
-}",0
-P375,"SELECT * WHERE {
-	?x1 <country> ?x2 .
-	?x1 <coordinate location> ?x3 .
-	?x1 <instance of> ?c83 .
-	?c83 <subclass of>* <province of Afghanistan> .
-}",0
-P376,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Jabal A‘wās> <located in the administrative territorial entity>* ?x1 .
-}",0
-P378,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Jabal Shi‘b az Zahrā'> <located in the administrative territorial entity>* ?x1 .
-}",0
-P379,"SELECT * WHERE {
-	?x1 <country> <Italy> .
-	?x2 <instance of> ?c501 .
-	?c501 <subclass of>* <electoral unit> .
-}",0
-P380,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Borstel> <located in the administrative territorial entity>* ?x1 .
-}",0
-P381,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<St. Nicholas Church, Fehmarn> <located in the administrative territorial entity>* ?x1 .
-}",0
-P382,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <instance of> ?x3 .
-	?x2 <located in the administrative territorial entity>* <Monroe County> .
-	?x3 <subclass of>* <administrative territorial entity> .
-}",0
-P383,"SELECT * WHERE {
-	?x1 <instance of> <fossil> .
-	?x1 <located in the administrative territorial entity>* <United States of America> .
-}",0
-P384,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Höntrup> <located in the administrative territorial entity>* ?x1 .
-}",0
-P385,"SELECT * WHERE {
-	?x1 <country> <Estonia> .
-	?x1 <located in the administrative territorial entity> ?c804 .
-	?c804 <instance of>* <village> .
-}",0
-P386,"SELECT * WHERE {
-	?x1 <main subject> <Wikidata> .
-	?x1 <instance of> ?c909 .
-	?c909 <subclass of>* <article> .
-}",1
-P387,"SELECT * WHERE {
-	?x1 <located in the administrative territorial entity> ?x2 .
-	?x1 <country> <Germany> .
-	?x1 <coordinate location> ?x3 .
-	?x1 <instance of> ?c449 .
-	?c449 <subclass of>* <human settlement> .
-	?x1 <located in the administrative territorial entity>+ <Baden-Württemberg> .
-}",0
-P388,"SELECT * WHERE {
-	<Joseph W. Ashy> <occupation> ?x1 .
-	?x1 <subclass of>* ?c761 .
-	?c761 <field of this occupation> ?x2 .
-}",1
-P389,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Hoftor> <located in the administrative territorial entity>* ?x1 .
-}",0
-P390,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}",0
-P392,"SELECT * WHERE {
-	?x1 <country> <Japan> .
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c917 .
-	?c917 <subclass of>* <geographic region> .
-}",0
-P393,"SELECT * WHERE {
-	?x1 <instance of> ?x2 .
-	?x1 <located in the administrative territorial entity>+ <Genoa> .
-	?x2 <subclass of>+ <human settlement> .
-}",0
-P394,"SELECT * WHERE {
-	?x1 <template has topic> ?x2 .
-	?x1 <instance of> <Wikimedia infobox template> .
-	<Midden-Drenthe> <instance of> ?c46 .
-	?c46 <subclass of>* ?x2 .
-}",0
-P395,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<Brackel> <located in the administrative territorial entity>* ?x1 .
-}",0
-P396,"SELECT * WHERE {
-	?x1 <country of citizenship> <United States of America> .
-	?x1 <instance of> ?c627 .
-	?c627 <country of citizenship9>* <human> .
-}",0
-P397,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c704 .
-	?c704 <subclass of>* <university> .
-	?x1 <located in the administrative territorial entity>* <London> .
-}",0
-P398,"SELECT * WHERE {
-	?x1 <heritage designation> <architectural heritage monument> .
-	?x1 <country> <Germany> .
-	?x1 <located in the administrative territorial entity>+ <Bavaria> .
-}",0
-P399,"SELECT * WHERE {
-	?x1 <creator> ?x2 .
-	?x1 <location> ?x3 .
-	?x2 <member of> <Royal Academy of Arts> .
-	?x1 <instance of> ?c776 .
-	?c776 <subclass of>* <painting> .
-	?x3 <located in the administrative territorial entity>* <United Kingdom> .
-}",0
-P400,"SELECT * WHERE {
-	?x1 <coordinate location> ?x2 .
-	?x1 <instance of> ?c803 .
-	?c803 <NACSIS-CAT author ID>* <mountain> .
-}",0
-P401,"SELECT * WHERE {
-	?x1 <subclass of> ?x2 .
-	?x1 <subclass of>* <musical instrument> .
-}",0
-P402,"SELECT * WHERE {
-	?x1 <ISO 3166-2 code> ?x2 .
-	<No label defined> <located in the administrative territorial entity>* ?x1 .
-}",0
-P403,"SELECT * WHERE {
-	?x1 <country> ?x2 .
-	?x2 <instance of> <country> .
-	?x1 <instance of> ?c942 .
-	?c942 <subclass of>* <first-level administrative division> .
-}",0
+P180,Which municipal arrondissements are located in Paris?,0
+P181,What is the field of occupation of Stéphane Dujarric?,1
+P182,Which administrative territorial entities are located in Santa Barbara County and what type of administrative territorial entities are they?,0
+P183,"What is the ISO 3166-2 code of the administrative territorial entity where the region ""Mittlerer Schwarzwald"" is located?",0
+P184,"What is the ISO 3166-2 code of the administrative territorial entity where the region ""Brunsberg"" is located?",0
+P186,Which people were born in a geographic region?,0
+P187,What is the administrative territorial entity located in Hamburg which is also a subclass of administrative divisions of Germany?,0
+P188,What are all the instances of automobile models in Wikidata?,0
+P189,Which administrative territorial entity does the building located at 11 Place du Parlement in Rennes belong to based on its ISO 3166-2 code?,0
+P190,Which lighthouses are located in administrative territorial entities within the Netherlands?,0
+P191,What are the images of items on Wikidata that are instances of a subclass of food?,0
+P192,What are all the national sports teams that participate in road bicycle racing?,0
+P193,What's the ISO 3166-2 code of the administrative territorial entity where Gemeinde- und Zentralbücherei Seevetal-Meckelfeld is located?,0
+P195,Which academic journal articles discuss animals as their subject matter?,0
+P196,What is the ISO 3166-2 code for the administrative territorial entity where Chiesa San Martino is located?,0
+P197,"Which human artists have an occupation that is a subclass of ""artist"" and are associated with the Musée d'Orsay artist ID in Wikidata?",1
+P198,Which genes physically interact with proteins that have a genetic association with leukemia?,0
+P199,What's the ISO 3166-2 code of the administrative territorial entity where Amtsgericht Stuttgart-Bad Cannstatt is located?,0
+P200,What are the instances of graves located in Vienna's administrative territorial entity?,1
+P201,Which films does Daniel Vernet appear in as a cast member?,1
+P202,Which administrative territorial entities have universities located within them?,0
+P203,What universities in London have a coordinate location?,0
+P204,What administrative territorial entities are contained within Valencia Province and have a geographic location within an administrative territorial entity which is a subclass of administrative territorial entities?,0
+P205,"What are the taxon ranks, parent taxons, and taxon names of all taxa with the parent taxon Pteropodidae?",0
+P206,What is the ISO 3166-2 code of the administrative territorial entity where Jabal an Nahdayn is located?,0
+P207,What are the images of paintings that depict musical instruments in Wikidata?,0
+P208,"Which administrative territorial entity does Februarigatan belong to, based on its ISO 3166-2 code?",0
+P209,What is the population of all the communes of France?,0
+P210,What is the ISO 3166-2 code of administrative territorial entities located in Limberg?,0
+P211,"What are the taxonomic ranks of taxa that are part of the rank ""Theria""?",0
+P212,Which species belong to the taxonomic family Formicariidae?,0
+P213,What are the families of species that have a lineage traceable to the Lepidoptera order?,0
+P214,What are all the geoshapes located in Wales?,0
+P215,What are the species that belong to the taxonomic hierarchy which includes the Hornbill family?,0
+P216,"What are the populations, countries, coordinate locations, and instances of cities?",0
+P217,"In which administrative territorial entity is the library ""Metropolitankapitel Bamberg Bibliothek"" located, and what is its ISO 3166-2 code?",0
+P218,"Which taxonomic ranks are related to each other where one is a parent taxon of the other, the first is an instance of a taxon, and the second is a part of the first?",0
+P219,What are the ISO 3166-2 codes of the administrative territorial entities where Hiddesen is located?,0
+P220,Which administrative territorial entity is the location of Jabal Shi‘bat al Khāwī based on its ISO 3166-2 code?,0
+P222,"What are the species that belong to the taxonomic family Emberizidae, and what are their immediate parent taxa?",0
+P223,Which species belong to the taxonomic family Meropidae?,0
+P224,Which watercourses have the same drainage basin as their mouth and the same drainage basin as the watercourse they drain into?,0
+P225,Which entities are instances of a subclass of 'building material'?,0
+P226,"What are the populations, countries, areas, and instances of administrative territorial entities in Austria on Wikidata?",0
+P227,Which administrative territorial entities are located within San Bernardino County and are instances of a subclass of administrative territorial entities?,0
+P228,What countries are located in Asia?,1
+P229,Which rural districts are located in Lower Saxony and contain an administrative territorial entity that is located in Lower Saxony?,0
+P230,What are the works authored by humans?,1
+P232,Which ISO 3166-2 code is associated with administrative territorial entity where Brunsberg is located?,0
+P233,Which politicians were born in Poland?,0
+P234,Which humans have authored works?,1
+P235,In which administrative territorial entity is Ash Shaykh located based on its ISO 3166-2 code?,0
+P236,What are all the airports located in Belgium?,0
+P237,What are the fields associated with the occupation of Henry Martin and its subclasses?,1
+P238,In which administrative territorial entity is Bötersheim located based on its ISO 3166-2 code?,0
+P239,What are all the genes that are instances of biological processes according to the Gene Ontology ID?,0
+P240,Which church buildings are located in the administrative territorial entity of Mayenne?,0
+P241,"""What are the occupations of female artists in Wikidata?""",0
+P242,Which church buildings are located in Mayenne?,0
+P243,What is the ISO 3166-2 code of the administrative territorial entity where the Amtsgericht Kenzingen is located?,0
+P244,Which entities have a coordinate location and are located in the administrative territorial entity of San Francisco?,0
+P245,What are the official names of cities in Germany?,0
+P246,What musical groups classified as post-hardcore were formed in Wales?,0
+P247,What are the operators and administrative territorial entities of libraries located in Wales in Wikidata?,0
+P248,Which architectural structures in France have as their instance?,0
+P249,"In which administrative territorial entity is Schwarzenburg (Breisgau) located, based on its ISO 3166-2 code?",0
+P250,Which ISO 3166-2 codes are associated with administrative territorial entities that have a location label defined?,0
+P251,What is the field of occupation of Segundo Mercado and its subclasses?,1
+P252,What species within the taxonomic group of songbirds exhibit bipedalism as a means of locomotion?,1
+P253,Which mountains are a part of the Himalayas and what are their corresponding instances?,1
+P254,Which species belong to the taxonomic family Otididae?,0
+P255,What are the populations and areas of all cities?,0
+P256,Which industries are associated with organizations on Wikidata?,0
+P257,What is the field of occupation for individuals who are subclass of the occupation of Robert Schumann?,1
+P258,What are the taxonomic ranks of all taxa that belong to the order Carnivora and are directly or indirectly connected to a specific parent taxon?,0
+P259,What is the ISO 3166-2 code for the administrative territorial entity where Jabal al Yājūrah is located in?,0
+P260,"What are the specific parts associated with the United States House of Representatives, and what are their general categories?",0
+P261,What are the ISO 3166-2 codes of the administrative territorial entities in which the Bücherei im Rathaus Neu Wulmstorf is located?,0
+P262,What are the male writers on Wikidata who are instances of humans?,0
+P263,What are the populations of administrative territorial entities of Austria?,0
+P264,What are the taxonomic ranks of taxa that are part of the parent taxon Theria?,0
+P265,What buildings in Berlin have a coordinate location?,0
+P266,What is the ISO 3166-2 code for the administrative territorial entity in which Llandough is located?,0
+P267,What are the instances of humans who are citizens of the People's Republic of China in Wikidata?,0
+P268,"What are the cultural heritage monuments in Germany that are church buildings located in Mecklenburg-Western Pomerania, and what are their coordinates?",0
+P269,What are the discoverers or inventors of artificial physical objects?,0
+P270,What is the ISO 3166-2 code of the administrative territorial entity where the Mariensäule is located?,0
+P271,Which administrative territorial entities contain Holzhausen-Externsteine based on their ISO 3166-2 codes?,0
+P272,What islands are located in the administrative territorial entity of Aceh and what countries are they a part of?,0
+P273,"Which items are subclasses of ""composed musical work"" in Wikidata?",0
+P274,What is the ISO 3166-2 code of the administrative territorial entity where Bahlingen am Kaiserstuhl is located?,0
+P275,Which works were created by Vincent van Gogh?,1
+P276,What are all the instances that are both instances of a subclass of a lake?,0
+P277,What are the official names of ministries of the Kingdom of Italy?,0
+P278,Which cemeteries are located in Scotland?,0
+P279,Which entities are located in Albemarle County and are instances or subclasses of an administrative territorial entity?,0
+P280,"Which administrative territorial entities does Flesberg belong to, when expressed with ISO 3166-2 codes?",0
+P281,"In which administrative territorial entity is Osbysjön located, and what is its corresponding ISO 3166-2 code?",0
+P283,What politicians were born in Poland?,0
+P284,What is the field of occupation of Christophe Careshe?,1
+P285,What are all the articles about The Holocaust on Wikidata?,1
+P286,Which administrative territorial entities is Humfeld located in and what are their corresponding ISO 3166-2 codes?,0
+P287,What are all the villages located in the People's Republic of China?,0
+P288,"In which administrative territorial entity is the ""Höxter Rathaus station"" located and what is its ISO 3166-2 code?",0
+P289,What paintings created by artists located in Sweden are documented on Wikidata?,0
+P290,Which islands are located within the administrative territorial entity of Paris and what are their coordinates?,0
+P291,Which administrative territorial entities is Holzhausen located in based on their ISO 3166-2 code?,0
+P292,What are the ISO 3166-2 codes associated with administrative territorial entities that are located within a specific administrative territorial entity in Wikidata?,0
+P294,"Which administrative territorial entity does the location ""Scheune"" belong to based on the ISO 3166-2 code?",0
+P295,"In which administrative territorial entity is Eskilsø located, and what is its ISO 3166-2 code?",0
+P296,What are the genders and instances of structures for the given entities in wikidata?,0
+P297,What are all the architectural heritage monuments located in Bavaria?,0
+P298,"What are all the instances of a specific entity that is also classified as a ""key"" in Wikidata?",0
+P299,What types of sculptures located in France are related to Joan of Arc?,0
+P300,Which ISO 3166-2 code is associated with the administrative territorial entity where Hörstmar is located?,0
+P301,"Which municipalities in Baden-Württemberg, Germany have a coordinate location and are located within an administrative territorial entity in Germany?",0
+P302,What are the images of paintings that are instances of alcoholic beverages?,0
+P303,"In which administrative territorial entity is Calle de Arturo Soria located, based on its ISO 3166-2 code?",0
+P304,Which administrative territorial entities have ISO 3166-2 codes that are connected to the Empire of Brazil?,0
+P305,Which cities have a coordinate location in Wikidata?,0
+P306,What are all the cities located in the administrative territorial entity of Brandenburg?,0
+P307,What are all the entities that are located in an administrative territorial entity that is located in Luzerne County and are instances of or subclasses of administrative territorial entities?,0
+P308,Which species are descendants of the sunbird taxon?,0
+P309,What is the field of occupation of Ernst Maria Lieber?,0
+P310,What are the populations of all cities?,0
+P312,What universities are located in the administrative territorial entity with the ISO 3166-2 code corresponding to that of the university archive in Bamberg?,0
+P313,What are the taxonomic ranks of taxa that are part of Theria and their respective parent taxa?,0
+P314,"Which administrative territorial entity does ""Jabal al Kawlah"" belong to, and what is its corresponding ISO 3166-2 code?",0
+P315,Which universities are located in countries with ISO 3166-2 codes?,0
+P316,What are all the instances that are subclasses of ordinary matter in Wikidata?,0
+P317,What are the species that belong to the taxonomic family Petroicidae?,0
+P318,"What are the populations, countries, ISO 3166-2 codes, and instances of cities in wikidata?",0
+P319,"What are the species that are part of the taxonomic rank ""species"" and belong to the family ""Alcidae""?",0
+P320,"Which taxa that are classified as ""Theria"" have a parent taxon with a certain taxon rank that is part of another taxon rank?",0
+P321,"Which administrative territorial entity is <Jabal Nuqum> located in, and what is its ISO 3166-2 code?",0
+P322,Which politicians who were born in England have held the position of Member of the Scottish Parliament?,0
+P323,What is the ISO 3166-2 code for the administrative territorial entity where the Library of the Oberlandesgericht Bamberg is located?,0
+P324,Which mammals have a taxonomic relationship where they are ranked higher than another taxon that is also a mammal?,0
+P325,"Which administrative territorial entities does the location ""Hornoldendorf"" correspond to based on their ISO 3166-2 codes in Wikidata?",0
+P326,Which paintings depict text in their images?,0
+P327,Which administrative territorial entity does Želvice belong to and what is its corresponding ISO 3166-2 code?,0
+P328,What is the ISO 3166-2 code of the administrative territorial entity where Grytefotsvägen is located?,0
+P329,Which books were authored by Daniel Vernet?,1
+P330,Which villages are located in administrative territorial entities contained within Lower Saxony?,0
+P331,What libraries are located in Wales?,0
+P332,What human settlements located in West Bengal have a coordinate location?,0
+P333,What are the coordinates of buildings located in Berlin?,0
+P334,In which administrative territorial entity is the Local Court Stuttgart located and what is its corresponding ISO 3166-2 code?,0
+P335,What occupations are subclasses of other occupations in Wikidata?,0
+P336,What are all the human settlements located in the administrative territorial entity of Genoa?,0
+P337,Which church buildings are located in Parma?,0
+P338,What is the field of occupation of André Grosjean?,1
+P339,Which geographic regions are the birthplaces of individuals in Wikidata?,0
+P340,What ISO 3166-2 code is associated with Kaiserstuhl and in which administrative territorial entity is it located?,0
+P341,What are the ISO 3166-2 codes of the administrative territorial entities in which Hohenhausen is located?,0
+P342,What is the field of occupation of Nakaoka Shintarō and its subclass?,1
+P343,What are all the items that are instances of administrative territorial entities and are located within El Dorado County?,0
+P344,What are the ISO 3166-2 codes of administrative territorial entities that are located in a specific administrative territorial entity?,0
+P345,What are the sponsors of scholarly articles on Wikidata?,1
+P346,"What are the located administrative territorial entities, countries, and instances of the subclass cities?",0
+P347,"Which administrative territorial entity is Al Hadabi located in, based on its ISO 3166-2 code?",0
+P348,Which stations are located in Mecklenburg-Western Pomerania and in which geographic coordinates are they situated?,0
+P349,"In which administrative territorial entity is the Amtsgericht Emmendingen located, and what is its corresponding ISO 3166-2 code?",0
+P350,What is the field of occupation of Marloes Coenen?,1
+P351,What museums are located in New York City?,0
+P352,Which administrative territorial entity does Vrchoslav belong to based on its ISO 3166-2 code?,0
+P353,"In which administrative territorial entity is Niche of St. Philip Neri located, and what is its ISO 3166-2 code?",0
+P354,What are the fields of occupation for Trinko Keen?,1
+P355,"What are the sex or gender, country of citizenship, SNAC ARK ID, title not found, and instance of relationships of humans in Wikidata?",0
+P356,What are all the metro stations located in the administrative territorial entity of Quebec?,0
+P357,What are all the organizations that are owned by another entity in Wikidata?,0
+P358,What are the eye colors of humans?,1
+P359,What is the ISO 3166-2 code for the administrative territorial entity where Kleppelshagen is located?,0
+P360,"What are the main subjects of items that are part of or related to ""Noctes Atticae"" on Wikidata?",0
+P362,Which bodies of water are located in administrative territorial entities that are contained within Lower Saxony?,0
+P363,What are the administrative territorial entities located within Kern County and their corresponding instances of administrative territorial entities?,0
+P364,Which hospitals are located in Myanmar?,0
+P365,In which administrative territorial entity is Elsen located based on its ISO 3166-2 code?,0
+P366,Which administrative territorial entities do the beech forests in Rosengarten fall under based on their ISO 3166-2 codes?,0
+P367,"Which administrative territorial entities does the location ""Glüsingen"" belong to, along with their corresponding ISO 3166-2 codes?",0
+P368,What types of fruits do plants have?,0
+P369,"Which species are under the taxonomic rank of species and are part of the taxonomic group ""Heron"" or any of its subgroups?",0
+P370,Which species belong to the taxonomic group that is a child of the Hirundinidae family?,0
+P371,Which cities have a population and in which country are they located?,0
+P372,What is the field of occupation of individuals who are in the same subclass as Nikki Havenaar in Wikidata?,1
+P373,"Which administrative territorial entities have ISO 3166-2 codes, and what are the corresponding ISO 3166-2 codes?",0
+P374,Which humans have occupations that are classified as murderers in Wikidata?,0
+P375,Which countries have provinces in Afghanistan along with their coordinates?,0
+P376,"In which administrative territorial entity is Jabal A‘wās located, and what is its ISO 3166-2 code?",0
+P378,What is the ISO 3166-2 code for the administrative territorial entity in which Jabal Shi‘b az Zahrā' is located?,0
+P379,What are the instances of electoral units in Italy?,0
+P380,What is the ISO 3166-2 code for administrative territorial entities where Borstel is located?,0
+P381,"Which country does St. Nicholas Church, Fehmarn (located in the administrative territorial entity) belong to based on its ISO 3166-2 code?",0
+P382,Which administrative territorial entities are located in Monroe County and what type of administrative territorial entity do they belong to?,0
+P383,Which fossils are located in administrative territorial entities within the United States of America?,0
+P384,What administrative territorial entities is Höntrup located in based on their ISO 3166-2 code?,0
+P385,Which villages are located in Estonia?,0
+P386,What are all the articles on Wikidata and what are their main subjects?,1
+P387,"Which human settlements located in Baden-Württemberg, Germany, have their administrative territorial entity, country, coordinate location, and are instances of a human settlement?",0
+P388,What is the field of occupation of Joseph W. Ashy?,1
+P389,"What administrative territorial entity is Hoftor located in, and what is its corresponding ISO 3166-2 code?",0
+P390,Which administrative territorial entity has ISO 3166-2 code as ?x2?,0
+P392,Which geographic regions in Japan have a coordinate location?,0
+P393,What are all human settlements located in the administrative territorial entity of Genoa?,0
+P394,What Wikimedia infobox templates are related to the topic of Midden-Drenthe?,0
+P395,Which ISO 3166-2 codes belong to administrative territorial entities located in Brackel?,0
+P396,What are the instances of humans who are citizens of the United States of America?,0
+P397,What universities are located in London and what are their coordinates?,0
+P398,Which architectural heritage monuments in Germany are located in the administrative territorial entity of Bavaria?,0
+P399,Which paintings created by a member of the Royal Academy of Arts are located in the United Kingdom?,0
+P400,What are the locations and types of mountains with NACSIS-CAT author IDs in Wikidata?,0
+P401,What are the different types of musical instruments and their subclasses in Wikidata?,0
+P402,In which administrative territorial entities do entities with ISO 3166-2 codes exist?,0
+P403,What countries are first-level administrative divisions?,0

@@ -1,0 +1,1108 @@
+query_id,query,label
+P180,"SELECT * WHERE {
+	?x1 <instance of> <municipal arrondissement> .
+	?x1 <located in the administrative territorial entity>* <Paris> .
+}",0
+P181,"SELECT * WHERE {
+	<Stéphane Dujarric> <occupation> ?x1 .
+	?x1 <subclass of>* ?c815 .
+	?c815 <field of this occupation> ?x2 .
+}",1
+P182,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x2 <located in the administrative territorial entity>* <Santa Barbara County> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P183,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Mittlerer Schwarzwald> <located in the administrative territorial entity>* ?x1 .
+}",0
+P184,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Brunsberg> <located in the administrative territorial entity>* ?x1 .
+}",0
+P186,"SELECT * WHERE {
+	?x1 <place of birth> ?x2 .
+	?x1 <instance of> ?c235 .
+	?c235 <subclass of>+ <geographic region> .
+}",0
+P187,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x4 <located in the administrative territorial entity>* <Hamburg> .
+	?x4 <contains the administrative territorial entity> ?x2 .
+	?x3 <subclass of>* <administrative divisions of Germany> .
+}",0
+P188,"SELECT * WHERE {
+	?x1 <instance of> <automobile model> .
+	?x1 <instance of>* <automobile model> .
+}",0
+P189,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Immeuble, 11 place du Parlement (Rennes)> <located in the administrative territorial entity>* ?x1 .
+}",0
+P190,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> <lighthouse> .
+	?x2 <located in the administrative territorial entity>* <Netherlands> .
+}",0
+P191,"SELECT * WHERE {
+	?x1 <image> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x1 <instance of> ?c192 .
+	?c192 <subclass of>+ <food> .
+}",0
+P192,"SELECT * WHERE {
+	?x1 <instance of> <national sports team> .
+	?x1 <sport>* <road bicycle racing> .
+}",0
+P193,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Gemeinde- und Zentralbücherei Seevetal-Meckelfeld> <located in the administrative territorial entity>* ?x1 .
+}",0
+P195,"SELECT * WHERE {
+	?x1 <author> ?x2 .
+	?x1 <instance of> ?c443 .
+	?c443 <subclass of>* <academic journal article> .
+	?x2 <instance of> ?c860 .
+	?c860 <subclass of>* <animal> .
+}",0
+P196,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Chiesa San Martino> <located in the administrative territorial entity>* ?x1 .
+}",0
+P197,"SELECT * WHERE {
+	?x1 <Musée d'Orsay artist ID> ?x2 .
+	?x1 <instance of> <human> .
+	?x1 <occupation> ?c409 .
+	?c409 <subclass of>* <artist> .
+}",1
+P198,"SELECT * WHERE {
+	?x1 <physically interacts with> ?x2 .
+	?x3 <genetic association> ?x4 .
+	?x4 <encodes> ?x2 .
+	?x3 <subclass of>* <leukemia> .
+}",0
+P199,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Amtsgericht Stuttgart-Bad Cannstatt> <located in the administrative territorial entity>* ?x1 .
+}",0
+P200,"SELECT * WHERE {
+	# ?x1 <coordinate location> ?x2 .
+	?x1 <located in the administrative territorial entity>+ <Vienna> .
+	?x1 <instance of> ?c567 .
+	?c567 <subclass of>* <grave> .
+}",1
+P201,"SELECT * WHERE {
+	?x1 <cast member> <Daniel Vernet> .
+	?x1 <instance of> ?c560 .
+	?c560 <subclass of>* <film> .
+}",1
+P202,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?c254 .
+	?c254 <subclass of>* <university> .
+}",0
+P203,"SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <coordinate location> ?x3 .
+	?x1 <located in the administrative territorial entity>* <London> .
+	?x1 <instance of> ?c956 .
+	?c956 <subclass of>* <university> .
+}",0
+P204,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x4 <contains the administrative territorial entity> ?x2 .
+	?x4 <located in the administrative territorial entity>* <Valencia Province> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P205,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <taxon name> ?x4 .
+	<Pteropodidae> <parent taxon>* ?x1 .
+}",0
+P206,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Jabal an Nahdayn> <located in the administrative territorial entity>* ?x1 .
+}",0
+P207,"SELECT * WHERE {
+	?x1 <depicts> ?x2 .
+	?x1 <image> ?x3 .
+	?x1 <instance of> ?c356 .
+	?c356 <subclass of>* <painting> .
+	?x2 <subclass of>* <musical instrument> .
+}",0
+P208,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Februarigatan> <located in the administrative territorial entity>* ?x1 .
+}",0
+P209,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <instance of>* <commune of France> .
+}",0
+P210,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Limberg> <located in the administrative territorial entity>* ?x1 .
+}",0
+P211,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x3 <taxon rank> ?x4 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <instance of> <taxon> .
+	?x3 <instance of> <taxon> .
+	?x4 <part of> ?x2 .
+	?x1 <parent taxon>+ <Theria> .
+}",0
+P212,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Formicariidae> .
+}",0
+P213,"SELECT * WHERE {
+	?x1 <taxon rank> <family> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Lepidoptera> .
+}",0
+P214,"SELECT * WHERE {
+	?x1 <geoshape> ?x2 .
+	?x1 <located in the administrative territorial entity>* <Wales> .
+}",0
+P215,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Hornbill> .
+}",0
+P216,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <country> ?x3 .
+	?x1 <coordinate location> ?x4 .
+	?x1 <instance of> ?c806 .
+	?c806 <subclass of>* <city> .
+}",0
+P217,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Metropolitankapitel Bamberg. Bibliothek> <located in the administrative territorial entity>* ?x1 .
+}",0
+P218,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x3 <taxon rank> ?x4 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <instance of> <taxon> .
+	?x4 <part of>+ ?x2 .
+}",0
+P219,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Hiddesen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P220,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Jabal Shi‘bat al Khāwī> <located in the administrative territorial entity>* ?x1 .
+}",0
+P222,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Emberizidae> .
+}",0
+P223,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Meropidae> .
+}",0
+P224,"SELECT * WHERE {
+	?x1 <mouth of the watercourse> ?x2 .
+	?x1 <drainage basin> ?x3 .
+	?x2 <drainage basin> ?x4 .
+	?x4 <drainage basin> ?x3 .
+	?x1 <instance of> ?c171 .
+	?c171 <subclass of>* <watercourse> .
+	?x2 <instance of> ?c701 .
+	?c701 <subclass of>* <watercourse> .
+}",0
+P225,"SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x2 <subclass of>+ <building material> .
+}",0
+P226,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <country> ?x3 .
+	?x1 <area> ?x4 .
+	?x1 <instance of> ?c874 .
+	?c874 <subclass of>* <administrative territorial entity of Austria> .
+}",0
+P227,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x2 <located in the administrative territorial entity>* <San Bernardino County> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P228,"SELECT * WHERE {
+	?x1 <instance of> <country> .
+	?x1 <located in the administrative territorial entity>* ?c972 .
+	?c972 <country> ?c855 .
+	?c855 <continent> ?c365 .
+	?c365 <part of> <Asia> .
+}",1
+P229,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x4 <contains the administrative territorial entity> ?x2 .
+	?x4 <located in the administrative territorial entity>* <Lower Saxony> .
+	?x3 <subclass of>* <rural district> .
+}",0
+P230,"SELECT * WHERE {
+	?x1 <instance of> <human> .
+	?x1 <author> ?x2 .
+	?x2 <instance of> ?c521 .
+	?c521 <subclass of>* <work> .
+}",1
+P232,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Brunsberg> <located in the administrative territorial entity>* ?x1 .
+}",0
+P233,"SELECT * WHERE {
+	?x1 <place of birth> <Poland> .
+	?x1 <occupation>* <politician> .
+}",0
+P234,"SELECT * WHERE {
+	?x1 <instance of> <human> .
+	?x1 <author> ?c301 .
+	?c301 <instance of> ?c1 .
+	?c1 <subclass of>+ <work> .
+}",1
+P235,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Ash Shaykh> <located in the administrative territorial entity>* ?x1 .
+}",0
+P236,"SELECT * WHERE {
+	?x1 <country> <Belgium> .
+	?x1 <instance of> ?c610 .
+	?c610 <subclass of>* <airport> .
+}",0
+P237,"SELECT * WHERE {
+	<Henry Martin> <occupation> ?x1 .
+	?x1 <subclass of>* ?c601 .
+	?c601 <field of this occupation> ?x2 .
+}",1
+P238,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Bötersheim> <located in the administrative territorial entity>* ?x1 .
+}",0
+P239,"SELECT * WHERE {
+	?x1 <Gene Ontology ID> ?x2 .
+	?x1 <instance of> ?c907 .
+	?c907 <subclass of>* <biological process> .
+}",0
+P240,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?c185 .
+	?c185 <subclass of>* <church building> .
+	?x1 <located in the administrative territorial entity>* <Mayenne> .
+}",0
+P241,"SELECT * WHERE {
+	?x1 <sex or gender> <female> .
+	?x1 <occupation> ?c713 .
+	?c713 <subclass of>* <artist> .
+}",0
+P242,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x2 <located in the administrative territorial entity>+ <Mayenne> .
+	?x1 <instance of> ?c192 .
+	?c192 <subclass of>* <church building> .
+}",0
+P243,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Amtsgericht Kenzingen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P244,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <located in the administrative territorial entity>* <San Francisco> .
+}",0
+P245,"SELECT * WHERE {
+	?x1 <official name> ?x2 .
+	?x1 <instance of> <city> .
+	?x1 <country>+ <Germany> .
+}",0
+P246,"SELECT * WHERE {
+	?x1 <genre> <post-hardcore> .
+	?x1 <instance of> <musical group> .
+	?x1 <location of formation> ?c171 .
+	?c171 <located in the administrative territorial entity>* <Wales> .
+}",0
+P247,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <operator> ?x3 .
+	?x1 <instance of> ?c414 .
+	?c414 <subclass of>* <library> .
+	?x1 <located in the administrative territorial entity>* <Wales> .
+}",0
+P248,"SELECT * WHERE {
+	?x1 <country> <France> .
+	?x1 <instance of> ?c335 .
+	?c335 <subclass of>* <architectural structure> .
+}",0
+P249,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Schwarzenburg (Breisgau)> <located in the administrative territorial entity>* ?x1 .
+}",0
+P250,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Pfarrhof> <located in the administrative territorial entity>* ?x1 .
+}",0
+P251,"SELECT * WHERE {
+	<Segundo Mercado> <occupation> ?x1 .
+	?x1 <subclass of>* ?c487 .
+	?c487 <field of this occupation> ?x2 .
+}",1
+P252,"SELECT * WHERE {
+	?x1 <means of locomotion> <bipedalism> .
+	?x1 <instance of> ?c549 .
+	?c549 <subclass of> <taxon> .
+	?x1 <parent taxon>+ <songbirds> .
+}",1
+P253,"SELECT * WHERE {
+	?x1 <part of> <Himalayas> .
+	?x1 <instance of> ?c425 .
+	?c425 <subclass of>* <mountain> .
+}",1
+P254,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Otididae> .
+}",0
+P255,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <area> ?x3 .
+	?x1 <instance of> ?c18 .
+	?c18 <subclass of>* <city> .
+}",0
+P256,"SELECT * WHERE {
+	?x1 <industry> ?x2 .
+	?x1 <instance of> ?c418 .
+	?c418 <subclass of>* <organization> .
+}",0
+P257,"SELECT * WHERE {
+	<Robert Schumann> <occupation> ?x1 .
+	?x1 <subclass of>* ?c724 .
+	?c724 <field of this occupation> ?x2 .
+}",1
+P258,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <instance of> <taxon> .
+	?x1 <parent taxon>+ <Carnivora> .
+	?x1 <parent taxon> ?c994 .
+	?c994 <taxon rank> ?x4 .
+	?x4 <part of>+ ?x2 .
+}",0
+P259,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Jabal al Yājūrah> <located in the administrative territorial entity>* ?x1 .
+}",0
+P260,"SELECT * WHERE {
+	<United States House of Representatives> <has part(s)> ?x1 .
+	?x2 <instance of> ?c935 .
+	?c935 <subclass of>* ?x1 .
+}",0
+P261,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Bücherei im Rathaus Neu Wulmstorf> <located in the administrative territorial entity>* ?x1 .
+}",0
+P262,"SELECT * WHERE {
+	?x1 <occupation> <writer> .
+	?x1 <sex or gender> <male> .
+	?x1 <instance of> ?c186 .
+	?c186 <subclass of>* <human> .
+}",0
+P263,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <instance of> ?c563 .
+	?c563 <subclass of>* <administrative territorial entity of Austria> .
+}",0
+P264,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x3 <taxon rank> ?x4 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <instance of> <taxon> .
+	?x3 <instance of> <taxon> .
+	?x2 <instance of> <taxonomic rank> .
+	?x4 <instance of> <taxonomic rank> .
+	?x4 <part of> ?x2 .
+	?x1 <parent taxon>+ <Theria> .
+}",0
+P265,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c226 .
+	?c226 <subclass of>* <building> .
+	?x1 <located in the administrative territorial entity>* <Berlin> .
+}",0
+P266,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Llandough> <located in the administrative territorial entity>* ?x1 .
+}",0
+P267,"SELECT * WHERE {
+	?x1 <country of citizenship> <People's Republic of China> .
+	?x1 <instance of> ?c347 .
+	?c347 <country of citizenship9>* <human> .
+}",0
+P268,"SELECT * WHERE {
+	?x1 <heritage designation> <cultural heritage monument in Germany> .
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c948 .
+	?c948 <subclass of>* <church building> .
+	?x1 <located in the administrative territorial entity>* <Mecklenburg-Western Pomerania> .
+}",0
+P269,"SELECT * WHERE {
+	?x1 <discoverer or inventor> ?x2 .
+	?x1 <instance of> ?c904 .
+	?c904 <subclass of>* <artificial physical object> .
+}",0
+P270,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Mariensäule> <located in the administrative territorial entity>* ?x1 .
+}",0
+P271,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Holzhausen-Externsteine> <located in the administrative territorial entity>* ?x1 .
+}",0
+P272,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> <Aceh> .
+	?x1 <country> ?x2 .
+	?x1 <instance of>* <island> .
+}",0
+P273,"SELECT * WHERE {
+	?x1 <subclass of> ?x2 .
+	?x1 <subclass of>* <composed musical work> .
+}",0
+P274,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Bahlingen am Kaiserstuhl> <located in the administrative territorial entity>* ?x1 .
+}",0
+P275,"SELECT * WHERE {
+	?x1 <creator> <Vincent van Gogh> .
+	?x1 <instance of> ?c303 .
+	?c303 <subclass of>* <work> .
+}",1
+P276,"SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <instance of> ?c783 .
+	?c783 <subclass of>* <lake> .
+}",0
+P277,"SELECT * WHERE {
+	?x1 <official name> ?x2 .
+	?x1 <instance of> ?c198 .
+	?c198 <subclass of>* <ministry of the Kingdom of Italy> .
+}",0
+P278,"SELECT * WHERE {
+	?x1 <instance of> <cemetery> .
+	?x1 <located in the administrative territorial entity>+ <Scotland> .
+}",0
+P279,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x2 <located in the administrative territorial entity>* <Albemarle County> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P280,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Flesberg> <located in the administrative territorial entity>* ?x1 .
+}",0
+P281,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Osbysjön> <located in the administrative territorial entity>* ?x1 .
+}",0
+P283,"SELECT * WHERE {
+	?x1 <country> <Poland> .
+	?x2 <place of birth> ?x1 .
+	?x2 <occupation>* <politician> .
+}",0
+P284,"SELECT * WHERE {
+	<Christophe Caresche> <occupation> ?x1 .
+	?x1 <subclass of>* ?c937 .
+	?c937 <field of this occupation> ?x2 .
+}",1
+P285,"SELECT * WHERE {
+	?x1 <main subject> <The Holocaust> .
+	?x1 <instance of> ?c983 .
+	?c983 <subclass of>* <article> .
+}",1
+P286,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Humfeld> <located in the administrative territorial entity>* ?x1 .
+}",0
+P287,"SELECT * WHERE {
+	?x1 <instance of> <village> .
+	?x1 <country>+ <People's Republic of China> .
+}",0
+P288,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Höxter Rathaus station> <located in the administrative territorial entity>* ?x1 .
+}",0
+P289,"SELECT * WHERE {
+	?x1 <creator> ?x2 .
+	?x1 <instance of> <painting> .
+	?x1 <located in the administrative territorial entity> ?c658 .
+	?c658 <country>* <Sweden> .
+}",0
+P290,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c15 .
+	?c15 <subclass of>* <island> .
+	?x1 <located in the administrative territorial entity>+ <Paris> .
+}",0
+P291,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Holzhausen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P292,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<No label defined> <located in the administrative territorial entity>* ?x1 .
+}",0
+P294,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Scheune> <located in the administrative territorial entity>* ?x1 .
+}",0
+P295,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Eskilsø> <located in the administrative territorial entity>* ?x1 .
+}",0
+P296,"SELECT * WHERE {
+	?x1 <sex or gender> ?x2 .
+	?x1 <instance of> ?c403 .
+	?c403 <subclass of>* <structure> .
+}",0
+P297,"SELECT * WHERE {
+	?x1 <heritage designation> <architectural heritage monument> .
+	?x1 <located in the administrative territorial entity> ?c59 .
+	?c59 <located in the administrative territorial entity>* <Bavaria> .
+}",0
+P298,"SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <instance of>* <key> .
+}",0
+P299,"SELECT * WHERE {
+	?x1 <main subject> <Joan of Arc> .
+	?x1 <located in the administrative territorial entity>+ <France> .
+	?x1 <instance of> ?c140 .
+	?c140 <subclass of>* <sculpture> .
+}",0
+P300,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Hörstmar> <located in the administrative territorial entity>* ?x1 .
+}",0
+P301,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <country> <Germany> .
+	?x1 <coordinate location> ?x3 .
+	?x1 <instance of> ?c54 .
+	?c54 <subclass of>* <municipality in Germany> .
+	?x1 <located in the administrative territorial entity>+ <Baden-Württemberg> .
+}",0
+P302,"SELECT * WHERE {
+	?x1 <image> ?x2 .
+	?x1 <instance of> ?c515 .
+	?c515 <subclass of>* <painting> .
+	?x1 <image0> ?c22 .
+	?c22 <subclass of>* <alcoholic beverage> .
+}",0
+P303,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<calle de Arturo Soria> <located in the administrative territorial entity>* ?x1 .
+}",0
+P304,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Empire of Brazil> <located in the administrative territorial entity>* ?x1 .
+}",0
+P305,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c799 .
+	?c799 <subclass of>* <city> .
+}",0
+P306,"SELECT * WHERE {
+	?x1 <instance of> <city> .
+	?x1 <located in the administrative territorial entity> ?c755 .
+	?c755 <located in the administrative territorial entity>* <Brandenburg> .
+}",0
+P307,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x2 <located in the administrative territorial entity>* <Luzerne County> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P308,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <sunbird> .
+}",0
+P309,"SELECT * WHERE {
+	<Ernst Maria Lieber> <occupation> ?x1 .
+	?x1 <subclass of>* ?c582 .
+	?c582 <field of this occupation> ?x2 .
+}",0
+P310,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <instance of> ?c85 .
+	?c85 <subclass of>* <city> .
+}",0
+P312,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<university archive Bamberg> <located in the administrative territorial entity>* ?x1 .
+}",0
+P313,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x3 <taxon rank> ?x4 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <instance of> <taxon> .
+	?x3 <instance of> <taxon> .
+	?x2 <instance of> <taxonomic rank> .
+	?x1 <parent taxon>+ <Theria> .
+	?x2 <part of>+ ?x4 .
+}",0
+P314,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Jabal al Kawlah> <located in the administrative territorial entity>* ?x1 .
+}",0
+P315,"SELECT * WHERE {
+	?x1 <country> ?x2 .
+	?x2 <ISO 3166-2 code> ?x3 .
+	?x1 <instance of>* <university> .
+}",0
+P316,"SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x2 <subclass of>+ <ordinary matter> .
+}",0
+P317,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Petroicidae> .
+}",0
+P318,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <country> ?x3 .
+	?x1 <ISO 3166-2 code> ?x4 .
+	?x1 <instance of> ?c29 .
+	?c29 <subclass of>* <city> .
+}",0
+P319,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Alcidae> .
+}",0
+P320,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <instance of> <taxon> .
+	?x1 <parent taxon>+ <Theria> .
+	?x1 <parent taxon> ?c877 .
+	?c877 <taxon rank> ?x4 .
+	?x4 <part of>+ ?x2 .
+}",0
+P321,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Jabal Nuqum> <located in the administrative territorial entity>* ?x1 .
+}",0
+P322,"SELECT * WHERE {
+	?x1 <occupation> <politician> .
+	?x1 <place of birth> ?x2 .
+	?x3 <subclass of> <Member of the Scottish Parliament> .
+	?x1 <position held> ?x3 .
+	?x2 <located in the administrative territorial entity>* <England> .
+}",0
+P323,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Oberlandesgericht Bamberg, Library> <located in the administrative territorial entity>* ?x1 .
+}",0
+P324,"SELECT * WHERE {
+	?x1 <taxon rank> ?x2 .
+	?x3 <taxon rank> ?x4 .
+	?x1 <parent taxon> ?x3 .
+	?x1 <instance of> <taxon> .
+	?x3 <instance of> <taxon> .
+	?x4 <part of> ?x2 .
+	?x1 <parent taxon>+ <mammal> .
+}",0
+P325,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Hornoldendorf> <located in the administrative territorial entity>* ?x1 .
+}",0
+P326,"SELECT * WHERE {
+	?x1 <depicts> ?x2 .
+	?x1 <image> ?x3 .
+	?x1 <instance of> ?c922 .
+	?c922 <subclass of>* <painting> .
+	?x2 <subclass of>* <text> .
+}",0
+P327,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Želvice> <located in the administrative territorial entity>* ?x1 .
+}",0
+P328,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Grytefotsvägen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P329,"SELECT * WHERE {
+	?x1 <author> <Daniel Vernet> .
+	?x1 <instance of> ?c318 .
+	?c318 <subclass of>* <book> .
+}",1
+P330,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x4 <contains the administrative territorial entity> ?x2 .
+	?x4 <located in the administrative territorial entity>* <Lower Saxony> .
+	?x3 <subclass of>* <village> .
+}",0
+P331,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?c842 .
+	?c842 <subclass of>* <library> .
+	?x1 <located in the administrative territorial entity> ?c650 .
+	?c650 <located in the administrative territorial entity>* <Wales> .
+}",0
+P332,"SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <coordinate location> ?x3 .
+	?x1 <instance of> ?c898 .
+	?c898 <subclass of>* <human settlement> .
+	?x1 <located in the administrative territorial entity>* <West Bengal> .
+}",0
+P333,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <located in the administrative territorial entity>* <Berlin> .
+	?x1 <instance of> ?c605 .
+	?c605 <subclass of>* <building> .
+}",0
+P334,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Local Court Stuttgart> <located in the administrative territorial entity>* ?x1 .
+}",0
+P335,"SELECT * WHERE {
+	?x1 <subclass of> ?x2 .
+	?x1 <subclass of>* <occupation> .
+}",0
+P336,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> <Genoa> .
+	?x1 <instance of>+ <human settlement> .
+}",0
+P337,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x3 <subclass of>* <church building> .
+	?x2 <located in the administrative territorial entity>* <Parma> .
+}",0
+P338,"SELECT * WHERE {
+	<André Grosjean> <occupation> ?x1 .
+	?x1 <subclass of>* ?c325 .
+	?c325 <field of this occupation> ?x2 .
+}",1
+P339,"SELECT * WHERE {
+	?x1 <place of birth> ?x2 .
+	?x1 <instance of> ?c165 .
+	?c165 <subclass of>* <geographic region> .
+}",0
+P340,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Kaiserstuhl> <located in the administrative territorial entity>* ?x1 .
+}",0
+P341,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Hohenhausen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P342,"SELECT * WHERE {
+	<Nakaoka Shintarō> <occupation> ?x1 .
+	?x1 <subclass of>* ?c732 .
+	?c732 <field of this occupation> ?x2 .
+}",1
+P343,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x2 <located in the administrative territorial entity>* <El Dorado County> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P344,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<No label defined> <located in the administrative territorial entity>* ?x1 .
+}",0
+P345,"SELECT * WHERE {
+	?x1 <sponsor> ?x2 .
+	?x1 <instance of> ?c520 .
+	?c520 <subclass of>* <scholarly article> .
+}",1
+P346,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <country> ?x3 .
+	?x1 <instance of> ?c923 .
+	?c923 <subclass of>* <city> .
+}",0
+P347,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Al Hadabi> <located in the administrative territorial entity>* ?x1 .
+}",0
+P348,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <located in the administrative territorial entity>* <Mecklenburg-Western Pomerania> .
+	?x1 <instance of> ?c71 .
+	?c71 <subclass of>* <station> .
+}",0
+P349,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Amtsgericht Emmendingen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P350,"SELECT * WHERE {
+	<Marloes Coenen> <occupation> ?x1 .
+	?x1 <subclass of>* ?c971 .
+	?c971 <field of this occupation> ?x2 .
+}",1
+P351,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?c922 .
+	?c922 <subclass of>* <museum> .
+	?x2 <located in the administrative territorial entity>* <New York City> .
+}",0
+P352,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Vrchoslav> <located in the administrative territorial entity>* ?x1 .
+}",0
+P353,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Niche of St. Philip Neri> <located in the administrative territorial entity>* ?x1 .
+}",0
+P354,"SELECT * WHERE {
+	<Trinko Keen> <occupation> ?x1 .
+	?x1 <subclass of>* ?c727 .
+	?c727 <field of this occupation> ?x2 .
+}",1
+P355,"SELECT * WHERE {
+	?x1 <sex or gender> ?x2 .
+	?x1 <country of citizenship> ?x3 .
+	?x1 <SNAC ARK ID> ?x4 .
+	?x1 <Title not found> ?x5 .
+	?x1 <instance of> ?c215 .
+	?c215 <country of citizenship9>* <human> .
+}",0
+P356,"SELECT * WHERE {
+	?x1 <instance of> <metro station> .
+	?x1 <located in the administrative territorial entity>+ <Quebec> .
+}",0
+P357,"SELECT * WHERE {
+	?x1 <owned by> ?x2 .
+	?x1 <instance of> ?c966 .
+	?c966 <subclass of>* <organization> .
+}",0
+P358,"SELECT * WHERE {
+	?x1 <eye color> ?x2 .
+	?x1 <instance of> ?c132 .
+	?c132 <subclass of>* <human> .
+}",1
+P359,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Kleppelshagen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P360,"SELECT * WHERE {
+	?x1 <main subject> ?x2 .
+	?x1 <part of>* <Noctes Atticae> .
+}",0
+P362,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x4 <contains the administrative territorial entity> ?x2 .
+	?x4 <located in the administrative territorial entity>* <Lower Saxony> .
+	?x3 <subclass of>* <body of water> .
+}",0
+P363,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x2 <located in the administrative territorial entity>* <Kern County> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P364,"SELECT * WHERE {
+	?x1 <country> <Myanmar> .
+	?x1 <instance of> ?c153 .
+	?c153 <subclass of>* <hospital> .
+}",0
+P365,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Elsen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P366,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Buchenwälder im Rosengarten> <located in the administrative territorial entity>* ?x1 .
+}",0
+P367,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Glüsingen> <located in the administrative territorial entity>* ?x1 .
+}",0
+P368,"SELECT * WHERE {
+	?x1 <has fruit type> ?x2 .
+	?x1 <parent taxon>+ <plant> .
+}",0
+P369,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Heron> .
+}",0
+P370,"SELECT * WHERE {
+	?x1 <taxon rank> <species> .
+	?x1 <parent taxon> ?x2 .
+	?x2 <parent taxon>* <Hirundinidae> .
+}",0
+P371,"SELECT * WHERE {
+	?x1 <population> ?x2 .
+	?x1 <country> ?x3 .
+	?x1 <instance of> ?c856 .
+	?c856 <subclass of>* <city> .
+}",0
+P372,"SELECT * WHERE {
+	<Nikki Havenaar> <occupation> ?x1 .
+	?x1 <subclass of>* ?c237 .
+	?c237 <field of this occupation> ?x2 .
+}",1
+P373,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<No label defined> <located in the administrative territorial entity>* ?x1 .
+}",0
+P374,"SELECT * WHERE {
+	?x1 <occupation> ?x2 .
+	?x1 <occupation> ?x2 .
+	?x1 <instance of> <human> .
+	?x2 <instance of>* ?c799 .
+	?c799 <subclass of>* <murderer> .
+}",0
+P375,"SELECT * WHERE {
+	?x1 <country> ?x2 .
+	?x1 <coordinate location> ?x3 .
+	?x1 <instance of> ?c83 .
+	?c83 <subclass of>* <province of Afghanistan> .
+}",0
+P376,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Jabal A‘wās> <located in the administrative territorial entity>* ?x1 .
+}",0
+P378,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Jabal Shi‘b az Zahrā'> <located in the administrative territorial entity>* ?x1 .
+}",0
+P379,"SELECT * WHERE {
+	?x1 <country> <Italy> .
+	?x2 <instance of> ?c501 .
+	?c501 <subclass of>* <electoral unit> .
+}",0
+P380,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Borstel> <located in the administrative territorial entity>* ?x1 .
+}",0
+P381,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<St. Nicholas Church, Fehmarn> <located in the administrative territorial entity>* ?x1 .
+}",0
+P382,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <instance of> ?x3 .
+	?x2 <located in the administrative territorial entity>* <Monroe County> .
+	?x3 <subclass of>* <administrative territorial entity> .
+}",0
+P383,"SELECT * WHERE {
+	?x1 <instance of> <fossil> .
+	?x1 <located in the administrative territorial entity>* <United States of America> .
+}",0
+P384,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Höntrup> <located in the administrative territorial entity>* ?x1 .
+}",0
+P385,"SELECT * WHERE {
+	?x1 <country> <Estonia> .
+	?x1 <located in the administrative territorial entity> ?c804 .
+	?c804 <instance of>* <village> .
+}",0
+P386,"SELECT * WHERE {
+	?x1 <main subject> <Wikidata> .
+	?x1 <instance of> ?c909 .
+	?c909 <subclass of>* <article> .
+}",1
+P387,"SELECT * WHERE {
+	?x1 <located in the administrative territorial entity> ?x2 .
+	?x1 <country> <Germany> .
+	?x1 <coordinate location> ?x3 .
+	?x1 <instance of> ?c449 .
+	?c449 <subclass of>* <human settlement> .
+	?x1 <located in the administrative territorial entity>+ <Baden-Württemberg> .
+}",0
+P388,"SELECT * WHERE {
+	<Joseph W. Ashy> <occupation> ?x1 .
+	?x1 <subclass of>* ?c761 .
+	?c761 <field of this occupation> ?x2 .
+}",1
+P389,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Hoftor> <located in the administrative territorial entity>* ?x1 .
+}",0
+P390,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<No label defined> <located in the administrative territorial entity>* ?x1 .
+}",0
+P392,"SELECT * WHERE {
+	?x1 <country> <Japan> .
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c917 .
+	?c917 <subclass of>* <geographic region> .
+}",0
+P393,"SELECT * WHERE {
+	?x1 <instance of> ?x2 .
+	?x1 <located in the administrative territorial entity>+ <Genoa> .
+	?x2 <subclass of>+ <human settlement> .
+}",0
+P394,"SELECT * WHERE {
+	?x1 <template has topic> ?x2 .
+	?x1 <instance of> <Wikimedia infobox template> .
+	<Midden-Drenthe> <instance of> ?c46 .
+	?c46 <subclass of>* ?x2 .
+}",0
+P395,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<Brackel> <located in the administrative territorial entity>* ?x1 .
+}",0
+P396,"SELECT * WHERE {
+	?x1 <country of citizenship> <United States of America> .
+	?x1 <instance of> ?c627 .
+	?c627 <country of citizenship9>* <human> .
+}",0
+P397,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c704 .
+	?c704 <subclass of>* <university> .
+	?x1 <located in the administrative territorial entity>* <London> .
+}",0
+P398,"SELECT * WHERE {
+	?x1 <heritage designation> <architectural heritage monument> .
+	?x1 <country> <Germany> .
+	?x1 <located in the administrative territorial entity>+ <Bavaria> .
+}",0
+P399,"SELECT * WHERE {
+	?x1 <creator> ?x2 .
+	?x1 <location> ?x3 .
+	?x2 <member of> <Royal Academy of Arts> .
+	?x1 <instance of> ?c776 .
+	?c776 <subclass of>* <painting> .
+	?x3 <located in the administrative territorial entity>* <United Kingdom> .
+}",0
+P400,"SELECT * WHERE {
+	?x1 <coordinate location> ?x2 .
+	?x1 <instance of> ?c803 .
+	?c803 <NACSIS-CAT author ID>* <mountain> .
+}",0
+P401,"SELECT * WHERE {
+	?x1 <subclass of> ?x2 .
+	?x1 <subclass of>* <musical instrument> .
+}",0
+P402,"SELECT * WHERE {
+	?x1 <ISO 3166-2 code> ?x2 .
+	<No label defined> <located in the administrative territorial entity>* ?x1 .
+}",0
+P403,"SELECT * WHERE {
+	?x1 <country> ?x2 .
+	?x2 <instance of> <country> .
+	?x1 <instance of> ?c942 .
+	?c942 <subclass of>* <first-level administrative division> .
+}",0
