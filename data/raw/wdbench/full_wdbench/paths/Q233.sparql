@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 (<occupation>/(<subclass of>)+) <actor> }
 
 NL-QUESTION:
-"What are the occupations of actors on Wikidata?"
+What are the occupations of actors on Wikidata?

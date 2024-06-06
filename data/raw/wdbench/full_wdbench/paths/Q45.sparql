@@ -1,4 +1,4 @@
-SELECT * WHERE { <No label defined> (<located in the administrative territorial entity>)* ?x1 }
+SELECT * WHERE { <Priesterseminar Bamberg, Bibliothek> (<located in the administrative territorial entity>)* ?x1 }
 
 NL-QUESTION:
-What is the administrative territorial entity in which <No label defined> is located?
+What is the administrative territorial entity in which Priesterseminar Bamberg, Bibliothek is located?

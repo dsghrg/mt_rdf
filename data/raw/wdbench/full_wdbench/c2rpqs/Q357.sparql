@@ -1,4 +1,4 @@
-SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <No label defined> (<located in the administrative territorial entity>)* ?x1 .  }
+SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <Thilhove> (<located in the administrative territorial entity>)* ?x1 .  }
 
 NL-QUESTION:
-Which administrative territorial entity has the ISO 3166-2 code specified by ?x2?
+What are the ISO 3166-2 codes for the administrative territorial entities in which Thilhove is located?

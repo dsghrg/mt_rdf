@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 <instance of> <programming language> .  }
 
 NL-QUESTION:
-"What are all the instances of programming languages on Wikidata?"
+What are all the instances of programming languages on Wikidata?

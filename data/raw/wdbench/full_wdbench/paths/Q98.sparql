@@ -1,4 +1,4 @@
 SELECT * WHERE { <Berlin> (<instance of>/(<subclass of>)*) <fixed construction> }
 
 NL-QUESTION:
-"What are all of the items that have an instance of or subclass of relationship with Berlin in a fixed construction?"
+What are all of the items that have an instance of or subclass of relationship with Berlin in a fixed construction?

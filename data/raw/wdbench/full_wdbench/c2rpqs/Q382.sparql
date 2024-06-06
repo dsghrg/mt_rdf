@@ -1,4 +1,5 @@
-SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <No label defined> (<located in the administrative territorial entity>)* ?x1 .  }
+SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <Katholische Öffentliche Bücherei St. Anna> (<located in the administrative territorial entity>)* ?x1 .  }
 
 NL-QUESTION:
-"What administrative territorial entity does a certain object with an ISO 3166-2 code belong in?"
+
+What are the ISO 3166-2 codes for the administrative territorial entities in which Katholische Öffentliche Bücherei St. Anna is located?

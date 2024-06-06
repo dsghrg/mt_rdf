@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 (<subclass of>)* <position> }
 
 NL-QUESTION:
-"What are all the positions that are subclasses of the general term 'position' in Wikidata?"
+What are all the positions that are subclasses of the general term 'position' in Wikidata?

@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 <main subject> <house cat> . ?x2 (<instance of>/(<subclass of>)*) <work> .  }
 
 NL-QUESTION:
-"What are examples of works that have a main subject of house cats?"
+What are examples of works that have a main subject of house cats?

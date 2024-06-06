@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 (^<parent taxon>/<instance of>) ?x2 }
 
 NL-QUESTION:
-"Which instances are descendants of a specific parent taxon in wikidata?"
+Which instances are descendants of a specific parent taxon in wikidata?

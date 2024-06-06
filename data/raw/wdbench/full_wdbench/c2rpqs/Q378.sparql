@@ -1,4 +1,4 @@
-SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <No label defined> (<located in the administrative territorial entity>)* ?x1 .  }
+SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <Gemeinde- und Zentralbücherei Seevetal-Meckelfeld> (<located in the administrative territorial entity>)* ?x1 .  }
 
 NL-QUESTION:
-What are the ISO 3166-2 codes for administrative territorial entities in Wikidata that are located in other administrative territorial entities?
+What are the ISO 3166-2 codes for the administrative territorial entities in which Gemeinde- und Zentralbücherei Seevetal-Meckelfeld is located?

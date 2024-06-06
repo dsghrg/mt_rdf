@@ -1,4 +1,4 @@
-SELECT * WHERE { ?x1 <edition or translation of> <No label defined> .  }
+SELECT * WHERE { ?x1 <edition or translation of> <Villégiature> .  }
 
 NL-QUESTION:
-What is the edition or translation of <No label defined>?
+Which editions or translations exist of "Villégiature"?

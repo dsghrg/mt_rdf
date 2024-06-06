@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 (<instance of>)* <railway network> }
 
 NL-QUESTION:
-"What are all the instances of railway networks?"
+What are all the instances of railway networks?

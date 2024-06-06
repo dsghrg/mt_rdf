@@ -1,4 +1,4 @@
-SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <No label defined> (<located in the administrative territorial entity>)* ?x1 .  }
+SELECT * WHERE { ?x1 <ISO 3166-2 code> ?x2 . <Bücherei Elbmarsch> (<located in the administrative territorial entity>)* ?x1 .  }
 
 NL-QUESTION:
-Which entities do ISO 3166-2 codes correspond to?
+What are the ISO 3166-2 codes for the administrative territorial entities in which Bücherei Elbmarsch is located?

@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 (<instance of>/<instance of>) ?x2 }
 
 NL-QUESTION:
-"What are the instances of x1 in terms of x2?"
+What are the instances of x1 in terms of x2?

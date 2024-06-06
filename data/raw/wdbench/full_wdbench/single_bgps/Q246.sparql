@@ -1,4 +1,4 @@
-SELECT * WHERE { ?x1 <edition or translation of> <No label defined> .  }
+SELECT * WHERE { ?x1 <edition or translation of> <Aarons Entkleidung> .  }
 
 NL-QUESTION:
-What editions or translations are there for this item?
+Which editions or translations exist of "Aarons Entkleidung"?

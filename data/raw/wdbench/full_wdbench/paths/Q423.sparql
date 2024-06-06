@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 (<country of citizenship>)* <Israel> }
 
 NL-QUESTION:
-"What are the individuals who have Israel as their country of citizenship?"
+What are the individuals who have Israel as their country of citizenship?

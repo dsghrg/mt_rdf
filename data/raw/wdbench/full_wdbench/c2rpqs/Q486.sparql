@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 <is a list of> <human> . ?x2 (((((<official language>|<native language>)|<original language of film or TV show>)|<language of work or name>)|<languages spoken, written or signed>)|<Title not found>) ?x3 .  }
 
 NL-QUESTION:
-"Which humans have a list of official, native, original language of film or TV show, language of work or name, languages spoken, written or signed, or title not found?"
+Which humans have a list of official, native, original language of film or TV show, language of work or name, languages spoken, written or signed, or title not found?

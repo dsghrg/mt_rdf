@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 <sex or gender> <female> . ?x1 <educated at> <Technical University of Berlin> .  }
 
 NL-QUESTION:
-"What females have been educated at the Technical University of Berlin?"
+What females have been educated at the Technical University of Berlin?

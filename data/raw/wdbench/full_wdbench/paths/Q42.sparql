@@ -1,4 +1,4 @@
-SELECT * WHERE { <No label defined> (<located in the administrative territorial entity>)* ?x1 }
+SELECT * WHERE { <Bücherei im Rathaus Neu Wulmstorf> (<located in the administrative territorial entity>)* ?x1 }
 
 NL-QUESTION:
-What administrative entities does the unknown entity belong to?
+What administrative entities does the Bücherei im Rathaus Neu Wulmstorf belong to?

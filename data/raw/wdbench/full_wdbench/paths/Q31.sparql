@@ -1,4 +1,4 @@
-SELECT * WHERE { <No label defined> (<located in the administrative territorial entity>)* ?x1 }
+SELECT * WHERE { <Gödenstorf> (<located in the administrative territorial entity>)* ?x1 }
 
 NL-QUESTION:
-What administrative territorial entities does the entity have a location in?
+What administrative territorial entities is Gödenstorf located in?
