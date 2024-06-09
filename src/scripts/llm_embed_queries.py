@@ -9,13 +9,12 @@ from torch import Tensor
 from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer
 
-from src.helper.seed_helper import initialize_gpu_seed
-from src.models.config import Config
-
 sys.path.append(os.getcwd())
 import pandas as pd
 
 from src.helper.logging_helper import setup_logging
+from src.helper.seed_helper import initialize_gpu_seed
+from src.models.config import Config
 
 setup_logging()
 load_dotenv()
