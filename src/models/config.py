@@ -16,6 +16,7 @@ DEFAULT_TRAIN_FRAC = 0.8
 class Config():
     DATASET = {
         'ppaths_join': 'ppaths_join.csv',
+        'ppaths_join_nl_sparql': 'ppaths_join_nl_sparql.csv',
         'ppaths_join_nl': 'ppaths_join_nl.csv',
     }
 

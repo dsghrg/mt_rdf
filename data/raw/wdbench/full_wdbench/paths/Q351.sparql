@@ -1,4 +1,4 @@
 SELECT * WHERE { ?x1 (<country>)* <Germany> }
 
 NL-QUESTION:
-Which country is Germany in?
+What countries have a direct or indirect relationship with Germany?

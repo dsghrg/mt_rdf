@@ -28,6 +28,9 @@ class ModelDataset():
 
     def get_data_loaders(self, batch_size, tokenizer):
         train_df, test_df, val_df = self._get_train_test_val()
+        train_df.to_csv(dataset_processed_file_path(self.dataset_name, f'train.csv', seed=self.seed), index=False)
+        test_df.to_csv(dataset_processed_file_path(self.dataset_name, f'test.csv', seed=self.seed), index=False)
+        val_df.to_csv(dataset_processed_file_path(self.dataset_name, f'val.csv', seed=self.seed), index=False)
 
         train_ds = PytorchDataset(data_df=train_df, max_seq_length=self.max_seq_length, tokenizer=tokenizer)
         test_ds = PytorchDataset(data_df=test_df, max_seq_length=self.max_seq_length, tokenizer=tokenizer)
@@ -39,6 +42,27 @@ class ModelDataset():
             val_dl = None
         else:
             val_ds = PytorchDataset(data_df=val_df, max_seq_length=self.max_seq_length, tokenizer=tokenizer)
+            val_dl = DataLoader(val_ds, batch_size=batch_size, shuffle=True)
+
+
+        return train_dl, test_dl, val_dl
+    
+    def get_data_loaders_lstm(self, batch_size, tokenizer):
+        train_df, test_df, val_df = self._get_train_test_val()
+        train_df.to_csv(dataset_processed_file_path(self.dataset_name, f'train.csv', seed=self.seed), index=False)
+        test_df.to_csv(dataset_processed_file_path(self.dataset_name, f'test.csv', seed=self.seed), index=False)
+        val_df.to_csv(dataset_processed_file_path(self.dataset_name, f'val.csv', seed=self.seed), index=False)
+
+        train_ds = LSTMDataset(data_df=train_df)
+        test_ds = LSTMDataset(data_df=test_df)
+
+        train_dl = DataLoader(train_ds, batch_size=batch_size, shuffle=True)
+        test_dl = DataLoader(test_ds, batch_size=batch_size, shuffle=True)
+
+        if val_df.empty:
+            val_dl = None
+        else:
+            val_ds = LSTMDataset(data_df=val_df)
             val_dl = DataLoader(val_ds, batch_size=batch_size, shuffle=True)
 
 
@@ -83,7 +107,7 @@ class ModelDataset():
                 val_df = pd.DataFrame()
                 if self.use_val:
                     test_df, val_df = train_test_split(test_df, train_size=0.5, random_state=self.seed, stratify=test_df['label'])
-            return pd.concat([train_df] *2, ignore_index=True), test_df, val_df
+            return train_df, test_df, val_df
 
 
     # def _get_random_split(self, df: pd.DataFrame, train_frac: float):
@@ -98,6 +122,30 @@ class ModelDataset():
     #         test_df = test_df.drop(val_df.index)
     #     return train_df, test_df, val_df
 
+
+class LSTMDataset(Dataset):
+    def __init__(self, data_df: pd.DataFrame):
+        self.data_df = data_df
+        # import code; code.interact(local=dict(globals(), **locals()))
+        # self.targets = torch.tensor(np.array(targets.values.tolist()))
+
+    def __getitem__(self, idx):
+        row = self.data_df.iloc[idx]
+
+        query = row['query']
+        label = row['label']
+        q_id = row['query_id']
+
+        return {
+            # TODO: check how to encode input for LSTM
+            # 'input_ids': torch.tensor(inputs['input_ids'], dtype=torch.long),
+            'labels': torch.tensor(label, dtype=torch.long),
+            'query': query,
+            'query_id': q_id
+        }
+
+    def __len__(self):
+        return len(self.data_df)
 class PytorchDataset(Dataset):
     def __init__(self, data_df: pd.DataFrame, tokenizer, max_seq_length: int):
         self.data_df = data_df
