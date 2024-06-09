@@ -12,9 +12,9 @@ from transformers import AutoModel, AutoTokenizer
 sys.path.append(os.getcwd())
 import pandas as pd
 
+import src.models.config as config
 from src.helper.logging_helper import setup_logging
 from src.helper.seed_helper import initialize_gpu_seed
-from src.models.config import Config
 
 setup_logging()
 load_dotenv()
@@ -33,7 +33,7 @@ def process_in_batches(model, entries, batch_size, query_prefix, max_length):
 
 
 def main():
-    device, _ = initialize_gpu_seed(Config.DEFAULT_MODEL_SEED)
+    device, _ = initialize_gpu_seed(config.DEFAULT_MODEL_SEED)
 
     login(token=ACCESS_TOKEN)
     model = AutoModel.from_pretrained('nvidia/NV-Embed-v1', trust_remote_code=True)
