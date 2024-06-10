@@ -43,8 +43,8 @@ def main():
     query_prefix = "Instruct: "+task_name_to_instruct["example"]+"\nQuery: "
     
     # careful, check data first before setting this length
-    max_length = 220
-    df = pd.read_csv('data/raw/ppaths_join_nl.csv')
+    max_length = 750
+    df = pd.read_csv('data/raw/wdbench_nl_sparql.csv')
 
 
     queries = list(df['query'])
@@ -52,9 +52,9 @@ def main():
     encoded_queries = process_in_batches(model, queries, 15, query_prefix, max_length)
 
     df['encoding'] = encoded_queries
-    df.to_csv('data/raw/ppaths_join_nl_encoded.csv', index=False)
+    df.to_csv('data/raw/wdbench_nl_sparql_encoded.csv', index=False)
 
-    torch.save(encoded_queries, 'data/raw/ppaths_join_nl_encoding.pt')
+    torch.save(encoded_queries, 'data/raw/wdbench_nl_sparql_encoding.pt')
 
 
 if __name__ == "__main__":
