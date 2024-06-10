@@ -1,9 +1,11 @@
+import ast
 import logging
 
 import pandas as pd
 import torch
 import torch.bin
 from sklearn.model_selection import train_test_split
+from torch import tensor
 from torch.utils.data import DataLoader, Dataset
 
 from src.helper.logging_helper import *
@@ -24,8 +26,10 @@ class ModelDataset():
         self.device = device
         self.is_encoded = is_encoded
 
+        self.encoding = self._load_encoding()
         self.original_df = self._load_dataset()
         self.label_weights = self._calculate_label_weights()
+
 
     def get_data_loaders(self, batch_size, tokenizer):
         train_df, test_df, val_df = self._get_train_test_val()
@@ -48,14 +52,15 @@ class ModelDataset():
 
         return train_dl, test_dl, val_dl
     
-    def get_data_loaders_lstm(self, batch_size, tokenizer):
+    def get_data_loaders_lstm(self, batch_size):
         train_df, test_df, val_df = self._get_train_test_val()
         train_df.to_csv(dataset_processed_file_path(self.dataset_name, f'train.csv', seed=self.seed), index=False)
         test_df.to_csv(dataset_processed_file_path(self.dataset_name, f'test.csv', seed=self.seed), index=False)
         val_df.to_csv(dataset_processed_file_path(self.dataset_name, f'val.csv', seed=self.seed), index=False)
-
+        
         train_ds = LSTMDataset(data_df=train_df)
         test_ds = LSTMDataset(data_df=test_df)
+
 
         train_dl = DataLoader(train_ds, batch_size=batch_size, shuffle=True)
         test_dl = DataLoader(test_ds, batch_size=batch_size, shuffle=True)
@@ -81,9 +86,17 @@ class ModelDataset():
         logging.info(f'Loading dataset {self.dataset_name}')
 
         if self.is_encoded:
-            return pd.read_csv(dataset_processed_file_path(Config.DATASET[self.dataset_name]))
+            raw_file = pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
+            # import code; code.interact(local=dict(globals(), **locals()))
+            raw_file['encoding'] = pd.Series(self.encoding)
+            return raw_file
         else:
             return pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
+    
+    def _load_encoding(self):
+        if self.is_encoded:
+            return torch.load(dataset_processed_file_path(self.dataset_name, f'{self.dataset_name}_encoding.pt', self.seed))
+        return None
     
 
     def _get_train_test_val(self):
@@ -99,10 +112,10 @@ class ModelDataset():
 
             check_val = file_exists_or_create(validation_file_path) if self.use_val else True
 
-            if file_exists_or_create(train_file_path) and file_exists_or_create(train_file_path) and check_val:
-                self.train_df = pd.read_csv(train_file_path)
-                self.test_df = pd.read_csv(test_file_path)
-                self.validation_df = pd.read_csv(validation_file_path) if self.use_val else pd.DataFrame()
+            if False and file_exists_or_create(train_file_path) and file_exists_or_create(train_file_path) and check_val:
+                train_df = pd.read_csv(train_file_path)
+                test_df = pd.read_csv(test_file_path)
+                val_df = pd.read_csv(validation_file_path) if self.use_val else pd.DataFrame()
             else:
 
                 train_df, test_df = train_test_split(self.original_df, 
@@ -140,11 +153,11 @@ class LSTMDataset(Dataset):
         query = row['query']
         label = row['label']
         q_id = row['query_id']
-
+        encoding = row['encoding']
         return {
             # TODO: check how to encode input for LSTM
-            # 'input_ids': torch.tensor(inputs['input_ids'], dtype=torch.long),
-            'labels': torch.tensor(label, dtype=torch.long),
+            'encoding': encoding,
+            'labels': torch.tensor(label, dtype=torch.float),
             'query': query,
             'query_id': q_id
         }

@@ -31,8 +31,8 @@ def read_arguments_train():
 
     parser.add_argument('--experiment_name', type=str, default=None)
 
-    parser.add_argument('--is_encoeed', action='store_true', default=True, help='Whether the dataset is already encoded or not.')
-    parser.add_argument('--not_encoded', dest='is_encoeed', action='store_false')
+    parser.add_argument('--is_encoded', action='store_true', default=True, help='Whether the dataset is already encoded or not.')
+    parser.add_argument('--not_encoded', dest='is_encoded', action='store_false')
     
     parser.add_argument('--batch_size', default=8, type=int)
     parser.add_argument('--max_seq_length', default=DEFAULT_SEQ_LENGTH, type=int)

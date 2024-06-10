@@ -1,15 +1,24 @@
+import csv
+import logging
 from datetime import datetime
 from pathlib import Path
 
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.autograd import Variable
+from tqdm import tqdm
 
 import wandb
 from src.data.dataset import ModelDataset
+from src.helper.logging_helper import setup_logging
+from src.helper.path_helper import *
 from src.helper.seed_helper import initialize_gpu_seed
+
+setup_logging()
+
 
 
 class LSTMWithAttention(nn.Module):
@@ -32,21 +41,21 @@ class LSTMWithAttention(nn.Module):
 
         # setup with args
 
-
+        self.use_val = self.args.use_validation_set
 
         self.input_size = input_size
         self.hidden_size = hidden_size
         self.output_size = output_size
         self.num_layers = self.args.num_layers
         self.seed = self.args.seed
-        self.checkpoint_after_n = self.args.checkpoint_after_n
+        self.checkpoint_after_n = None #self.args.checkpoint_after_n
         self.bidirectional = self.args.bidirectional
 
         self.lstm = nn.LSTM(self.input_size, self.hidden_size, self.num_layers, batch_first=True, bidirectional=self.bidirectional)
         self.attention = nn.Linear(self.hidden_size, self.hidden_size)
         self.context_vector = nn.Linear(self.hidden_size, 1, bias=False)
         
-        self.fc = nn.Linear(self.hidden_size, self.hidden_size)
+        self.fc = nn.Linear(self.hidden_size, self.output_size)
 
         self.lr = self.args.learning_rate
         self.num_epochs = self.args.num_epochs
@@ -56,13 +65,17 @@ class LSTMWithAttention(nn.Module):
         self._setup_data_loaders()
 
         self.optimizer = optim.Adam(self.lstm.parameters(), lr=self.args.learning_rate)
-        self.loss_fn = nn.CrossEntropyLoss(weight=self.dataset.label_weights)
+        # self.loss_fn = nn.BCELoss(weight=self.dataset.label_weights)
+        self.loss_fn = nn.BCELoss()
 
         # self._setup_optimizer()
-        # self._reset_prediction_buffer()
+        self._reset_prediction_buffer()
     
     def forward(self, input_, h_n_, c_n_):
+        # import code; code.interact(local=dict(globals(), **locals()))p
+        input_ = input_.unsqueeze(1)
         output, (h_n, c_n) = self.lstm(input_, (h_n_, c_n_))
+
 
         # h_0 = torch.zeros(self.num_layers, x.size(0), self.hidden_dim).to(x.device)
         # c_0 = torch.zeros(self.num_layers, x.size(0), self.hidden_dim).to(x.device)
@@ -75,48 +88,167 @@ class LSTMWithAttention(nn.Module):
         out = self.fc(context)  # Final output shape: (batch_size, output_dim)
         return out, (h_n, c_n)
 
-    def init_hidden(self):
-        h_0 = Variable(torch.zeros(1, self.hidden_size, device=self.device))
-        c_0 = Variable(torch.zeros(1, self.hidden_size, device=self.device))
+    def init_hidden(self, batch_size):
+        # h_0 = Variable(torch.zeros(self.num_layers, self.args.batch_size, self.hidden_size, device=self.device))
+        # c_0 = Variable(torch.zeros(self.num_layers, self.args.batch_size, self.hidden_size, device=self.device))
+        h_0 = torch.zeros(self.num_layers, batch_size, self.hidden_size).to(self.device)
+        c_0 = torch.zeros(self.num_layers, batch_size, self.hidden_size).to(self.device)
         return h_0, c_0
     
 
-    def train(self):
-        self.lstm.train()
-        total_loss, prev_epoch_loss = 0
-        for epoch in range(self.num_epochs):
+    def train_model(self):
+        self.train()
+        total_loss, prev_epoch_loss = 0, 0
+        for epoch in tqdm(range(self.num_epochs)):
+            sample_correct, sample_count = 0, 0
             for i, data in enumerate(self.train_data_loader):
 
                 # todo
-                # ids = data['input_ids'].to(self.device)
+                ids = data['encoding'].to(self.device)
                 labels = data['labels'].to(self.device)
                 queries = data['query']
                 query_id = data['query_id']
             
                 self.optimizer.zero_grad()
-                h_0, c_0 = self.init_hidden()
-                output, _ = self.forward(queries, h_0, c_0)
-                loss = self.loss_fn(output, labels)
+                h_0, c_0 = self.init_hidden(batch_size=ids.size(0))
+
+
+                output, _ = self(ids, h_0, c_0)
+                loss = self.loss_fn(output.squeeze(1), labels)
                 loss.backward()
 
                 total_loss += loss.item()
 
+                predicted = torch.sigmoid(output) >= 0.5
+                sample_correct += (predicted == labels).sum().item()
+                sample_count += labels.size(0)
+
 
                 self.optimizer.step()
-                if i % self.checkpoint_after_n == 0:
+                if (self.checkpoint_after_n is not None) and (i % self.checkpoint_after_n == 0):
                     print(f'Epoch: {epoch}, Loss: {loss.item()}')
                     self.save_checkpoint(epoch)
             
             train_loss = round((total_loss - prev_epoch_loss) / len(self.train_data_loader), 4)
-            # train_acc = round(sample_correct / sample_count, 4)
+            train_acc = round(sample_correct / sample_count, 4)
             self._wandb_log({
                 'epoch': epoch,
                 'train_loss': train_loss,
-                # 'train_acc': train_acc
+                'train_acc': train_acc
             })
 
             prev_epoch_loss = total_loss
 
+            # Run test+val set after each epoch
+            self.test_model(epoch)
+            if self.use_val:
+                self.validate_model(epoch)
+    
+    def test_model(self, epoch=0):
+        self._reset_prediction_buffer()
+        self.lstm.eval()
+        total_loss = 0
+        with torch.no_grad():
+            sample_correct, sample_count = 0, 0
+            for i, data in tqdm(enumerate(self.test_data_loader), desc=f'[TESTING] Running epoch {epoch} ...',
+                                      total=len(self.test_data_loader)):
+                ids = data['encoding'].to(self.device)
+                labels = data['labels'].to(self.device)
+                queries = data['query']
+                query_id = data['query_id']
+
+                h_0, c_0 = self.init_hidden(batch_size=ids.size(0))
+                output, _ = self(ids, h_0, c_0)
+                loss = self.loss_fn(output.squeeze(1), labels)
+                total_loss += loss.item()
+
+                prediction_proba = torch.sigmoid(output)
+                predictions = prediction_proba >= 0.5
+                sample_correct += (predictions[0] == labels).sum().item()
+                sample_count += labels.size(0)
+
+                self.log_predictions(labels, query_id, predictions, prediction_proba, step=i, is_test=True)
+            
+            test_loss = round(total_loss / len(self.test_data_loader), 4)
+            test_acc = round(sample_correct / sample_count, 4)
+            self._wandb_log({
+                'epoch': epoch,
+                'test_loss': test_loss,
+                'test_acc': test_acc
+            })
+        logging.info(f"[Epoch {epoch}/{self.args.num_epochs}]\tTest Loss: {test_loss}\tTest Accuracy: {test_acc}")
+        self.save_test_predictions(epoch)
+
+    def validate_model(self, epoch=0):
+        self._reset_prediction_buffer(is_test=False)
+        self.lstm.eval()
+        total_loss = 0
+        with torch.no_grad():
+            sample_correct, sample_count = 0, 0
+            for i, data in tqdm(enumerate(self.val_data_loader), desc=f'[VALIDATE] Running epoch {epoch} ...',
+                                      total=len(self.val_data_loader)):
+                ids = data['encoding'].to(self.device)
+                labels = data['labels'].to(self.device)
+                queries = data['query']
+                query_id = data['query_id']
+
+                h_0, c_0 = self.init_hidden(batch_size=ids.size(0))
+                output, _ = self(ids, h_0, c_0)
+                loss = self.loss_fn(output.squeeze(1), labels)
+                total_loss += loss.item()
+                
+                prediction_proba = torch.sigmoid(output)
+                predictions = prediction_proba >= 0.5
+                sample_correct += (predictions[0] == labels).sum().item()
+                sample_count += labels.size(0)
+
+                self.log_predictions(labels, query_id, predictions, prediction_proba, step=i, is_test=False)
+            
+            val_loss = round(total_loss / len(self.val_data_loader), 4)
+            val_acc = round(sample_correct / sample_count, 4)
+            self._wandb_log({
+                'epoch': epoch,
+                'val_loss': val_loss,
+                'val_acc': val_acc
+            })
+        logging.info(f"[Epoch {epoch}/{self.args.num_epochs}]\Val Loss: {val_loss}\Val Accuracy: {val_acc}")
+        # self.save_test_predictions(epoch)
+
+    def log_predictions(self, labels, query_ids, predictions, prediction_proba, step=0, is_test=True):
+        def tensor_to_list(tensor_data):
+            return tensor_data.detach().cpu().numpy().reshape(-1).tolist()
+
+        batch_size = self.test_data_loader.batch_size
+        num_samples = len(self.test_data_loader.dataset) if is_test else len(self.val_data_loader.dataset)
+
+        start_idx = step * batch_size
+        end_idx = np.min([((step + 1) * batch_size), num_samples])
+        
+        # import code; code.interact(local=dict(globals(), **locals()))
+        self.prediction_buffer['queries'][start_idx:end_idx] = query_ids
+        self.prediction_buffer['labels'][start_idx:end_idx] = tensor_to_list(labels)
+        self.prediction_buffer['predictions'][start_idx:end_idx] = tensor_to_list(predictions)
+        self.prediction_buffer['prediction_proba'][start_idx:end_idx] = tensor_to_list(prediction_proba)
+
+    def save_test_predictions(self, epoch):
+        file_name = "".join([self.args.model_name, '__prediction_log__ep', str(epoch), '.csv'])
+        log_path = experiment_file_path(self.args.experiment_name, file_name)
+
+        file_exists_or_create(log_path)
+
+        with open(log_path, 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(self.prediction_buffer.keys())
+            writer.writerows(zip(*self.prediction_buffer.values()))
+
+    def _reset_prediction_buffer(self, is_test=True):
+        num_test_samples = len(self.test_data_loader.dataset) if is_test else len(self.val_data_loader.dataset)
+        self.prediction_buffer = {
+            'queries': np.zeros(num_test_samples, dtype=str),
+            'labels': np.zeros(num_test_samples, dtype=int),
+            'predictions': np.zeros(num_test_samples, dtype=int),
+            'prediction_proba': np.zeros(num_test_samples, dtype=float)
+        }
 
     def save_checkpoint(self, epoch):        
         path = f'models/{self.experiment_name}_lstm/'
@@ -136,8 +268,7 @@ class LSTMWithAttention(nn.Module):
             wandb.log(wandb_dict)
 
     def _setup_data_loaders(self):
-        train_data_loader, test_data_loader, val_data_loader = self.dataset.get_data_loaders_lstm(batch_size=self.args.batch_size, 
-                                                                                             tokenizer=self.tokenizer)
+        train_data_loader, test_data_loader, val_data_loader = self.dataset.get_data_loaders_lstm(batch_size=self.args.batch_size)
         self.train_data_loader = train_data_loader
         self.test_data_loader = test_data_loader
         self.val_data_loader = val_data_loader

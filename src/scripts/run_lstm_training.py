@@ -12,17 +12,17 @@ from src.helper.wandb_helper import initialize_wandb
 from src.models.config import *
 from src.models.lstm_attention import LSTMWithAttention
 
-setup_logging()
-
-
 
 def main(args):
-    input_size, hidden_size, output_size = 1, 128, 2
+    input_size, hidden_size, output_size = 4096, 128, 1
+    args.num_layers = 2
+    args.bidirectional = False
     model = LSTMWithAttention(input_size, hidden_size, output_size, args)
 
-    model.train()
+    model.train_model()
 
 if __name__ == "__main__":
+    setup_logging()
     load_dotenv()
     args = read_arguments_train()
 
