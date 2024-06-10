@@ -44,17 +44,17 @@ def main():
     
     # careful, check data first before setting this length
     max_length = 220
-    df = pd.read_csv('data/raw/wdbench_nl.csv')
+    df = pd.read_csv('data/raw/ppaths_join_nl.csv')
 
 
     queries = list(df['query'])
 
-    encoded_queries = process_in_batches(model, queries, 10, query_prefix, max_length)
+    encoded_queries = process_in_batches(model, queries, 15, query_prefix, max_length)
 
     df['encoding'] = encoded_queries
-    df.to_csv('data/raw/wdbench_nl_encoded.csv', index=False)
+    df.to_csv('data/raw/ppaths_join_nl_encoded.csv', index=False)
 
-    torch.save(encoded_queries, 'data/raw/wdbench_nl_encoding.pt')
+    torch.save(encoded_queries, 'data/raw/ppaths_join_nl_encoding.pt')
 
 
 if __name__ == "__main__":
