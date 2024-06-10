@@ -14,7 +14,7 @@ setup_logging()
 
 
 class ModelDataset():
-    def __init__(self, dataset_name, seed, max_seq_length, do_lower_case, train_frac, use_val, device):
+    def __init__(self, dataset_name, seed, max_seq_length, do_lower_case, train_frac, use_val, device, is_encoded):
         self.dataset_name = dataset_name
         self.seed = seed
         self.max_seq_length = max_seq_length
@@ -22,6 +22,7 @@ class ModelDataset():
         self.train_frac = train_frac
         self.use_val = use_val
         self.device = device
+        self.is_encoded = is_encoded
 
         self.original_df = self._load_dataset()
         self.label_weights = self._calculate_label_weights()
@@ -78,7 +79,11 @@ class ModelDataset():
 
     def _load_dataset(self):
         logging.info(f'Loading dataset {self.dataset_name}')
-        return pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
+
+        if self.is_encoded:
+            return pd.read_csv(dataset_processed_file_path(Config.DATASET[self.dataset_name]))
+        else:
+            return pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
     
 
     def _get_train_test_val(self):

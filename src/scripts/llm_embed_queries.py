@@ -41,13 +41,15 @@ def main():
 
     task_name_to_instruct = {"example": "Given a Natural Language Question based on a SPARQL Query, return '1' if the original SPARQL Query has a faster runtime if you turn off the virtuoso optmizer or '0' otherwise.",}
     query_prefix = "Instruct: "+task_name_to_instruct["example"]+"\nQuery: "
-    max_length = 300
+    
+    # careful, check data first before setting this length
+    max_length = 220
     df = pd.read_csv('data/raw/wdbench_nl.csv')
 
 
     queries = list(df['query'])
 
-    encoded_queries = process_in_batches(model, queries, 15, query_prefix, max_length)
+    encoded_queries = process_in_batches(model, queries, 10, query_prefix, max_length)
 
     df['encoding'] = encoded_queries
     df.to_csv('data/raw/wdbench_nl_encoded.csv', index=False)

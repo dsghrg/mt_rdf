@@ -27,7 +27,8 @@ class LSTMWithAttention(nn.Module):
                             do_lower_case=True,
                             train_frac=0.8,
                             use_val=self.args.use_validation_set,
-                            device=self.device)
+                            device=self.device,
+                            is_encoded=self.args.is_encoded)
 
         # setup with args
 
