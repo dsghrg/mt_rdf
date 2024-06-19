@@ -62,19 +62,19 @@ class SparqlQuery(ABC):
             results = results.convert() if not no_results else None
 
             return results, execution_time
-        #     clean_results = []
-        #     for row in results['results']['bindings']:
-        #         interim_results=[]
-        #         for i in range(len(results['head']['vars'])):
-        #             if 'datatype' in row.get(results['head']['vars'][i]).keys():
-        #                 value = int(row.get(results['head']['vars'][i])['value'])
-        #                 interim_results.append(value)
-        #             else:
-        #                 value = row.get(results['head']['vars'][i])['value']
-        #                 interim_results.append(value)
-        #         if len(interim_results) != 0:
-        #             clean_results.append(tuple(interim_results))
-        #     return clean_results, execution_time
+            # clean_results = []
+            # for row in results['results']['bindings']:
+            #     interim_results=[]
+            #     for i in range(len(results['head']['vars'])):
+            #         if 'datatype' in row.get(results['head']['vars'][i]).keys():
+            #             value = int(row.get(results['head']['vars'][i])['value'])
+            #             interim_results.append(value)
+            #         else:
+            #             value = row.get(results['head']['vars'][i])['value']
+            #             interim_results.append(value)
+            #     if len(interim_results) != 0:
+            #         clean_results.append(tuple(interim_results))
+            # return clean_results, execution_time
         except Exception as e:
             # print(e)
             return str(e), timeout

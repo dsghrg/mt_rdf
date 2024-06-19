@@ -85,13 +85,15 @@ class ModelDataset():
     def _load_dataset(self):
         logging.info(f'Loading dataset {self.dataset_name}')
 
+        raw_file = pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
         if self.is_encoded:
-            raw_file = pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
             # import code; code.interact(local=dict(globals(), **locals()))
             raw_file['encoding'] = pd.Series(self.encoding)
+            raw_file = raw_file[raw_file['label'] >= 0]
+            raw_file.reset_index(drop=True, inplace=True)
             return raw_file
         else:
-            return pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
+            return raw_file
     
     def _load_encoding(self):
         if self.is_encoded:

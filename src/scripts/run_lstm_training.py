@@ -14,8 +14,8 @@ from src.models.lstm_attention import LSTMWithAttention
 
 
 def main(args):
-    input_size, hidden_size, output_size = 4096, 128, 1
-    args.num_layers = 2
+    input_size, hidden_size, output_size = 4096, 256, 1
+    args.num_layers = 4
     args.bidirectional = False
     model = LSTMWithAttention(input_size, hidden_size, output_size, args)
 

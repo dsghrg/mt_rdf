@@ -19,6 +19,7 @@ class Config():
         'ppaths_join_nl_sparql': 'ppaths_join_nl_sparql.csv',
         'ppaths_join_nl': 'ppaths_join_nl.csv',
         'ppaths_join_nl_encoded': 'ppaths_join_nl_encoded.csv',
+        'wdbench_nl_sparql': 'wdbench_nl_sparql.csv',
     }
 
 def read_arguments_train():
