@@ -1,14 +1,16 @@
 import collections
 import os
 
+from tqdm import tqdm
+
 
 def count_triples(file_path):
     subject_counts = collections.Counter()
     predicate_counts = collections.Counter()
     object_counts = collections.Counter()
-    
+    file_size = os.path.getsize(file_path)
     with open(file_path, 'r', buffering=1_048_576) as file:  # Use a 1MB buffer
-        for line in file:
+        for line in tqdm(file, total=file_size, unit='B', unit_scale=True, desc="Processing"):
             parts = line.split()
             if len(parts) >= 3:
                 subject = parts[0]
