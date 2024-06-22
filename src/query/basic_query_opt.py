@@ -57,9 +57,9 @@ class QueryOpt(object):
         for i, triple in enumerate(triples):
             subject, predicate, obj = triple
             predicate = re.sub(r'[\+\*]+$', '', predicate)
-            subject_count = self.subject_counts[subject] if not subject.startswith('?') else big_n
-            predicate_count = self.predicate_counts[predicate] if not predicate.startswith('?') else big_n
-            object_count = self.object_counts[obj] if not obj.startswith('?') else big_n
+            subject_count = self.subject_counts.get(subject, big_n) if not subject.startswith('?') else big_n
+            predicate_count = self.predicate_counts(predicate, big_n) if not predicate.startswith('?') else big_n
+            object_count = self.object_counts(obj, big_n) if not obj.startswith('?') else big_n
             counts.append((subject_count, predicate_count, object_count))
         
         # Sort the triples by the counts
