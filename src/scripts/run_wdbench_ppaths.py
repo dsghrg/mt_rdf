@@ -22,7 +22,7 @@ def read_arguments():
     parser = argparse.ArgumentParser(description='Test model with following arguments')
     parser.add_argument('--blazegraph', action='store_true', default=True)
     parser.add_argument('--virtuoso', dest='blazegraph', action='store_false')
-    parser.add_argument('--query_mode', default='original', choices=['original', 'opt_blaze', 'opt_virt'])
+    parser.add_argument('--query_mode', default='original', choices=['original', 'opt_blaze', 'opt_virt', 'basic_opt'])
     parser.add_argument('--forced', action='store_true', default=False)
     args = parser.parse_args()
 
