@@ -54,7 +54,7 @@ def main(args):
     else:
         if args.blazegraph:
             raise Exception('Virtuoso optimized queries cannot be run on Blazegraph.')
-        dir_path += 'opt_virt'
+        # dir_path += 'opt_virt'
 
     res_dict = {'query_id': [], 'exec_n': [], 'exec_time': [], 'results': []}
     index = 0
