@@ -50,6 +50,10 @@ def read_arguments_train():
     parser.add_argument('--max_grad_norm', default=1.0, type=float)
     parser.add_argument('--use_softmax_layer', action='store_true', default=False)
 
+
+    parser.add_argument('--bidirectional', action='store_true', default=False)
+    parser.add_argument('--one_way', dest='bidirectional', action='store_false')
+
     parser.add_argument('--save_model', action='store_true')
     parser.add_argument('--save_config', action='store_true')
     parser.add_argument('--wandb', action='store_true', default=True)

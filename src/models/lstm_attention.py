@@ -44,8 +44,8 @@ class LSTMWithAttention(nn.Module):
 
         self.use_val = self.args.use_validation_set
 
-        self.bn = nn.BatchNorm1d(hidden_size)
-        self.dropout = nn.Dropout(0.7)
+        self.bn = nn.BatchNorm1d(hidden_size, device=self.device)
+        self.dropout = nn.Dropout(0.7).to(self.device)
 
         self.input_size = input_size
         self.hidden_size = hidden_size
@@ -54,17 +54,20 @@ class LSTMWithAttention(nn.Module):
         self.seed = self.args.seed
         self.checkpoint_after_n = None #self.args.checkpoint_after_n
         self.bidirectional = self.args.bidirectional
-
+        print(f'Bidirectional: {self.bidirectional}')
         self.lstm = nn.LSTM(self.input_size, 
                             self.hidden_size, 
                             self.num_layers, 
                             batch_first=True, 
                             bidirectional=self.bidirectional, 
                             dropout=0.7)
-        self.attention = nn.Linear(self.hidden_size, self.hidden_size)
-        self.context_vector = nn.Linear(self.hidden_size, 1, bias=False)
         
-        self.fc = nn.Linear(self.hidden_size, self.output_size)
+        self.lstm.to(self.device)
+        self.to(device=self.device)
+        self.attention = nn.Linear(self.hidden_size, self.hidden_size, device=self.device)
+        self.context_vector = nn.Linear(self.hidden_size, 1, bias=False, device=self.device)
+        
+        self.fc = nn.Linear(self.hidden_size, self.output_size, device=self.device)
 
         self.lr = self.args.learning_rate
         self.num_epochs = self.args.num_epochs
@@ -80,7 +83,7 @@ class LSTMWithAttention(nn.Module):
         steps_per_epoch = len(self.train_data_loader)
         self.scheduler = OneCycleLR(self.optimizer, max_lr=0.001, steps_per_epoch=steps_per_epoch, epochs=self.num_epochs)
         # self.loss_fn = nn.BCELoss(weight=self.dataset.label_weights)
-        self.loss_fn = nn.BCEWithLogitsLoss()
+        self.loss_fn = nn.BCEWithLogitsLoss(pos_weight=self.dataset.label_weights[1]).to(self.device)
 
         # self._setup_optimizer()
         self._reset_prediction_buffer()
@@ -89,6 +92,8 @@ class LSTMWithAttention(nn.Module):
     def forward(self, input_, h_n_, c_n_):
         # import code; code.interact(local=dict(globals(), **locals()))
         input_ = input_.unsqueeze(1)
+        # import code; code.interact(local=dict(globals(), **locals()))
+
         output, (h_n, c_n) = self.lstm(input_, (h_n_, c_n_))
 
         # batch_size, seq_len, hidden_size = output.size()
@@ -118,9 +123,9 @@ class LSTMWithAttention(nn.Module):
     
 
     def train_model(self):
-        self.train()
         total_loss, prev_epoch_loss = 0, 0
         for epoch in tqdm(range(self.num_epochs)):
+            self.train()
             sample_correct, sample_count = 0, 0
             for i, data in enumerate(self.train_data_loader):
 
@@ -133,14 +138,13 @@ class LSTMWithAttention(nn.Module):
                 self.optimizer.zero_grad()
                 h_0, c_0 = self.init_hidden(batch_size=ids.size(0))
 
-
                 output, _ = self(ids, h_0, c_0)
+                # import code; code.interact(local=dict(globals(), **locals()))
                 loss = self.loss_fn(output.squeeze(1), labels)
                 loss.backward()
                 torch.nn.utils.clip_grad_norm_(self.lstm.parameters(), max_norm=1.0)
 
                 total_loss += loss.item()
-                # import code; code.interact(local=dict(globals(), **locals()))
 
                 predicted = torch.sigmoid(output.squeeze(1)) >= 0.5
                 sample_correct += (predicted == labels).sum().item()

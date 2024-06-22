@@ -52,13 +52,14 @@ class QueryOpt(object):
     def optimize_query(self, query: str) -> str:
         query = query.replace('\n', ' ')
         triples = self.parse_sparql_query(query)
+        big_n = 100_000_000_000
         counts = []
         for i, triple in enumerate(triples):
             subject, predicate, obj = triple
             predicate = re.sub(r'[\+\*]+$', '', predicate)
-            subject_count = self.subject_counts[subject] if not subject.startswith('?') else sys.maxsize
-            predicate_count = self.predicate_counts[predicate] if not predicate.startswith('?') else sys.maxsize
-            object_count = self.object_counts[obj] if not obj.startswith('?') else sys.maxsize
+            subject_count = self.subject_counts[subject] if not subject.startswith('?') else big_n
+            predicate_count = self.predicate_counts[predicate] if not predicate.startswith('?') else big_n
+            object_count = self.object_counts[obj] if not obj.startswith('?') else big_n
             counts.append((subject_count, predicate_count, object_count))
         
         # Sort the triples by the counts

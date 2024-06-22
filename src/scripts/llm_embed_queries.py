@@ -34,9 +34,10 @@ def process_in_batches(model, entries, batch_size, query_prefix, max_length):
 
 def main():
     device, _ = initialize_gpu_seed(config.DEFAULT_MODEL_SEED)
-
+    # device = 'cpu'
     login(token=ACCESS_TOKEN)
     model = AutoModel.from_pretrained('nvidia/NV-Embed-v1', trust_remote_code=True)
+    import code; code.interact(local=dict(globals(), **locals()))
     model.to(device)
 
     task_name_to_instruct = {"example": "Given a Natural Language Question based on a SPARQL Query, return '1' if the original SPARQL Query has a faster runtime if you turn off the virtuoso optmizer or '0' otherwise.",}
@@ -49,12 +50,12 @@ def main():
 
     queries = list(df['query'])
 
-    encoded_queries = process_in_batches(model, queries, 15, query_prefix, max_length)
+    encoded_queries = process_in_batches(model, queries, 1, query_prefix, max_length)
 
     df['encoding'] = encoded_queries
     df.to_csv('data/raw/wdbench_nl_sparql_encoded.csv', index=False)
 
-    torch.save(encoded_queries, 'data/raw/wdbench_nl_sparql_encoding.pt')
+    torch.save(encoded_queries, 'data/raw/_test_wdbench_nl_sparql_encoding.pt')
 
 
 if __name__ == "__main__":
