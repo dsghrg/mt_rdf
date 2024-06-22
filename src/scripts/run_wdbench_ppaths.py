@@ -1,4 +1,5 @@
 import argparse
+import gc
 import logging
 import os
 import sys
@@ -56,7 +57,7 @@ def main(args):
             raise Exception('Virtuoso optimized queries cannot be run on Blazegraph.')
         # dir_path += 'opt_virt'
 
-    res_dict = {'query_id': [], 'exec_n': [], 'exec_time': [], 'results': []}
+    res_dict = {'query_id': [], 'exec_n': [], 'exec_time': [], 'results': [], 'query': []}
     index = 0
     chosen_qs = ['P187', 'P387', 'P382', 'P385', 'P297', 'P279', 'P268', 'P203', 'P265', 'P290']
     result_path = f'results/wdbench/ppaths/{"blaze" if args.blazegraph else "virt"}/'
@@ -68,15 +69,25 @@ def main(args):
             query = file.read()
             optimized_query = query_opt.optimize_query(query)
             for i in range(4):
-                res, exec_time = sparql_query.execute_sparql(optimized_query, force_order=args.forced, timeout=900)
+                # res, exec_time = sparql_query.execute_sparql(optimized_query, force_order=args.forced, timeout=900)
                 res_dict['query_id'].append(query_id)
                 res_dict['exec_n'].append(i)
-                res_dict['exec_time'].append(exec_time)
-                res_dict['results'].append(res)
+                res_dict['exec_time'].append(900)
+                res_dict['results'].append("")
+                res_dict['query'].append(optimized_query)
 
-            if index % 10 == 0:
-                save_results(res_dict, result_path)
-        index += 1
+    del query_opt.subject_counts
+    del query_opt.predicate_counts
+    del query_opt.object_counts
+    gc.collect()
+    for i in range(len(res_dict['query'])):
+        res, exec_time = sparql_query.execute_sparql(res_dict['query'][i], force_order=args.forced, timeout=900)
+        res_dict['results'][i] = res
+        res_dict['exec_time'][i] = exec_time
+
+    # if index % 10 == 0:
+    #     save_results(res_dict, result_path)
+    #     index += 1
     save_results(res_dict, result_path)
 
 if __name__ == "__main__":
