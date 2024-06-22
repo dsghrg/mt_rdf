@@ -10,6 +10,7 @@ from tqdm import tqdm
 
 sys.path.append(os.getcwd())
 from src.helper.logging_helper import setup_logging
+from src.query.basic_query_opt import *
 from src.query.query_sparql import *
 
 setup_logging()
@@ -40,6 +41,8 @@ def main(args):
     else:
         sparql_query = Virtuoso()
 
+    query_opt = QueryOpt()
+
 
     dir_path = 'data/queries/wdbench/ppaths/'
     if args.query_mode == 'original':
@@ -63,8 +66,9 @@ def main(args):
            # if query_id not in chosen_qs:
            #     continue
             query = file.read()
+            optimized_query = query_opt.optimize_query(query)
             for i in range(4):
-                res, exec_time = sparql_query.execute_sparql(query, force_order=args.forced, timeout=900)
+                res, exec_time = sparql_query.execute_sparql(optimized_query, force_order=args.forced, timeout=900)
                 res_dict['query_id'].append(query_id)
                 res_dict['exec_n'].append(i)
                 res_dict['exec_time'].append(exec_time)

@@ -51,7 +51,7 @@ class QueryOpt(object):
 
     def optimize_query(self, query: str) -> str:
         query = query.replace('\n', ' ')
-        triples = self.parse_sparql_query(query)
+        triples = self.get_triples_from_sparql(query)
         big_n = 100_000_000_000
         counts = []
         for i, triple in enumerate(triples):
@@ -64,17 +64,19 @@ class QueryOpt(object):
         
         # Sort the triples by the counts
         triples = [triple for _, triple in sorted(zip(counts, triples), reverse=True)]
-
-        return triples
+        opt_query = self.convert_triples_to_query(triples)
+        return opt_query
 
 
             # rules for optimizing the query
 
+    def convert_triples_to_query(self, triples: list[tuple[str, str, str]]) -> str:
+        query_body = ' .\n  '.join(f'{sub} {pred} {obj}' for sub, pred, obj in triples) + ' .'
+        return f'SELECT * WHERE {{\n  {query_body}\n}}'
 
-    def parse_sparql_query(self, query: str) -> list[tuple[str, str, str]]:
+    def get_triples_from_sparql(self, query: str) -> list[tuple[str, str, str]]:
         # Remove the part before the WHERE clause
         query_body = re.search(r'WHERE\s*\{(.*)\}', query, re.DOTALL).group(1).strip()
-        print(query_body)
         
         # Regular expression to match triples
         triple_pattern = re.compile(r'(\S+)\s+(\S+)\s+(\S+)\s*\.')
