@@ -20,7 +20,7 @@ class QueryOpt(object):
     
     def __init__(self) -> None:
         base_path = './'
-        # self.subject_counts, self.predicate_counts, self.object_counts = self._load_dicts(base_path)
+        self.subject_counts, self.predicate_counts, self.object_counts = self._load_dicts(base_path)
     
     def _load_dicts(self, base_path: str) -> tuple[dict, dict, dict]:
         logging.info('Loading subject counts from file...')
