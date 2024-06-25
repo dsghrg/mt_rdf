@@ -2,6 +2,7 @@ import logging
 import os
 import re
 import sys
+from collections import defaultdict
 
 import pandas as pd
 from tqdm import tqdm
@@ -19,7 +20,7 @@ class QueryOpt(object):
     
     def __init__(self) -> None:
         base_path = './'
-        self.subject_counts, self.predicate_counts, self.object_counts = self._load_dicts(base_path)
+        # self.subject_counts, self.predicate_counts, self.object_counts = self._load_dicts(base_path)
     
     def _load_dicts(self, base_path: str) -> tuple[dict, dict, dict]:
         logging.info('Loading subject counts from file...')
@@ -52,20 +53,51 @@ class QueryOpt(object):
     def optimize_query(self, query: str) -> str:
         query = query.replace('\n', ' ')
         triples = self.get_triples_from_sparql(query)
-        big_n = 100_000_000_000
-        counts = []
-        for i, triple in enumerate(triples):
-            subject, predicate, obj = triple
-            predicate = re.sub(r'[\+\*]+$', '', predicate)
-            subject_count = self.subject_counts.get(subject, big_n) if not subject.startswith('?') else big_n
-            predicate_count = self.predicate_counts.get(predicate, big_n) if not predicate.startswith('?') else big_n
-            object_count = self.object_counts.get(obj, big_n) if not obj.startswith('?') else big_n
-            counts.append((subject_count, predicate_count, object_count))
         
-        # Sort the triples by the counts
-        triples = [triple for _, triple in sorted(zip(counts, triples), reverse=True)]
-        opt_query = self.convert_triples_to_query(triples)
-        return opt_query
+        big_n = 100_000_000_000
+        variable_counts = defaultdict(lambda: big_n)
+        counts = []
+        for triple in triples:
+            subject, predicate, obj = triple
+            predicate = re.sub(r'[\+\*?]+$', '', predicate)
+            subject_count = self.subject_counts[subject] if not subject.startswith('?') else variable_counts[subject]
+            predicate_count = self.predicate_counts[predicate] if not predicate.startswith('?') else variable_counts[predicate]
+            object_count = self.object_counts[obj] if not obj.startswith('?') else variable_counts[obj]
+            counts.append((subject_count, predicate_count, object_count, triple))
+        
+        sorted_triples = []
+        # sort loop:
+        # 1. find the triple with the smallest counts
+        # 2. update the counts: if a variable was already resolved in a previous triples, set its count to 0
+        # 3. recalculate the counts for the remaining triples
+        while counts:
+            # find smallest triple
+            counts.sort(key=lambda x: sum(x[0:3]))
+            smallest = counts.pop(0)
+            sorted_triples.append(smallest[3])
+            
+            # update counts of variables
+            subject, predicate, obj = smallest[3]
+            if subject.startswith('?'):
+                variable_counts[subject] = 0
+            if predicate.startswith('?'):
+                variable_counts[predicate] = 0
+            if obj.startswith('?'):
+                variable_counts[obj] = 0
+            
+            # recalc for remaining triples
+            new_counts = []
+            for subject, predicate, obj in [t[3] for t in counts]:
+                clean_pred = re.sub(r'[\+\*?]+$', '', predicate)
+                subject_count = self.subject_counts[subject] if not subject.startswith('?') else variable_counts[subject]
+                predicate_count = self.predicate_counts[clean_pred] if not predicate.startswith('?') else variable_counts[predicate]
+                object_count = self.object_counts[obj] if not obj.startswith('?') else variable_counts[obj]
+                new_counts.append((subject_count, predicate_count, object_count, (subject, predicate, obj)))
+            counts = new_counts
+
+        optimized_query = self.convert_triples_to_query(sorted_triples)
+        
+        return optimized_query
 
 
             # rules for optimizing the query
