@@ -47,6 +47,9 @@ def load_results(forced):
     res_df = pd.read_csv(outpath)
     return res_df
 
+def reset_res_dict():
+    return {'query_id': [], 'q_type': [], 'exec_n': [], 'exec_time': []}
+
 def main(args):
     if args.blazegraph:
         sparql_query = Blazegraph()
@@ -59,7 +62,7 @@ def main(args):
     wdbench.queries['exec_n'] = 0
     wdbench.queries['exec_time'] = 900
     
-    res_dict = {'query_id': [], 'q_type': [], 'exec_n': [], 'exec_time': []}
+    res_dict = reset_res_dict()
     for qtype in QueryType:
         index = 0
 
@@ -70,7 +73,9 @@ def main(args):
                 if old_res[(old_res['query_id'] == row['q_id']) & (old_res['q_type'] == qtype.value) & (old_res['exec_n'] == i)].shape[0] > 0:
                     print("Skipping", row['q_id'], qtype.value, i)
                     continue
-                _, exec_time = sparql_query.execute_sparql(query=query, force_order=args.forced, timeout=900)
+
+                res_ex, exec_time = sparql_query.execute_sparql(query=query, force_order=args.forced, timeout=900)
+                # import code; code.interact(local=dict(globals(), **locals()))
                 res_dict['query_id'].append(row['q_id'])
                 res_dict['q_type'].append(qtype.value)
                 res_dict['exec_n'].append(i)
@@ -78,9 +83,11 @@ def main(args):
 
             if index % 10 == 0:
                 res_to_logs(result=res_dict, forced=args.forced)
+                res_dict = reset_res_dict()
 
             index += 1
         res_to_logs(res_dict, forced=args.forced)
+        res_dict = reset_res_dict()
 
 
 if __name__ == "__main__":
