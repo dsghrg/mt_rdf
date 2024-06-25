@@ -95,7 +95,7 @@ class ModelDataset():
             self.vocab = self.build_vocab(raw_file['query'], self.vocab)
             self.encoding = [self.tokenize_and_convert_to_ids(query) for query in raw_file['query']]
             max_len = max(len(tokens) for tokens in self.encoding)
-            self.encoding = [torch.tensor(tokens + [self.vocab["<PAD>"]] * (max_len - len(tokens)), device=self.device) for tokens in self.encoding]
+            self.encoding = [torch.tensor(tokens + [self.vocab["<PAD>"]] * (max_len - len(tokens))) for tokens in self.encoding]
         # import code; code.interact(local=dict(globals(), **locals()))
 
 
