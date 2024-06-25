@@ -47,7 +47,7 @@ class LSTMWithAttention(nn.Module):
 
         self.bn = nn.BatchNorm1d(hidden_size, device=self.device)
         self.dropout = nn.Dropout(0.7).to(self.device)
-
+        self.num_directions = 2 if self.args.bidirectional else 1
         self.input_size = input_size
         self.hidden_size = hidden_size
         self.output_size = output_size
@@ -68,10 +68,10 @@ class LSTMWithAttention(nn.Module):
         
         self.lstm.to(self.device)
         self.to(device=self.device)
-        self.attention = nn.Linear(self.hidden_size, self.hidden_size, device=self.device)
-        self.context_vector = nn.Linear(self.hidden_size, 1, bias=False, device=self.device)
+        self.attention = nn.Linear(self.hidden_size * self.num_directions, self.hidden_size * self.num_directions, device=self.device)
+        self.context_vector = nn.Linear(self.hidden_size * self.num_directions, 1, bias=False, device=self.device)
         
-        self.fc = nn.Linear(self.hidden_size, self.output_size, device=self.device)
+        self.fc = nn.Linear(self.hidden_size * self.num_directions, self.output_size, device=self.device)
 
         self.lr = self.args.learning_rate
         self.num_epochs = self.args.num_epochs
@@ -125,8 +125,8 @@ class LSTMWithAttention(nn.Module):
     def init_hidden(self, batch_size):
         # h_0 = Variable(torch.zeros(self.num_layers, self.args.batch_size, self.hidden_size, device=self.device))
         # c_0 = Variable(torch.zeros(self.num_layers, self.args.batch_size, self.hidden_size, device=self.device))
-        h_0 = torch.zeros(self.num_layers, batch_size, self.hidden_size).to(self.device)
-        c_0 = torch.zeros(self.num_layers, batch_size, self.hidden_size).to(self.device)
+        h_0 = torch.zeros(self.num_layers * self.num_directions, batch_size, self.hidden_size).to(self.device)
+        c_0 = torch.zeros(self.num_layers * self.num_directions, batch_size, self.hidden_size).to(self.device)
         return h_0, c_0
     
 
