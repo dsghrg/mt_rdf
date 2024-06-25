@@ -80,7 +80,7 @@ def main(args):
     del query_opt.predicate_counts
     del query_opt.object_counts
     gc.collect()
-    for i in range(len(res_dict['query'])):
+    for i in tqdm(range(len(res_dict['query']))):
         res, exec_time = sparql_query.execute_sparql(res_dict['query'][i], force_order=args.forced, timeout=900)
         res_dict['results'][i] = res
         res_dict['exec_time'][i] = exec_time
