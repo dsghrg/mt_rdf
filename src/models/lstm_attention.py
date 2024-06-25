@@ -41,6 +41,7 @@ class LSTMWithAttention(nn.Module):
                             is_encoded=self.args.is_encoded)
 
         # setup with args
+ 
 
         self.use_val = self.args.use_validation_set
 
@@ -55,6 +56,9 @@ class LSTMWithAttention(nn.Module):
         self.checkpoint_after_n = None #self.args.checkpoint_after_n
         self.bidirectional = self.args.bidirectional
         print(f'Bidirectional: {self.bidirectional}')
+
+        if not self.args.is_encoded:
+            self.embedding = nn.Embedding(len(self.dataset.vocab), self.input_size, device=self.device)
         self.lstm = nn.LSTM(self.input_size, 
                             self.hidden_size, 
                             self.num_layers, 
@@ -91,9 +95,13 @@ class LSTMWithAttention(nn.Module):
     
     def forward(self, input_, h_n_, c_n_):
         # import code; code.interact(local=dict(globals(), **locals()))
-        input_ = input_.unsqueeze(1)
+        # input_ = input_.unsqueeze(1)
+        if not self.args.is_encoded:
+            input_ = self.embedding(input_)
+        else:
+            input_ = input_.unsqueeze(1)
+        
         # import code; code.interact(local=dict(globals(), **locals()))
-
         output, (h_n, c_n) = self.lstm(input_, (h_n_, c_n_))
 
         # batch_size, seq_len, hidden_size = output.size()

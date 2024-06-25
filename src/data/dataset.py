@@ -1,5 +1,6 @@
 import ast
 import logging
+import re
 
 import pandas as pd
 import torch
@@ -27,6 +28,10 @@ class ModelDataset():
         self.is_encoded = is_encoded
 
         self.encoding = self._load_encoding()
+        if not self.is_encoded:
+            self.vocab = {"<PAD>": 0, "SELECT": 1, "WHERE": 2, "ASK": 3, "FILTER": 4, "?s": 5, "?p": 6, "?o": 7, "{": 8, "}": 9,
+                            ".": 10, "AND": 11}
+        
         self.original_df = self._load_dataset()
         self.label_weights = self._calculate_label_weights()
 
@@ -86,14 +91,19 @@ class ModelDataset():
         logging.info(f'Loading dataset {self.dataset_name}')
 
         raw_file = pd.read_csv(dataset_raw_file_path(Config.DATASET[self.dataset_name]))
-        if self.is_encoded:
-            # import code; code.interact(local=dict(globals(), **locals()))
-            raw_file['encoding'] = pd.Series(self.encoding)
-            raw_file = raw_file[raw_file['label'] >= 0]
-            raw_file.reset_index(drop=True, inplace=True)
-            return raw_file
-        else:
-            return raw_file
+        if not self.is_encoded:
+            self.vocab = self.build_vocab(raw_file['query'], self.vocab)
+            self.encoding = [self.tokenize_and_convert_to_ids(query) for query in raw_file['query']]
+            max_len = max(len(tokens) for tokens in self.encoding)
+            self.encoding = [torch.tensor(tokens + [self.vocab["<PAD>"]] * (max_len - len(tokens)), device=self.device) for tokens in self.encoding]
+        # import code; code.interact(local=dict(globals(), **locals()))
+
+
+        raw_file['encoding'] = pd.Series(self.encoding)
+
+        raw_file = raw_file[raw_file['label'] >= 0]
+        raw_file.reset_index(drop=True, inplace=True)
+        return raw_file
     
     def _load_encoding(self):
         if self.is_encoded:
@@ -142,11 +152,43 @@ class ModelDataset():
     #         test_df = test_df.drop(val_df.index)
     #     return train_df, test_df, val_df
 
+    # Define a function to tokenize while keeping <...> tokens intact
+    def custom_tokenize(self, query):
+        pattern = re.compile(r'<.*?>[*+?]?')
+        tokens = []
+        last_end = 0
+        for match in pattern.finditer(query):
+            start, end = match.span()
+            if start > last_end:
+                tokens.extend(query[last_end:start].split())
+            tokens.append(query[start:end])
+            last_end = end
+        if last_end < len(query):
+            tokens.extend(query[last_end:].split())
+        return tokens
+
+    # Add all unique tokens within angle brackets to the vocabulary
+    def build_vocab(self, queries, vocab):
+        unique_tokens = set()
+        for query in queries:
+            unique_tokens.update(self.custom_tokenize(query))
+        for token in unique_tokens:
+            if token not in vocab:
+                vocab[token] = len(vocab)
+        return vocab
+
+    # Tokenize the queries and convert tokens to indices
+    def tokenize_and_convert_to_ids(self, query):
+        tokens = self.custom_tokenize(query)
+        token_ids = [self.vocab.get(token, self.vocab["<PAD>"]) for token in tokens]
+        # import code; code.interact(local=dict(globals(), **locals()))
+
+        return token_ids
+
 
 class LSTMDataset(Dataset):
     def __init__(self, data_df: pd.DataFrame):
         self.data_df = data_df
-        # import code; code.interact(local=dict(globals(), **locals()))
         # self.targets = torch.tensor(np.array(targets.values.tolist()))
 
     def __getitem__(self, idx):
@@ -156,6 +198,7 @@ class LSTMDataset(Dataset):
         label = row['label']
         q_id = row['query_id']
         encoding = row['encoding']
+
         return {
             # TODO: check how to encode input for LSTM
             'encoding': encoding,
