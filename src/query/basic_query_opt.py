@@ -60,9 +60,9 @@ class QueryOpt(object):
         for triple in triples:
             subject, predicate, obj = triple
             predicate = re.sub(r'[\+\*?]+$', '', predicate)
-            subject_count = self.subject_counts[subject] if not subject.startswith('?') else variable_counts[subject]
-            predicate_count = self.predicate_counts[predicate] if not predicate.startswith('?') else variable_counts[predicate]
-            object_count = self.object_counts[obj] if not obj.startswith('?') else variable_counts[obj]
+            subject_count = self.subject_counts.get(subject, big_n) if not subject.startswith('?') else variable_counts[subject]
+            predicate_count = self.predicate_counts.get(predicate, big_n) if not predicate.startswith('?') else variable_counts[predicate]
+            object_count = self.object_counts.get(obj, big_n) if not obj.startswith('?') else variable_counts[obj]
             counts.append((subject_count, predicate_count, object_count, triple))
         
         sorted_triples = []
@@ -89,9 +89,9 @@ class QueryOpt(object):
             new_counts = []
             for subject, predicate, obj in [t[3] for t in counts]:
                 clean_pred = re.sub(r'[\+\*?]+$', '', predicate)
-                subject_count = self.subject_counts[subject] if not subject.startswith('?') else variable_counts[subject]
-                predicate_count = self.predicate_counts[clean_pred] if not predicate.startswith('?') else variable_counts[predicate]
-                object_count = self.object_counts[obj] if not obj.startswith('?') else variable_counts[obj]
+                subject_count = self.subject_counts.get(subject, big_n) if not subject.startswith('?') else variable_counts[subject]
+                predicate_count = self.predicate_counts.get(clean_pred, big_n) if not predicate.startswith('?') else variable_counts[predicate]
+                object_count = self.object_counts.get(obj, big_n) if not obj.startswith('?') else variable_counts[obj]
                 new_counts.append((subject_count, predicate_count, object_count, (subject, predicate, obj)))
             counts = new_counts
 
