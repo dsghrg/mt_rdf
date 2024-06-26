@@ -132,6 +132,7 @@ class LSTMWithAttention(nn.Module):
 
     def train_model(self):
         total_loss, prev_epoch_loss = 0, 0
+        best_val_acc = 0
         for epoch in tqdm(range(self.num_epochs)):
             self.train()
             sample_correct, sample_count = 0, 0
@@ -179,7 +180,11 @@ class LSTMWithAttention(nn.Module):
             # Run test+val set after each epoch
             self.test_model(epoch)
             if self.use_val:
-                _, val_loss = self.validate_model(epoch)
+                val_acc, val_loss = self.validate_model(epoch)
+                if val_acc > best_val_acc:
+                    best_val_acc = val_acc
+                    print(f'Epoch: {epoch}, Loss: {loss.item()}')
+                    self.save_checkpoint(epoch)
                 # self.scheduler.step(val_loss)
     
     def test_model(self, epoch=0):
