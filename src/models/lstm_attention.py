@@ -17,6 +17,7 @@ from src.data.dataset import ModelDataset
 from src.helper.logging_helper import setup_logging
 from src.helper.path_helper import *
 from src.helper.seed_helper import initialize_gpu_seed
+from src.models.config import *
 
 setup_logging()
 
@@ -29,6 +30,7 @@ class LSTMWithAttention(nn.Module):
         self.cur_date_prefix = datetime.now().strftime('%d-%m-%y_')
 
         self.args = args
+        self.experiment_name = self.args.experiment_name
         self.model_seed = self.args.model_seed
         self.device, _ = initialize_gpu_seed(self.model_seed)
         self.dataset = ModelDataset(dataset_name=self.args.dataset_name,
@@ -306,6 +308,10 @@ class LSTMWithAttention(nn.Module):
         model_name = f'{self.cur_date_prefix}_lstm_epoch-{epoch}'
         # print(f'{path}/{model_name}.pt')
         torch.save(self, f'{path}/{model_name}.pt')
+
+        config_path = experiment_config_path(self.args.experiment_name)
+        if not os.path.isfile(config_path):
+            write_config_to_file(self.args)
     
     def _wandb_log(self, wandb_dict: dict):
         if self.args.wandb:
